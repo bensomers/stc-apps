@@ -1,0 +1,10 @@
+<% title "View All Payforms" %>
+
+<table id="payformList"width=100%>
+  <tr>
+    <td align='left'  width=30%><strong>Unsubmitted</strong></td>
+    <td align='center'><strong>Submitted</strong></td>
+    <td align='right' width=30%><strong>Printed</strong></td>
+  </tr>
+  <%= render :partial => "view_all_line", :collection => @payforms%>
+</table>

@@ -1,0 +1,21 @@
+<% form_for(:restriction, @restriction, :html => {:id => 'restriction_form', :multipart => :true}) do  |form|%> 
+    Time Limit:<br/>
+    <%= select_integer :restriction, :hours_limit, 0, 99, selected_hours(@restriction) %> hours,
+    <%= select_integer :minutes, :limit, 0, 60, selected_min(@restriction) %> minutes
+    <br />
+    Max Sub Requests:<br/>
+    <%= select_integer :restriction, :max_subs, 0, 50, selected_subs(@restriction) %>
+    <br />
+    From:<br/>
+    <%= radio_button_tag 'starts_choice', 'date', :checked => true -%>
+      <%= datetime_select 'restriction', 'starts' %><br />
+    <%= radio_button_tag 'starts_choice', 'now' -%> Now<br />
+    Until:<br/>
+    <%= radio_button_tag 'expires_choice', 'date', :checked => true -%>
+      <%= datetime_select 'restriction', 'expires' %><br />
+    <%= radio_button_tag 'expires_choice', 'indefinite' -%> Indefinitely<br />
+    Applies to:<br/>
+    <div id="checkboxes_div"><%= render :partial => 'checkboxes'%></div>
+    <%= submit_tag "Save" %>
+  <% end %>
+<%= observe_form 'restriction_form', :url => { :action => 'update_checkboxes', :id => @restriction.department.id }, :frequency => 0.5 %>

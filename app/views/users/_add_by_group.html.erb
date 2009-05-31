@@ -1,0 +1,7 @@
+
+  <% form_remote_tag( :html => {:id => 'add_group_users_ajax'},
+                :url => {:controller => "/users", :action => "add_users_in_group"}, :method => :get ) do %>
+    <label>Add users in group:</label>(enter to add)<br />
+    <%= text_field_with_auto_complete :group, :name, {:size => 20}, {:method => :get} %>
+    <div class="ids_for_user_chooser"></div>
+  <% end %>

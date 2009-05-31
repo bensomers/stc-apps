@@ -1,0 +1,18 @@
+<% title "Manage announcements" %>
+<div class="shift_form">
+<%= error_messages_for :announcement %>
+<fieldset>
+  <legend>Current announcements</legend>
+    <p><strong>Active:</strong><br/>
+      <%= render :partial => "announcement", :collection => Announcement.active(@department) %>
+    </p>
+    <p><strong>Upcoming:</strong><br/>
+      <%= render :partial => "announcement", :collection => Announcement.upcoming(@department) %>
+    </p>
+</fieldset>
+<br />
+<fieldset>
+  <legend>Add announcement</legend>
+    <%= render :partial => "announcement_form" %>
+</fieldset>
+</div>

@@ -1,0 +1,2 @@
+module Payform::InterfaceHelper
+end

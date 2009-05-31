@@ -1,0 +1,22 @@
+--- 
+payform_configurations_001: 
+  clock: "0"
+  created_at: 2008-09-01 18:54:17
+  department_id: "13"
+  description_min: "4"
+  id: "1711872498"
+  payform_admin_permission_id: "117"
+  payform_permission_id: "116"
+  printed: |-
+    This payform has already been printed and may no longer be edited by you.
+    If there is a problem that needs to be addressed, please talk to the administration.
+  reason_min: "4"
+  reminder: Please remember to submit your payform for the week.
+  show_disabled_cats: "1"
+  updated_at: 2008-09-01 18:54:17
+  warning: |-
+    You have not submitted payforms for the weeks ending on the following dates:
+    
+    @weeklist@
+    Please submit your payforms. If some of the weeks listed are weeks during which you did not work, please just submit a blank payform.
+  weeks: "4"

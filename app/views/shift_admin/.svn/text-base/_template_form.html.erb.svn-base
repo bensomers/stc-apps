@@ -1,0 +1,7 @@
+<%= template_form.error_messages %>
+  <p>
+  <label class="short_label">Name:</label><%= template_form.text_field :name %>
+</p>
+<p>
+  <label class="short_label">Description:</label><%= template_form.text_field :description %>
+</p>

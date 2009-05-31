@@ -1,0 +1,2 @@
+<% title "View Report" %>
+<%= render :partial => 'report', :object => @shift_report %>

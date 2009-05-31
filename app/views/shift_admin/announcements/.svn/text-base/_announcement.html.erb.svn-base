@@ -1,0 +1,17 @@
+<div class="restriction">    
+<strong>Announcement:</strong><br /> <%= announcement.content%>  <br/>
+<% time_format = '%A, %B %d, %Y at %I:%M%p' -%>
+<strong>Starts:</strong> <%= announcement.start_time.strftime(time_format) %><br/>
+<strong>Ends:</strong> <%= announcement.end_time ? announcement.end_time.strftime(time_format) : "indefinitely" %><br/>
+<%= "<strong>Department:</strong> " + announcement.for_department.name + "<br/>" if announcement.for_department %>
+<%= "<strong>Location Groups:</strong> " unless announcement.location_groups.empty?%>  
+<% for loc_group in announcement.location_groups %>
+  <%= loc_group.short_name %><%= loc_group == announcement.location_groups[-1] ? "<br/>" : ", " %>
+<% end %>
+<%= "<strong>Locations:</strong> " unless announcement.locations.empty?%>
+<% for location in announcement.locations %>
+  <%= location.short_name %><%= location == announcement.locations[-1] ? "<br/>" : ", " %>
+<% end %>
+<%= link_to '[delete]', { :action => 'delete', :id => announcement}, { :method  => :post } %>
+<%= link_to '[edit]',   { :action => 'edit',   :id => announcement} %>  
+</div>

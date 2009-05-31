@@ -1,0 +1,24 @@
+
+<% if miscellaneous%>
+  <% jobs = PayformItem.mass.in_department(@department.id) %>
+  <% for cat in Category.active(@department.id) %>
+    <% jobs.delete_if { |p| p.category_id == cat.id or (@department.payform_configuration.show_disabled_cats and p.category)} %>
+  <% end %>
+<% else %>
+  <% jobs = PayformItem.mass.in_category(mass_category.id) %>
+<% end %>
+
+<% unless jobs.empty? %>
+  <tr>
+    <td colspan="4"><h2><%=h miscellaneous ? "Miscellaneous" : mass_category.name %></h2></td>
+  </tr>
+  <% jobs.each do |payform_item| %>
+    <% all_printed = true %>
+      <% payform_item.payforms.each do |payform| %>
+        <% all_printed = false unless payform.printed %>
+      <% end %>
+      <% unless all_printed %>
+          <%= render :partial => "payform/payform_item", :locals => { :payform_item => payform_item } %>
+        <% end %>
+  <% end %>
+<% end -%>

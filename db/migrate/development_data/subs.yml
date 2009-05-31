@@ -1,0 +1,57 @@
+--- 
+subs_001: 
+  bribe_end: 2008-08-25 10:30:00
+  bribe_start: 2008-08-25 09:00:00
+  created_at: 2008-08-24 13:01:30
+  end: 2008-08-25 10:00:00
+  id: "1"
+  new_shift: 
+  new_user: 
+  reason: Everyone hates testing without javascript enabled.
+  shift_id: "756"
+  start: 2008-08-25 09:00:00
+  target_ids: ,64,,17,
+  updated_at: 2008-08-24 13:01:30
+  user_id: "7"
+subs_002: 
+  bribe_end: 2008-08-25 10:30:00
+  bribe_start: 2008-08-25 09:00:00
+  created_at: 2008-08-24 13:01:30
+  end: 2008-08-25 10:00:00
+  id: "2"
+  new_shift: 
+  new_user: 
+  reason: Everyone hates testing without javascript enabled.
+  shift_id: "756"
+  start: 2008-08-25 09:00:00
+  target_ids: ,64,,17,
+  updated_at: 2008-08-24 13:01:30
+  user_id: "7"
+subs_003: 
+  bribe_end: 
+  bribe_start: 
+  created_at: 2008-08-24 13:31:54
+  end: 2008-08-26 12:00:00
+  id: "3"
+  new_shift: "758"
+  new_user: "64"
+  reason: testing testuing I hate gnomes
+  shift_id: "757"
+  start: 2008-08-26 09:00:00
+  target_ids: ,64,,17,
+  updated_at: 2008-08-24 13:34:13
+  user_id: "7"
+subs_004: 
+  bribe_end: 
+  bribe_start: 
+  created_at: 2008-08-24 13:42:25
+  end: 2008-08-26 13:00:00
+  id: "4"
+  new_shift: 
+  new_user: 
+  reason: aasdfadfasdfasdfasdfasdfasdfasdf
+  shift_id: "584"
+  start: 2008-08-26 12:00:00
+  target_ids: ,64,
+  updated_at: 2008-08-24 13:42:25
+  user_id: "7"

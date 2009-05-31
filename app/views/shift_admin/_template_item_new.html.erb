@@ -1,0 +1,31 @@
+<%= error_messages_for 'new_item' %>
+<% fields_for @param_field + "[items_to_create]", template_item_new do |i| %>
+  <p><%= render :partial => "shift_admin/template_item_times", :object => i -%>
+  <% if template_item_new.class == ShiftTemplateItem -%>
+    &nbsp;&nbsp;&nbsp;
+    <label>User:</label>
+    <%- if @single_user_only -%>
+      <%= @user.name %>
+      <%= i.hidden_field :user_name, :value => @user.name %>
+    <%- else -%>
+    <%# note @param_field + '[items_to_create] does not work below because of the square brackets %>
+    <%= text_field_with_auto_complete 'shift_template_item', :user_name, { :size => 15 }, 
+         {:url => {:controller => :users, :action => :live_search, :id => @department.id},
+          :method => :get, :param_name => 'search' } %>
+  <% end -%>
+    <%- end -%>
+    <p>in Locations:
+      <% @locations.each do |loc| %>
+        <% tag_method = template_item_new.class == TimeTemplateItem ? 'check_box_tag' : 'radio_button_tag' %>
+        <%= send tag_method, "#{@param_field}[items_to_create][locations][]", 
+                            loc.id, false, {:id => "location_#{loc.id}"} %>
+      <%= "<label for=\"location_%s\">%s</label>" % [loc.id, loc.short_name]%>&nbsp;&nbsp;
+      <%- end -%>
+    </p>
+  <p>for Days:<% WEEK_DAYS.each_with_index do |day, i| %>
+  <%= check_box_tag "#{@param_field}[items_to_create][days][]", i, false, {:id => "days_#{i}"} %>
+  <%= "<label for=\"days_#{i}\">#{day}</label>" %>
+  &nbsp;&nbsp;
+  
+  <% end %></p>
+<% end %>

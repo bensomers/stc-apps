@@ -1,0 +1,15 @@
+Your payform ending <%= @payform.get_date %> has been edited by <%= User.find_by_login(@edit_item.edited_by).name %>. 
+
+It was edited for the following reason: <%=h @edit_item.reason %>
+
+The job now consists of the following information: 
+Category: <%= @payform_item.category.name %>
+Date: <%= @payform_item.date %>
+Hours: <%= @payform_item.hours %>
+Comments: <%= @payform_item.description %>
+
+The job originally contained the following information: 
+Category: <%= @edit_item.category.name %>
+Date: <%= @edit_item.date %>
+Hours: <%= @edit_item.hours %>
+Comments: <%= @edit_item.description %>

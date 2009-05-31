@@ -1,0 +1,37 @@
+--- 
+departments_groups_001: 
+  department_id: "1"
+  group_id: "1"
+departments_groups_002: 
+  department_id: "1"
+  group_id: "2"
+departments_groups_003: 
+  department_id: "1"
+  group_id: "3"
+departments_groups_004: 
+  department_id: "1"
+  group_id: "4"
+departments_groups_005: 
+  department_id: "1"
+  group_id: "5"
+departments_groups_006: 
+  department_id: "1"
+  group_id: "6"
+departments_groups_007: 
+  department_id: "5"
+  group_id: "7"
+departments_groups_008: 
+  department_id: "5"
+  group_id: "8"
+departments_groups_009: 
+  department_id: "6"
+  group_id: "9"
+departments_groups_010: 
+  department_id: "6"
+  group_id: "10"
+departments_groups_011: 
+  department_id: "3"
+  group_id: "11"
+departments_groups_012: 
+  department_id: "3"
+  group_id: "12"

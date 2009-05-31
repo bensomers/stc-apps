@@ -1,0 +1,37 @@
+
+<% title "Categories" %>
+<%= error_messages_for :category %>
+<% unless Category.active(@department.id).empty? and Category.disabled(@department.id).empty?%>
+  <div style="float:left; width:50%">
+    <%= render :partial => "category", :collection => Category.active(@department.id), :locals => {:text => "disable" }%>
+  </div>
+  <div style="float:right; width:50%">
+    <%= render :partial => "category", :collection => Category.disabled(@department.id), :locals => {:text => "enable" }%>
+    <div class="note">
+      <strong>Note:</strong> Disabling or deleting categories will not destroy payform items.
+      Payform items with deleted categories will be filed under a category called "Miscellaneous."
+    </div>
+    <div class="note">
+      Jobs cannot be added to disabled categories. According to the payform configuration for this department,
+      <% if @department.payform_configuration.show_disabled_cats -%>
+        disabled categories will still appear on payforms.
+      <% else -%>
+        payform items in disabled categories will be filed under the "Miscellaneous" category.
+      <% end %>
+    </div>
+    
+  </div>
+<% end %>
+<div style="clear:both">
+  <fieldset style="width:50%">
+    <legend>Add Category</legend>
+    <% form_for(:category, @category, :url => { :action => 'add', :id => @department.id }, :html => { :multipart => :true}) do  |form|%> 
+      Name:<br/><%= form.text_field  :name, :size => 30 %>
+      <%= submit_tag "Add" %>
+    <% end %>
+  </fieldset>
+  <br/>
+  
+  
+  
+</div>

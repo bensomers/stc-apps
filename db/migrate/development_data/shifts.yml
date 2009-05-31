@@ -1,0 +1,1529 @@
+--- 
+shifts_001: 
+  created_at: 2008-08-11 18:12:13
+  end: 2008-08-12 13:00:00
+  id: "566"
+  location_id: "4"
+  start: 2008-08-12 12:00:00
+  updated_at: 2008-08-11 18:12:13
+  user_id: "7"
+shifts_002: 
+  created_at: 2008-08-11 18:12:13
+  end: 2008-08-13 16:00:00
+  id: "567"
+  location_id: "2"
+  start: 2008-08-13 11:00:00
+  updated_at: 2008-08-11 18:12:13
+  user_id: "10"
+shifts_003: 
+  created_at: 2008-08-11 18:12:13
+  end: 2008-08-13 13:00:00
+  id: "568"
+  location_id: "4"
+  start: 2008-08-13 12:00:00
+  updated_at: 2008-08-11 18:12:13
+  user_id: "7"
+shifts_004: 
+  created_at: 2008-08-11 18:12:13
+  end: 2008-08-14 13:00:00
+  id: "569"
+  location_id: "4"
+  start: 2008-08-14 12:00:00
+  updated_at: 2008-08-11 18:12:13
+  user_id: "7"
+shifts_005: 
+  created_at: 2008-08-11 18:12:13
+  end: 2008-08-15 13:00:00
+  id: "570"
+  location_id: "4"
+  start: 2008-08-15 12:00:00
+  updated_at: 2008-08-11 18:12:13
+  user_id: "7"
+shifts_006: 
+  created_at: 2008-08-11 18:12:13
+  end: 2008-08-17 20:00:00
+  id: "571"
+  location_id: "1"
+  start: 2008-08-17 09:00:00
+  updated_at: 2008-08-11 18:12:13
+  user_id: "4"
+shifts_007: 
+  created_at: 2008-08-11 18:12:13
+  end: 2008-08-18 01:00:00
+  id: "572"
+  location_id: "1"
+  start: 2008-08-17 11:00:00
+  updated_at: 2008-08-11 18:12:13
+  user_id: "8"
+shifts_008: 
+  created_at: 2008-08-11 18:12:13
+  end: 2008-08-17 16:00:00
+  id: "573"
+  location_id: "2"
+  start: 2008-08-17 11:00:00
+  updated_at: 2008-08-11 18:12:13
+  user_id: "10"
+shifts_009: 
+  created_at: 2008-08-11 18:12:13
+  end: 2008-08-18 16:00:00
+  id: "574"
+  location_id: "2"
+  start: 2008-08-18 11:00:00
+  updated_at: 2008-08-11 18:12:13
+  user_id: "10"
+shifts_010: 
+  created_at: 2008-08-11 18:12:13
+  end: 2008-08-19 13:00:00
+  id: "575"
+  location_id: "4"
+  start: 2008-08-19 12:00:00
+  updated_at: 2008-08-11 18:12:13
+  user_id: "7"
+shifts_011: 
+  created_at: 2008-08-11 18:12:13
+  end: 2008-08-20 16:00:00
+  id: "576"
+  location_id: "2"
+  start: 2008-08-20 11:00:00
+  updated_at: 2008-08-11 18:12:13
+  user_id: "10"
+shifts_012: 
+  created_at: 2008-08-11 18:12:13
+  end: 2008-08-20 13:00:00
+  id: "577"
+  location_id: "4"
+  start: 2008-08-20 12:00:00
+  updated_at: 2008-08-11 18:12:13
+  user_id: "7"
+shifts_013: 
+  created_at: 2008-08-11 18:12:13
+  end: 2008-08-21 13:00:00
+  id: "578"
+  location_id: "4"
+  start: 2008-08-21 12:00:00
+  updated_at: 2008-08-11 18:12:13
+  user_id: "7"
+shifts_014: 
+  created_at: 2008-08-11 18:12:13
+  end: 2008-08-22 13:00:00
+  id: "579"
+  location_id: "4"
+  start: 2008-08-22 12:00:00
+  updated_at: 2008-08-11 18:12:13
+  user_id: "7"
+shifts_015: 
+  created_at: 2008-08-11 18:12:13
+  end: 2008-08-24 20:00:00
+  id: "580"
+  location_id: "1"
+  start: 2008-08-24 09:00:00
+  updated_at: 2008-08-11 18:12:13
+  user_id: "4"
+shifts_016: 
+  created_at: 2008-08-11 18:12:13
+  end: 2008-08-25 01:00:00
+  id: "581"
+  location_id: "1"
+  start: 2008-08-24 11:00:00
+  updated_at: 2008-08-11 18:12:13
+  user_id: "8"
+shifts_017: 
+  created_at: 2008-08-11 18:12:13
+  end: 2008-08-24 16:00:00
+  id: "582"
+  location_id: "2"
+  start: 2008-08-24 11:00:00
+  updated_at: 2008-08-11 18:12:13
+  user_id: "10"
+shifts_018: 
+  created_at: 2008-08-11 18:12:13
+  end: 2008-08-25 16:00:00
+  id: "583"
+  location_id: "2"
+  start: 2008-08-25 11:00:00
+  updated_at: 2008-08-11 18:12:13
+  user_id: "10"
+shifts_019: 
+  created_at: 2008-08-11 18:12:13
+  end: 2008-08-26 13:00:00
+  id: "584"
+  location_id: "4"
+  start: 2008-08-26 12:00:00
+  updated_at: 2008-08-11 18:12:13
+  user_id: "7"
+shifts_020: 
+  created_at: 2008-08-11 18:12:13
+  end: 2008-08-27 16:00:00
+  id: "585"
+  location_id: "2"
+  start: 2008-08-27 11:00:00
+  updated_at: 2008-08-11 18:12:13
+  user_id: "10"
+shifts_021: 
+  created_at: 2008-08-11 18:12:13
+  end: 2008-08-27 13:00:00
+  id: "586"
+  location_id: "4"
+  start: 2008-08-27 12:00:00
+  updated_at: 2008-08-11 18:12:13
+  user_id: "7"
+shifts_022: 
+  created_at: 2008-08-11 18:12:13
+  end: 2008-08-28 13:00:00
+  id: "587"
+  location_id: "4"
+  start: 2008-08-28 12:00:00
+  updated_at: 2008-08-11 18:12:13
+  user_id: "7"
+shifts_023: 
+  created_at: 2008-08-11 18:12:13
+  end: 2008-08-29 13:00:00
+  id: "588"
+  location_id: "4"
+  start: 2008-08-29 12:00:00
+  updated_at: 2008-08-11 18:12:13
+  user_id: "7"
+shifts_024: 
+  created_at: 2008-08-11 18:12:13
+  end: 2008-08-31 20:00:00
+  id: "589"
+  location_id: "1"
+  start: 2008-08-31 09:00:00
+  updated_at: 2008-08-11 18:12:13
+  user_id: "4"
+shifts_025: 
+  created_at: 2008-08-11 18:12:13
+  end: 2008-09-01 01:00:00
+  id: "590"
+  location_id: "1"
+  start: 2008-08-31 11:00:00
+  updated_at: 2008-08-11 18:12:13
+  user_id: "8"
+shifts_026: 
+  created_at: 2008-08-11 18:12:13
+  end: 2008-08-31 16:00:00
+  id: "591"
+  location_id: "2"
+  start: 2008-08-31 11:00:00
+  updated_at: 2008-08-11 18:12:13
+  user_id: "10"
+shifts_027: 
+  created_at: 2008-08-11 18:12:13
+  end: 2008-09-01 16:00:00
+  id: "592"
+  location_id: "2"
+  start: 2008-09-01 11:00:00
+  updated_at: 2008-08-11 18:12:13
+  user_id: "10"
+shifts_028: 
+  created_at: 2008-08-11 18:12:13
+  end: 2008-09-02 13:00:00
+  id: "593"
+  location_id: "4"
+  start: 2008-09-02 12:00:00
+  updated_at: 2008-08-11 18:12:13
+  user_id: "7"
+shifts_029: 
+  created_at: 2008-08-11 18:12:13
+  end: 2008-09-03 16:00:00
+  id: "594"
+  location_id: "2"
+  start: 2008-09-03 11:00:00
+  updated_at: 2008-08-11 18:12:13
+  user_id: "10"
+shifts_030: 
+  created_at: 2008-08-11 18:12:13
+  end: 2008-09-03 13:00:00
+  id: "595"
+  location_id: "4"
+  start: 2008-09-03 12:00:00
+  updated_at: 2008-08-11 18:12:13
+  user_id: "7"
+shifts_031: 
+  created_at: 2008-08-11 18:12:13
+  end: 2008-09-04 13:00:00
+  id: "596"
+  location_id: "4"
+  start: 2008-09-04 12:00:00
+  updated_at: 2008-08-11 18:12:13
+  user_id: "7"
+shifts_032: 
+  created_at: 2008-08-11 18:12:13
+  end: 2008-09-05 13:00:00
+  id: "597"
+  location_id: "4"
+  start: 2008-09-05 12:00:00
+  updated_at: 2008-08-11 18:12:13
+  user_id: "7"
+shifts_033: 
+  created_at: 2008-08-11 18:12:13
+  end: 2008-09-07 20:00:00
+  id: "598"
+  location_id: "1"
+  start: 2008-09-07 09:00:00
+  updated_at: 2008-08-11 18:12:13
+  user_id: "4"
+shifts_034: 
+  created_at: 2008-08-11 18:12:13
+  end: 2008-09-08 01:00:00
+  id: "599"
+  location_id: "1"
+  start: 2008-09-07 11:00:00
+  updated_at: 2008-08-11 18:12:13
+  user_id: "8"
+shifts_035: 
+  created_at: 2008-08-11 18:12:13
+  end: 2008-09-07 16:00:00
+  id: "600"
+  location_id: "2"
+  start: 2008-09-07 11:00:00
+  updated_at: 2008-08-11 18:12:13
+  user_id: "10"
+shifts_036: 
+  created_at: 2008-08-11 18:12:13
+  end: 2008-09-08 16:00:00
+  id: "601"
+  location_id: "2"
+  start: 2008-09-08 11:00:00
+  updated_at: 2008-08-11 18:12:13
+  user_id: "10"
+shifts_037: 
+  created_at: 2008-08-11 18:12:13
+  end: 2008-09-09 13:00:00
+  id: "602"
+  location_id: "4"
+  start: 2008-09-09 12:00:00
+  updated_at: 2008-08-11 18:12:13
+  user_id: "7"
+shifts_038: 
+  created_at: 2008-08-11 18:12:13
+  end: 2008-09-10 16:00:00
+  id: "603"
+  location_id: "2"
+  start: 2008-09-10 11:00:00
+  updated_at: 2008-08-11 18:12:13
+  user_id: "10"
+shifts_039: 
+  created_at: 2008-08-11 18:12:13
+  end: 2008-09-10 13:00:00
+  id: "604"
+  location_id: "4"
+  start: 2008-09-10 12:00:00
+  updated_at: 2008-08-11 18:12:13
+  user_id: "7"
+shifts_040: 
+  created_at: 2008-08-11 18:12:13
+  end: 2008-09-11 13:00:00
+  id: "605"
+  location_id: "4"
+  start: 2008-09-11 12:00:00
+  updated_at: 2008-08-11 18:12:13
+  user_id: "7"
+shifts_041: 
+  created_at: 2008-08-11 18:12:13
+  end: 2008-09-12 13:00:00
+  id: "606"
+  location_id: "4"
+  start: 2008-09-12 12:00:00
+  updated_at: 2008-08-11 18:12:13
+  user_id: "7"
+shifts_042: 
+  created_at: 2008-08-11 18:12:13
+  end: 2008-09-14 20:00:00
+  id: "607"
+  location_id: "1"
+  start: 2008-09-14 09:00:00
+  updated_at: 2008-08-11 18:12:13
+  user_id: "4"
+shifts_043: 
+  created_at: 2008-08-11 18:12:13
+  end: 2008-09-15 01:00:00
+  id: "608"
+  location_id: "1"
+  start: 2008-09-14 11:00:00
+  updated_at: 2008-08-11 18:12:13
+  user_id: "8"
+shifts_044: 
+  created_at: 2008-08-11 18:12:13
+  end: 2008-09-14 16:00:00
+  id: "609"
+  location_id: "2"
+  start: 2008-09-14 11:00:00
+  updated_at: 2008-08-11 18:12:13
+  user_id: "10"
+shifts_045: 
+  created_at: 2008-08-11 18:12:13
+  end: 2008-09-15 16:00:00
+  id: "610"
+  location_id: "2"
+  start: 2008-09-15 11:00:00
+  updated_at: 2008-08-11 18:12:13
+  user_id: "10"
+shifts_046: 
+  created_at: 2008-08-11 18:12:13
+  end: 2008-09-16 13:00:00
+  id: "611"
+  location_id: "4"
+  start: 2008-09-16 12:00:00
+  updated_at: 2008-08-11 18:12:13
+  user_id: "7"
+shifts_047: 
+  created_at: 2008-08-11 18:12:13
+  end: 2008-09-17 16:00:00
+  id: "612"
+  location_id: "2"
+  start: 2008-09-17 11:00:00
+  updated_at: 2008-08-11 18:12:13
+  user_id: "10"
+shifts_048: 
+  created_at: 2008-08-11 18:12:13
+  end: 2008-09-17 13:00:00
+  id: "613"
+  location_id: "4"
+  start: 2008-09-17 12:00:00
+  updated_at: 2008-08-11 18:12:13
+  user_id: "7"
+shifts_049: 
+  created_at: 2008-08-11 18:12:13
+  end: 2008-09-18 13:00:00
+  id: "614"
+  location_id: "4"
+  start: 2008-09-18 12:00:00
+  updated_at: 2008-08-11 18:12:13
+  user_id: "7"
+shifts_050: 
+  created_at: 2008-08-11 18:12:13
+  end: 2008-09-19 13:00:00
+  id: "615"
+  location_id: "4"
+  start: 2008-09-19 12:00:00
+  updated_at: 2008-08-11 18:12:13
+  user_id: "7"
+shifts_051: 
+  created_at: 2008-08-11 18:12:13
+  end: 2008-09-21 20:00:00
+  id: "616"
+  location_id: "1"
+  start: 2008-09-21 09:00:00
+  updated_at: 2008-08-11 18:12:13
+  user_id: "4"
+shifts_052: 
+  created_at: 2008-08-11 18:12:13
+  end: 2008-09-22 01:00:00
+  id: "617"
+  location_id: "1"
+  start: 2008-09-21 11:00:00
+  updated_at: 2008-08-11 18:12:13
+  user_id: "8"
+shifts_053: 
+  created_at: 2008-08-11 18:12:13
+  end: 2008-09-21 16:00:00
+  id: "618"
+  location_id: "2"
+  start: 2008-09-21 11:00:00
+  updated_at: 2008-08-11 18:12:13
+  user_id: "10"
+shifts_054: 
+  created_at: 2008-08-11 18:12:13
+  end: 2008-09-22 16:00:00
+  id: "619"
+  location_id: "2"
+  start: 2008-09-22 11:00:00
+  updated_at: 2008-08-11 18:12:13
+  user_id: "10"
+shifts_055: 
+  created_at: 2008-08-11 18:12:13
+  end: 2008-09-23 13:00:00
+  id: "620"
+  location_id: "4"
+  start: 2008-09-23 12:00:00
+  updated_at: 2008-08-11 18:12:13
+  user_id: "7"
+shifts_056: 
+  created_at: 2008-08-11 18:12:13
+  end: 2008-09-24 16:00:00
+  id: "621"
+  location_id: "2"
+  start: 2008-09-24 11:00:00
+  updated_at: 2008-08-11 18:12:13
+  user_id: "10"
+shifts_057: 
+  created_at: 2008-08-11 18:12:13
+  end: 2008-09-24 13:00:00
+  id: "622"
+  location_id: "4"
+  start: 2008-09-24 12:00:00
+  updated_at: 2008-08-11 18:12:13
+  user_id: "7"
+shifts_058: 
+  created_at: 2008-08-11 18:12:13
+  end: 2008-09-25 13:00:00
+  id: "623"
+  location_id: "4"
+  start: 2008-09-25 12:00:00
+  updated_at: 2008-08-11 18:12:13
+  user_id: "7"
+shifts_059: 
+  created_at: 2008-08-11 18:12:13
+  end: 2008-09-26 13:00:00
+  id: "624"
+  location_id: "4"
+  start: 2008-09-26 12:00:00
+  updated_at: 2008-08-11 18:12:13
+  user_id: "7"
+shifts_060: 
+  created_at: 2008-08-11 18:12:13
+  end: 2008-09-28 20:00:00
+  id: "625"
+  location_id: "1"
+  start: 2008-09-28 09:00:00
+  updated_at: 2008-08-11 18:12:13
+  user_id: "4"
+shifts_061: 
+  created_at: 2008-08-11 18:12:13
+  end: 2008-09-29 01:00:00
+  id: "626"
+  location_id: "1"
+  start: 2008-09-28 11:00:00
+  updated_at: 2008-08-11 18:12:13
+  user_id: "8"
+shifts_062: 
+  created_at: 2008-08-11 18:12:13
+  end: 2008-09-28 16:00:00
+  id: "627"
+  location_id: "2"
+  start: 2008-09-28 11:00:00
+  updated_at: 2008-08-11 18:12:13
+  user_id: "10"
+shifts_063: 
+  created_at: 2008-08-11 18:12:13
+  end: 2008-09-29 16:00:00
+  id: "628"
+  location_id: "2"
+  start: 2008-09-29 11:00:00
+  updated_at: 2008-08-11 18:12:13
+  user_id: "10"
+shifts_064: 
+  created_at: 2008-08-11 18:12:13
+  end: 2008-09-30 13:00:00
+  id: "629"
+  location_id: "4"
+  start: 2008-09-30 12:00:00
+  updated_at: 2008-08-11 18:12:13
+  user_id: "7"
+shifts_065: 
+  created_at: 2008-08-11 18:12:13
+  end: 2008-10-01 16:00:00
+  id: "630"
+  location_id: "2"
+  start: 2008-10-01 11:00:00
+  updated_at: 2008-08-11 18:12:13
+  user_id: "10"
+shifts_066: 
+  created_at: 2008-08-11 18:12:13
+  end: 2008-10-01 13:00:00
+  id: "631"
+  location_id: "4"
+  start: 2008-10-01 12:00:00
+  updated_at: 2008-08-11 18:12:13
+  user_id: "7"
+shifts_067: 
+  created_at: 2008-08-11 18:12:13
+  end: 2008-10-02 13:00:00
+  id: "632"
+  location_id: "4"
+  start: 2008-10-02 12:00:00
+  updated_at: 2008-08-11 18:12:13
+  user_id: "7"
+shifts_068: 
+  created_at: 2008-08-11 18:12:13
+  end: 2008-10-03 13:00:00
+  id: "633"
+  location_id: "4"
+  start: 2008-10-03 12:00:00
+  updated_at: 2008-08-11 18:12:13
+  user_id: "7"
+shifts_069: 
+  created_at: 2008-08-11 18:12:13
+  end: 2008-10-05 20:00:00
+  id: "634"
+  location_id: "1"
+  start: 2008-10-05 09:00:00
+  updated_at: 2008-08-11 18:12:13
+  user_id: "4"
+shifts_070: 
+  created_at: 2008-08-11 18:12:13
+  end: 2008-10-06 01:00:00
+  id: "635"
+  location_id: "1"
+  start: 2008-10-05 11:00:00
+  updated_at: 2008-08-11 18:12:13
+  user_id: "8"
+shifts_071: 
+  created_at: 2008-08-11 18:12:13
+  end: 2008-10-05 16:00:00
+  id: "636"
+  location_id: "2"
+  start: 2008-10-05 11:00:00
+  updated_at: 2008-08-11 18:12:13
+  user_id: "10"
+shifts_072: 
+  created_at: 2008-08-11 18:12:13
+  end: 2008-10-06 16:00:00
+  id: "637"
+  location_id: "2"
+  start: 2008-10-06 11:00:00
+  updated_at: 2008-08-11 18:12:13
+  user_id: "10"
+shifts_073: 
+  created_at: 2008-08-11 18:12:13
+  end: 2008-10-07 13:00:00
+  id: "638"
+  location_id: "4"
+  start: 2008-10-07 12:00:00
+  updated_at: 2008-08-11 18:12:13
+  user_id: "7"
+shifts_074: 
+  created_at: 2008-08-11 18:12:13
+  end: 2008-10-08 16:00:00
+  id: "639"
+  location_id: "2"
+  start: 2008-10-08 11:00:00
+  updated_at: 2008-08-11 18:12:13
+  user_id: "10"
+shifts_075: 
+  created_at: 2008-08-11 18:12:13
+  end: 2008-10-08 13:00:00
+  id: "640"
+  location_id: "4"
+  start: 2008-10-08 12:00:00
+  updated_at: 2008-08-11 18:12:13
+  user_id: "7"
+shifts_076: 
+  created_at: 2008-08-11 18:12:13
+  end: 2008-10-09 13:00:00
+  id: "641"
+  location_id: "4"
+  start: 2008-10-09 12:00:00
+  updated_at: 2008-08-11 18:12:13
+  user_id: "7"
+shifts_077: 
+  created_at: 2008-08-11 18:12:13
+  end: 2008-10-10 13:00:00
+  id: "642"
+  location_id: "4"
+  start: 2008-10-10 12:00:00
+  updated_at: 2008-08-11 18:12:13
+  user_id: "7"
+shifts_078: 
+  created_at: 2008-08-11 18:12:13
+  end: 2008-10-12 20:00:00
+  id: "643"
+  location_id: "1"
+  start: 2008-10-12 09:00:00
+  updated_at: 2008-08-11 18:12:13
+  user_id: "4"
+shifts_079: 
+  created_at: 2008-08-11 18:12:13
+  end: 2008-10-13 01:00:00
+  id: "644"
+  location_id: "1"
+  start: 2008-10-12 11:00:00
+  updated_at: 2008-08-11 18:12:13
+  user_id: "8"
+shifts_080: 
+  created_at: 2008-08-11 18:12:13
+  end: 2008-10-12 16:00:00
+  id: "645"
+  location_id: "2"
+  start: 2008-10-12 11:00:00
+  updated_at: 2008-08-11 18:12:13
+  user_id: "10"
+shifts_081: 
+  created_at: 2008-08-11 18:12:13
+  end: 2008-10-13 16:00:00
+  id: "646"
+  location_id: "2"
+  start: 2008-10-13 11:00:00
+  updated_at: 2008-08-11 18:12:13
+  user_id: "10"
+shifts_082: 
+  created_at: 2008-08-11 18:12:13
+  end: 2008-10-14 13:00:00
+  id: "647"
+  location_id: "4"
+  start: 2008-10-14 12:00:00
+  updated_at: 2008-08-11 18:12:13
+  user_id: "7"
+shifts_083: 
+  created_at: 2008-08-11 18:12:13
+  end: 2008-10-15 16:00:00
+  id: "648"
+  location_id: "2"
+  start: 2008-10-15 11:00:00
+  updated_at: 2008-08-11 18:12:13
+  user_id: "10"
+shifts_084: 
+  created_at: 2008-08-11 18:12:13
+  end: 2008-10-15 13:00:00
+  id: "649"
+  location_id: "4"
+  start: 2008-10-15 12:00:00
+  updated_at: 2008-08-11 18:12:13
+  user_id: "7"
+shifts_085: 
+  created_at: 2008-08-11 18:12:13
+  end: 2008-10-16 13:00:00
+  id: "650"
+  location_id: "4"
+  start: 2008-10-16 12:00:00
+  updated_at: 2008-08-11 18:12:13
+  user_id: "7"
+shifts_086: 
+  created_at: 2008-08-11 18:12:13
+  end: 2008-10-17 13:00:00
+  id: "651"
+  location_id: "4"
+  start: 2008-10-17 12:00:00
+  updated_at: 2008-08-11 18:12:13
+  user_id: "7"
+shifts_087: 
+  created_at: 2008-08-11 18:12:13
+  end: 2008-10-19 20:00:00
+  id: "652"
+  location_id: "1"
+  start: 2008-10-19 09:00:00
+  updated_at: 2008-08-11 18:12:13
+  user_id: "4"
+shifts_088: 
+  created_at: 2008-08-11 18:12:13
+  end: 2008-10-20 01:00:00
+  id: "653"
+  location_id: "1"
+  start: 2008-10-19 11:00:00
+  updated_at: 2008-08-11 18:12:13
+  user_id: "8"
+shifts_089: 
+  created_at: 2008-08-11 18:12:13
+  end: 2008-10-19 16:00:00
+  id: "654"
+  location_id: "2"
+  start: 2008-10-19 11:00:00
+  updated_at: 2008-08-11 18:12:13
+  user_id: "10"
+shifts_090: 
+  created_at: 2008-08-11 18:12:13
+  end: 2008-10-20 16:00:00
+  id: "655"
+  location_id: "2"
+  start: 2008-10-20 11:00:00
+  updated_at: 2008-08-11 18:12:13
+  user_id: "10"
+shifts_091: 
+  created_at: 2008-08-11 18:12:13
+  end: 2008-10-21 13:00:00
+  id: "656"
+  location_id: "4"
+  start: 2008-10-21 12:00:00
+  updated_at: 2008-08-11 18:12:13
+  user_id: "7"
+shifts_092: 
+  created_at: 2008-08-11 18:12:13
+  end: 2008-10-22 16:00:00
+  id: "657"
+  location_id: "2"
+  start: 2008-10-22 11:00:00
+  updated_at: 2008-08-11 18:12:13
+  user_id: "10"
+shifts_093: 
+  created_at: 2008-08-11 18:12:13
+  end: 2008-10-22 13:00:00
+  id: "658"
+  location_id: "4"
+  start: 2008-10-22 12:00:00
+  updated_at: 2008-08-11 18:12:13
+  user_id: "7"
+shifts_094: 
+  created_at: 2008-08-11 18:12:13
+  end: 2008-10-23 13:00:00
+  id: "659"
+  location_id: "4"
+  start: 2008-10-23 12:00:00
+  updated_at: 2008-08-11 18:12:13
+  user_id: "7"
+shifts_095: 
+  created_at: 2008-08-11 18:12:13
+  end: 2008-10-24 13:00:00
+  id: "660"
+  location_id: "4"
+  start: 2008-10-24 12:00:00
+  updated_at: 2008-08-11 18:12:13
+  user_id: "7"
+shifts_096: 
+  created_at: 2008-08-11 18:12:13
+  end: 2008-10-26 20:00:00
+  id: "661"
+  location_id: "1"
+  start: 2008-10-26 09:00:00
+  updated_at: 2008-08-11 18:12:13
+  user_id: "4"
+shifts_097: 
+  created_at: 2008-08-11 18:12:13
+  end: 2008-10-27 01:00:00
+  id: "662"
+  location_id: "1"
+  start: 2008-10-26 11:00:00
+  updated_at: 2008-08-11 18:12:13
+  user_id: "8"
+shifts_098: 
+  created_at: 2008-08-11 18:12:13
+  end: 2008-10-26 16:00:00
+  id: "663"
+  location_id: "2"
+  start: 2008-10-26 11:00:00
+  updated_at: 2008-08-11 18:12:13
+  user_id: "10"
+shifts_099: 
+  created_at: 2008-08-11 18:12:13
+  end: 2008-10-27 16:00:00
+  id: "664"
+  location_id: "2"
+  start: 2008-10-27 11:00:00
+  updated_at: 2008-08-11 18:12:13
+  user_id: "10"
+shifts_100: 
+  created_at: 2008-08-11 18:12:13
+  end: 2008-10-28 13:00:00
+  id: "665"
+  location_id: "4"
+  start: 2008-10-28 12:00:00
+  updated_at: 2008-08-11 18:12:13
+  user_id: "7"
+shifts_101: 
+  created_at: 2008-08-11 18:12:13
+  end: 2008-10-29 16:00:00
+  id: "666"
+  location_id: "2"
+  start: 2008-10-29 11:00:00
+  updated_at: 2008-08-11 18:12:13
+  user_id: "10"
+shifts_102: 
+  created_at: 2008-08-11 18:12:13
+  end: 2008-10-29 13:00:00
+  id: "667"
+  location_id: "4"
+  start: 2008-10-29 12:00:00
+  updated_at: 2008-08-11 18:12:13
+  user_id: "7"
+shifts_103: 
+  created_at: 2008-08-11 18:12:13
+  end: 2008-10-30 13:00:00
+  id: "668"
+  location_id: "4"
+  start: 2008-10-30 12:00:00
+  updated_at: 2008-08-11 18:12:13
+  user_id: "7"
+shifts_104: 
+  created_at: 2008-08-11 18:12:13
+  end: 2008-10-31 13:00:00
+  id: "669"
+  location_id: "4"
+  start: 2008-10-31 12:00:00
+  updated_at: 2008-08-11 18:12:13
+  user_id: "7"
+shifts_105: 
+  created_at: 2008-08-11 18:12:13
+  end: 2008-11-02 19:00:00
+  id: "670"
+  location_id: "1"
+  start: 2008-11-02 08:00:00
+  updated_at: 2008-08-11 18:12:13
+  user_id: "4"
+shifts_106: 
+  created_at: 2008-08-11 18:12:13
+  end: 2008-11-03 01:00:00
+  id: "671"
+  location_id: "1"
+  start: 2008-11-02 10:00:00
+  updated_at: 2008-08-11 18:12:13
+  user_id: "8"
+shifts_107: 
+  created_at: 2008-08-11 18:12:13
+  end: 2008-11-02 15:00:00
+  id: "672"
+  location_id: "2"
+  start: 2008-11-02 10:00:00
+  updated_at: 2008-08-11 18:12:13
+  user_id: "10"
+shifts_108: 
+  created_at: 2008-08-11 18:12:13
+  end: 2008-11-03 16:00:00
+  id: "673"
+  location_id: "2"
+  start: 2008-11-03 11:00:00
+  updated_at: 2008-08-11 18:12:13
+  user_id: "10"
+shifts_109: 
+  created_at: 2008-08-11 18:12:13
+  end: 2008-11-04 13:00:00
+  id: "674"
+  location_id: "4"
+  start: 2008-11-04 12:00:00
+  updated_at: 2008-08-11 18:12:13
+  user_id: "7"
+shifts_110: 
+  created_at: 2008-08-11 18:12:13
+  end: 2008-11-05 16:00:00
+  id: "675"
+  location_id: "2"
+  start: 2008-11-05 11:00:00
+  updated_at: 2008-08-11 18:12:13
+  user_id: "10"
+shifts_111: 
+  created_at: 2008-08-11 18:12:13
+  end: 2008-11-05 13:00:00
+  id: "676"
+  location_id: "4"
+  start: 2008-11-05 12:00:00
+  updated_at: 2008-08-11 18:12:13
+  user_id: "7"
+shifts_112: 
+  created_at: 2008-08-11 18:12:13
+  end: 2008-11-06 13:00:00
+  id: "677"
+  location_id: "4"
+  start: 2008-11-06 12:00:00
+  updated_at: 2008-08-11 18:12:13
+  user_id: "7"
+shifts_113: 
+  created_at: 2008-08-11 18:12:13
+  end: 2008-11-07 13:00:00
+  id: "678"
+  location_id: "4"
+  start: 2008-11-07 12:00:00
+  updated_at: 2008-08-11 18:12:13
+  user_id: "7"
+shifts_114: 
+  created_at: 2008-08-11 18:12:13
+  end: 2008-11-09 20:00:00
+  id: "679"
+  location_id: "1"
+  start: 2008-11-09 09:00:00
+  updated_at: 2008-08-11 18:12:13
+  user_id: "4"
+shifts_115: 
+  created_at: 2008-08-11 18:12:13
+  end: 2008-11-10 01:00:00
+  id: "680"
+  location_id: "1"
+  start: 2008-11-09 11:00:00
+  updated_at: 2008-08-11 18:12:13
+  user_id: "8"
+shifts_116: 
+  created_at: 2008-08-11 18:12:13
+  end: 2008-11-09 16:00:00
+  id: "681"
+  location_id: "2"
+  start: 2008-11-09 11:00:00
+  updated_at: 2008-08-11 18:12:13
+  user_id: "10"
+shifts_117: 
+  created_at: 2008-08-11 18:12:13
+  end: 2008-11-10 16:00:00
+  id: "682"
+  location_id: "2"
+  start: 2008-11-10 11:00:00
+  updated_at: 2008-08-11 18:12:13
+  user_id: "10"
+shifts_118: 
+  created_at: 2008-08-11 18:12:13
+  end: 2008-11-11 13:00:00
+  id: "683"
+  location_id: "4"
+  start: 2008-11-11 12:00:00
+  updated_at: 2008-08-11 18:12:13
+  user_id: "7"
+shifts_119: 
+  created_at: 2008-08-11 18:12:13
+  end: 2008-11-12 16:00:00
+  id: "684"
+  location_id: "2"
+  start: 2008-11-12 11:00:00
+  updated_at: 2008-08-11 18:12:13
+  user_id: "10"
+shifts_120: 
+  created_at: 2008-08-11 18:12:13
+  end: 2008-11-12 13:00:00
+  id: "685"
+  location_id: "4"
+  start: 2008-11-12 12:00:00
+  updated_at: 2008-08-11 18:12:13
+  user_id: "7"
+shifts_121: 
+  created_at: 2008-08-11 18:12:13
+  end: 2008-11-13 13:00:00
+  id: "686"
+  location_id: "4"
+  start: 2008-11-13 12:00:00
+  updated_at: 2008-08-11 18:12:13
+  user_id: "7"
+shifts_122: 
+  created_at: 2008-08-11 18:12:13
+  end: 2008-11-14 13:00:00
+  id: "687"
+  location_id: "4"
+  start: 2008-11-14 12:00:00
+  updated_at: 2008-08-11 18:12:13
+  user_id: "7"
+shifts_123: 
+  created_at: 2008-08-11 18:12:13
+  end: 2008-11-16 20:00:00
+  id: "688"
+  location_id: "1"
+  start: 2008-11-16 09:00:00
+  updated_at: 2008-08-11 18:12:13
+  user_id: "4"
+shifts_124: 
+  created_at: 2008-08-11 18:12:13
+  end: 2008-11-17 01:00:00
+  id: "689"
+  location_id: "1"
+  start: 2008-11-16 11:00:00
+  updated_at: 2008-08-11 18:12:13
+  user_id: "8"
+shifts_125: 
+  created_at: 2008-08-11 18:12:13
+  end: 2008-11-16 16:00:00
+  id: "690"
+  location_id: "2"
+  start: 2008-11-16 11:00:00
+  updated_at: 2008-08-11 18:12:13
+  user_id: "10"
+shifts_126: 
+  created_at: 2008-08-11 18:12:13
+  end: 2008-11-17 16:00:00
+  id: "691"
+  location_id: "2"
+  start: 2008-11-17 11:00:00
+  updated_at: 2008-08-11 18:12:13
+  user_id: "10"
+shifts_127: 
+  created_at: 2008-08-11 18:12:13
+  end: 2008-11-18 13:00:00
+  id: "692"
+  location_id: "4"
+  start: 2008-11-18 12:00:00
+  updated_at: 2008-08-11 18:12:13
+  user_id: "7"
+shifts_128: 
+  created_at: 2008-08-11 18:12:13
+  end: 2008-11-19 16:00:00
+  id: "693"
+  location_id: "2"
+  start: 2008-11-19 11:00:00
+  updated_at: 2008-08-11 18:12:13
+  user_id: "10"
+shifts_129: 
+  created_at: 2008-08-11 18:12:13
+  end: 2008-11-19 13:00:00
+  id: "694"
+  location_id: "4"
+  start: 2008-11-19 12:00:00
+  updated_at: 2008-08-11 18:12:13
+  user_id: "7"
+shifts_130: 
+  created_at: 2008-08-11 18:12:13
+  end: 2008-11-20 13:00:00
+  id: "695"
+  location_id: "4"
+  start: 2008-11-20 12:00:00
+  updated_at: 2008-08-11 18:12:13
+  user_id: "7"
+shifts_131: 
+  created_at: 2008-08-11 18:12:13
+  end: 2008-11-21 13:00:00
+  id: "696"
+  location_id: "4"
+  start: 2008-11-21 12:00:00
+  updated_at: 2008-08-11 18:12:13
+  user_id: "7"
+shifts_132: 
+  created_at: 2008-08-11 18:12:13
+  end: 2008-11-23 20:00:00
+  id: "697"
+  location_id: "1"
+  start: 2008-11-23 09:00:00
+  updated_at: 2008-08-11 18:12:13
+  user_id: "4"
+shifts_133: 
+  created_at: 2008-08-11 18:12:13
+  end: 2008-11-24 01:00:00
+  id: "698"
+  location_id: "1"
+  start: 2008-11-23 11:00:00
+  updated_at: 2008-08-11 18:12:13
+  user_id: "8"
+shifts_134: 
+  created_at: 2008-08-11 18:12:13
+  end: 2008-11-23 16:00:00
+  id: "699"
+  location_id: "2"
+  start: 2008-11-23 11:00:00
+  updated_at: 2008-08-11 18:12:13
+  user_id: "10"
+shifts_135: 
+  created_at: 2008-08-11 18:12:13
+  end: 2008-11-24 16:00:00
+  id: "700"
+  location_id: "2"
+  start: 2008-11-24 11:00:00
+  updated_at: 2008-08-11 18:12:13
+  user_id: "10"
+shifts_136: 
+  created_at: 2008-08-11 18:12:13
+  end: 2008-11-25 13:00:00
+  id: "701"
+  location_id: "4"
+  start: 2008-11-25 12:00:00
+  updated_at: 2008-08-11 18:12:13
+  user_id: "7"
+shifts_137: 
+  created_at: 2008-08-11 18:12:13
+  end: 2008-11-26 16:00:00
+  id: "702"
+  location_id: "2"
+  start: 2008-11-26 11:00:00
+  updated_at: 2008-08-11 18:12:13
+  user_id: "10"
+shifts_138: 
+  created_at: 2008-08-11 18:12:13
+  end: 2008-11-26 13:00:00
+  id: "703"
+  location_id: "4"
+  start: 2008-11-26 12:00:00
+  updated_at: 2008-08-11 18:12:13
+  user_id: "7"
+shifts_139: 
+  created_at: 2008-08-11 18:12:13
+  end: 2008-11-27 13:00:00
+  id: "704"
+  location_id: "4"
+  start: 2008-11-27 12:00:00
+  updated_at: 2008-08-11 18:12:13
+  user_id: "7"
+shifts_140: 
+  created_at: 2008-08-11 18:12:13
+  end: 2008-11-28 13:00:00
+  id: "705"
+  location_id: "4"
+  start: 2008-11-28 12:00:00
+  updated_at: 2008-08-11 18:12:13
+  user_id: "7"
+shifts_141: 
+  created_at: 2008-08-11 18:12:13
+  end: 2008-11-30 20:00:00
+  id: "706"
+  location_id: "1"
+  start: 2008-11-30 09:00:00
+  updated_at: 2008-08-11 18:12:13
+  user_id: "4"
+shifts_142: 
+  created_at: 2008-08-11 18:12:13
+  end: 2008-12-01 01:00:00
+  id: "707"
+  location_id: "1"
+  start: 2008-11-30 11:00:00
+  updated_at: 2008-08-11 18:12:13
+  user_id: "8"
+shifts_143: 
+  created_at: 2008-08-11 18:12:13
+  end: 2008-11-30 16:00:00
+  id: "708"
+  location_id: "2"
+  start: 2008-11-30 11:00:00
+  updated_at: 2008-08-11 18:12:13
+  user_id: "10"
+shifts_144: 
+  created_at: 2008-08-11 18:12:13
+  end: 2008-12-01 16:00:00
+  id: "709"
+  location_id: "2"
+  start: 2008-12-01 11:00:00
+  updated_at: 2008-08-11 18:12:13
+  user_id: "10"
+shifts_145: 
+  created_at: 2008-08-11 18:12:13
+  end: 2008-12-02 13:00:00
+  id: "710"
+  location_id: "4"
+  start: 2008-12-02 12:00:00
+  updated_at: 2008-08-11 18:12:13
+  user_id: "7"
+shifts_146: 
+  created_at: 2008-08-11 18:12:13
+  end: 2008-12-03 16:00:00
+  id: "711"
+  location_id: "2"
+  start: 2008-12-03 11:00:00
+  updated_at: 2008-08-11 18:12:13
+  user_id: "10"
+shifts_147: 
+  created_at: 2008-08-11 18:12:13
+  end: 2008-12-03 13:00:00
+  id: "712"
+  location_id: "4"
+  start: 2008-12-03 12:00:00
+  updated_at: 2008-08-11 18:12:13
+  user_id: "7"
+shifts_148: 
+  created_at: 2008-08-11 18:12:13
+  end: 2008-12-04 13:00:00
+  id: "713"
+  location_id: "4"
+  start: 2008-12-04 12:00:00
+  updated_at: 2008-08-11 18:12:13
+  user_id: "7"
+shifts_149: 
+  created_at: 2008-08-11 18:12:13
+  end: 2008-12-05 13:00:00
+  id: "714"
+  location_id: "4"
+  start: 2008-12-05 12:00:00
+  updated_at: 2008-08-11 18:12:13
+  user_id: "7"
+shifts_150: 
+  created_at: 2008-08-11 18:12:13
+  end: 2008-12-07 20:00:00
+  id: "715"
+  location_id: "1"
+  start: 2008-12-07 09:00:00
+  updated_at: 2008-08-11 18:12:13
+  user_id: "4"
+shifts_151: 
+  created_at: 2008-08-11 18:12:13
+  end: 2008-12-08 01:00:00
+  id: "716"
+  location_id: "1"
+  start: 2008-12-07 11:00:00
+  updated_at: 2008-08-11 18:12:13
+  user_id: "8"
+shifts_152: 
+  created_at: 2008-08-11 18:12:13
+  end: 2008-12-07 16:00:00
+  id: "717"
+  location_id: "2"
+  start: 2008-12-07 11:00:00
+  updated_at: 2008-08-11 18:12:13
+  user_id: "10"
+shifts_153: 
+  created_at: 2008-08-11 18:12:13
+  end: 2008-12-08 16:00:00
+  id: "718"
+  location_id: "2"
+  start: 2008-12-08 11:00:00
+  updated_at: 2008-08-11 18:12:13
+  user_id: "10"
+shifts_154: 
+  created_at: 2008-08-11 18:12:13
+  end: 2008-12-09 13:00:00
+  id: "719"
+  location_id: "4"
+  start: 2008-12-09 12:00:00
+  updated_at: 2008-08-11 18:12:13
+  user_id: "7"
+shifts_155: 
+  created_at: 2008-08-11 18:12:13
+  end: 2008-12-10 16:00:00
+  id: "720"
+  location_id: "2"
+  start: 2008-12-10 11:00:00
+  updated_at: 2008-08-11 18:12:13
+  user_id: "10"
+shifts_156: 
+  created_at: 2008-08-11 18:12:13
+  end: 2008-12-10 13:00:00
+  id: "721"
+  location_id: "4"
+  start: 2008-12-10 12:00:00
+  updated_at: 2008-08-11 18:12:13
+  user_id: "7"
+shifts_157: 
+  created_at: 2008-08-11 18:12:13
+  end: 2008-12-11 13:00:00
+  id: "722"
+  location_id: "4"
+  start: 2008-12-11 12:00:00
+  updated_at: 2008-08-11 18:12:13
+  user_id: "7"
+shifts_158: 
+  created_at: 2008-08-11 19:13:50
+  end: 2008-08-12 00:00:00
+  id: "723"
+  location_id: "1"
+  start: 2008-08-11 22:00:00
+  updated_at: 2008-08-11 19:13:50
+  user_id: "12"
+shifts_159: 
+  created_at: 2008-08-11 19:14:10
+  end: 2008-08-14 00:00:00
+  id: "724"
+  location_id: "1"
+  start: 2008-08-13 23:00:00
+  updated_at: 2008-08-11 19:14:10
+  user_id: "12"
+shifts_160: 
+  created_at: 2008-08-12 14:12:49
+  end: 2008-08-25 19:30:00
+  id: "725"
+  location_id: "1"
+  start: 2008-08-25 13:45:00
+  updated_at: 2008-08-12 14:12:49
+  user_id: "4"
+shifts_161: 
+  created_at: 2008-08-13 14:40:22
+  end: 2008-08-14 00:00:00
+  id: "726"
+  location_id: "1"
+  start: 2008-08-13 16:30:00
+  updated_at: 2008-08-13 14:40:22
+  user_id: "4"
+shifts_162: 
+  created_at: 2008-08-13 16:04:15
+  end: 2008-08-15 12:45:00
+  id: "727"
+  location_id: "2"
+  start: 2008-08-15 11:15:00
+  updated_at: 2008-08-13 16:04:15
+  user_id: "4"
+shifts_163: 
+  created_at: 2008-08-13 17:45:47
+  end: 2008-08-13 17:45:47
+  id: "728"
+  location_id: "1"
+  start: 2008-08-13 17:45:47
+  updated_at: 2008-08-13 17:45:47
+  user_id: "4"
+shifts_164: 
+  created_at: 2008-08-13 17:46:32
+  end: 2008-08-13 17:46:32
+  id: "729"
+  location_id: "5"
+  start: 2008-08-13 17:46:32
+  updated_at: 2008-08-13 17:46:32
+  user_id: "7"
+shifts_165: 
+  created_at: 2008-08-13 18:30:14
+  end: 2008-08-13 18:30:14
+  id: "730"
+  location_id: "6"
+  start: 2008-08-13 18:30:14
+  updated_at: 2008-08-13 18:30:14
+  user_id: "101"
+shifts_166: 
+  created_at: 2008-08-13 22:59:26
+  end: 2008-08-13 22:59:26
+  id: "731"
+  location_id: "1"
+  start: 2008-08-13 22:59:26
+  updated_at: 2008-08-13 22:59:26
+  user_id: "4"
+shifts_167: 
+  created_at: 2008-08-14 08:43:38
+  end: 2008-08-16 12:30:00
+  id: "732"
+  location_id: "1"
+  start: 2008-08-16 09:00:00
+  updated_at: 2008-08-14 08:43:38
+  user_id: "4"
+shifts_168: 
+  created_at: 2008-08-14 08:47:18
+  end: 2008-08-14 08:47:18
+  id: "733"
+  location_id: "1"
+  start: 2008-08-14 08:47:18
+  updated_at: 2008-08-14 08:47:18
+  user_id: "4"
+shifts_169: 
+  created_at: 2008-08-14 13:08:49
+  end: 2008-08-14 13:08:49
+  id: "734"
+  location_id: "5"
+  start: 2008-08-14 13:08:49
+  updated_at: 2008-08-14 13:08:49
+  user_id: "83"
+shifts_170: 
+  created_at: 2008-08-14 13:22:59
+  end: 2008-08-14 13:22:59
+  id: "735"
+  location_id: "3"
+  start: 2008-08-14 13:22:59
+  updated_at: 2008-08-14 13:22:59
+  user_id: "77"
+shifts_171: 
+  created_at: 2008-08-14 13:23:51
+  end: 2008-08-15 12:00:00
+  id: "736"
+  location_id: "1"
+  start: 2008-08-15 09:00:00
+  updated_at: 2008-08-14 13:23:51
+  user_id: "77"
+shifts_172: 
+  created_at: 2008-08-14 14:54:51
+  end: 2008-08-14 14:54:51
+  id: "737"
+  location_id: "5"
+  start: 2008-08-14 14:54:51
+  updated_at: 2008-08-14 14:54:51
+  user_id: "7"
+shifts_173: 
+  created_at: 2008-08-14 15:06:54
+  end: 2008-08-14 15:06:54
+  id: "738"
+  location_id: "2"
+  start: 2008-08-14 15:06:54
+  updated_at: 2008-08-14 15:06:54
+  user_id: "31"
+shifts_174: 
+  created_at: 2008-08-14 16:01:55
+  end: 2008-08-14 17:30:00
+  id: "739"
+  location_id: "1"
+  start: 2008-08-14 16:00:00
+  updated_at: 2008-08-14 16:01:55
+  user_id: "8"
+shifts_175: 
+  created_at: 2008-08-14 16:35:38
+  end: 2008-08-15 10:00:00
+  id: "740"
+  location_id: "9"
+  start: 2008-08-15 09:00:00
+  updated_at: 2008-08-14 16:35:38
+  user_id: "4"
+shifts_176: 
+  created_at: 2008-08-14 16:42:29
+  end: 2008-08-15 17:00:00
+  id: "742"
+  location_id: "9"
+  start: 2008-08-15 16:00:00
+  updated_at: 2008-08-14 16:42:29
+  user_id: "4"
+shifts_177: 
+  created_at: 2008-08-14 16:43:10
+  end: 2008-08-28 10:50:00
+  id: "743"
+  location_id: "9"
+  start: 2008-08-28 09:00:00
+  updated_at: 2008-08-14 16:43:10
+  user_id: "9"
+shifts_178: 
+  created_at: 2008-08-14 16:55:25
+  end: 2008-08-14 16:55:25
+  id: "744"
+  location_id: "2"
+  start: 2008-08-14 16:55:25
+  updated_at: 2008-08-14 16:55:25
+  user_id: "101"
+shifts_179: 
+  created_at: 2008-08-18 15:56:26
+  end: 2008-08-18 15:56:26
+  id: "745"
+  location_id: "1"
+  start: 2008-08-18 15:56:26
+  updated_at: 2008-08-18 15:56:26
+  user_id: "64"
+shifts_180: 
+  created_at: 2008-08-19 05:55:04
+  end: 2008-08-19 17:00:00
+  id: "746"
+  location_id: "3"
+  start: 2008-08-19 09:00:00
+  updated_at: 2008-08-19 05:55:04
+  user_id: "96"
+shifts_181: 
+  created_at: 2008-08-19 14:28:26
+  end: 2008-08-19 14:28:26
+  id: "747"
+  location_id: "4"
+  start: 2008-08-19 14:28:26
+  updated_at: 2008-08-19 14:28:26
+  user_id: "64"
+shifts_182: 
+  created_at: 2008-08-19 15:00:16
+  end: 2008-08-19 15:00:16
+  id: "748"
+  location_id: "5"
+  start: 2008-08-19 15:00:16
+  updated_at: 2008-08-19 15:00:16
+  user_id: "17"
+shifts_183: 
+  created_at: 2008-08-20 04:42:40
+  end: 2008-08-30 14:00:00
+  id: "749"
+  location_id: "1"
+  start: 2008-08-30 12:00:00
+  updated_at: 2008-08-20 04:42:40
+  user_id: "90"
+shifts_184: 
+  created_at: 2008-08-21 21:03:43
+  end: 2008-08-22 00:00:00
+  id: "750"
+  location_id: "6"
+  start: 2008-08-21 21:00:00
+  updated_at: 2008-08-21 21:03:43
+  user_id: "6"
+shifts_185: 
+  created_at: 2008-08-21 21:06:45
+  end: 2008-08-21 21:06:45
+  id: "751"
+  location_id: "3"
+  start: 2008-08-21 21:06:45
+  updated_at: 2008-08-21 21:06:45
+  user_id: "6"
+shifts_186: 
+  created_at: 2008-08-22 13:29:42
+  end: 2008-08-23 18:00:00
+  id: "752"
+  location_id: "1"
+  start: 2008-08-23 09:00:00
+  updated_at: 2008-08-22 13:29:54
+  user_id: "7"
+shifts_187: 
+  created_at: 2008-08-22 13:30:14
+  end: 2008-08-22 18:30:00
+  id: "754"
+  location_id: "1"
+  start: 2008-08-22 14:30:00
+  updated_at: 2008-08-22 13:30:24
+  user_id: "7"
+shifts_188: 
+  created_at: 2008-08-24 13:00:53
+  end: 2008-08-25 10:30:00
+  id: "756"
+  location_id: "1"
+  start: 2008-08-25 09:00:00
+  updated_at: 2008-08-24 13:00:53
+  user_id: "7"
+shifts_189: 
+  created_at: 2008-08-24 13:34:13
+  end: 2008-08-26 12:00:00
+  id: "758"
+  location_id: "1"
+  start: 2008-08-26 09:00:00
+  updated_at: 2008-08-24 13:34:13
+  user_id: "64"
+shifts_190: 
+  created_at: 2008-08-24 17:11:35
+  end: 2008-08-26 17:00:00
+  id: "759"
+  location_id: "3"
+  start: 2008-08-26 09:00:00
+  updated_at: 2008-08-24 17:11:35
+  user_id: "96"
+shifts_191: 
+  created_at: 2008-08-24 17:49:46
+  end: 2008-08-24 19:00:00
+  id: "760"
+  location_id: "5"
+  start: 2008-08-24 17:45:00
+  updated_at: 2008-08-24 17:49:46
+  user_id: "7"

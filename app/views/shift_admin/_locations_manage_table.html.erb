@@ -1,0 +1,25 @@
+<table class="manage_table">
+  <caption><%= title %></caption>
+  <thead>
+    <tr>
+      <th width="30%">Long Name</th>
+      <th>Short Name</th>
+      <th>Report Email</th>
+      <th>Max Staff</th>
+      <th>Priority</th>
+      <th>Min Staff</th>
+    </tr>
+  </thead>
+  <tbody>
+    <%- locations_manage_table.each do |loc| -%>
+      <tr>
+        <td><%= link_to loc.long_name, {:action => "edit_location", :id => loc} %></td>
+        <td><%= loc.short_name %></td>
+        <td><%= loc.report_email.blank? ? "-" : loc.report_email %></td>
+        <td><%= loc.max_staff %></td>
+        <td><%= loc.priority %></td>
+        <td><%= loc.min_staff %></td>
+      </tr>
+    <% end -%>
+  </tbody>
+</table>  

@@ -1,0 +1,12 @@
+<% title "View Location" %>
+
+<h2><%= @location.long_name %></h2>
+<% if @location.data_objects.empty? %>
+  <p>
+    You have no data objects for this location.
+  <p>
+<% else %>
+  <% @location.data_objects.sort_by(&:name).each do |obj| %>
+    <%= render :partial => "data_object_brief", :object => obj %>
+  <% end %>
+<% end %>

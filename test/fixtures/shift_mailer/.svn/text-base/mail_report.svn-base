@@ -1,0 +1,3 @@
+ShiftMailer#mail_report
+
+Find me in app/views/shift_mailer/mail_report.erb

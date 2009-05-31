@@ -1,0 +1,28 @@
+<% title "Delete Data" %>
+   <% form_tag 'delete_data' do %>
+     <% if department_admin? %>
+       <% unless @data_types.empty? %>
+         <h2>Data Types</h2>
+         <% @data_types.each do |dt| %>
+           <p>
+             <%= check_box_tag "deleted_data_types[]", dt.id, false, 
+                {:id => "data_type_#{dt.id}"} %> 
+             <%= "<label for=\"data_type_#{dt.id}\">#{dt.name}</label>"-%>
+           </p>
+         <% end %>
+       <% end %>
+     <% end %>
+     <% unless @objects.empty?%>
+       <h2>Data Objects</h2>
+         <% @objects.each do |obj| %>
+           <p>
+             <%= check_box_tag "deleted_data_objects[]", obj.id, false, 
+                {:id => "data_object_#{obj.id}"} %> 
+             <%= "<label for=\"data_object_#{obj.id}\">#{obj.name}</label>"-%>
+           </p>
+         <% end %>
+     <% end %> 
+     
+     <%= submit_tag "Delete" %>
+     
+   <% end %>

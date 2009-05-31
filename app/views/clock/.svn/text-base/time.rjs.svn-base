@@ -1,0 +1,1 @@
+page.replace_html("clock-time", :partial => "/clock/time" );

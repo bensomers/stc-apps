@@ -1,0 +1,26 @@
+<h1><%= link_to "Your tabs only", :action => "index"  %> | <u>All tabs</u> | <%= link_to 'Manage Food Items', food_items_path %></h1>
+<h2>Total   paid: <%= number_to_currency @iotabs.sum(&:paid_amt) -%></h2>
+<h2>Total unpaid: <%= number_to_currency @iotabs.sum(&:unpaid_amt) -%></h2>
+
+<br />
+
+<table class="tablesorter iotab">
+  <thead>
+  <tr>
+    <th>User</th>
+    <th>Food item</th>
+    <th>Paid</th>
+    <th>Unpaid</th>
+  </tr>
+  </thead>
+  <tbody>
+<% for iotab in @iotabs %>
+  <tr id="iotab_row_<%= iotab.id %>" class="<%= cycle 'list_line_odd', 'list_line_even' %>">
+    <td><%= iotab.user.name %></td>
+    <td><%=h iotab.food_item.name %> </td>
+    <td><%= number_to_currency iotab.paid_amt %></td>
+    <td><%= number_to_currency iotab.unpaid_amt %></td>
+  </tr>
+<% end %>
+  </tbody>
+</table>

@@ -1,0 +1,40 @@
+<%- if @location -%>
+  <% title "Kilroys for #{@location.name}" %>
+  <p>
+    <% form_tag :action => "kilroys" do %>
+      View from: 
+      <%= select_date @start_date, :prefix => 'start' %>
+      To:
+      <%= select_date @end_date,  :prefix => 'end' %>
+      <%= submit_tag "Select view dates" %>
+      <% end %>
+  </p>
+  <p>
+    Note that the leftmost day of the week is our best estimate at when the ST was supposed to kilroy. The rightmost one is when they actually kilroyed
+    
+    group_reports.each do |week_reports, week_start| #the second variable is key of hash
+      # print week_start as title of week
+      # print week_reports
+    end
+    
+    <%- @grouped_shifts.each do |week,shifts| -%>
+      <h3><%= week.strftime "Week of %b %d" %></h3>
+      <ul>
+      <% shifts.sort! {|x,y| x.report.start <=> y.report.start} %>
+      <% shifts.each do |shift| %>
+        <li><%= link_to shift.short_name_kilroy, {:controller => "report", :action => "view", :id => shift.shift_report} %></li>
+      <% end %>
+      </ul>
+    <%- end -%>
+  </p>
+<%- else -%>
+  <% title "Pick a location to view kilroys from" %>
+  <% for group in @location_groups %>
+    <h3><%= group.name %></h3>
+    <ul>
+      <%- for loc in group.locations -%>
+        <li><%= link_to loc.name, {:controller => "shift", :action => "kilroys", :id => loc} %></li>
+      <%- end -%>
+    </ul>
+  <%- end -%>
+<%- end -%>

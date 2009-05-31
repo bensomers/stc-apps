@@ -1,0 +1,8 @@
+<h1><%= editNewTitleHelper(@department) %> Department</h1>
+<% form_for :department, :url => {:id => @department} do |form| %>
+  <%= form.error_messages %>
+  <p><label for="department_name">Name</label><br /><%= form.text_field :name, :size => 30, :maxlength => 30 %></p>
+  <p><label for="department_info">Info</label><br /><%= form.text_field :info, :size => 30, :maxlength => 30 %></p>
+  <br />
+  <%= submit_tag "Update Department" %> 
+<% end %>

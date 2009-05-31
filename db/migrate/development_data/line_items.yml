@@ -1,0 +1,1421 @@
+--- 
+line_items_001: 
+  can_edit: "0"
+  created_at: 2008-08-08 12:59:53
+  id: "1"
+  line_content: logged in from awesome IP at an awesome time!
+  shift_report_id: "1"
+  time: 2008-08-08 08:08:08
+  updated_at: 2008-08-08 12:59:53
+line_items_002: 
+  can_edit: "1"
+  created_at: 2008-08-08 12:59:53
+  id: "2"
+  line_content: logged in from awesome IP at an awesome time!
+  shift_report_id: "2"
+  time: 2008-08-08 08:08:08
+  updated_at: 2008-08-08 12:59:53
+line_items_003: 
+  can_edit: "1"
+  created_at: 2008-08-08 12:59:53
+  id: "3"
+  line_content: logged in from awesome IP at an awesome time!
+  shift_report_id: "3"
+  time: 2008-08-08 08:08:08
+  updated_at: 2008-08-08 12:59:53
+line_items_004: 
+  can_edit: "1"
+  created_at: 2008-08-08 12:59:53
+  id: "4"
+  line_content: logged in from awesome IP at an awesome time!
+  shift_report_id: "4"
+  time: 2008-08-08 08:08:08
+  updated_at: 2008-08-08 12:59:53
+line_items_005: 
+  can_edit: "1"
+  created_at: 2008-08-08 12:59:53
+  id: "5"
+  line_content: logged in from awesome IP at an awesome time!
+  shift_report_id: "5"
+  time: 2008-08-08 08:08:08
+  updated_at: 2008-08-08 12:59:53
+line_items_006: 
+  can_edit: "1"
+  created_at: 2008-08-08 12:59:53
+  id: "6"
+  line_content: logged in from awesome IP at an awesome time!
+  shift_report_id: "6"
+  time: 2008-08-08 08:08:08
+  updated_at: 2008-08-08 12:59:53
+line_items_007: 
+  can_edit: "1"
+  created_at: 2008-08-08 12:59:53
+  id: "7"
+  line_content: logged in from awesome IP at an awesome time!
+  shift_report_id: "7"
+  time: 2008-08-08 08:08:08
+  updated_at: 2008-08-08 12:59:53
+line_items_008: 
+  can_edit: "1"
+  created_at: 2008-08-08 12:59:53
+  id: "8"
+  line_content: logged in from awesome IP at an awesome time!
+  shift_report_id: "8"
+  time: 2008-08-08 08:08:08
+  updated_at: 2008-08-08 12:59:53
+line_items_009: 
+  can_edit: "1"
+  created_at: 2008-08-08 12:59:53
+  id: "9"
+  line_content: logged in from awesome IP at an awesome time!
+  shift_report_id: "9"
+  time: 2008-08-08 08:08:08
+  updated_at: 2008-08-08 12:59:53
+line_items_010: 
+  can_edit: "1"
+  created_at: 2008-08-08 12:59:53
+  id: "10"
+  line_content: logged in from awesome IP at an awesome time!
+  shift_report_id: "10"
+  time: 2008-08-08 08:08:08
+  updated_at: 2008-08-08 12:59:53
+line_items_011: 
+  can_edit: "1"
+  created_at: 2008-08-08 12:59:53
+  id: "11"
+  line_content: logged in from awesome IP at an awesome time!
+  shift_report_id: "11"
+  time: 2008-08-08 08:08:08
+  updated_at: 2008-08-08 12:59:53
+line_items_012: 
+  can_edit: "1"
+  created_at: 2008-08-08 12:59:53
+  id: "12"
+  line_content: This is a generic line item
+  shift_report_id: "12"
+  time: 2008-08-08 08:08:08
+  updated_at: 2008-08-08 12:59:53
+line_items_013: 
+  can_edit: "1"
+  created_at: 2008-08-08 12:59:53
+  id: "13"
+  line_content: This is a generic line item
+  shift_report_id: "1"
+  time: 2008-08-08 08:08:08
+  updated_at: 2008-08-08 12:59:53
+line_items_014: 
+  can_edit: "1"
+  created_at: 2008-08-08 12:59:53
+  id: "14"
+  line_content: This is a generic line item
+  shift_report_id: "2"
+  time: 2008-08-08 08:08:08
+  updated_at: 2008-08-08 12:59:53
+line_items_015: 
+  can_edit: "1"
+  created_at: 2008-08-08 12:59:53
+  id: "15"
+  line_content: This is a generic line item
+  shift_report_id: "3"
+  time: 2008-08-08 08:08:08
+  updated_at: 2008-08-08 12:59:53
+line_items_016: 
+  can_edit: "1"
+  created_at: 2008-08-08 12:59:53
+  id: "16"
+  line_content: This is a generic line item
+  shift_report_id: "4"
+  time: 2008-08-08 08:08:08
+  updated_at: 2008-08-08 12:59:53
+line_items_017: 
+  can_edit: "1"
+  created_at: 2008-08-08 12:59:53
+  id: "17"
+  line_content: This is a generic line item
+  shift_report_id: "5"
+  time: 2008-08-08 08:08:08
+  updated_at: 2008-08-08 12:59:53
+line_items_018: 
+  can_edit: "1"
+  created_at: 2008-08-08 12:59:53
+  id: "18"
+  line_content: This is a generic line item
+  shift_report_id: "6"
+  time: 2008-08-08 08:08:08
+  updated_at: 2008-08-08 12:59:53
+line_items_019: 
+  can_edit: "1"
+  created_at: 2008-08-08 12:59:53
+  id: "19"
+  line_content: This is a generic line item
+  shift_report_id: "7"
+  time: 2008-08-08 08:08:08
+  updated_at: 2008-08-08 12:59:53
+line_items_020: 
+  can_edit: "1"
+  created_at: 2008-08-08 12:59:53
+  id: "20"
+  line_content: This is a generic line item
+  shift_report_id: "8"
+  time: 2008-08-08 08:08:08
+  updated_at: 2008-08-08 12:59:53
+line_items_021: 
+  can_edit: "1"
+  created_at: 2008-08-08 12:59:53
+  id: "21"
+  line_content: This is a generic line item
+  shift_report_id: "9"
+  time: 2008-08-08 08:08:08
+  updated_at: 2008-08-08 12:59:53
+line_items_022: 
+  can_edit: "1"
+  created_at: 2008-08-08 12:59:53
+  id: "22"
+  line_content: This is a generic line item
+  shift_report_id: "10"
+  time: 2008-08-08 08:08:08
+  updated_at: 2008-08-08 12:59:53
+line_items_023: 
+  can_edit: "1"
+  created_at: 2008-08-08 12:59:53
+  id: "23"
+  line_content: This is a generic line item
+  shift_report_id: "11"
+  time: 2008-08-08 08:08:08
+  updated_at: 2008-08-08 12:59:53
+line_items_024: 
+  can_edit: "1"
+  created_at: 2008-08-08 12:59:53
+  id: "24"
+  line_content: This is a generic line item
+  shift_report_id: "12"
+  time: 2008-08-08 08:08:08
+  updated_at: 2008-08-08 12:59:53
+line_items_025: 
+  can_edit: "1"
+  created_at: 2008-08-08 12:59:53
+  id: "25"
+  line_content: This is a generic line item
+  shift_report_id: "1"
+  time: 2008-08-08 08:08:08
+  updated_at: 2008-08-08 12:59:53
+line_items_026: 
+  can_edit: "1"
+  created_at: 2008-08-08 12:59:53
+  id: "26"
+  line_content: This is a generic line item
+  shift_report_id: "2"
+  time: 2008-08-08 08:08:08
+  updated_at: 2008-08-08 12:59:53
+line_items_027: 
+  can_edit: "1"
+  created_at: 2008-08-08 12:59:53
+  id: "27"
+  line_content: This is a generic line item
+  shift_report_id: "3"
+  time: 2008-08-08 08:08:08
+  updated_at: 2008-08-08 12:59:53
+line_items_028: 
+  can_edit: "1"
+  created_at: 2008-08-08 12:59:53
+  id: "28"
+  line_content: This is a generic line item
+  shift_report_id: "4"
+  time: 2008-08-08 08:08:08
+  updated_at: 2008-08-08 12:59:53
+line_items_029: 
+  can_edit: "1"
+  created_at: 2008-08-08 12:59:53
+  id: "29"
+  line_content: This is a generic line item
+  shift_report_id: "5"
+  time: 2008-08-08 08:08:08
+  updated_at: 2008-08-08 12:59:53
+line_items_030: 
+  can_edit: "1"
+  created_at: 2008-08-08 12:59:53
+  id: "30"
+  line_content: This is a generic line item
+  shift_report_id: "6"
+  time: 2008-08-08 08:08:08
+  updated_at: 2008-08-08 12:59:53
+line_items_031: 
+  can_edit: "1"
+  created_at: 2008-08-08 12:59:53
+  id: "31"
+  line_content: This is a generic line item
+  shift_report_id: "7"
+  time: 2008-08-08 08:08:08
+  updated_at: 2008-08-08 12:59:53
+line_items_032: 
+  can_edit: "1"
+  created_at: 2008-08-08 12:59:53
+  id: "32"
+  line_content: This is a generic line item
+  shift_report_id: "8"
+  time: 2008-08-08 08:08:08
+  updated_at: 2008-08-08 12:59:53
+line_items_033: 
+  can_edit: "1"
+  created_at: 2008-08-08 12:59:53
+  id: "33"
+  line_content: This is a generic line item
+  shift_report_id: "9"
+  time: 2008-08-08 08:08:08
+  updated_at: 2008-08-08 12:59:53
+line_items_034: 
+  can_edit: "1"
+  created_at: 2008-08-08 12:59:53
+  id: "34"
+  line_content: This is a generic line item
+  shift_report_id: "10"
+  time: 2008-08-08 08:08:08
+  updated_at: 2008-08-08 12:59:53
+line_items_035: 
+  can_edit: "1"
+  created_at: 2008-08-08 12:59:53
+  id: "35"
+  line_content: This is a generic line item
+  shift_report_id: "11"
+  time: 2008-08-08 08:08:08
+  updated_at: 2008-08-08 12:59:53
+line_items_036: 
+  can_edit: "1"
+  created_at: 2008-08-08 12:59:53
+  id: "36"
+  line_content: This is a generic line item
+  shift_report_id: "12"
+  time: 2008-08-08 08:08:08
+  updated_at: 2008-08-08 12:59:53
+line_items_037: 
+  can_edit: "1"
+  created_at: 2008-08-08 12:59:53
+  id: "37"
+  line_content: This is a generic line item
+  shift_report_id: "1"
+  time: 2008-08-08 08:08:08
+  updated_at: 2008-08-08 12:59:53
+line_items_038: 
+  can_edit: "1"
+  created_at: 2008-08-08 12:59:53
+  id: "38"
+  line_content: This is a generic line item
+  shift_report_id: "2"
+  time: 2008-08-08 08:08:08
+  updated_at: 2008-08-08 12:59:53
+line_items_039: 
+  can_edit: "1"
+  created_at: 2008-08-08 12:59:53
+  id: "39"
+  line_content: This is a generic line item
+  shift_report_id: "3"
+  time: 2008-08-08 08:08:08
+  updated_at: 2008-08-08 12:59:53
+line_items_040: 
+  can_edit: "1"
+  created_at: 2008-08-08 12:59:53
+  id: "40"
+  line_content: This is a generic line item
+  shift_report_id: "4"
+  time: 2008-08-08 08:08:08
+  updated_at: 2008-08-08 12:59:53
+line_items_041: 
+  can_edit: "1"
+  created_at: 2008-08-08 12:59:53
+  id: "41"
+  line_content: This is a generic line item
+  shift_report_id: "5"
+  time: 2008-08-08 08:08:08
+  updated_at: 2008-08-08 12:59:53
+line_items_042: 
+  can_edit: "1"
+  created_at: 2008-08-08 12:59:53
+  id: "42"
+  line_content: This is a generic line item
+  shift_report_id: "6"
+  time: 2008-08-08 08:08:08
+  updated_at: 2008-08-08 12:59:53
+line_items_043: 
+  can_edit: "1"
+  created_at: 2008-08-08 12:59:53
+  id: "43"
+  line_content: This is a generic line item
+  shift_report_id: "7"
+  time: 2008-08-08 08:08:08
+  updated_at: 2008-08-08 12:59:53
+line_items_044: 
+  can_edit: "1"
+  created_at: 2008-08-08 12:59:53
+  id: "44"
+  line_content: This is a generic line item
+  shift_report_id: "8"
+  time: 2008-08-08 08:08:08
+  updated_at: 2008-08-08 12:59:53
+line_items_045: 
+  can_edit: "1"
+  created_at: 2008-08-08 12:59:53
+  id: "45"
+  line_content: This is a generic line item
+  shift_report_id: "9"
+  time: 2008-08-08 08:08:08
+  updated_at: 2008-08-08 12:59:53
+line_items_046: 
+  can_edit: "1"
+  created_at: 2008-08-08 12:59:53
+  id: "46"
+  line_content: This is a generic line item
+  shift_report_id: "10"
+  time: 2008-08-08 08:08:08
+  updated_at: 2008-08-08 12:59:53
+line_items_047: 
+  can_edit: "1"
+  created_at: 2008-08-08 12:59:53
+  id: "47"
+  line_content: This is a generic line item
+  shift_report_id: "11"
+  time: 2008-08-08 08:08:08
+  updated_at: 2008-08-08 12:59:53
+line_items_048: 
+  can_edit: "1"
+  created_at: 2008-08-08 12:59:53
+  id: "48"
+  line_content: This is a generic line item
+  shift_report_id: "1"
+  time: 2008-08-08 08:08:08
+  updated_at: 2008-08-08 12:59:53
+line_items_049: 
+  can_edit: "0"
+  created_at: 2008-08-08 17:21:43
+  id: "49"
+  line_content: logged in at 05:21PM from IP 128.36.155.101
+  shift_report_id: "13"
+  time: 2008-08-08 17:21:43
+  updated_at: 2008-08-08 17:21:43
+line_items_050: 
+  can_edit: "0"
+  created_at: 2008-08-08 17:24:42
+  id: "50"
+  line_content: "ccl_laser1 -- comments: asfasf, pagecount: 1111, status: asfaskfj"
+  shift_report_id: "13"
+  time: 2008-08-08 17:24:42
+  updated_at: 2008-08-08 17:24:42
+line_items_051: 
+  can_edit: "0"
+  created_at: 2008-08-08 17:24:59
+  id: "51"
+  line_content: logged out at 05:24PM from IP 128.36.155.101
+  shift_report_id: "13"
+  time: 2008-08-08 17:24:59
+  updated_at: 2008-08-08 17:24:59
+line_items_052: 
+  can_edit: "0"
+  created_at: 2008-08-11 18:12:49
+  id: "52"
+  line_content: logged in at 06:12PM from IP 130.132.182.16
+  shift_report_id: "14"
+  time: 2008-08-11 18:12:49
+  updated_at: 2008-08-11 18:12:49
+line_items_053: 
+  can_edit: "0"
+  created_at: 2008-08-11 18:19:02
+  id: "53"
+  line_content: logged out at 06:19PM from IP 130.132.182.16
+  shift_report_id: "14"
+  time: 2008-08-11 18:19:02
+  updated_at: 2008-08-11 18:19:02
+line_items_054: 
+  can_edit: "0"
+  created_at: 2008-08-11 18:56:46
+  id: "54"
+  line_content: logged in at 06:56PM from IP 128.36.155.214
+  shift_report_id: "15"
+  time: 2008-08-11 18:56:46
+  updated_at: 2008-08-11 18:56:46
+line_items_055: 
+  can_edit: "0"
+  created_at: 2008-08-11 19:14:21
+  id: "55"
+  line_content: logged in at 07:14PM from IP 128.36.160.148
+  shift_report_id: "16"
+  time: 2008-08-11 19:14:21
+  updated_at: 2008-08-11 19:14:21
+line_items_056: 
+  can_edit: "0"
+  created_at: 2008-08-12 14:12:51
+  id: "56"
+  line_content: logged in on Tue, Aug 12 from IP 130.132.182.16
+  shift_report_id: "17"
+  time: 2008-08-12 14:12:51
+  updated_at: 2008-08-12 14:12:51
+line_items_057: 
+  can_edit: "0"
+  created_at: 2008-08-13 14:40:39
+  id: "57"
+  line_content: logged out at Wed, Aug 13 from IP 130.132.182.16
+  shift_report_id: "17"
+  time: 2008-08-13 14:40:39
+  updated_at: 2008-08-13 14:40:39
+line_items_058: 
+  can_edit: "0"
+  created_at: 2008-08-13 14:41:47
+  id: "58"
+  line_content: logged in on Wed, Aug 13 from IP 130.132.182.16
+  shift_report_id: "18"
+  time: 2008-08-13 14:41:47
+  updated_at: 2008-08-13 14:41:47
+line_items_059: 
+  can_edit: "1"
+  created_at: 2008-08-13 16:00:40
+  id: "59"
+  line_content: Adada
+  shift_report_id: "18"
+  time: 2008-08-13 16:00:40
+  updated_at: 2008-08-13 16:00:40
+line_items_060: 
+  can_edit: "1"
+  created_at: 2008-08-13 16:01:39
+  id: "60"
+  line_content: Terasd
+  shift_report_id: "18"
+  time: 2008-08-13 16:01:39
+  updated_at: 2008-08-13 16:01:39
+line_items_061: 
+  can_edit: "0"
+  created_at: 2008-08-13 16:02:14
+  id: "61"
+  line_content: logged out at Wed, Aug 13 from IP 130.132.182.16
+  shift_report_id: "18"
+  time: 2008-08-13 16:02:14
+  updated_at: 2008-08-13 16:02:14
+line_items_062: 
+  can_edit: "0"
+  created_at: 2008-08-13 16:04:25
+  id: "62"
+  line_content: logged in on Wed, Aug 13 from IP 130.132.182.16
+  shift_report_id: "19"
+  time: 2008-08-13 16:04:25
+  updated_at: 2008-08-13 16:04:25
+line_items_063: 
+  can_edit: "1"
+  created_at: 2008-08-13 16:04:29
+  id: "63"
+  line_content: Test
+  shift_report_id: "19"
+  time: 2008-08-13 16:04:29
+  updated_at: 2008-08-13 16:04:29
+line_items_064: 
+  can_edit: "1"
+  created_at: 2008-08-13 16:04:31
+  id: "64"
+  line_content: test
+  shift_report_id: "19"
+  time: 2008-08-13 16:04:31
+  updated_at: 2008-08-13 16:04:31
+line_items_065: 
+  can_edit: "0"
+  created_at: 2008-08-13 16:04:33
+  id: "65"
+  line_content: logged out at Wed, Aug 13 from IP 130.132.182.16
+  shift_report_id: "19"
+  time: 2008-08-13 16:04:33
+  updated_at: 2008-08-13 16:04:33
+line_items_066: 
+  can_edit: "0"
+  created_at: 2008-08-13 16:06:38
+  id: "66"
+  line_content: IP changed to 128.36.154.68
+  shift_report_id: "15"
+  time: 2008-08-13 16:06:38
+  updated_at: 2008-08-13 16:06:38
+line_items_067: 
+  can_edit: "0"
+  created_at: 2008-08-13 16:06:38
+  id: "67"
+  line_content: logged out at Wed, Aug 13 from IP 128.36.154.68
+  shift_report_id: "15"
+  time: 2008-08-13 16:06:38
+  updated_at: 2008-08-13 16:06:38
+line_items_068: 
+  can_edit: "0"
+  created_at: 2008-08-13 16:07:01
+  id: "68"
+  line_content: logged in on Wed, Aug 13 from IP 128.36.154.68
+  shift_report_id: "20"
+  time: 2008-08-13 16:07:01
+  updated_at: 2008-08-13 16:07:01
+line_items_069: 
+  can_edit: "0"
+  created_at: 2008-08-13 17:45:47
+  id: "69"
+  line_content: logged in on Wed, Aug 13 from IP 130.132.182.16
+  shift_report_id: "21"
+  time: 2008-08-13 17:45:47
+  updated_at: 2008-08-13 17:45:47
+line_items_070: 
+  can_edit: "1"
+  created_at: 2008-08-13 17:45:50
+  id: "70"
+  line_content: Test
+  shift_report_id: "21"
+  time: 2008-08-13 17:45:50
+  updated_at: 2008-08-13 17:45:50
+line_items_071: 
+  can_edit: "0"
+  created_at: 2008-08-13 17:45:52
+  id: "71"
+  line_content: logged out at Wed, Aug 13 from IP 130.132.182.16
+  shift_report_id: "21"
+  time: 2008-08-13 17:45:52
+  updated_at: 2008-08-13 17:45:52
+line_items_072: 
+  can_edit: "0"
+  created_at: 2008-08-13 17:46:15
+  id: "72"
+  line_content: logged out at Wed, Aug 13 from IP 128.36.154.68
+  shift_report_id: "20"
+  time: 2008-08-13 17:46:15
+  updated_at: 2008-08-13 17:46:15
+line_items_073: 
+  can_edit: "0"
+  created_at: 2008-08-13 17:46:32
+  id: "73"
+  line_content: logged in on Wed, Aug 13 from IP 128.36.154.68
+  shift_report_id: "22"
+  time: 2008-08-13 17:46:32
+  updated_at: 2008-08-13 17:46:32
+line_items_074: 
+  can_edit: "0"
+  created_at: 2008-08-13 17:46:35
+  id: "74"
+  line_content: logged out at Wed, Aug 13 from IP 128.36.154.68
+  shift_report_id: "22"
+  time: 2008-08-13 17:46:35
+  updated_at: 2008-08-13 17:46:35
+line_items_075: 
+  can_edit: "0"
+  created_at: 2008-08-13 18:30:14
+  id: "75"
+  line_content: logged in on Wed, Aug 13 from IP 71.235.99.164
+  shift_report_id: "23"
+  time: 2008-08-13 18:30:14
+  updated_at: 2008-08-13 18:30:14
+line_items_076: 
+  can_edit: "0"
+  created_at: 2008-08-13 19:01:51
+  id: "76"
+  line_content: logged out at Wed, Aug 13 from IP 71.235.99.164
+  shift_report_id: "23"
+  time: 2008-08-13 19:01:51
+  updated_at: 2008-08-13 19:01:51
+line_items_077: 
+  can_edit: "0"
+  created_at: 2008-08-13 22:59:26
+  id: "77"
+  line_content: logged in on Wed, Aug 13 from IP 67.189.199.253
+  shift_report_id: "24"
+  time: 2008-08-13 22:59:26
+  updated_at: 2008-08-13 22:59:26
+line_items_078: 
+  can_edit: "1"
+  created_at: 2008-08-13 22:59:33
+  id: "78"
+  line_content: Giggity Goo!.
+  shift_report_id: "24"
+  time: 2008-08-13 22:59:33
+  updated_at: 2008-08-13 22:59:33
+line_items_079: 
+  can_edit: "1"
+  created_at: 2008-08-13 22:59:44
+  id: "79"
+  line_content: My report is all crazy like with AJAX!
+  shift_report_id: "24"
+  time: 2008-08-13 22:59:44
+  updated_at: 2008-08-13 22:59:44
+line_items_080: 
+  can_edit: "0"
+  created_at: 2008-08-14 08:44:04
+  id: "80"
+  line_content: IP changed to 130.132.182.16
+  shift_report_id: "24"
+  time: 2008-08-14 08:44:04
+  updated_at: 2008-08-14 08:44:04
+line_items_081: 
+  can_edit: "0"
+  created_at: 2008-08-14 08:44:04
+  id: "81"
+  line_content: logged out at Thu, Aug 14 from IP 130.132.182.16
+  shift_report_id: "24"
+  time: 2008-08-14 08:44:04
+  updated_at: 2008-08-14 08:44:04
+line_items_082: 
+  can_edit: "0"
+  created_at: 2008-08-14 08:47:18
+  id: "82"
+  line_content: logged in on Thu, Aug 14 from IP 130.132.182.16
+  shift_report_id: "25"
+  time: 2008-08-14 08:47:18
+  updated_at: 2008-08-14 08:47:18
+line_items_083: 
+  can_edit: "1"
+  created_at: 2008-08-14 08:47:27
+  id: "83"
+  line_content: Blank report test
+  shift_report_id: "25"
+  time: 2008-08-14 08:47:27
+  updated_at: 2008-08-14 08:47:27
+line_items_084: 
+  can_edit: "0"
+  created_at: 2008-08-14 08:47:33
+  id: "84"
+  line_content: logged out at Thu, Aug 14 from IP 130.132.182.16
+  shift_report_id: "25"
+  time: 2008-08-14 08:47:33
+  updated_at: 2008-08-14 08:47:33
+line_items_085: 
+  can_edit: "0"
+  created_at: 2008-08-14 13:08:49
+  id: "85"
+  line_content: logged in on Thu, Aug 14 from IP 66.31.194.33
+  shift_report_id: "26"
+  time: 2008-08-14 13:08:49
+  updated_at: 2008-08-14 13:08:49
+line_items_086: 
+  can_edit: "1"
+  created_at: 2008-08-14 13:09:43
+  id: "86"
+  line_content: Hi Adam!
+  shift_report_id: "26"
+  time: 2008-08-14 13:09:43
+  updated_at: 2008-08-14 13:09:43
+line_items_087: 
+  can_edit: "0"
+  created_at: 2008-08-14 13:10:30
+  id: "87"
+  line_content: logged out at Thu, Aug 14 from IP 66.31.194.33
+  shift_report_id: "26"
+  time: 2008-08-14 13:10:30
+  updated_at: 2008-08-14 13:10:30
+line_items_088: 
+  can_edit: "0"
+  created_at: 2008-08-14 13:23:00
+  id: "88"
+  line_content: logged in on Thu, Aug 14 from IP 65.102.150.55
+  shift_report_id: "27"
+  time: 2008-08-14 13:23:00
+  updated_at: 2008-08-14 13:23:00
+line_items_089: 
+  can_edit: "1"
+  created_at: 2008-08-14 13:23:11
+  id: "89"
+  line_content: test
+  shift_report_id: "27"
+  time: 2008-08-14 13:23:11
+  updated_at: 2008-08-14 13:23:11
+line_items_090: 
+  can_edit: "0"
+  created_at: 2008-08-14 13:23:16
+  id: "90"
+  line_content: logged out at Thu, Aug 14 from IP 65.102.150.55
+  shift_report_id: "27"
+  time: 2008-08-14 13:23:16
+  updated_at: 2008-08-14 13:23:16
+line_items_091: 
+  can_edit: "0"
+  created_at: 2008-08-14 13:25:55
+  id: "91"
+  line_content: logged in on Thu, Aug 14 from IP 128.36.156.138
+  shift_report_id: "28"
+  time: 2008-08-14 13:25:55
+  updated_at: 2008-08-14 13:25:55
+line_items_092: 
+  can_edit: "1"
+  created_at: 2008-08-14 13:35:45
+  id: "92"
+  line_content: Filed bug report about stickies
+  shift_report_id: "28"
+  time: 2008-08-14 13:35:45
+  updated_at: 2008-08-14 13:35:45
+line_items_093: 
+  can_edit: "1"
+  created_at: 2008-08-14 13:35:56
+  id: "93"
+  line_content: About to eat a chewy bar. I love chewy bars.
+  shift_report_id: "28"
+  time: 2008-08-14 13:35:56
+  updated_at: 2008-08-14 13:35:56
+line_items_094: 
+  can_edit: "1"
+  created_at: 2008-08-14 13:36:27
+  id: "94"
+  line_content: This chewy bar rocks my socks
+  shift_report_id: "28"
+  time: 2008-08-14 13:36:27
+  updated_at: 2008-08-14 13:36:27
+line_items_095: 
+  can_edit: "1"
+  created_at: 2008-08-14 13:36:48
+  id: "95"
+  line_content: So, what i'm doing is filling out a long-ass report to see what happens.
+  shift_report_id: "28"
+  time: 2008-08-14 13:36:48
+  updated_at: 2008-08-14 13:36:48
+line_items_096: 
+  can_edit: "1"
+  created_at: 2008-08-14 13:37:12
+  id: "96"
+  line_content: BTW, Statuses do not exist. I guess that's because it's the TTO. But it would be nice to hide it when the option isn't there.
+  shift_report_id: "28"
+  time: 2008-08-14 13:37:12
+  updated_at: 2008-08-14 13:37:12
+line_items_097: 
+  can_edit: "1"
+  created_at: 2008-08-14 13:39:32
+  id: "97"
+  line_content: "OK, a longer line-item.\n\n\
+    NOT ON ONE LINE!\n\n\
+    Oh, now what?\n\n\
+    Sigh, this isn't very interesting.\n\n\
+    EARTH HAS 4 CORNER \n\
+    SIMULTANEOUS 4-DAY\n\
+    TIME CUBE\n\
+    IN ONLY 1 EARTH ROTATION.\n\
+    4 Corner TIME,  CUBES EARTH.\n\
+    If a God existed, he would be EVIL\n\
+    to DENY 4 Opposite Corner Days.\n\
+    NOTE: Paired Opposite Arrows on\n\
+    drawing exists only as Opposites -\n\
+    cancelling to nothing as One/Entity.\n\
+    Composed of Opposites,  Earth has\n\
+    Zero Existence, as One is Nothing.\n\n\
+    ******************************************************************************\n\n\
+    The ONLY  Official Site for Gene Ray/TimeCube.\n\
+    Gene Ray is sole Authority on Harmonic Time Cube.\n\
+    Collection of raw data on this Site will empower the\n\
+    Greatest Book ever written. That includes Bibles and\n\
+    Academic Scientific Books. Stop evil Ad Hominemism.\n\n\
+    *********************************************\n\
+    Without Financial Support, I May Shut Down.\n\
+    *************************************************************************************************************************\n\n\
+    The Joke Is On You ONEists,\n\
+    I have SuperNatural Wisdom.\n\
+    NO God mentality can Know my 4 Day Cube.\n\
+    No Bible Word equals my TimeCubed Earth.\n\
+    How Stupid - Pay to worship Queer as a God.\n\
+    Mom and Dad created you as a Trinity,  the\n\
+    Mirror of opposite brain meld into \"We\" Ego.\n\
+    Your body is of their Creation, honor \"We\".\n\n\
+    Dr. Gene Ray, Cubic and King of Genius.\n\n\
+    THERE IS NO DAMN GOD -\n\
+    ONEism IS A DEATH TRAP\n\
+    for Mom and Dad Opposites.\n\
+    You're Educated ONE Nitwits,\n\
+    I possess Math & Science Proof.\n A Queer as God = Queer HIV.\n\
+    Every Creation is of Opposites,\n\
+    No Man, God or Earth is One.\n\
+    Seek Wisdom of Cubic Life\n\
+    Intelligence - or you die evil.\n\
+    ****************************************************************************************\n\
+    Educators are KILLING US -\n\
+    teaching Death value ONEism.\n\
+    A male God without a female\n\
+    Opposite = Queer Worship.\n\
+    ONEism of a God Is Death.\n\n\
+    Adults Evolve From Children,\n\
+    not from a Queer deified as a\n\
+    God by Religious/Academic\n\
+    Organized Crime,   Swindling\n\
+    Educated Stupid and Gullible.\n\
+    Love for God = Hate for Child.\n\
+    Horrendous HOAX on the\n\
+    Educated, for they worship\n\
+    deified Queer as their God -\n\
+    that is Criminal Education.\n\
+    Life has 4 Opposing Corners,\n\
+    Earth rotates 4 Corner Days.\n\
+    Taught One equates Death.\n\
+    Every Human is Composed\n\
+    of 4 Corners, existing only as\n\
+    Cubicians.  No Man or God\n\
+    exists as One, for Cubic fish\n\
+    of Opposites, divide the Egg\n\
+    into 4 Opposing Quadrants.\n\
+    One Male God only, without\n\
+    Opposing Female Opposite,\n\
+    equates to Queer Worship\n\
+    and Horror for Humanity,\n\
+    deliberate spread of AIDS,\n\
+    more dangerous than Leper.\n\
+    About time for Queer colony.\n\
+    Queers killed my lil Brother.\n\
+    A Queer God induces AIDS.\n\
+    ************************************************************\n\
+    Opposites Versus Queer God.\n\
+    God is a State of Queerdom.\n\
+    Life is Opposite, Death ONE.\n\
+    Earth is not an ONE because\n\
+    Earth has Opposite Halves,\n\
+    Existing Only As Opposites,\n\
+    equating nothing as Entity.\n\
+    Humans are of Opposites,\n\
+    One God equals Dead God.\n ONE Cancels all Opposites.\n\
+    Think Opposite, Think Life.\n\
+    Think ONE, Think Death -\n\
+    NO Heart beat, NO breath,\n\
+    No Frontside, No Backside.\n  ONE or God cannot Exist -\n as taught in Queer School\n\
+    by the Queer Educators.\n\
+    Clergy of ONE is Queer,\n\
+    equating Opposite Death.\n\n\
+    God love is Hate for Others.\n\
+    God is hate for our Children.\n\
+    God is hate for our Mothers.\n\
+    God is hate for Opposites.\n\
+    God is hate for our families.\n\
+    Impossible for One to Love,\n\
+    if there is no other Opposite.\n\
+    Impossible for ONE Sex.\n\
+    Humans are of Opposites.\n\
+    Human one is non-existent,\n\
+    for he exists as Opposites.\n\
+    *****************************************************************************\n\
+    Coming soon to America is\n\
+    the slaughter of the White\n\
+    Race by the Black Race -\n\
+    and Rightfully so - for the\n\
+    White Fools have ignored\n\
+    Opposites of their Being -\n\
+    to Worship ONE of Death\n\
+    by Religion and Academia.\n\
+    *********************************\n\
+    WISDOM is the ability to\n\
+    Measure God analytically.\n\
+    Religion suppresses Right\n\
+    to Know by Instituting  a\n\
+    Solidified IGNORANCE\n\
+    of nonexisting ONEism.\n\
+    ****************************************************\n\
+    Educated to Death -\n\
+    Creation occurs via\n\
+    Opposites - NOT one.\n\
+    *******************************\n\
+    Created by Opposites, as\n\
+    a Harmonic Cubic Form,\n\
+    with a God like Opposite\n\
+    Analytical Brain that can\n\
+    learn both sides of a God\n\
+    and True Creation, I am\n\
+    wiser than any single brain\n\
+    thinker who suppresses the\n\
+    analytical challenge to God.\n\
+    God is Death of Opposites\n\
+    ********************************************\n\
+    There is not a God, Pope,\n\
+    man or woman who ever\n\
+    lived who did not have a\n\
+    tailbone and navel from a\n\
+    Mother's birth experience.\n\
+    All your tithes go to enrich\n\
+    the vaults of gang of queers\n\
+    who own the churches and\n\
+    rip off the Stupid and Poor.\n\
+    Male Creator is Evil Scam.\n\
+    Believers have a half brain,\n\
+    they can't think Opposite of\n\
+    Crap they have been taught.\n\
+    Simple Logic is above them.\n\
+    *******************************************************\n\n\
+    The Word EARTH indicates\n\
+    One, Entity or Singularity,\n\
+    but Earth is not an Entity,\n\
+    for the Half of Earth seen\n\
+    from Space cannot exist\n\
+    without the Opposite Half\n\
+    NOT SEEN - existing only\n\
+    as opposites with a plus &\n\
+    minus zero existence.  As\n\
+    an Entity, the Opposites\n\
+    will cancel each other out\n\
+    to nothing. Teaching that\n\
+    Earth is an Entity equates\n\
+    to a Doomsday induced by\n\
+    Educaters upon Humanity.\n\
+    Earth is not a Singularity,\n\
+    it is composed of Opposites.\n\
+    No God can exist as One\n\
+    or without Opposite Sex.\n\
+    ONEness is queer worship\n\
+    which dooms opposite life.\n\
+    A Queer God is Damnation\n\
+    for it desecrates My Mother.\n\
+    Know that ONE causes Hell.\n\n\
+    I am a Knower of 4 corner\n\
+    simultaneous 24 hour Days\n\
+    that occur within a single\n\
+    4 quadrant rotation of Earth.\n\
+    We have a Major Problem,\n\
+    humans worship a QUEER\n\
+    ONEness rather than their\n\
+    flesh and blood MOTHER\n\
+    and FATHER OPPOSITES.\n\
+    Humans are born with opposite\n analytical thought God like\n\
+    brain - that religious/academia\n\
+    taught ONEness reduces to a\n\
+    trained dog singularity servility.\n\
+    ONEness God equates trained\n\
+    Dog mentality- existing only in\n\
+    mental servitude or enslaved ass.\n\
+    Creation is Cubic Opposites,\n\
+    2 Major Corners & 2 Minor.\n\
+    Mom/Dad & Son/Daughter,\n\
+    NOT taught Evil ONEism,\n\
+    which  VOIDS Families.\n\
+    ******************************************************************************************\n\n Evil God Believers refuse to\n\
+    acknowledge  4 corner Days\n\
+    rotating simultaneously around\n\
+    4 quadrant created Earth -\n\
+    in only 1 rotation, voiding the\n\
+    Oneism Evil  1 Day 1 God.\n\
+    You worship Satanic impostor\n\
+    guised by educators as 1 god.\n\n\
+    No 1 God equals 4 - 24 hour\n\
+    Days Rotating Simultaneously\n\
+    within 1- 24 hour Rotation of\n 4 quadrant created Earth.\n\
+    Ignoring 4 Corner Earth Days\n\
+    will Destroy Evil Humanity.\n\
+    I am organizing Children to\n\
+    join \"Cubic Army of 4 Days\"\n\
+    to convert Evil 1 Day Adults\n\
+    to 4 Day mentality existence,\n\
+    to serve perpetual humanity.\n\n\
+    \"Nothing on Earth more Evil\n\
+    than a human educated as 1,\n\
+    when composed of opposites\n\
+    that cancel out as an entity.\"\n\
+    In fact, man is the only 1 Evil,\n\
+    and will soon erase himself by\n\
+    ignoring Cubic 4 Day Creation.\n\
+    If a Man cannot tear a page\n\
+    from the bible and burn it -\n\
+    then he cannot be a scientist,\n\
+    or participate in Symposium -\n\
+    to measure Cubing of Earth\n\
+    with Cubic intelligence wiser\n\
+    than any man or god known.\n\
+    Educators have destroyed the\n\
+    human analytical brain to a\n\
+    single perspective, in spite of\n\
+    all creation within  Universe\n\
+    being based upon opposites,\n\
+    binaries & antipodes, including\n\
+    Sun/Earth binary relative to the human male/female binary. No\n ancient insignificant dead 1 Jew\n godism can match or exceed the\n\
+    enormonity of the Sun/Earth\n\
+    Binary. His heart is not big\n\
+    enough for sharing with the\n\
+    vastness of created opposites.\n\
+    1 has no heart beat or breath,\n\
+    constituting death of opposites.\n\
+    God in Human form has human limits as body controls activity.\n\
+    You are taught Evil, You act\n\
+    Evil, You are the Evil on Earth.\n\
+    Only your comprehending the\n\
+    Divinity of Cubic Creation will\n\
+    your soul be saved from your\n\
+    created hell on Earth - induced\n\
+    by your ignoring the existing\n\
+    4 corner harmonic simultaneous\n 4 Days rotating in a single cycle\n\
+    of the Earth sphere. Religious/\n\
+    Academic Pedants cannot allow\n\
+    4 Days that contradict 1Day 1God.\n\
+    Educators destroy your brain,\n\
+    but you don't know, so why care?\n\n\
+    Creation ocurrs via opposites,\n\
+    but Religious/Academia pedants\n\
+    suppress it teaching Satanic One.\n\n\
+    After 30 years of research, I now\n\
+    possess the Order of Harmonic\n\
+    Antipodal Cubic Divinity Life -\n\
+    too large for physical form, but\n\
+    Binary Spirit of the masculinity\n\
+    Sun & feminity Earth Antipodes.\n\
+    ONEism is demonic Death Math.\n\
+    I have so much to teach you, but\n\
+    you ignore me you evil asses.\n\
+    You will recognize 4 corner Days\n\
+    or incur Easter Island Ending.\n\n\
+    Never a Genius knew Math\n\
+    to achieve my Cubic Wisdom.\n\
+    Cubic thought Reigns as the\n\
+    Highest Intelligence possible\n\
+    on the planet Earth. One 96\n\
+    hour rotating Cube within a\n\
+    single rotation of Earth - is a\n\
+    SuperNatural Transcendence.\n\
+    Bible and Science falsify 1\n\
+    corner day for the Cubic 4\n\
+    corner Days rotating daily.\n\
+    A single god is not possible\n\
+    in our 4 Day Cubic Science,\n\
+    that equates Cubic Divinity.\n\
+    Everybody is both stupid and\n\
+    evil for ignoring the 4 days.\n\
+    Cube Divinity transcends all\n\
+    knowledge, Humans can't\n\
+    escape 4 corner Cubic Life.\n\
+    Fools worship mechanics of\n\
+    language - while they wallow\n\
+    in fictitious & deceitful word.\n\
+    Exact science based on Cubics,\n\
+    not on theories. Wisdom is\n\
+    Cubic testing of knowledge.\n\
+    Academia is progression of\n\
+    Ignorance.   No god equals\n\
+    Simultaneous 4 Day Creation.\n\
+    Humans ignore their 4 corner\n\
+    stages of life metamorphosis.\n\
+    This site is a collection of data\n\
+    for a coming book - peruse it.\n\
+    No human has 2 hands as they\n\
+    are opposites, like plus and\n\
+    minus, that cancel as entity.\n\
+    Academia destroys your brain,\n\
+    your ability to think opposite.\n\
+    The eyes of the flounder fish\n\
+    were relocated, why were yours relocated? Your opposite eyes\n\
+    were moved to 1 corner to overlay\n\
+    for single perspective, but that\n\
+    corrupts your Opposite Brain. "
+  shift_report_id: "28"
+  time: 2008-08-14 13:39:32
+  updated_at: 2008-08-14 13:39:32
+line_items_098: 
+  can_edit: "1"
+  created_at: 2008-08-14 14:23:11
+  id: "98"
+  line_content: house is fun
+  shift_report_id: "28"
+  time: 2008-08-14 14:23:11
+  updated_at: 2008-08-14 14:23:11
+line_items_099: 
+  can_edit: "1"
+  created_at: 2008-08-14 14:24:30
+  id: "99"
+  line_content: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. In vestibulum ipsum. Donec eu sem. Pellentesque eget lorem. Etiam neque lectus, lacinia at, tincidunt ut, porta vel, eros. Nam purus. Donec eu nibh eu neque adipiscing semper. Sed suscipit suscipit quam. Nullam facilisis turpis. Integer massa elit, rutrum quis, sagittis quis, sodales in, nulla. Praesent ultrices, dui id pharetra egestas, massa est consequat risus, a dignissim dui magna quis urna. Vestibulum euismod diam eu risus. Fusce posuere dapibus lorem.\n\n\
+    Morbi fringilla mauris imperdiet nisi. Morbi a nibh vel nibh congue accumsan. Nullam mattis purus ac magna. Cras interdum felis quis lectus. Integer faucibus, diam tristique porta feugiat, massa sapien rutrum diam, nec suscipit mauris libero id lorem. Sed malesuada pellentesque felis. Suspendisse potenti. Morbi non purus consectetuer augue egestas convallis. Cras suscipit lectus et arcu. Fusce sed arcu ac mi ultricies rhoncus. Phasellus porta.\n\n\
+    Phasellus accumsan vulputate lectus. Sed fringilla, lorem id ultricies auctor, sapien sapien egestas dui, nec mollis orci quam ut libero. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Maecenas turpis enim, pulvinar in, ultrices eget, elementum blandit, justo. Nullam luctus pede at turpis feugiat semper. Nulla odio purus, tempus non, egestas et, aliquet et, magna. Fusce pharetra adipiscing tellus. Cras sodales diam vitae leo. Maecenas sed quam nec elit commodo vehicula. Proin viverra enim sit amet elit. Duis pulvinar, augue eu ullamcorper consequat, enim massa pharetra dui, sit amet mattis neque nisi at urna. Etiam vel elit sit amet turpis tristique lobortis. Integer fringilla elementum ipsum. Pellentesque gravida, metus vitae pretium vehicula, neque felis facilisis metus, non vulputate odio neque id lectus.\n\n\
+    Phasellus ultrices congue enim. Vestibulum porttitor velit. Proin accumsan feugiat odio. Integer vel purus. Etiam porta pharetra odio. Donec viverra velit commodo lorem. Aliquam in urna a magna hendrerit vestibulum. Morbi malesuada pretium pede. Vivamus dui massa, congue sit amet, semper eget, rutrum id, ante. Sed ornare. Nulla in urna non est dignissim pharetra. Nullam id arcu quis ipsum imperdiet dignissim. Aliquam elit tellus, congue non, varius in, facilisis a, felis.\n\n\
+    Suspendisse lacinia, nulla in accumsan ultricies, nulla diam facilisis arcu, mollis fermentum ipsum eros ac tortor. In faucibus ligula eget pede. Nunc et turpis. Sed adipiscing pellentesque erat. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In ornare, purus at aliquet auctor, purus lacus aliquam lacus, id rhoncus mauris nisl vitae mi. Nam vel neque. Nunc nec enim. Donec sit amet eros at dui pretium consequat. In vel diam. Quisque ut ipsum.\n\n\
+    Proin consequat. Maecenas vitae ligula. Phasellus tortor. In scelerisque, nunc non euismod sollicitudin, ligula tellus sodales metus, vitae accumsan mauris dui sed est. Donec nec diam sed nisi dapibus cursus. Quisque consequat. Donec eros sem, sollicitudin ut, imperdiet at, ornare ac, lacus. Aenean quis massa vitae libero placerat bibendum. Donec nisl. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aliquam accumsan.\n\n\
+    Sed pede. Quisque ligula. Aenean nec libero. Etiam ligula diam, rutrum sit amet, ultrices nec, porttitor a, velit. Vivamus non mauris. Morbi sit amet erat ac felis mollis faucibus. Morbi tristique turpis ac urna. Maecenas egestas imperdiet tellus. Vivamus arcu erat, ultricies id, porta in, luctus ut, est. Quisque sagittis. Mauris sem augue, congue quis, ullamcorper a, vestibulum vitae, metus. Curabitur nec magna. Mauris et lectus. Integer vulputate sodales lacus. Maecenas elit leo, facilisis sit amet, lacinia ut, laoreet sed, risus.\n\n\
+    Sed feugiat augue a metus. Aenean eleifend lorem ac metus. Praesent iaculis est sed augue. Duis tempor neque quis nisl. Quisque quam tortor, condimentum et, faucibus a, varius at, urna. Sed viverra dolor non tortor. Vestibulum sapien risus, blandit eu, pharetra sed, volutpat non, turpis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Morbi tristique euismod arcu. Donec at erat. Etiam accumsan, tortor a sodales congue, dui ligula tincidunt metus, et tempus ante arcu sit amet libero. Aliquam accumsan eros sed metus. Cras non sapien. Nullam nisl. Aliquam egestas metus ut mi. Sed auctor, nisl non lobortis accumsan, nisi metus scelerisque enim, quis pharetra erat lacus quis pede.\n\n\
+    Fusce nisi mi, pharetra vel, suscipit sit amet, pulvinar sit amet, mi. Mauris pharetra mattis lacus. Fusce enim. Ut ut purus. Pellentesque sed arcu eu libero pharetra ornare. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. In ac magna. Donec est elit, eleifend quis, semper a, tempor sed, magna. Aliquam dictum nisi vitae ipsum. Donec tristique. In porta. Integer malesuada egestas justo. Aliquam elit elit, posuere a, euismod non, semper et, arcu.\n\n\
+    Nam ligula leo, fermentum ut, fermentum imperdiet, cursus sit amet, eros. Maecenas non nibh. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Ut nec magna. Aenean sed leo vel leo sagittis consectetuer. Nulla dictum laoreet dui. Donec ac ligula eget diam scelerisque lacinia. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla non mi. Mauris eleifend lacus sed dolor. Duis tincidunt, neque eu varius sagittis, est arcu auctor arcu, quis varius ante dui vel magna. Ut vitae lectus sit amet massa porta interdum. Vivamus sodales facilisis nisi. Aenean faucibus elit a eros. Nam risus dolor, luctus vel, blandit et, pharetra et, orci. Aliquam ut ligula. Aenean dolor erat, suscipit at, bibendum in, sollicitudin iaculis, ligula. Nunc vitae sem. Nam diam. Phasellus euismod pretium sapien.\n\n\
+    Maecenas fermentum lectus vel elit. Sed enim. Donec pulvinar. Pellentesque a lorem. Mauris turpis risus, sodales ut, vestibulum at, pellentesque quis, augue. Nulla suscipit elit sed enim. Duis sagittis est vitae justo pellentesque mollis. Nam sed nisi vitae mi condimentum imperdiet. Nam consequat ligula a leo. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas varius dui et nulla. Morbi vitae risus. Nam tortor justo, aliquam at, vestibulum sit amet, bibendum sit amet, odio. Curabitur dapibus.\n\n\
+    Duis nisl. Ut vehicula. Nulla facilisi. Pellentesque nec libero. Duis est velit, hendrerit vitae, pulvinar ut, tristique vel, mauris. Pellentesque ac metus at eros volutpat hendrerit. Nullam convallis erat varius enim. Ut vitae justo sed dolor tempus ultrices. Phasellus a ligula. Integer sit amet nunc ut diam tincidunt luctus. Nam eget enim. Suspendisse condimentum tortor sit amet turpis. Duis a felis. Nullam lobortis sem id massa. Mauris eu felis eu urna volutpat facilisis. In iaculis cursus turpis. Nullam ac mi. In enim tortor, vestibulum vel, tempus sit amet, dapibus non, nibh.\n\n\
+    Phasellus adipiscing volutpat massa. Ut quis mi. Praesent et ipsum eu quam condimentum malesuada. Phasellus in augue a tortor pulvinar pharetra. Pellentesque enim. Phasellus pellentesque leo a est. Etiam eu dui. Curabitur ligula velit, viverra non, tincidunt sed, laoreet a, nulla. Praesent vestibulum mauris eget odio. Curabitur consectetuer. Donec vitae nibh quis neque rutrum fermentum. Pellentesque malesuada auctor diam.\n\n\
+    Donec diam risus, ullamcorper a, semper vitae, elementum non, sem. Nulla nulla est, porttitor at, fringilla accumsan, bibendum a, pede. Cras sed dolor. Sed eu est. Vivamus nibh neque, porta a, rhoncus sit amet, venenatis vel, tellus. Sed tincidunt lacus eu massa. Proin cursus tellus eu elit. Fusce sodales. Sed ac ante. Morbi dictum. In viverra neque ac diam. Quisque leo turpis, hendrerit id, accumsan sit amet, sollicitudin iaculis, nisl. Suspendisse tincidunt, enim vitae aliquam rutrum, nulla nisi bibendum sapien, id iaculis mi augue ac felis. Sed pellentesque, velit quis mattis sagittis, dolor sapien tempus nulla, non tristique orci nunc at purus.\n\n\
+    Cras tincidunt lectus et metus. Suspendisse diam diam, luctus et, cursus non, consequat sed, lacus. Duis malesuada. Aliquam justo metus, suscipit vitae, cursus rutrum, semper et, mauris. Suspendisse feugiat odio ac mi. Aliquam et nulla ac purus placerat imperdiet. In urna felis, tincidunt non, adipiscing et, convallis eu, lorem. Aliquam semper gravida nulla. Nunc fermentum. Proin varius sodales lectus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nunc at dolor vitae odio fermentum ultrices. Donec cursus, leo ut ullamcorper viverra, justo felis vehicula nunc, a posuere erat urna at orci. Maecenas convallis nulla vel mauris. In augue nibh, convallis vitae, pretium eu, egestas at, enim. Mauris quis risus.\n\n\
+    Sed congue dictum justo. Nulla facilisi. Phasellus ornare felis quis tortor. Aliquam ac risus et ipsum venenatis rhoncus. Donec ac ante et turpis pretium vestibulum. Vivamus et justo fermentum eros tristique rhoncus. Pellentesque eu neque eget pede mollis elementum. Aliquam dapibus, enim quis ornare iaculis, sem eros posuere magna, vel sollicitudin urna tellus ut sem. Duis ut urna. Maecenas metus diam, consectetuer a, ornare tincidunt, euismod varius, odio. Suspendisse potenti.\n\n\
+    Aliquam eleifend risus a nibh. Pellentesque vitae lorem. Nam nibh augue, iaculis at, auctor faucibus, iaculis et, orci. In hac habitasse platea dictumst. Nam at mi nec libero commodo sodales. Aliquam tempor, dolor at congue fringilla, turpis lacus accumsan augue, id vestibulum mauris odio pulvinar pede. Aenean a lectus et odio mollis tincidunt. Mauris ipsum nunc, varius consectetuer, mattis a, fermentum vitae, lorem. Morbi fringilla porttitor dolor. Sed tristique ipsum nec libero. Nunc eu justo quis justo suscipit aliquet. Sed sit amet nisl. Sed eros elit, lacinia in, gravida ac, molestie ut, est. Aliquam at tellus viverra massa dapibus sodales. Etiam sagittis quam. Nunc condimentum nulla vitae sem. Nulla facilisi. Curabitur eu nibh id arcu iaculis ornare. Fusce id mi eget neque cursus ullamcorper.\n\n\
+    Curabitur accumsan, elit ut vulputate volutpat, orci justo venenatis dui, eu fringilla est neque id dui. Suspendisse risus. Duis id pede. Proin ut odio a nisl mattis faucibus. Suspendisse venenatis leo ac ligula. Nullam dictum ante posuere nibh. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris faucibus, sapien ac dictum scelerisque, sem dui lacinia arcu, ac aliquet ante neque vel sapien. Vivamus laoreet. Phasellus adipiscing, eros id aliquet gravida, diam sem sollicitudin pede, a iaculis nisi ante nec sapien. Maecenas bibendum massa faucibus elit. Duis lobortis, dui nec adipiscing dignissim, lacus pede facilisis dolor, quis pretium enim leo in nisl. Donec semper gravida nibh. Integer aliquam, augue eget tempor mattis, quam leo egestas urna, ut eleifend est massa eget neque.\n\n\
+    Maecenas luctus. Suspendisse eu est et purus gravida luctus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Phasellus pulvinar convallis metus. Donec nec elit. Etiam luctus pretium leo. Morbi semper neque in ligula. Proin purus justo, imperdiet vehicula, cursus non, tincidunt vitae, turpis. Fusce in purus id sem dictum ullamcorper. Sed tempus fermentum risus.\n\n\
+    In id pede. Fusce posuere auctor urna. In congue, nibh eget elementum laoreet, ipsum diam mollis mi, molestie sollicitudin dui tortor vitae urna. Nunc id nulla. Praesent in leo luctus nisi tempus tempus. Donec non arcu. Vivamus ante. Curabitur dapibus. Aenean libero. Sed cursus sapien vel est. Etiam sapien. Nulla adipiscing felis vitae lectus.\n\n\
+    Fusce volutpat lacus eget augue. Ut vitae leo sed est auctor molestie. Etiam ornare nisl et diam. Quisque rhoncus est. Pellentesque a libero id lorem adipiscing varius. Curabitur elementum. Nam fringilla. Pellentesque ullamcorper odio quis nisl. In tempus, elit sed volutpat ultricies, quam lorem consectetuer nibh, sed rutrum risus massa quis lectus. Donec nec elit. Ut placerat, urna pulvinar vulputate posuere, turpis diam faucibus ipsum, et bibendum nulla odio eu odio. Sed viverra blandit nisl. In hac habitasse platea dictumst. Nam erat sem, porttitor at, iaculis eget, ornare non, nulla. Maecenas metus sem, imperdiet ut, euismod id, pulvinar ac, diam. Aenean hendrerit massa dapibus enim. Cras quis ipsum. Proin nec metus venenatis augue venenatis luctus. Duis tempus mi id massa. Nulla consequat convallis justo.\n\n\
+    Donec faucibus rutrum nulla. Aenean sit amet urna sit amet dolor rutrum blandit. Nullam consectetuer. Aenean eu purus quis ante scelerisque volutpat. Nulla sit amet mauris. Nulla facilisi. Mauris orci tortor, posuere sodales, egestas posuere, vulputate eget, ipsum. Cras vitae erat. Sed pharetra. Suspendisse mollis tempus augue. Curabitur purus. Duis faucibus luctus magna. Suspendisse potenti. Donec rhoncus. Nunc interdum.\n\n\
+    Aliquam erat volutpat. Donec enim. Quisque id mauris. Vivamus quis massa. Nulla at felis. Ut suscipit. Sed elementum aliquet arcu. Aliquam enim. Aliquam vel nisi. Morbi scelerisque lectus in felis.\n\n\
+    Mauris eleifend semper est. Pellentesque tortor nisl, iaculis nec, tristique sed, pretium a, tortor. Vivamus malesuada mauris a massa. Nulla posuere, risus quis mollis blandit, nibh elit tempus est, in pretium odio nunc in eros. Nulla facilisi. Donec pellentesque volutpat turpis. Etiam aliquam. Donec vitae sem at quam luctus pharetra. Sed quis ligula sed dolor mattis bibendum. Cras mauris. In lorem. Pellentesque justo arcu, hendrerit non, congue id, volutpat ornare, leo. Quisque felis orci, vehicula nec, pharetra quis, lacinia tristique, nunc. Sed quis nisi. Sed fermentum lorem id lectus.\n\n\
+    Etiam eu ligula vel sapien sodales scelerisque. Proin pellentesque, lorem vel sagittis rhoncus, nulla diam venenatis mauris, nec faucibus neque felis in arcu. In malesuada, turpis scelerisque laoreet elementum, dolor leo tempor tellus, vel posuere diam lacus et nisi. Nam sit amet dolor. Fusce eu nibh a urna rutrum vulputate. Nulla posuere. In nibh nisl, ullamcorper non, vestibulum quis, pretium a, massa. Cras accumsan, sapien non suscipit pellentesque, justo urna lobortis lorem, in molestie elit eros quis arcu. Integer quis arcu quis nunc dictum dignissim. Integer at est vel quam mattis consequat. In hac habitasse platea dictumst. Pellentesque orci dolor, condimentum id, ultrices in, semper sit amet, eros. Fusce dui justo, fermentum ac, ullamcorper in, posuere a, elit. Quisque porta faucibus nisl.\n\n\
+    Sed arcu. Etiam rhoncus massa vitae nulla. Fusce quam felis, pellentesque et, sodales ac, aliquet vel, tortor. Aenean suscipit vehicula lorem. Fusce at risus. Mauris est purus, accumsan a, lobortis sit amet, convallis non, tellus. Phasellus sodales, elit a rutrum viverra, nulla justo fermentum eros, eget congue erat lorem eget dui. Nam mattis odio mollis quam. Donec elementum, sem cursus vestibulum interdum, turpis magna pellentesque felis, ac tristique nisi ipsum sit amet eros. Aliquam volutpat, turpis eu elementum consequat, erat lorem rutrum lorem, vel dignissim arcu leo ac nisi. In nibh. Praesent id leo at purus interdum facilisis. Pellentesque sagittis porta diam. Fusce lacinia libero sit amet neque. Duis pede orci, pulvinar imperdiet, vulputate sit amet, facilisis vel, lacus. Praesent vulputate pulvinar velit. Morbi pharetra convallis nisl. Mauris eu nulla ac eros volutpat semper. Nullam fringilla nulla vitae nunc. Curabitur justo eros, consequat sed, varius non, mattis dictum, odio.\n\n\
+    Morbi a arcu. Donec ornare enim a massa. Aenean convallis, lorem at scelerisque bibendum, metus ligula aliquet mauris, vitae mattis mauris dolor et magna. Nullam sollicitudin volutpat urna. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Suspendisse quis massa. Duis ut tellus vitae ante tincidunt mollis. Vestibulum velit diam, dictum eget, lobortis vitae, placerat sit amet, diam. Aliquam scelerisque vehicula lacus. Sed viverra, risus non convallis tempor, sapien neque rhoncus ante, suscipit pretium orci turpis a eros. Donec pretium faucibus nisi. Nam cursus risus eget dolor. Proin eu mauris. Nullam at lorem.\n\n\
+    Donec et purus ut mi semper rhoncus. Fusce nec dui. Integer commodo felis eget ligula. Nulla accumsan convallis ligula. Phasellus neque. Integer consectetuer urna non enim. Phasellus quis lacus commodo magna adipiscing placerat. Etiam fermentum. Cras elementum. Aliquam erat volutpat. Ut risus purus, pellentesque sit amet, rutrum eget, iaculis at, sapien. Morbi rutrum viverra tortor. Curabitur dapibus, tellus eu porttitor lobortis, elit lorem fermentum sapien, vel hendrerit odio magna quis turpis. Proin enim. Nulla et dolor ut purus dictum hendrerit. Nullam purus. Suspendisse potenti. Etiam laoreet gravida felis.\n\n\
+    Aenean sit amet sapien a leo aliquam gravida. In a nunc. Suspendisse faucibus lorem et felis. Sed laoreet malesuada ligula. Pellentesque pulvinar elit vitae pede. Ut eu neque. Nunc iaculis. In non dolor eu urna tincidunt pretium. Nunc at enim quis libero accumsan porttitor. Etiam sed nulla. Aenean eget tellus.\n\n\
+    Duis feugiat libero sit amet velit. Duis interdum. Maecenas malesuada dui ut nisl. Aenean mi. Integer convallis cursus dui. Maecenas consectetuer augue adipiscing dolor. Mauris massa enim, ultrices ac, sodales vel, sodales quis, odio. Praesent accumsan. Nunc commodo. Nullam hendrerit, sem a iaculis elementum, augue massa consectetuer tellus, nec imperdiet mauris tortor vel turpis. Nunc venenatis justo vel purus. Aliquam eu tellus nec eros pellentesque sagittis. Proin blandit erat sit amet velit. Suspendisse non tellus. Nullam aliquet, augue quis condimentum luctus, odio lacus lobortis risus, in eleifend purus nunc at ligula. Sed arcu sapien, fringilla eget, porttitor id, cursus ac, turpis. Vivamus sed tortor. "
+  shift_report_id: "28"
+  time: 2008-08-14 14:24:30
+  updated_at: 2008-08-14 14:24:30
+line_items_100: 
+  can_edit: "1"
+  created_at: 2008-08-14 14:26:18
+  id: "100"
+  line_content: LoremipsumdolorsitametconsectetueradipiscingelitInvestibulumipsumDonecesemPellentesqueegetloremEtiamnequelectuslaciniaattinciduntutportavelerosNampurusDoneceunibheunequeadipiscingsemperSedsuscipitsuscipitquamNullamfacilisisturpisIntegermassaelitrutrumquissagittisquissodalesinnullaPraesentultricesduiidpharetraegestasmassaestconsequatrisusadignissimduimagnaquisurnaVestibulumeuismoddiaeurisusFusceposueredapibuslorem.
+  shift_report_id: "28"
+  time: 2008-08-14 14:26:18
+  updated_at: 2008-08-14 14:26:18
+line_items_101: 
+  can_edit: "1"
+  created_at: 2008-08-14 14:27:17
+  id: "101"
+  line_content: I finally broke it.
+  shift_report_id: "28"
+  time: 2008-08-14 14:27:17
+  updated_at: 2008-08-14 14:27:17
+line_items_102: 
+  can_edit: "0"
+  created_at: 2008-08-14 14:27:27
+  id: "102"
+  line_content: logged out at Thu, Aug 14 from IP 128.36.156.138
+  shift_report_id: "28"
+  time: 2008-08-14 14:27:27
+  updated_at: 2008-08-14 14:27:27
+line_items_103: 
+  can_edit: "0"
+  created_at: 2008-08-14 14:54:51
+  id: "103"
+  line_content: logged in on Thu, Aug 14 from IP 128.36.155.8
+  shift_report_id: "29"
+  time: 2008-08-14 14:54:51
+  updated_at: 2008-08-14 14:54:51
+line_items_104: 
+  can_edit: "0"
+  created_at: 2008-08-14 14:54:57
+  id: "104"
+  line_content: logged out at Thu, Aug 14 from IP 128.36.155.8
+  shift_report_id: "29"
+  time: 2008-08-14 14:54:57
+  updated_at: 2008-08-14 14:54:57
+line_items_105: 
+  can_edit: "0"
+  created_at: 2008-08-14 15:06:54
+  id: "105"
+  line_content: logged in on Thu, Aug 14 from IP 98.97.200.166
+  shift_report_id: "30"
+  time: 2008-08-14 15:06:54
+  updated_at: 2008-08-14 15:06:54
+line_items_106: 
+  can_edit: "1"
+  created_at: 2008-08-14 15:07:31
+  id: "106"
+  line_content: Cool!  I like this!  Everything looks like it's working just fine!  Will Bass Media techs get access to the RT?
+  shift_report_id: "30"
+  time: 2008-08-14 15:07:31
+  updated_at: 2008-08-14 15:07:31
+line_items_107: 
+  can_edit: "0"
+  created_at: 2008-08-14 15:07:36
+  id: "107"
+  line_content: logged out at Thu, Aug 14 from IP 98.97.200.166
+  shift_report_id: "30"
+  time: 2008-08-14 15:07:36
+  updated_at: 2008-08-14 15:07:36
+line_items_108: 
+  can_edit: "0"
+  created_at: 2008-08-14 16:02:01
+  id: "108"
+  line_content: logged in on Thu, Aug 14 from IP 128.36.156.138
+  shift_report_id: "31"
+  time: 2008-08-14 16:02:01
+  updated_at: 2008-08-14 16:02:01
+line_items_109: 
+  can_edit: "1"
+  created_at: 2008-08-14 16:02:12
+  id: "109"
+  line_content: http://www.nytimes.com/2008/08/14/fashion/14SIGRID.html?pagewanted=2&ref=style
+  shift_report_id: "31"
+  time: 2008-08-14 16:02:12
+  updated_at: 2008-08-14 16:02:12
+line_items_110: 
+  can_edit: "1"
+  created_at: 2008-08-14 16:03:08
+  id: "110"
+  line_content: http://www.washingtonpost.com/wp-dyn/content/article/2008/07/27/AR2008072701441.html?sid=ST2008072800042&pos=
+  shift_report_id: "31"
+  time: 2008-08-14 16:03:08
+  updated_at: 2008-08-14 16:03:08
+line_items_111: 
+  can_edit: "1"
+  created_at: 2008-08-14 16:15:29
+  id: "111"
+  line_content: "http://www.nytimes.com/2008/08/14/fashion/14SIGRID.html?pagewanted=2&ref=style "
+  shift_report_id: "31"
+  time: 2008-08-14 16:15:29
+  updated_at: 2008-08-14 16:15:29
+line_items_112: 
+  can_edit: "0"
+  created_at: 2008-08-14 16:55:25
+  id: "112"
+  line_content: logged in on Thu, Aug 14 from IP 71.235.99.164
+  shift_report_id: "32"
+  time: 2008-08-14 16:55:25
+  updated_at: 2008-08-14 16:55:25
+line_items_113: 
+  can_edit: "0"
+  created_at: 2008-08-14 16:55:42
+  id: "113"
+  line_content: logged out at Thu, Aug 14 from IP 71.235.99.164
+  shift_report_id: "32"
+  time: 2008-08-14 16:55:42
+  updated_at: 2008-08-14 16:55:42
+line_items_114: 
+  can_edit: "0"
+  created_at: 2008-08-18 15:56:26
+  id: "114"
+  line_content: logged in on Mon, Aug 18 from IP 128.36.154.224
+  shift_report_id: "33"
+  time: 2008-08-18 15:56:26
+  updated_at: 2008-08-18 15:56:26
+line_items_115: 
+  can_edit: "1"
+  created_at: 2008-08-18 15:56:45
+  id: "115"
+  line_content: Haha, I'm in!
+  shift_report_id: "33"
+  time: 2008-08-18 15:56:45
+  updated_at: 2008-08-18 15:56:45
+line_items_116: 
+  can_edit: "0"
+  created_at: 2008-08-18 15:56:50
+  id: "116"
+  line_content: logged out at Mon, Aug 18 from IP 128.36.154.224
+  shift_report_id: "33"
+  time: 2008-08-18 15:56:50
+  updated_at: 2008-08-18 15:56:50
+line_items_117: 
+  can_edit: "0"
+  created_at: 2008-08-19 12:51:09
+  id: "117"
+  line_content: logged in on Tue, Aug 19 from IP 128.36.155.86
+  shift_report_id: "34"
+  time: 2008-08-19 12:51:09
+  updated_at: 2008-08-19 12:51:09
+line_items_118: 
+  can_edit: "0"
+  created_at: 2008-08-19 14:27:36
+  id: "118"
+  line_content: IP changed to 128.36.43.17
+  shift_report_id: "34"
+  time: 2008-08-19 14:27:36
+  updated_at: 2008-08-19 14:27:36
+line_items_119: 
+  can_edit: "1"
+  created_at: 2008-08-19 14:27:36
+  id: "119"
+  line_content: sdafadsf
+  shift_report_id: "34"
+  time: 2008-08-19 14:27:36
+  updated_at: 2008-08-19 14:27:36
+line_items_120: 
+  can_edit: "1"
+  created_at: 2008-08-19 14:27:40
+  id: "120"
+  line_content: dsfsfs
+  shift_report_id: "34"
+  time: 2008-08-19 14:27:40
+  updated_at: 2008-08-19 14:27:40
+line_items_121: 
+  can_edit: "0"
+  created_at: 2008-08-19 14:28:26
+  id: "121"
+  line_content: logged in on Tue, Aug 19 from IP 128.36.154.224
+  shift_report_id: "35"
+  time: 2008-08-19 14:28:26
+  updated_at: 2008-08-19 14:28:26
+line_items_122: 
+  can_edit: "1"
+  created_at: 2008-08-19 14:38:43
+  id: "122"
+  line_content: sdfgsgf
+  shift_report_id: "34"
+  time: 2008-08-19 14:38:43
+  updated_at: 2008-08-19 14:38:43
+line_items_123: 
+  can_edit: "0"
+  created_at: 2008-08-19 15:00:16
+  id: "123"
+  line_content: logged in on Tue, Aug 19 from IP 130.132.182.90
+  shift_report_id: "36"
+  time: 2008-08-19 15:00:16
+  updated_at: 2008-08-19 15:00:16
+line_items_124: 
+  can_edit: "1"
+  created_at: 2008-08-21 12:47:45
+  id: "124"
+  line_content: Hi
+  shift_report_id: "35"
+  time: 2008-08-21 12:47:45
+  updated_at: 2008-08-21 12:47:45
+line_items_125: 
+  can_edit: "1"
+  created_at: 2008-08-21 12:48:16
+  id: "125"
+  line_content: "    * You can read minds?!?!?!\n\n    * I'm pretty sure there's more to life than being really, really ridiculously good looking, and I plan on finding out what that is.\n\n    * The original Greek word \"model\" means \"misshapen ball of clay\", and I try to think about that every time I go in front of the camera.\n\n    * Moisture is the essence of wetness, and wetness is the essence of beauty.\n\n    * Have you ever wondered if there was more to life, other than being really, really, ridiculously good looking?\n\n    * I'm not an ambi-turner.\n\n    * I think I'm getting the black lung, Pop. It's not very well ventilated down there.\n\n    * But why male models?\n\n    * [Derek sees his reflection in a puddle] Who am I? [the reflection speaks back] I don't know.\n\n    * Wait a minute. I might just have an idea. They'll be looking for us at Maury's right? But they won't be looking for... not us.\n\n    * There was a moment last night, when she was sandwiched between the two Finnish dwarves and the Maori tribesmen, where I thought, \"Wow, I could really spend the rest of my life with this woman.\"\n\n    * Do you understand that the world does not revolve around you and your \"do whatever it takes, ruin as many people's lives, so long as you can make a name for yourself as an investigatory journalist, no matter how many friends you lose or people you leave dead and bloodied along the way, just so long so you can make a name for yourself as an investigatory journalist, no matter how many friends you lose or people you leave dead and bloodied and dying along the way\"?...\n\n    * Rufus, Brint, and Meekus were like brothers to me. And when I say brother, I don't mean, like, an actual brother, but I mean it like the way black people use it. Which is more meaningful, I think.\n\n    * If there is anything that this horrible tragedy can teach us, it's that a male model's life is a precious, precious commodity. Just because we have chiselled abs and stunning features, it doesn't mean that we too can't not die in a freak gasoline fight accident.\n\n    * You think that you're too cool for school, but I have a newsflash for you, Walter Cronkite... you aren't.\n\n    * Now if you'll excuse me, I have an after-funeral party to attend.\n\n    * At the Derek Zoolander Center For Children Who Can't Read Good And Wanna Learn To Do Other Stuff Good Too, we teach you that there's more to life than being really, really good looking.\n\n    * I can Dere-lick my own balls, thank you very much.\n\n    * Mer-man! *keh... keh... keh...* MER-MAN!\n\n    * [Cellphone rings] God?\n\n    * [Upon seeing the model of the \"Derek Zoolander Center For Children Who Can't Read Good And Wanna Learn To Do Other Stuff Good Too] What is this, a center for ants? How can we be expected to teach children to learn how to read if they can't even fit inside the building? The center has to be at least... three times bigger than this!\n\n    * SNAP\n\n    * Words can only hurt you if you try to read them. Don't play their game.\n\n    * I was at a day spa. DAY. D-a-i-y-e.\n\n    * Just thinking about it was the most rewarding experience of my life.\n\n    * A week? What, are you having a whack attack? I saw you this afternoon, dum-dum.\n\n    * Shut your hole Zane!\n"
+  shift_report_id: "35"
+  time: 2008-08-21 12:48:16
+  updated_at: 2008-08-21 12:48:16
+line_items_126: 
+  can_edit: "0"
+  created_at: 2008-08-21 12:49:07
+  id: "126"
+  line_content: logged out at Thu, Aug 21 from IP 128.36.154.224
+  shift_report_id: "35"
+  time: 2008-08-21 12:49:07
+  updated_at: 2008-08-21 12:49:07
+line_items_127: 
+  can_edit: "0"
+  created_at: 2008-08-21 21:03:51
+  id: "127"
+  line_content: logged in on Thu, Aug 21 from IP 88.235.145.162, 130.132.143.49
+  shift_report_id: "37"
+  time: 2008-08-21 21:03:51
+  updated_at: 2008-08-21 21:03:51
+line_items_128: 
+  can_edit: "0"
+  created_at: 2008-08-21 21:04:20
+  id: "128"
+  line_content: logged out at Thu, Aug 21 from IP 88.235.145.162, 130.132.143.49
+  shift_report_id: "37"
+  time: 2008-08-21 21:04:20
+  updated_at: 2008-08-21 21:04:20
+line_items_129: 
+  can_edit: "0"
+  created_at: 2008-08-21 21:06:46
+  id: "129"
+  line_content: logged in on Thu, Aug 21 from IP 88.235.145.162, 130.132.143.49
+  shift_report_id: "38"
+  time: 2008-08-21 21:06:46
+  updated_at: 2008-08-21 21:06:46
+line_items_130: 
+  can_edit: "0"
+  created_at: 2008-08-24 12:53:18
+  id: "130"
+  line_content: IP changed to 128.36.192.104
+  shift_report_id: "34"
+  time: 2008-08-24 12:53:18
+  updated_at: 2008-08-24 12:53:18
+line_items_131: 
+  can_edit: "1"
+  created_at: 2008-08-24 12:53:19
+  id: "131"
+  line_content: asdfasdf
+  shift_report_id: "34"
+  time: 2008-08-24 12:53:19
+  updated_at: 2008-08-24 12:53:19
+line_items_132: 
+  can_edit: "1"
+  created_at: 2008-08-24 12:53:27
+  id: "132"
+  line_content: everyone hates jalex
+  shift_report_id: "34"
+  time: 2008-08-24 12:53:27
+  updated_at: 2008-08-24 12:53:27
+line_items_133: 
+  can_edit: "0"
+  created_at: 2008-08-24 13:00:31
+  id: "133"
+  line_content: logged out at Sun, Aug 24 from IP 128.36.192.104
+  shift_report_id: "34"
+  time: 2008-08-24 13:00:31
+  updated_at: 2008-08-24 13:00:31
+line_items_134: 
+  can_edit: "0"
+  created_at: 2008-08-24 14:35:33
+  id: "134"
+  line_content: logged in on Sun, Aug 24 from IP 128.36.156.42
+  shift_report_id: "39"
+  time: 2008-08-24 14:35:33
+  updated_at: 2008-08-24 14:35:33
+line_items_135: 
+  can_edit: "1"
+  created_at: 2008-08-24 14:36:11
+  id: "135"
+  line_content: Test
+  shift_report_id: "39"
+  time: 2008-08-24 14:36:11
+  updated_at: 2008-08-24 14:36:11

@@ -1,0 +1,8 @@
+<% @start_minute =  @dept_start_hour * 60%>
+<% @end_minute =  @dept_end_hour * 60 %>
+<% items_many_days = split_items_by_days(location_items) %>  
+
+<% render :layout => 'shift_admin/template_schedule/location_layout', :locals => {:table_name => "template_view"} do %>
+  <%= render :partial => 'shift_admin/template_schedule/items_one_day', :collection => items_many_days %>
+
+<% end %>

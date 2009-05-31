@@ -1,0 +1,20 @@
+<% title "Edit Payform Configurations" %>
+<%= error_messages_for 'config' %>
+<% form_for(:payform_configuration, @config, :url => { :action => 'config', :id => @department }, :html => { :multipart => :true}) do  |form|%> 
+  Default Printed Message:<br/>
+    <%= form.text_area  :printed, :size => "50x5" %><br/>
+  Default Late Payform Reminder:<br/>
+    <%= form.text_area  :reminder, :size => "50x5" %><br/>
+  Default Late Payform Warning:<br/>
+    <%= form.text_area  :warning, :size => "50x5" %><br/>
+  Number of weeks before admin view warning <em>('0' to disable)</em>:<br/>
+    <%= form.text_field  :weeks, :size => 2 %><br/> 
+  Minimum Length for Item "Description" (In Characters) <em>('0' to disable)</em>:<br/>
+    <%= form.text_field  :description_min, :size => 2 %><br/>
+  Minimum Length for Edit or Deletion "Reason" (In Characters) <em>('0' to disable)</em>:<br/>
+    <%= form.text_field  :reason_min, :size => 2 %><br/>
+  <%= check_box "payform_configuration", "clock", {:checked => @config.clock}  %> Include 'Payform Punch Clock' on User Payforms<br />
+  <%= check_box "payform_configuration", "show_disabled_cats", {:checked => @config.show_disabled_cats}  %>Show Disabled Categories on Payforms (Rather than filing jobs under "Miscellaneous")<br />
+  <%= submit_tag "Save" %>
+<% end %>
+<%= button_to "Cancel", { :controller => '/payform_admin', :action => :index, :id => @department.id }, :method => :get %>

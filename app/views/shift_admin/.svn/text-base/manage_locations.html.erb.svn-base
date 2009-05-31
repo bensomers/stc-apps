@@ -1,0 +1,11 @@
+<% title "Edit Locations" %>
+<% for group in @location_groups %>
+<%= render :partial => 'locations_manage_table', :object => group.locations, :locals => {:title => group.long_name} %>
+<% end -%>  
+
+<% unless @unassigned_locations.empty? -%>
+    <%= render :partial => 'locations_manage_table', :object => @unassigned_locations, :locals => {:title => "Unassigned_locations"} %>
+<% end -%>
+
+<br />
+<%= render :partial => 'location_form', :locals => {:title => "Create a new Location"} %>

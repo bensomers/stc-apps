@@ -1,0 +1,32 @@
+<% title "Edit Shift Configuration For Department" %>
+<%= error_messages_for 'config' %>
+<div class="shift_admin_form">
+  <fieldset>
+    <legend>Edit Shift Configuration</legend>
+  <% form_for @config, :url => { :action => 'config', :id => @department }, :html => { :multipart => :true} do  |f|%> 
+    <p>
+      <label>Schedule view start time:</label>
+      <%= f.select :start, @time_choices_select %>
+    </p>
+    <p>
+      <label>Schedule view end time:</label>
+      <%= f.select :end, @time_choices_select, :selected => (@config.end % 1440) %>
+    </p>
+    <p>
+      <label>Shift time increment:</label>
+      <%= f.text_field :granularity, :size => 6 %>
+    </p>
+    <p>
+      <label>Late sign-in grace period (minutes):</label>
+      <%= f.text_field :grace_period, :size => 6 %>
+    </p>
+    <p>
+      <label>Reports are editable:</label>
+      <%= f.check_box :report_can_edit %>
+    </p>
+    
+    
+    <%= submit_tag "Save" %>
+  <% end %>
+</fieldset>
+</div>

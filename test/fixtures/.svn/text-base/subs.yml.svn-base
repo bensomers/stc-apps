@@ -1,0 +1,13 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  start: 2008-06-12 14:06:07
+  end: 2008-06-12 14:06:07
+  new_shift: 1
+  new_user: 1
+
+two:
+  start: 2008-06-12 14:06:07
+  end: 2008-06-12 14:06:07
+  new_shift: 1
+  new_user: 1

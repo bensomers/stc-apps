@@ -1,0 +1,18 @@
+<div class="restriction">    
+<%= "<strong>Hours Limit:</strong>  #{restriction.hours_limit}  <br/>" if restriction.hours_limit %>
+<%= "<strong>Max Sub Requests:</strong>  #{restriction.max_subs}<br/>" if restriction.max_subs %>
+<% time_format = '%A, %B %d, %Y at %I:%M%p' -%>
+<strong>Starts:</strong> <%= restriction.starts.strftime(time_format) %><br/>
+<strong>Expires:</strong> <%= restriction.expires ? restriction.expires.strftime(time_format) : "indefinitely" %><br/>
+<%= "<strong>Department:</strong> " + restriction.for_department.name + "<br/>" if restriction.for_department %>
+<%= "<strong>Location Groups:</strong> " unless restriction.location_groups.empty?%>  
+<% for loc_group in restriction.location_groups %>
+  <%= loc_group.short_name %><%= loc_group == restriction.location_groups[-1] ? "<br/>" : ", " %>
+<% end %>
+<%= "<strong>Locations:</strong> " unless restriction.locations.empty?%>
+<% for location in restriction.locations %>
+  <%= location.short_name %><%= location == restriction.locations[-1] ? "<br/>" : ", " %>
+<% end %>
+<%= link_to '[delete]', { :action => 'delete', :id => restriction}, { :method  => :post } %>
+<%= link_to '[edit]',   { :action => 'edit',   :id => restriction} %>  
+</div>

@@ -1,0 +1,31 @@
+--- 
+departments_001: 
+  id: "1"
+  info: Student Technology
+  name: STC
+  permission_id: "21"
+departments_002: 
+  id: "2"
+  info: Film Study Center
+  name: Film Study Center
+  permission_id: "58"
+departments_003: 
+  id: "3"
+  info: Media Services
+  name: Media Services
+  permission_id: "64"
+departments_004: 
+  id: "4"
+  info: ITG
+  name: Instructional Technology Group
+  permission_id: "82"
+departments_005: 
+  id: "5"
+  info: aka Cluster Support
+  name: Academic Computing Services
+  permission_id: "88"
+departments_006: 
+  id: "6"
+  info: Statlab
+  name: SSRS
+  permission_id: "97"

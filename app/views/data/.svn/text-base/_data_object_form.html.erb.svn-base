@@ -1,0 +1,16 @@
+  <h2><%= data_object_form.name %></h2>
+  <% fields_for :data_object do |obj| %>
+    <%= obj.error_messages %>
+    <p>
+      Name: <%= obj.text_field :name, :size => 15 %>
+      Description: <%= obj.text_field :description %>
+      Editable: <%= obj.check_box :editable %>
+    </p>
+    <p>
+      Locations:  
+      <%= select_tag "locations[]",
+                       options_for_select(@locations.map{|loc| [loc.short_name, loc.id]},
+                      data_object_form.locations.map{|loc| loc.id}),
+                     { :multiple => true, :size => 3 } %>
+    </p>
+  <% end %>

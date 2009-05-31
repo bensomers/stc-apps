@@ -1,0 +1,2 @@
+module ShiftAdmin::CalendarHelper
+end

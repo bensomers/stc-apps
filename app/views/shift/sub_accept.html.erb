@@ -1,0 +1,21 @@
+<div class="shift_form">
+  <fieldset>
+    <legend>Sure to take this sub request?:</legend>
+    <%= '<em>Note: Bribe option is available. Take more of this shift if you want</em>' if @sub.bribe_on? %>
+    <% form_tag :action => "sub_accept", :id => @sub do%>
+    <p>
+      <label>Location:</label><%= @sub.shift.location.long_name %>
+    </p>
+    <p>
+      <label>Starts at:</label>
+      <%= @start_select ? select_tag('start', options_for_select(@start_select, @sub.start)) : @sub.start.to_s(:short_name) %>
+    </p>
+    <p>
+      <label>Ends at:</label>
+      <%= @end_select ? select_tag('end', options_for_select(@end_select, @sub.end)) : @sub.end.to_s(:short_name) %>
+    </p>
+    
+    <%= submit_tag "Take it!"%>    
+    <% end %>
+  </fieldset>
+</div>

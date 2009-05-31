@@ -1,0 +1,18 @@
+<% title "Manage restrictions" %>
+<div class="shift_form">
+<%= error_messages_for :restriction %>
+<fieldset>
+  <legend>Current restrictions</legend>
+    <p><strong>Active:</strong><br/>
+      <%= render :partial => "restriction", :collection => Restriction.active(@department) %>
+    </p>
+    <p><strong>Upcoming:</strong><br/>
+      <%= render :partial => "restriction", :collection => Restriction.upcoming(@department) %>
+    </p>
+</fieldset>
+<br />
+<fieldset>
+  <legend>Add restriction</legend>
+    <%= render :partial => "restriction_form" %>
+</fieldset>
+</div>

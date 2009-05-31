@@ -1,0 +1,20 @@
+<% fields_for "[items_to_create]", template_item_new do |i| %>
+  <p><%= render :partial => "shift_admin/template_item_times", :object => i -%>
+  <% if template_item_new.class == ShiftTemplateItem -%>
+  &nbsp;&nbsp;&nbsp;<label>User:</label><%= i.text_field :netid, :size => 10 %>
+  <% end -%>
+    <p>in Locations:
+      <% @locations.each do |loc| %>
+      <% tag_method = template_item_new.class == TimeTemplateItem ? 'check_box_tag' : 'radio_button_tag' %>
+      <%= send tag_method, "[items_to_create][locations][]", loc.id, false, {:id => "location_#{loc.id}"} %>
+
+      <%= "<label for=\"location_#{loc.id}\">#{loc.short_name}</label>" %>&nbsp;&nbsp;
+      <%- end -%>
+    </p>
+  <p>for Days:<% WEEK_DAYS.each_with_index do |day, i| %>
+  <%= check_box_tag "[items_to_create][days][]", i, false, {:id => "days_#{i}"} %>
+  <%= "<label for=\"days_#{i}\">#{day}</label>" %>
+  &nbsp;&nbsp;
+  
+  <% end %></p>
+<% end %>

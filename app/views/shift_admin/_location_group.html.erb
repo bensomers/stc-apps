@@ -1,0 +1,30 @@
+<%# Fields are pre-populated with old information from @location_group %>
+<div class="shift_admin_form">
+  <fieldset>
+    <legend><%= title %></legend>
+    <% form_for :location_group do |f| -%>
+    <%= f.error_messages -%>
+    <p>
+      <label>Long name:</label> <%= f.text_field :long_name %>
+    </p>
+    <p>
+      <label>Short name:</label> <%= f.text_field :short_name %>
+    </p>
+    <p>
+      <label>Maximum shift length:</label> <%= f.text_field :max_shift_length %>
+    </p>
+    <p>
+      <label>Minimum shift length:</label> <%= f.text_field :min_shift_length %>
+    </p>
+    <p>
+      <label>Sub request email:</label> <%= f.text_field :sub_email %>
+    </p>
+    <p>
+      <%= f.submit(@location_group.id.nil? ? "Create" : "Update") %>
+    </p>
+    <% end -%>
+  <%= button_to "Delete", {:action => "delete_location_group", :id => location_group },       
+    :confirm => "Are you sure you want to delete this location group?", 
+    :method => :post  unless title == "Add a new Location Group" %>
+  </fieldset>  
+</div>

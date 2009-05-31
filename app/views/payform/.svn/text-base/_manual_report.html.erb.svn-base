@@ -1,0 +1,3 @@
+<li><%= manual_report.detailed_time_display %>  
+  <%= link_to "(remove this reminder)",  :controller => "report", :action => "mark_as_payform_added", :id => manual_report %>
+</li>

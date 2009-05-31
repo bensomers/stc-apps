@@ -1,0 +1,44 @@
+<div class="note" >
+  <strong>Notes:</strong>
+  <ol>
+    <li>You can only view users in <%= @department.name %> department.</li>
+    <li>Here you can view how much time each user in your department is scheduled to work this week.</li>
+    <li>These numbers do not take into account the actual sign-in and sign-out times, and they
+      do not take into account unscheduled shifts.</li>
+  </ol>  
+</div>
+<div id="date_range">
+  <% form_tag do %>
+  <strong>Select date range:</strong>
+  From<%= text_field_tag 'from', @from, :class => 'date_selector', :id => 'date_select' %>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  To <%= text_field_tag 'to', @to, :class => 'date_selector', :id => 'date_select' %>
+  <%= submit_tag 'Update range' %>
+  <% end %>  
+</div>
+
+<%= render :partial => 'shift/schedule_title' %>
+<%= render :partial => 'users/filter_users' %>
+
+<table id="work_hours">
+  <tr>
+    <th>Name</th>
+    <th>Work hours in <%= @department.name %></th>
+    <% if department_admin? %>
+      <th>Work hours in all departments</th>
+    <% end %>
+  </tr>
+  
+  <tbody>
+    <% @users.each do |u| %>
+    <tr class="<%= cycle 'odd_row', 'even_row' %>">
+      <td><%= u.name %></td>
+      <td><%= format "%.2f",@dept_work_hours[u.id] %></td>
+      <% if department_admin? %>
+        <td><%= format "%.2f",@all_work_hours[u.id] %></td>
+      <% end %>
+      <td><%= u.email %></td>
+    </tr>
+    <% end %>    
+  </tbody>
+</table>

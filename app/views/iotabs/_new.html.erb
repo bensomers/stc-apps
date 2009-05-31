@@ -1,0 +1,25 @@
+<% if @food_items.blank? %>
+  <p>There's no new type of food item.  Please update current tabs or add a new food item first.</p>
+<% else %>
+  <% form_tag :action => 'index' do%>
+    <table class="tablesorter">
+      <thead>
+        <tr>
+          <th width="8px"></th>
+          <th>Name</th>
+          <th>Price</th>
+        </tr>
+       </thead>
+       <tbody>
+        <% @food_items.sort_by(&:name).each do |fd| %>
+          <tr>
+            <td><%= check_box_tag "food_item_ids[]", fd.id, false %></td>
+            <td><%= "<label for='food_item_%s'>%s</label>" % [fd.id, fd.name] %></td>
+            <td><%= number_to_currency fd.price %></td>
+          </tr>
+        <%end%>
+      <tbody>
+    </table>
+    <%= submit_tag "Take those ticked above" %>
+  <% end %>
+<% end %>

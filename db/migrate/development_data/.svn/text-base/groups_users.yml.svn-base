@@ -1,0 +1,424 @@
+--- 
+groups_users_001: 
+  group_id: "1"
+  user_id: "1"
+groups_users_002: 
+  group_id: "5"
+  user_id: "1"
+groups_users_003: 
+  group_id: "1"
+  user_id: "4"
+groups_users_004: 
+  group_id: "2"
+  user_id: "4"
+groups_users_005: 
+  group_id: "3"
+  user_id: "4"
+groups_users_006: 
+  group_id: "5"
+  user_id: "5"
+groups_users_007: 
+  group_id: "6"
+  user_id: "5"
+groups_users_008: 
+  group_id: "2"
+  user_id: "6"
+groups_users_009: 
+  group_id: "5"
+  user_id: "6"
+groups_users_010: 
+  group_id: "2"
+  user_id: "7"
+groups_users_011: 
+  group_id: "3"
+  user_id: "7"
+groups_users_012: 
+  group_id: "3"
+  user_id: "8"
+groups_users_013: 
+  group_id: "5"
+  user_id: "8"
+groups_users_014: 
+  group_id: "3"
+  user_id: "9"
+groups_users_015: 
+  group_id: "5"
+  user_id: "9"
+groups_users_016: 
+  group_id: "2"
+  user_id: "10"
+groups_users_017: 
+  group_id: "5"
+  user_id: "10"
+groups_users_018: 
+  group_id: "5"
+  user_id: "11"
+groups_users_019: 
+  group_id: "2"
+  user_id: "12"
+groups_users_020: 
+  group_id: "5"
+  user_id: "12"
+groups_users_021: 
+  group_id: "5"
+  user_id: "13"
+groups_users_022: 
+  group_id: "5"
+  user_id: "14"
+groups_users_023: 
+  group_id: "2"
+  user_id: "15"
+groups_users_024: 
+  group_id: "2"
+  user_id: "16"
+groups_users_025: 
+  group_id: "2"
+  user_id: "17"
+groups_users_026: 
+  group_id: "3"
+  user_id: "17"
+groups_users_027: 
+  group_id: "2"
+  user_id: "18"
+groups_users_028: 
+  group_id: "2"
+  user_id: "19"
+groups_users_029: 
+  group_id: "2"
+  user_id: "20"
+groups_users_030: 
+  group_id: "2"
+  user_id: "21"
+groups_users_031: 
+  group_id: "2"
+  user_id: "22"
+groups_users_032: 
+  group_id: "2"
+  user_id: "23"
+groups_users_033: 
+  group_id: "2"
+  user_id: "24"
+groups_users_034: 
+  group_id: "2"
+  user_id: "25"
+groups_users_035: 
+  group_id: "4"
+  user_id: "26"
+groups_users_036: 
+  group_id: "2"
+  user_id: "27"
+groups_users_037: 
+  group_id: "2"
+  user_id: "28"
+groups_users_038: 
+  group_id: "2"
+  user_id: "29"
+groups_users_039: 
+  group_id: "2"
+  user_id: "30"
+groups_users_040: 
+  group_id: "4"
+  user_id: "31"
+groups_users_041: 
+  group_id: "2"
+  user_id: "32"
+groups_users_042: 
+  group_id: "4"
+  user_id: "33"
+groups_users_043: 
+  group_id: "2"
+  user_id: "34"
+groups_users_044: 
+  group_id: "2"
+  user_id: "35"
+groups_users_045: 
+  group_id: "2"
+  user_id: "36"
+groups_users_046: 
+  group_id: "4"
+  user_id: "37"
+groups_users_047: 
+  group_id: "4"
+  user_id: "38"
+groups_users_048: 
+  group_id: "4"
+  user_id: "39"
+groups_users_049: 
+  group_id: "2"
+  user_id: "40"
+groups_users_050: 
+  group_id: "3"
+  user_id: "41"
+groups_users_051: 
+  group_id: "2"
+  user_id: "42"
+groups_users_052: 
+  group_id: "2"
+  user_id: "43"
+groups_users_053: 
+  group_id: "2"
+  user_id: "44"
+groups_users_054: 
+  group_id: "2"
+  user_id: "45"
+groups_users_055: 
+  group_id: "2"
+  user_id: "46"
+groups_users_056: 
+  group_id: "3"
+  user_id: "47"
+groups_users_057: 
+  group_id: "2"
+  user_id: "48"
+groups_users_058: 
+  group_id: "2"
+  user_id: "49"
+groups_users_059: 
+  group_id: "2"
+  user_id: "50"
+groups_users_060: 
+  group_id: "3"
+  user_id: "51"
+groups_users_061: 
+  group_id: "4"
+  user_id: "52"
+groups_users_062: 
+  group_id: "2"
+  user_id: "53"
+groups_users_063: 
+  group_id: "2"
+  user_id: "54"
+groups_users_064: 
+  group_id: "4"
+  user_id: "55"
+groups_users_065: 
+  group_id: "4"
+  user_id: "56"
+groups_users_066: 
+  group_id: "2"
+  user_id: "57"
+groups_users_067: 
+  group_id: "2"
+  user_id: "58"
+groups_users_068: 
+  group_id: "2"
+  user_id: "59"
+groups_users_069: 
+  group_id: "2"
+  user_id: "60"
+groups_users_070: 
+  group_id: "3"
+  user_id: "61"
+groups_users_071: 
+  group_id: "2"
+  user_id: "62"
+groups_users_072: 
+  group_id: "2"
+  user_id: "63"
+groups_users_073: 
+  group_id: "2"
+  user_id: "64"
+groups_users_074: 
+  group_id: "3"
+  user_id: "64"
+groups_users_075: 
+  group_id: "2"
+  user_id: "65"
+groups_users_076: 
+  group_id: "2"
+  user_id: "66"
+groups_users_077: 
+  group_id: "2"
+  user_id: "67"
+groups_users_078: 
+  group_id: "2"
+  user_id: "68"
+groups_users_079: 
+  group_id: "3"
+  user_id: "69"
+groups_users_080: 
+  group_id: "2"
+  user_id: "70"
+groups_users_081: 
+  group_id: "2"
+  user_id: "71"
+groups_users_082: 
+  group_id: "2"
+  user_id: "72"
+groups_users_083: 
+  group_id: "2"
+  user_id: "73"
+groups_users_084: 
+  group_id: "2"
+  user_id: "74"
+groups_users_085: 
+  group_id: "3"
+  user_id: "75"
+groups_users_086: 
+  group_id: "4"
+  user_id: "76"
+groups_users_087: 
+  group_id: "2"
+  user_id: "77"
+groups_users_088: 
+  group_id: "4"
+  user_id: "78"
+groups_users_089: 
+  group_id: "2"
+  user_id: "79"
+groups_users_090: 
+  group_id: "2"
+  user_id: "80"
+groups_users_091: 
+  group_id: "4"
+  user_id: "81"
+groups_users_092: 
+  group_id: "2"
+  user_id: "82"
+groups_users_093: 
+  group_id: "3"
+  user_id: "83"
+groups_users_094: 
+  group_id: "4"
+  user_id: "84"
+groups_users_095: 
+  group_id: "2"
+  user_id: "85"
+groups_users_096: 
+  group_id: "2"
+  user_id: "86"
+groups_users_097: 
+  group_id: "2"
+  user_id: "87"
+groups_users_098: 
+  group_id: "2"
+  user_id: "88"
+groups_users_099: 
+  group_id: "2"
+  user_id: "89"
+groups_users_100: 
+  group_id: "2"
+  user_id: "90"
+groups_users_101: 
+  group_id: "2"
+  user_id: "91"
+groups_users_102: 
+  group_id: "2"
+  user_id: "92"
+groups_users_103: 
+  group_id: "4"
+  user_id: "93"
+groups_users_104: 
+  group_id: "3"
+  user_id: "94"
+groups_users_105: 
+  group_id: "2"
+  user_id: "95"
+groups_users_106: 
+  group_id: "2"
+  user_id: "96"
+groups_users_107: 
+  group_id: "4"
+  user_id: "97"
+groups_users_108: 
+  group_id: "2"
+  user_id: "98"
+groups_users_109: 
+  group_id: "4"
+  user_id: "99"
+groups_users_110: 
+  group_id: "2"
+  user_id: "100"
+groups_users_111: 
+  group_id: "4"
+  user_id: "101"
+groups_users_112: 
+  group_id: "2"
+  user_id: "102"
+groups_users_113: 
+  group_id: "2"
+  user_id: "103"
+groups_users_114: 
+  group_id: "2"
+  user_id: "104"
+groups_users_115: 
+  group_id: "2"
+  user_id: "105"
+groups_users_116: 
+  group_id: "2"
+  user_id: "106"
+groups_users_117: 
+  group_id: "2"
+  user_id: "107"
+groups_users_118: 
+  group_id: "3"
+  user_id: "108"
+groups_users_119: 
+  group_id: "2"
+  user_id: "109"
+groups_users_120: 
+  group_id: "3"
+  user_id: "110"
+groups_users_121: 
+  group_id: "4"
+  user_id: "111"
+groups_users_122: 
+  group_id: "4"
+  user_id: "112"
+groups_users_123: 
+  group_id: "3"
+  user_id: "113"
+groups_users_124: 
+  group_id: "3"
+  user_id: "114"
+groups_users_125: 
+  group_id: "2"
+  user_id: "115"
+groups_users_126: 
+  group_id: "2"
+  user_id: "116"
+groups_users_127: 
+  group_id: "2"
+  user_id: "117"
+groups_users_128: 
+  group_id: "2"
+  user_id: "118"
+groups_users_129: 
+  group_id: "2"
+  user_id: "119"
+groups_users_130: 
+  group_id: "4"
+  user_id: "120"
+groups_users_131: 
+  group_id: "2"
+  user_id: "121"
+groups_users_132: 
+  group_id: "2"
+  user_id: "122"
+groups_users_133: 
+  group_id: "7"
+  user_id: "125"
+groups_users_134: 
+  group_id: "7"
+  user_id: "126"
+groups_users_135: 
+  group_id: "7"
+  user_id: "127"
+groups_users_136: 
+  group_id: "7"
+  user_id: "128"
+groups_users_137: 
+  group_id: "8"
+  user_id: "129"
+groups_users_138: 
+  group_id: "9"
+  user_id: "130"
+groups_users_139: 
+  group_id: "9"
+  user_id: "131"
+groups_users_140: 
+  group_id: "1"
+  user_id: "133"
+groups_users_141: 
+  group_id: "6"
+  user_id: "133"

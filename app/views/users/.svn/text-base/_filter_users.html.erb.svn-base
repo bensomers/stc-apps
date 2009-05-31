@@ -1,0 +1,17 @@
+<div id="user_filter_box">
+  <% form_tag do %>
+    Search User:
+    <%= text_field_tag  'search', params[:search]%>
+    &nbsp;&nbsp;&nbsp;&nbsp;
+    Filter by group:
+    <%= text_field_tag :group_name, {}, {:size => 20}%>
+    <%= submit_tag 'Search' %>
+  <% end %>  
+</div>
+<div id="user_filter_notice">
+  <% if @groups %>
+    <%= "Show users in " +  @groups.collect(&:name).to_sentence %>
+  <% elsif !params[:search].blank? %>
+    <%= "Users whose netid or name contains '#{params[:search]}'" %>
+  <% end %>
+</div>

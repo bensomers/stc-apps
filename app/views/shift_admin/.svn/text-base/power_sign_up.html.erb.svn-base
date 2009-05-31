@@ -1,0 +1,35 @@
+<div class="shift_form">
+  <%= error_messages_for 'shift' %>
+  <fieldset>
+    <legend>Power sign up: </legend>
+    <% form_tag do %>
+      <p>
+        <label>Location: </label><%= select :shift, :location_id, @location_select %>
+      </p>
+      
+      <p>        
+        <label>Name/netid: </label>  <%= text_field_with_auto_complete :shift, :user_name, { :size => 25 }, 
+       {:url => {:controller => :users, :action => :live_search, :id => @department.id},
+        :method => :get, :param_name => 'search', :min_chars => 2 } %>
+      </p>
+      
+      <p>        
+        <label>Date: </label>
+        <input type="text" id="date_select" name="shift[date]" size="9" class="date_selector"></input><br />
+        <em>(if javascript is disabled, enter common recognizable date formats. eg. 05/08/2008, or even May 18, etc)</em>
+      </p>
+      
+      <p>
+        <label>Start:</label><%= select_tag "start_in_minute", options_for_select(@time_choices_select) %>
+      </p>
+      <p>
+        <label>End:</label><%= select_tag "end_in_minute", options_for_select(@time_choices_select) %>
+      </p>
+                  
+      <%= submit_tag "Power sign up", :button_name => 'signup'%>      
+    <% end %>
+    <%= button_to "Cancel", {:action => 'index', :date => params[:date]}, {:method => 'get'} %>
+  </fieldset>
+</div>
+<div class="date_selector" style="position: absolute; z-index: 500; top: 692px; left: 95px; display: none;">
+</div>

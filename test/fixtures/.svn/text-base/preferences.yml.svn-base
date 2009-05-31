@@ -1,0 +1,11 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  user_id: 1
+  hide_bars: MyString
+  hide_location_groups: MyString
+
+two:
+  user_id: 1
+  hide_bars: MyString
+  hide_location_groups: MyString

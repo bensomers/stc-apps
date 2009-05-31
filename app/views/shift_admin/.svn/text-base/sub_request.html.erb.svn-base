@@ -1,0 +1,10 @@
+<!-- Questions on sub request should be directed to me. -H -->
+<%= error_messages_for 'sub' %>
+<div class="shift_form">
+  <fieldset>
+    <legend>Request a sub for <%= @shift.user.name %></legend>
+    <%= render :partial => 'shift/sub_form' %>
+
+  </fieldset>
+  <%= link_to "Back", :action => :index %>
+</div>

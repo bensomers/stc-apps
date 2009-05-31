@@ -1,0 +1,21 @@
+      <div id="chooser">
+        <p class="chooser_status">
+        <% if @chooser_list.size == 1 %>
+          <%= @chooser_list[0][0] %>
+        <% else %>
+
+        <%# url_options being {} empty works well with shift/shift_admin, but fails under payform and payform_admin %>
+        <%# because payform and payform_admin appends dept id to the url; we need id => nil to reset the dept id %>
+        <% url_options = {:id => nil} %>
+        
+          <% form_tag(url_options, {:id => 'form_chooser', :method => "get"} ) do %>
+          <%= select_tag 'dept', options_for_select(@chooser_list, session["current_chooser_choice"][controller.controller_name].to_i), {:onchange =>"$('form_chooser').submit()"} %>
+              <%= submit_tag value = "Switch", :id => 'submit_chooser' %>
+          <% end %>
+        <script type="text/javascript" charset="utf-8">
+            document.observe('dom:loaded',function(){ $('submit_chooser').hide(); });
+        </script>
+        <% end %>
+       </p>
+     </div>
+     

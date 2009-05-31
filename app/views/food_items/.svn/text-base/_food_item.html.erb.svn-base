@@ -1,0 +1,7 @@
+  <tr class="<%= cycle 'list_line_odd', 'list_line_even' %>" id="food_item_row_<%= food_item.id %>">
+    <td><%=h food_item.name %></td>
+    <td><%=number_to_currency food_item.price %></td>
+    <td><%=h food_item.available %></td>
+    <td><%= link_to 'Edit', edit_food_item_path(food_item) %></td>
+    <td><%= link_to 'Delete', food_item, :confirm => 'Are you sure?', :method => :delete %></td>
+  </tr>

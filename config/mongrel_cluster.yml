@@ -1,0 +1,9 @@
+--- 
+cwd: /srv/www/htdocs/rails/Shifts_Payform/current
+prefix: /shifts_payform
+log_file: /srv/www/htdocs/rails/Shifts_Payform/current/log/mongrel.log
+port: "8000"
+environment: production
+address: 127.0.0.1
+pid_file: /srv/www/htdocs/rails/Shifts_Payform/current/tmp/pids/mongrel.pid
+servers: 3

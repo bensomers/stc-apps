@@ -1,0 +1,10 @@
+<% if @no_layout -%>
+  <%= yield :layout %>
+<% else -%>   
+  <% inside_layout 'application' do %>
+
+    <%= yield :layout %>
+
+  <% end %>
+<% end -%>
+

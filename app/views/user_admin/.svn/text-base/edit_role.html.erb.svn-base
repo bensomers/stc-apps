@@ -1,0 +1,15 @@
+<h1><%= editNewTitleHelper(@role) %> Role</h1>
+<% form_for :role, :url => {:id => @role} do |form| %>
+  <%= form.error_messages %>
+  <p><label for="role_name">Short name</label><br /><%= form.text_field :name, :size => 30, :maxlength => 30 %></p>
+  <p><label for="role_display_name">Display name</label><br /><%= form.text_field :display_name, :size => 30, :maxlength => 30 %></p>
+  <p><label for="role_description">Description</label><br /><%= form.text_field :description, :size => 40, :maxlength => 40 %></p>
+  <%= render(:partial => "department_selector", :object => @role) %>
+  <br>
+  <h3>Permissions</h3>
+  <% for permission in @permissions %>
+    <%= check_box_tag "role[permission_ids][]", permission.id, @role.permissions.include?(permission) %> <%= permission.name %><br />
+  <% end %>
+  <br />
+  <%= submit_tag "Update Role" %> 
+<% end %>

@@ -1,0 +1,23 @@
+<% title "Mass Add Users" %>
+
+<div id="user_admin">
+  <% form_tag :action => 'mass_add' do %>
+    <% section do %>
+      <h2>Users to Add</h2>
+      <%= text_area_tag "netids", nil, :size => "40x15" %>
+    <% end %>
+    <% section do %>
+      <h2>Roles to Grant Users</h2>
+      <% for role in @fullRoles do %>
+        <%= check_box_tag "roles[]", role.id %> <%= role.name %><br />
+      <% end %>
+    <% end %>
+    <%= submit_tag "Add" %>
+  <% end %>
+  <% section do %>
+    <h2>Notes</h2>
+    <ol>
+      <li>The User box takes a comma-delimited list of netids.</li>
+    </ol>
+  <% end %>
+</div>

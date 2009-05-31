@@ -1,0 +1,30 @@
+<% title "Punch Clocks" %>
+
+
+<% if @clocks.empty? %>
+  No running punch clocks.
+<% else %>
+  <h2>Currently Running:</h2>
+  <% for clock in @clocks.sort_by {|c| c.start} %>
+  
+  <div class="clock-notice" style="float: left; width: 40%">
+    <div style="float: left">
+      <h2><%= User.find(clock.user_id).name %></h2>
+      <strong>Clocked in:</strong> <%= clock.start.strftime("%I:%M%p") %> on <%= clock.start.strftime("%a %b %d") %><br/>
+      <strong>Running Time:</strong> <%= clock.time_string %><br/>      
+    </div>
+
+    <div id="clock-button" style="float: right">
+      <%= button_to "Stop Clock", {:action => :show_clocks, :stop_clock => clock.id}, { :method  => :post, :confirm => "Stop clock for #{User.find(clock.user_id).name}?" } %>
+    </div>
+  </div>
+
+  <% end %>
+  <div style="clear:both" class="note" >
+    <ol><strong>Notes:</strong> 
+    <li>Punch clocks are currently <strong><%= "not" unless @department.payform_configuration.clock %> enabled</strong> for users. This can be changed in the payform configuration.</li>
+      <li>Running time is displayed in <em>hours : minutes : seconds</em>.</li>
+    <li>When a clock is stopped, a job is <strong>not</strong> recorded. This should be used when a user forgets to clock out.</li>
+  </ol>
+  </div>
+<% end %>

@@ -1,0 +1,16 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+text_field:
+  id: 1
+  name: text_field
+text_box:
+  id: 2
+  name: text_box
+checkbox:
+  id: 3
+  name: checkbox
+radio:
+  id: 4
+  name: radio
+pulldown:
+  id: 5
+  name: pulldown

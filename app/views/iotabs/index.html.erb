@@ -1,0 +1,32 @@
+<h1><u>Your tabs only</u> | <%= link_to "All tabs", :action => 'view_all' %> | <%= link_to 'Manage Food Items', food_items_path %></h1>
+<h2>Total   paid: <%= number_to_currency @iotabs.sum(&:paid_amt) -%></h2>
+<h2>Total unpaid: <%= number_to_currency @iotabs.sum(&:unpaid_amt) -%></h2>
+<br />
+<table class='iotab tablesorter'>
+  <thead>
+  <tr>
+    <th>Update</th>
+    <th>Food item</th>
+    <th>Paid</th>
+    <th>Unpaid</th>
+  </tr>
+  </thead>
+
+  <tbody>
+
+<% for iotab in @iotabs %>
+  <tr id="iotab_row_<%= iotab.id %>" class="<%= cycle 'list_line_odd', 'list_line_even' %>">
+    <%= render :partial => 'iotab', :object => iotab  %>
+  </tr>
+<% end %>
+  </tbody>
+</table>
+
+<br />
+
+<h2>Take a new item</h2>
+<h3>(Only those marked as available are listed here.  If item is not found please update Manage Food Items.)</h3>
+
+<div id='list_new'>
+  <%= render :partial => 'new' %>
+</div>

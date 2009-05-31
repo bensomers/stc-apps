@@ -1,0 +1,30 @@
+
+      <% @object_entries.each do |entry| %>
+        <% fields_for "data_entries[]", entry do |f| %>
+          <tr>
+            <% data_object_entries_editable.data_type.used_fields.each do |field| %>
+              <% if field[0].match(/s[0-9]/) %>
+                <td>
+                  <%= f.text_field  field[0].chomp("label"), :size => 15 %>
+                </td>
+              <% elsif field[0].match(/i[0-9]/) %>
+                <td>
+                  <%= f.text_field  field[0].chomp("label"), :size => 5 %>
+                </td>
+              <% elsif field[0].match(/b[0-9]/) %>
+                <td>
+                  <%= f.check_box  field[0].chomp("label") %>
+                </td>
+              <% elsif field[0].match(/f[0-9]/) %>
+                <td>
+                  <%= f.text_field  field[0].chomp("label"), :size => 5 %>
+                </td>             
+              <% else %>
+                <td>
+                  <%= entry[field[0].chomp("label")].to_s(:short_name) %>
+                </td>
+              <% end %>
+            <% end %>
+          </tr>
+        <% end %>
+      <% end %>

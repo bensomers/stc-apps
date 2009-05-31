@@ -1,0 +1,15 @@
+<%- tag = row_item.status if row_item.status
+    tag = "shift_time" if tag == "" -%>
+<% if row_item.start == @row_time -%>
+  <%= light_print_cell(tag, @row_time, row_item.end, row_item) -%>
+  <% @row_time = row_item.end %>
+
+<% elsif row_item.start < @row_time %>
+  <%= "ERROR from _row_item partial" %>
+  <%= row_item.start %> to <%= row_item.end %><br />
+
+<% else #which means:  @row_time < row_item.start  # if shift is later -%>
+  <%= light_print_cell("free_time", @row_time, row_item.start, nil) -%>
+  <%= light_print_cell(tag, row_item.start, row_item.end, row_item) -%>
+  <% @row_time = row_item.end%>
+<% end-%>

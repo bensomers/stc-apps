@@ -1,0 +1,14 @@
+<% title "View Mass Jobs" %>
+
+<table id="payformList" width="100%">
+
+  <%= render :partial => "payform/mass_category", 
+           :collection => (@department.payform_configuration.show_disabled_cats ? @department.categories : Category.active(@department.id)),
+           :locals => {:miscellaneous => false} %>
+  
+  <%= render :partial => "payform/mass_category",
+         :locals => {:miscellaneous => true} %>
+         
+  <% @general_view = false %>
+       
+</table>

@@ -1,0 +1,311 @@
+--- 
+roles_001: 
+  description: Admin User Permissions
+  display_name: User Admin
+  id: "1"
+  name: user_admin
+roles_002: 
+  description: Generic Application Rights
+  display_name: Everyone
+  id: "3"
+  name: everyone
+roles_003: 
+  description: Grants Superuser Rights
+  display_name: Superuser
+  id: "5"
+  name: superuser
+roles_004: 
+  description: Grants payform access for STC.
+  display_name: STC
+  id: "8"
+  name: payform/@stc
+roles_005: 
+  description: Grants payform admin access for STC.
+  display_name: STC
+  id: "9"
+  name: payform_admin/@stc
+roles_006: 
+  description: Shift Access for STC
+  display_name: STC
+  id: "10"
+  name: shift/@stc
+roles_007: 
+  description: Shift View Access for ST Clusters
+  display_name: Public ST Clusters (view)
+  id: "11"
+  name: shift/@stc/STClusters
+roles_008: 
+  description: Shift View Access for IO Group
+  display_name: IO Cluster (view)
+  id: "12"
+  name: shift/@stc/IO_Group
+roles_009: 
+  description: Shift Sign_up Access for ST Clusters
+  display_name: Signup
+  id: "13"
+  name: shift/@stc/STClusters/sign_up
+roles_010: 
+  description: Shift Sign_up Access for IO Group
+  display_name: Signup
+  id: "14"
+  name: shift/@stc/IO_Group/sign_up
+roles_011: 
+  description: Shifts Application Access
+  display_name: Shifts
+  id: "15"
+  name: shift
+roles_012: 
+  description: Shifts Admin Application Access
+  display_name: Shifts Admin
+  id: "16"
+  name: shift_admin
+roles_013: 
+  description: Payform access.
+  display_name: Payform access
+  id: "20"
+  name: payform
+roles_014: 
+  description: Payform Admin Access
+  display_name: Payform admin
+  id: "21"
+  name: payform_admin
+roles_015: 
+  description: User Admin control of all departments
+  display_name: All
+  id: "22"
+  name: user_admin/all
+roles_016: 
+  description: Grants user_admin access to STC department
+  display_name: STC
+  id: "23"
+  name: user_admin/@stc
+roles_017: 
+  description: Shift Admin for STC department
+  display_name: STC
+  id: "25"
+  name: shift_admin/@stc
+roles_018: 
+  description: Shift Admin role for IO Group
+  display_name: IO Group
+  id: "26"
+  name: shift_admin/@stc/IO_Group
+roles_019: 
+  description: Shift Admin for ST clusters
+  display_name: ST Clusters
+  id: "27"
+  name: shift_admin/@stc/STClusters
+roles_020: 
+  description: Departmend-wide admin for STC
+  display_name: Department Admin
+  id: "30"
+  name: shift_admin/@stc/department_admin
+roles_021: 
+  description: Grants user_admin access for Film Studies.
+  display_name: Film Studies
+  id: "31"
+  name: user_admin/@film_studies
+roles_022: 
+  description: Grants shift access for Film Studies.
+  display_name: Film Studies
+  id: "32"
+  name: shift/@film_studies
+roles_023: 
+  description: Grants shift_admin access for Film Studies.
+  display_name: Film Studies
+  id: "33"
+  name: shift_admin/@film_studies
+roles_024: 
+  description: Department-wide admin for Film Studies
+  display_name: Department Admin
+  id: "34"
+  name: shift_admin/@film_studies/department_admin
+roles_025: 
+  description: Grants payform access for Film Studies.
+  display_name: Film Studies
+  id: "35"
+  name: payform/@film_studies
+roles_026: 
+  description: Grants payform_admin access for Film Studies.
+  display_name: Film Studies
+  id: "36"
+  name: payform_admin/@film_studies
+roles_027: 
+  description: Grants user_admin access for Media Services.
+  display_name: Media Services
+  id: "37"
+  name: user_admin/@media_services
+roles_028: 
+  description: Grants shift access for Media Services.
+  display_name: Media Services
+  id: "38"
+  name: shift/@media_services
+roles_029: 
+  description: Grants shift_admin access for Media Services.
+  display_name: Media Services
+  id: "39"
+  name: shift_admin/@media_services
+roles_030: 
+  description: Department-wide admin for Media Services
+  display_name: Department Admin
+  id: "40"
+  name: shift_admin/@media_services/department_admin
+roles_031: 
+  description: Grants payform access for Media Services.
+  display_name: Media Services
+  id: "41"
+  name: payform/@media_services
+roles_032: 
+  description: Grants payform_admin access for Media Services.
+  display_name: Media Services
+  id: "42"
+  name: payform_admin/@media_services
+roles_033: 
+  description: Grant Shift View Access For Bass Media
+  display_name: Bass Media
+  id: "43"
+  name: shift/@stc/bass_media
+roles_034: 
+  description: Grant Shift Sign Up Access For Bass Media
+  display_name: Sign up
+  id: "44"
+  name: shift/@stc/bass_media/sign_up
+roles_035: 
+  description: Grant Shift Admin Access For Bass Media
+  display_name: Bass Media
+  id: "45"
+  name: shift_admin/@stc/bass_media
+roles_036: 
+  description: Grants user_admin access for Instructional Technology Group.
+  display_name: Instructional Technology Group
+  id: "55"
+  name: user_admin/@instructional_technology_group
+roles_037: 
+  description: Grants shift access for Instructional Technology Group.
+  display_name: Instructional Technology Group
+  id: "56"
+  name: shift/@instructional_technology_group
+roles_038: 
+  description: Grants shift_admin access for Instructional Technology Group.
+  display_name: Instructional Technology Group
+  id: "57"
+  name: shift_admin/@instructional_technology_group
+roles_039: 
+  description: Department-wide admin for ITG
+  display_name: Department Admin
+  id: "58"
+  name: shift_admin/@instructional_technology_group/department_admin
+roles_040: 
+  description: Grants payform access for Instructional Technology Group.
+  display_name: Instructional Technology Group
+  id: "59"
+  name: payform/@instructional_technology_group
+roles_041: 
+  description: Grants payform_admin access for Instructional Technology Group.
+  display_name: Instructional Technology Group
+  id: "60"
+  name: payform_admin/@instructional_technology_group
+roles_042: 
+  description: Grants user_admin access for Academic Computing Services.
+  display_name: Academic Computing Services
+  id: "61"
+  name: user_admin/@academic_computing_services
+roles_043: 
+  description: Grants shift access for Academic Computing Services.
+  display_name: Academic Computing Services
+  id: "62"
+  name: shift/@academic_computing_services
+roles_044: 
+  description: Grants shift_admin access for Academic Computing Services.
+  display_name: Academic Computing Services
+  id: "63"
+  name: shift_admin/@academic_computing_services
+roles_045: 
+  description: Department-wide admin for ACS
+  display_name: Department admin
+  id: "64"
+  name: shift_admin/@academic_computing_services/department_admin
+roles_046: 
+  description: Grants payform access for Academic Computing Services.
+  display_name: Academic Computing Services
+  id: "65"
+  name: payform/@academic_computing_services
+roles_047: 
+  description: Grants payform_admin access for Academic Computing Services.
+  display_name: Academic Computing Services
+  id: "66"
+  name: payform_admin/@academic_computing_services
+roles_048: 
+  description: Grants user_admin access for SSRS.
+  display_name: SSRS
+  id: "70"
+  name: user_admin/@ssrs
+roles_049: 
+  description: Grants shift access for SSRS.
+  display_name: SSRS
+  id: "71"
+  name: shift/@ssrs
+roles_050: 
+  description: Grants shift_admin access for SSRS.
+  display_name: SSRS
+  id: "72"
+  name: shift_admin/@ssrs
+roles_051: 
+  description: Department-wide admin for SSRS
+  display_name: Department Admin
+  id: "73"
+  name: shift_admin/@ssrs/department_admin
+roles_052: 
+  description: Grants payform access for SSRS.
+  display_name: SSRS
+  id: "74"
+  name: payform/@ssrs
+roles_053: 
+  description: Grants payform_admin access for SSRS.
+  display_name: SSRS
+  id: "75"
+  name: payform_admin/@ssrs
+roles_054: 
+  description: Grant Shift View Access for StatLab
+  display_name: StatLab
+  id: "76"
+  name: shift/@ssrs/statlab
+roles_055: 
+  description: Grant Shift Sign Up Access for StatLab
+  display_name: Signup
+  id: "77"
+  name: shift/@ssrs/statlab/sign_up
+roles_056: 
+  description: Grant Shift Admin Access for StatLab
+  display_name: StatLab
+  id: "78"
+  name: shift_admin/@ssrs/statlab
+roles_057: 
+  description: Grant Shift View Access for College Clusters
+  display_name: College Clusters
+  id: "79"
+  name: shift/@stc/college_clusters
+roles_058: 
+  description: Grant Shift Sign up Access for College Clusters
+  display_name: Signup
+  id: "80"
+  name: shift/@stc/college_clusters/sign_up
+roles_059: 
+  description: Grant Shift Admin Access for College Clusters
+  display_name: College Clusters
+  id: "81"
+  name: shift_admin/@stc/college_clusters
+roles_060: 
+  description: Grant Shift View Access for Unstaffed Public Clusters
+  display_name: Unstaffed Public Clusters
+  id: "82"
+  name: shift/@stc/unstaffed_public_clusters
+roles_061: 
+  description: Grant Shift Sign up Access for Unstaffed Public Clusters
+  display_name: Unstaffed Public Clusters
+  id: "83"
+  name: shift/@stc/unstaffed_public_clusters/sign_up
+roles_062: 
+  description: Grant Shift Admin Access for Unstaffed Public Clusters
+  display_name: Unstaffed Public Clusters
+  id: "84"
+  name: shift_admin/@stc/unstaffed_public_clusters

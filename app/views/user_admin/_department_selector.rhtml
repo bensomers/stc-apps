@@ -1,0 +1,11 @@
+<%# department_selector can be anything that has_many or habtm departments  %>
+<h3> Departments </h3>
+<% departments = superuser_access? ? Department.all : [get_department] -%>
+<% for department in departments %>
+  <% should_check = department==get_department -%>
+  <% extra_hash = should_check ? {:readonly => true, :onclick => 'this.checked = true;'} : {} -%>
+  <%= check_box_tag "#{department_selector.class.name.downcase}[department_ids][]", department.id, department_selector.departments.include?(department) || should_check, extra_hash %>
+  <% #Note have to use readonly for greycolor and onclick js for disabling unchecking. -%>
+  <% #using just :disabled will NOT work because it would not get POSTed to form that way -H -%>
+  <%= department.name %><br />
+<% end %>

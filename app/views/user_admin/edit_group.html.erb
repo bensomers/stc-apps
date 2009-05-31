@@ -1,0 +1,14 @@
+<h1><%= editNewTitleHelper(@group) %> Group</h1>
+<% form_for :group, :url => {:id => @group} do |form| %>
+  <%= form.error_messages %>
+  <p><label for="group_name">Name</label><br /><%= form.text_field :name, :size => 30, :maxlength => 30 %></p>
+  <p><label for="group_info">Info</label><br /><%= form.text_field :info, :size => 30, :maxlength => 30 %></p>
+  <%= render(:partial => "department_selector", :object => @group) %>
+  <br>
+  <h3>Roles</h3>
+  <% for role in @roles %>
+    <%= indentRole(role) %> <%= check_box_tag "group[role_ids][]", role.id, @group.roles.include?(role) %> <%= role.display_name %><br />
+  <% end %>
+  <br />
+  <%= submit_tag "Update Group" %>
+<% end %>

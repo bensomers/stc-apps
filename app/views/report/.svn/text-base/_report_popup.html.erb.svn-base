@@ -1,0 +1,7 @@
+<div id="report_popup_<%= report.id %>" class="popup popup_draghandle" style="display:none">
+  <% report.line_items.each do |line| %>
+      <%= [line.time.to_s(:am_pm), ': ', line.line_content_with_formatting].join %>
+      <br />
+  <% end %>
+</div>
+<%= javascript_tag "new Popup('report_popup_#{report.id}','report_link_#{report.id}')" %>

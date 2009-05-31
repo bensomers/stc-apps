@@ -1,0 +1,25 @@
+<div id="add_mass_clock">
+<%= error_messages_for 'mass_clock' %>
+                    
+<fieldset>
+  <legend>Clock In Users En Masse</legend>
+   
+  <div id="payform_user_chooser">
+    <label>Search user:</label>
+    <%= render :partial => '/users/user_chooser' %>
+  </div>
+  <div style="clear:both; float:right; text-align:right">
+    <%= render :partial => '/users/add_by_group' %>
+  </div>
+  <% form_for(:payform_item, @mass_clock, :html => { :multipart => :true}) do  |form| %> 
+    <%= render :partial => "/payform/job_fields", :locals => {:form => form, 
+                                :department => @department, 
+                                :select_day => Date.today.to_s, 
+                                :clock => true}%>
+    <br />    
+  <div class="ids_for_user_chooser"></div>
+  <%= submit_tag "Clock Users In" %>
+  <% end %>
+  <%= button_to "Cancel", :controller => "/payform_admin/mass_clocks", :action => "mass_clocks" unless no_cancel%>
+</fieldset>
+</div>

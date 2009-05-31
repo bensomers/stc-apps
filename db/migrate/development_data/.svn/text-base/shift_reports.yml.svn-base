@@ -1,0 +1,235 @@
+--- 
+shift_reports_001: 
+  created_at: 2008-08-11 18:12:49
+  end: 2008-08-11 18:19:02
+  id: "14"
+  login_ip: 130.132.182.16
+  logout_ip: 130.132.182.16
+  shift_id: "571"
+  start: 2008-08-11 18:12:49
+  updated_at: 2008-08-11 18:19:02
+shift_reports_002: 
+  created_at: 2008-08-11 18:56:46
+  end: 2008-08-13 16:06:38
+  id: "15"
+  login_ip: 128.36.155.214
+  logout_ip: 128.36.154.68
+  shift_id: "566"
+  start: 2008-08-11 18:56:46
+  updated_at: 2008-08-13 16:06:38
+shift_reports_003: 
+  created_at: 2008-08-11 19:14:21
+  end: 
+  id: "16"
+  login_ip: 128.36.160.148
+  logout_ip: 128.36.160.148
+  shift_id: "724"
+  start: 2008-08-11 19:14:21
+  updated_at: 2008-08-11 19:14:21
+shift_reports_004: 
+  created_at: 2008-08-12 14:12:51
+  end: 2008-08-13 14:40:39
+  id: "17"
+  login_ip: 130.132.182.16
+  logout_ip: 130.132.182.16
+  shift_id: "725"
+  start: 2008-08-12 14:12:51
+  updated_at: 2008-08-13 14:40:39
+shift_reports_005: 
+  created_at: 2008-08-13 14:41:47
+  end: 2008-08-13 16:02:14
+  id: "18"
+  login_ip: 130.132.182.16
+  logout_ip: 130.132.182.16
+  shift_id: "726"
+  start: 2008-08-13 14:41:47
+  updated_at: 2008-08-13 16:02:14
+shift_reports_006: 
+  created_at: 2008-08-13 16:04:25
+  end: 2008-08-13 16:04:33
+  id: "19"
+  login_ip: 130.132.182.16
+  logout_ip: 130.132.182.16
+  shift_id: "727"
+  start: 2008-08-13 16:04:25
+  updated_at: 2008-08-13 16:04:33
+shift_reports_007: 
+  created_at: 2008-08-13 16:07:01
+  end: 2008-08-13 17:46:15
+  id: "20"
+  login_ip: 128.36.154.68
+  logout_ip: 128.36.154.68
+  shift_id: "569"
+  start: 2008-08-13 16:07:01
+  updated_at: 2008-08-13 17:46:15
+shift_reports_008: 
+  created_at: 2008-08-13 17:45:47
+  end: 2008-08-13 17:45:52
+  id: "21"
+  login_ip: 130.132.182.16
+  logout_ip: 130.132.182.16
+  shift_id: "728"
+  start: 2008-08-13 17:45:47
+  updated_at: 2008-08-13 17:45:52
+shift_reports_009: 
+  created_at: 2008-08-13 17:46:32
+  end: 2008-08-13 17:46:35
+  id: "22"
+  login_ip: 128.36.154.68
+  logout_ip: 128.36.154.68
+  shift_id: "729"
+  start: 2008-08-13 17:46:32
+  updated_at: 2008-08-13 17:46:35
+shift_reports_010: 
+  created_at: 2008-08-13 18:30:14
+  end: 2008-08-13 19:01:51
+  id: "23"
+  login_ip: 71.235.99.164
+  logout_ip: 71.235.99.164
+  shift_id: "730"
+  start: 2008-08-13 18:30:14
+  updated_at: 2008-08-13 19:01:51
+shift_reports_011: 
+  created_at: 2008-08-13 22:59:26
+  end: 2008-08-14 08:44:04
+  id: "24"
+  login_ip: 67.189.199.253
+  logout_ip: 130.132.182.16
+  shift_id: "731"
+  start: 2008-08-13 22:59:26
+  updated_at: 2008-08-14 08:44:04
+shift_reports_012: 
+  created_at: 2008-08-14 08:47:18
+  end: 2008-08-14 08:47:33
+  id: "25"
+  login_ip: 130.132.182.16
+  logout_ip: 130.132.182.16
+  shift_id: "733"
+  start: 2008-08-14 08:47:18
+  updated_at: 2008-08-14 08:47:33
+shift_reports_013: 
+  created_at: 2008-08-14 13:08:49
+  end: 2008-08-14 13:10:30
+  id: "26"
+  login_ip: 66.31.194.33
+  logout_ip: 66.31.194.33
+  shift_id: "734"
+  start: 2008-08-14 13:08:49
+  updated_at: 2008-08-14 13:10:30
+shift_reports_014: 
+  created_at: 2008-08-14 13:23:00
+  end: 2008-08-14 13:23:16
+  id: "27"
+  login_ip: 65.102.150.55
+  logout_ip: 65.102.150.55
+  shift_id: "735"
+  start: 2008-08-14 13:23:00
+  updated_at: 2008-08-14 13:23:16
+shift_reports_015: 
+  created_at: 2008-08-14 13:25:55
+  end: 2008-08-14 14:27:27
+  id: "28"
+  login_ip: 128.36.156.138
+  logout_ip: 128.36.156.138
+  shift_id: "572"
+  start: 2008-08-14 13:25:55
+  updated_at: 2008-08-14 14:27:27
+shift_reports_016: 
+  created_at: 2008-08-14 14:54:51
+  end: 2008-08-14 14:54:57
+  id: "29"
+  login_ip: 128.36.155.8
+  logout_ip: 128.36.155.8
+  shift_id: "737"
+  start: 2008-08-14 14:54:51
+  updated_at: 2008-08-14 14:54:57
+shift_reports_017: 
+  created_at: 2008-08-14 15:06:54
+  end: 2008-08-14 15:07:36
+  id: "30"
+  login_ip: 98.97.200.166
+  logout_ip: 98.97.200.166
+  shift_id: "738"
+  start: 2008-08-14 15:06:54
+  updated_at: 2008-08-14 15:07:36
+shift_reports_018: 
+  created_at: 2008-08-14 16:02:01
+  end: 
+  id: "31"
+  login_ip: 128.36.156.138
+  logout_ip: 128.36.156.138
+  shift_id: "739"
+  start: 2008-08-14 16:02:01
+  updated_at: 2008-08-14 16:02:01
+shift_reports_019: 
+  created_at: 2008-08-14 16:55:25
+  end: 2008-08-14 16:55:42
+  id: "32"
+  login_ip: 71.235.99.164
+  logout_ip: 71.235.99.164
+  shift_id: "744"
+  start: 2008-08-14 16:55:25
+  updated_at: 2008-08-14 16:55:42
+shift_reports_020: 
+  created_at: 2008-08-18 15:56:26
+  end: 2008-08-18 15:56:50
+  id: "33"
+  login_ip: 128.36.154.224
+  logout_ip: 128.36.154.224
+  shift_id: "745"
+  start: 2008-08-18 15:56:26
+  updated_at: 2008-08-18 15:56:50
+shift_reports_021: 
+  created_at: 2008-08-19 12:51:09
+  end: 2008-08-24 13:00:31
+  id: "34"
+  login_ip: 128.36.155.86
+  logout_ip: 128.36.192.104
+  shift_id: "575"
+  start: 2008-08-19 12:51:09
+  updated_at: 2008-08-24 13:00:31
+shift_reports_022: 
+  created_at: 2008-08-19 14:28:26
+  end: 2008-08-21 12:49:07
+  id: "35"
+  login_ip: 128.36.154.224
+  logout_ip: 128.36.154.224
+  shift_id: "747"
+  start: 2008-08-19 14:28:26
+  updated_at: 2008-08-21 12:49:07
+shift_reports_023: 
+  created_at: 2008-08-19 15:00:16
+  end: 
+  id: "36"
+  login_ip: 130.132.182.90
+  logout_ip: 130.132.182.90
+  shift_id: "748"
+  start: 2008-08-19 15:00:16
+  updated_at: 2008-08-19 15:00:16
+shift_reports_024: 
+  created_at: 2008-08-21 21:03:51
+  end: 2008-08-21 21:04:20
+  id: "37"
+  login_ip: 88.235.145.162, 130.132.143.49
+  logout_ip: 88.235.145.162, 130.132.143.49
+  shift_id: "750"
+  start: 2008-08-21 21:03:51
+  updated_at: 2008-08-21 21:04:20
+shift_reports_025: 
+  created_at: 2008-08-21 21:06:46
+  end: 
+  id: "38"
+  login_ip: 88.235.145.162, 130.132.143.49
+  logout_ip: 88.235.145.162, 130.132.143.49
+  shift_id: "751"
+  start: 2008-08-21 21:06:46
+  updated_at: 2008-08-21 21:06:46
+shift_reports_026: 
+  created_at: 2008-08-24 14:35:33
+  end: 
+  id: "39"
+  login_ip: 128.36.156.42
+  logout_ip: 128.36.156.42
+  shift_id: "580"
+  start: 2008-08-24 14:35:33
+  updated_at: 2008-08-24 14:35:33

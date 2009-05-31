@@ -1,0 +1,13 @@
+<% if row_shift.start == @row_time # if shift starts where we are -%>
+    <%= print_shift_block("shift_time", @row_time, row_shift.end, row_shift) -%><%# prints current shift -%>
+    <% @row_time = row_shift.end %>
+
+<% elsif row_shift.start < @row_time %>
+    <%= "ERROR from _row_shift partial from row #{row_shift.row}" %>
+    <%= row_shift.start %> to <%= row_shift.end %><br />
+
+<% else #which means:  @row_time < row_shift.start  # if shift is later -%>
+    <%= print_shift_block("free_time", @row_time, row_shift.start, nil) -%><%# print some free time -%>
+    <%= print_shift_block("shift_time", row_shift.start, row_shift.end, row_shift) -%><%# next shift%>
+    <% @row_time = row_shift.end # move to end of shift%>
+<% end-%>

@@ -1,0 +1,11 @@
+<%= error_messages_for 'shift' %>
+<div class="shift_form">
+  <fieldset>
+    <legend>Sign up for shift: </legend>
+    <% form_for :shift do |f| %>
+      <%= render :partial => f  %>
+      <%= f.submit is_admin? ? "Assign" : "Signup" %>
+    <% end %>
+  </fieldset>
+</div>
+<%= link_to 'Back', :action => :index, :date => @shift.shift_date %>

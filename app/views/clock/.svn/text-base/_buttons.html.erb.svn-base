@@ -1,0 +1,10 @@
+<% if @clock.in %>
+  <div id="hidden-button"><%= get_button_if_time -%></div>
+  <%= button_to "Cancel", :controller => "/clock/cancel" -%>
+  <div id="refresh-reminder">(refresh to update time)</div>
+  <script type="text/javascript" charset="utf-8">
+    document.observe('dom:loaded',function(){ $('refresh-reminder').replace('(Updated every 30 seconds)')})
+  </script>
+<% else %>
+  <%= button_to "Clock In",  :controller => "/clock/in"  unless @clock.in -%>
+<% end %>

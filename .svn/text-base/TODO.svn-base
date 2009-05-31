@@ -1,0 +1,44 @@
+Migrate ioTabs out of App
+
+Refactor code and database structure for 'Data' feature
+Four Tables:
+  Data Types      Name, Description
+  Data Objects    Name, type_id
+  Data Fields     Name, data_type (i.e. int, select_box, float, etc )
+  Data Items      obj_id, fields(comma separated list of field ids), data (comma separated list of corresponding data objects)
+  (& join table for types to fields)
+  
+Refactor User / User admin code
+  Create controllers for Roles, permissions, groups, and departments
+  Consider refactoring permission structure to only user groups and roles (instead of groups, roles, and permissions)
+  
+Finish StickyController
+  Make restful
+
+Move logout code to application.rb and fix routing
+
+Index controller is not needed, move it to HomeController and use it for home view. Use for un-protected home page.
+
+Tests:
+  RSpec - Replaces Test::Unit
+          Focused on Behavior
+  Cucumber - Integration tests
+  Shoulda + Mocha - Mocks and stubs - Probably don't need shoulda.
+  
+Restrictions Controller needs work and testing
+
+Payform
+
+  Make printing feature more flexible 
+    Different Formats (CSV/XLS, PDF)
+    Send file to browser instead of email
+    Convert from PDF:Writer to Prawn
+
+  Payform
+    Stats
+    Fix Awkward Namespaces
+
+Rename Support Controller
+
+Remove Taskr4Rails, replace with whenever plugin
+      

@@ -1,0 +1,27 @@
+<div id="navigationShow">
+  <ul id="navigationList">
+    <li><h3>Payform Admin</h3></li>
+    <li>
+      <%= link_to "View Payforms", { :controller => '/payform_admin', :action => 'show_all' } %>
+      <ul>
+        <li><%= link_to "Unapproved", { :controller => '/payform_admin', :action => 'show_unapproved' } %></li>
+        <li><%= link_to "History", { :controller => '/payform_admin', :action => 'past_payforms' } %></li>
+      </ul>
+    </li>
+    <li><%= link_to "Mass Add Jobs", { :controller => '/payform_admin', :action => 'add_jobs' } %>
+
+      <ul>
+        <li><%= link_to "View Mass Jobs", { :controller => '/payform_admin', :action => 'view_mass_jobs' } %></li>
+      </ul>
+    </li>
+    <li><%= link_to "Punch Clocks", { :controller => '/payform_admin', :action => 'show_clocks' } %>
+          <ul>
+            <li><%= link_to "Mass Punch Clocks", { :controller => '/payform_admin', :action => 'mass_clocks' } %></li>
+          </ul>
+      </li>
+      
+    <li><%= link_to "E-mail Reminders", { :controller => '/payform_admin', :action => 'email_reminders' } %></li>
+    <li><%= link_to "Edit Categories", { :controller => '/payform_admin/categories', :action => 'index', :id => @department } %></li>
+    <li><%= link_to "Edit Configurations", { :controller => '/payform_admin', :action => 'config' } %></li>
+  </ul>  
+</div>

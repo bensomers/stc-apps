@@ -1,0 +1,2 @@
+page[@div_id].replace_html :partial => 'iotab', :object => @iotab
+page[@div_id].visual_effect :highlight

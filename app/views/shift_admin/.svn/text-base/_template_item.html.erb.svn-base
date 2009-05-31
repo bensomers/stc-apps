@@ -1,0 +1,14 @@
+<% fields_for "template_items[]", template_item do |f|%>
+<tr class="<%=template_item.status %>">
+  <th><%= WEEK_DAYS[template_item.wday] + ": " -%></td>
+  <%- @in_table = true -%>
+  <%= render :partial => "shift_admin/template_item_times", :object => f %>
+  <% if template_item.class == ShiftTemplateItem and (not @single_user_only)-%>
+    <td><label>User:</label><%= f.text_field :user_name, :size => 10 %></td>
+  <% end -%>
+  <td><%= f.check_box :delete %>
+  <label for=<%= "\"template_items_#{template_item.id}_delete\"" %>>del</label></td>
+  <td width="70"><%= template_item.comment %></td>
+</tr>
+<% end %>
+

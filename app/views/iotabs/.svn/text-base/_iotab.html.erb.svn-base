@@ -1,0 +1,8 @@
+<td class='update'><%= link_to_add_remove("Take",1,iotab.id) %> | <%= link_to_add_remove("Pay",1,iotab.id) %> 
+  | <%= link_to_add_remove 'Return', 1, iotab.id %>
+  | <%= link_to_remote 'Report Empty', :url => {:action => 'report_empty', :id => iotab.id}  %>
+  | <%= link_to_remote 'Remove', :url => {:action => 'destroy', :id => iotab.id } %>
+</td>
+<td><%=h iotab.food_item.name %> </td>
+<td><%= number_to_currency iotab.paid_amt %></td>
+<td><%= number_to_currency iotab.unpaid_amt %></td>

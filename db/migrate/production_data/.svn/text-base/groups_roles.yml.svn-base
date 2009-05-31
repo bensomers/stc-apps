@@ -1,0 +1,112 @@
+--- 
+groups_roles_001: 
+  group_id: "1"
+  role_id: "1"
+groups_roles_002: 
+  group_id: "1"
+  role_id: "2"
+groups_roles_003: 
+  group_id: "1"
+  role_id: "86"
+groups_roles_004: 
+  group_id: "1"
+  role_id: "87"
+groups_roles_005: 
+  group_id: "2"
+  role_id: "88"
+groups_roles_006: 
+  group_id: "3"
+  role_id: "88"
+groups_roles_007: 
+  group_id: "4"
+  role_id: "88"
+groups_roles_008: 
+  group_id: "1"
+  role_id: "89"
+groups_roles_009: 
+  group_id: "2"
+  role_id: "89"
+groups_roles_010: 
+  group_id: "4"
+  role_id: "89"
+groups_roles_011: 
+  group_id: "1"
+  role_id: "90"
+groups_roles_012: 
+  group_id: "1"
+  role_id: "91"
+groups_roles_013: 
+  group_id: "2"
+  role_id: "92"
+groups_roles_014: 
+  group_id: "3"
+  role_id: "92"
+groups_roles_015: 
+  group_id: "4"
+  role_id: "92"
+groups_roles_016: 
+  group_id: "1"
+  role_id: "93"
+groups_roles_017: 
+  group_id: "1"
+  role_id: "94"
+groups_roles_018: 
+  group_id: "1"
+  role_id: "95"
+groups_roles_019: 
+  group_id: "2"
+  role_id: "95"
+groups_roles_020: 
+  group_id: "4"
+  role_id: "95"
+groups_roles_021: 
+  group_id: "1"
+  role_id: "96"
+groups_roles_022: 
+  group_id: "1"
+  role_id: "103"
+groups_roles_023: 
+  group_id: "2"
+  role_id: "104"
+groups_roles_024: 
+  group_id: "2"
+  role_id: "105"
+groups_roles_025: 
+  group_id: "1"
+  role_id: "106"
+groups_roles_026: 
+  group_id: "4"
+  role_id: "107"
+groups_roles_027: 
+  group_id: "4"
+  role_id: "108"
+groups_roles_028: 
+  group_id: "1"
+  role_id: "109"
+groups_roles_029: 
+  group_id: "3"
+  role_id: "110"
+groups_roles_030: 
+  group_id: "3"
+  role_id: "111"
+groups_roles_031: 
+  group_id: "1"
+  role_id: "112"
+groups_roles_032: 
+  group_id: "2"
+  role_id: "113"
+groups_roles_033: 
+  group_id: "2"
+  role_id: "114"
+groups_roles_034: 
+  group_id: "1"
+  role_id: "115"
+groups_roles_035: 
+  group_id: "2"
+  role_id: "116"
+groups_roles_036: 
+  group_id: "2"
+  role_id: "117"
+groups_roles_037: 
+  group_id: "1"
+  role_id: "118"

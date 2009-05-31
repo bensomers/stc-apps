@@ -1,0 +1,22 @@
+<%= error_messages_for 'shift' %>
+<div class="shift_form">
+  <fieldset>
+    <legend>Confirm Selection:</legend>
+    <%= '<h3>' + on_time_message + '</h3>'if @shift.scheduled? %>
+    <p>
+      <label>Location:</label><%= @shift.location.long_name %>
+    </p>
+    <p>
+      <label>Date:</label><%= @shift.date.to_s(:just_date_long)%>
+    </p    
+    <p>
+      <label>Starts at:</label><%= @shift.start.to_s(:am_pm) %>
+    </p>
+    <p>
+      <label>Ends at:</label><%= @shift.end.to_s(:am_pm) %>
+    </p>
+
+    <div class="big_links"><%= make_shift_link %></div>
+    <div class="big_links"><%= make_sub_link %></div>
+  </fieldset>
+</div>

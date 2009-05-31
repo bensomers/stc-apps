@@ -1,0 +1,21 @@
+<% title 'Payform - Admin View' %>
+
+<table width=100%>
+  <tr>
+    <td align='left' ><strong>Last Day of Pay Week</strong></td>
+    <td align='right'><strong>User</strong></td>
+  </tr>
+  <tr>
+    <td align='left' ><%=h @payform.get_date %></td>
+    <td align='right'><%=h @payform.user.name %></td>
+  </tr>
+</table>
+<br />
+<div id="payform_status">
+  <%= render :partial => 'payform/payform_status', :object => @payform %>
+</div>
+<br /><br />
+<div id="payform">
+  <%= render :partial => "payform/payform", :object => @payform %>
+</div>
+

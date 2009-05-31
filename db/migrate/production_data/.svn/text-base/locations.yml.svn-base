@@ -1,0 +1,313 @@
+--- 
+locations_001: 
+  active: "1"
+  created_at: 2008-09-01 20:25:34
+  id: "1"
+  location_group_id: "1"
+  long_name: Bass Library Cluster
+  max_staff: "1"
+  min_staff: "1"
+  priority: "5"
+  report_email: studtech-st-bass@mailman.yale.edu
+  short_name: Bass Cluster
+  updated_at: 2008-09-01 20:25:34
+locations_002: 
+  active: "1"
+  created_at: 2008-09-01 20:25:58
+  id: "2"
+  location_group_id: "1"
+  long_name: Technology Troubleshooting Office
+  max_staff: "3"
+  min_staff: "2"
+  priority: "20"
+  report_email: studtech-st-tto@mailman.yale.edu
+  short_name: TTO
+  updated_at: 2008-09-01 20:25:58
+locations_003: 
+  active: "1"
+  created_at: 2008-09-01 20:27:05
+  id: "3"
+  location_group_id: "1"
+  long_name: Connecticut Hall Cluster
+  max_staff: "1"
+  min_staff: "1"
+  priority: "3"
+  report_email: studtech-st-cthall@mailman.yale.edu
+  short_name: CT Hall
+  updated_at: 2008-09-01 20:27:05
+locations_004: 
+  active: "1"
+  created_at: 2008-09-01 20:27:30
+  id: "4"
+  location_group_id: "1"
+  long_name: Dunham Cluster
+  max_staff: "1"
+  min_staff: "1"
+  priority: "1"
+  report_email: studtech-st-dunham@mailman.yale.edu
+  short_name: Dunham
+  updated_at: 2008-09-01 20:27:30
+locations_005: 
+  active: "1"
+  created_at: 2008-09-01 20:28:01
+  id: "5"
+  location_group_id: "2"
+  long_name: Bass Media Desk
+  max_staff: "1"
+  min_staff: "1"
+  priority: "10"
+  report_email: studtech-st-bl@mailman.yale.edu
+  short_name: Bass Media
+  updated_at: 2008-09-01 20:28:01
+locations_006: 
+  active: "1"
+  created_at: 2008-09-01 20:28:33
+  id: "6"
+  location_group_id: "3"
+  long_name: Io
+  max_staff: "3"
+  min_staff: "1"
+  priority: "10"
+  report_email: studtech-st-io@mailman.yale.edu
+  short_name: Io
+  updated_at: 2008-09-01 20:28:33
+locations_007: 
+  active: "1"
+  created_at: 2008-09-01 21:28:22
+  id: "7"
+  location_group_id: "4"
+  long_name: McDougal Center
+  max_staff: "1"
+  min_staff: "1"
+  priority: "20"
+  report_email: studtech-st-mgr@mailman.yale.edu
+  short_name: McDougal
+  updated_at: 2008-09-01 21:28:22
+locations_008: 
+  active: "1"
+  created_at: 2008-09-01 21:30:20
+  id: "8"
+  location_group_id: "4"
+  long_name: Sterling Chemistry Lab
+  max_staff: "1"
+  min_staff: "1"
+  priority: "19"
+  report_email: studtech-st-mgr@mailman.yale.edu
+  short_name: SCL
+  updated_at: 2008-09-01 21:30:20
+locations_009: 
+  active: "1"
+  created_at: 2008-09-01 21:30:42
+  id: "9"
+  location_group_id: "4"
+  long_name: Kline Science Lab
+  max_staff: "1"
+  min_staff: "1"
+  priority: "18"
+  report_email: studtech-st-mgr@mailman.yale.edu
+  short_name: KSL
+  updated_at: 2008-09-01 21:31:02
+locations_010: 
+  active: "1"
+  created_at: 2008-09-01 21:31:47
+  id: "10"
+  location_group_id: "5"
+  long_name: Berkeley College
+  max_staff: "1"
+  min_staff: "1"
+  priority: "1"
+  report_email: studtech-st-bk-kilroy@mailman.yale.edu
+  short_name: BK
+  updated_at: 2008-09-01 21:31:47
+locations_011: 
+  active: "1"
+  created_at: 2008-09-01 21:32:05
+  id: "11"
+  location_group_id: "5"
+  long_name: Branford College
+  max_staff: "1"
+  min_staff: "1"
+  priority: "1"
+  report_email: studtech-st-br-kilroy@mailman.yale.edu
+  short_name: BR
+  updated_at: 2008-09-01 21:32:05
+locations_012: 
+  active: "1"
+  created_at: 2008-09-01 21:32:20
+  id: "12"
+  location_group_id: "5"
+  long_name: Calhoun College
+  max_staff: "1"
+  min_staff: "1"
+  priority: "1"
+  report_email: studtech-st-cc-kilroy@mailman.yale.edu
+  short_name: CC
+  updated_at: 2008-09-01 21:32:20
+locations_013: 
+  active: "1"
+  created_at: 2008-09-01 21:32:40
+  id: "13"
+  location_group_id: "5"
+  long_name: Davenport College
+  max_staff: "1"
+  min_staff: "1"
+  priority: "1"
+  report_email: studtech-st-dc-kilroy@mailman.yale.edu
+  short_name: DC
+  updated_at: 2008-09-01 21:32:40
+locations_014: 
+  active: "1"
+  created_at: 2008-09-01 21:32:57
+  id: "14"
+  location_group_id: "5"
+  long_name: Ezra Stiles College
+  max_staff: "1"
+  min_staff: "1"
+  priority: "1"
+  report_email: studtech-st-es-kilroy@mailman.yale.edu
+  short_name: ES
+  updated_at: 2008-09-01 21:32:57
+locations_015: 
+  active: "1"
+  created_at: 2008-09-01 21:33:15
+  id: "15"
+  location_group_id: "5"
+  long_name: Jonathan Edwards College
+  max_staff: "1"
+  min_staff: "1"
+  priority: "1"
+  report_email: studtech-st-je-kilroy@mailman.yale.edu
+  short_name: JE
+  updated_at: 2008-09-01 21:33:15
+locations_016: 
+  active: "1"
+  created_at: 2008-09-01 21:33:33
+  id: "16"
+  location_group_id: "5"
+  long_name: Morse College
+  max_staff: "1"
+  min_staff: "1"
+  priority: "1"
+  report_email: studtech-st-mc-kilroy@mailman.yale.edu
+  short_name: MC
+  updated_at: 2008-09-01 21:33:33
+locations_017: 
+  active: "1"
+  created_at: 2008-09-01 21:33:56
+  id: "17"
+  location_group_id: "5"
+  long_name: Pierson College
+  max_staff: "1"
+  min_staff: "1"
+  priority: "1"
+  report_email: studtech-st-pc-kilroy@mailman.yale.edu
+  short_name: PC
+  updated_at: 2008-09-01 21:33:56
+locations_018: 
+  active: "1"
+  created_at: 2008-09-01 21:34:20
+  id: "18"
+  location_group_id: "5"
+  long_name: Saybrook College
+  max_staff: "1"
+  min_staff: "1"
+  priority: "1"
+  report_email: studtech-st-sy-kilroy@mailman.yale.edu
+  short_name: SY
+  updated_at: 2008-09-01 21:34:20
+locations_019: 
+  active: "1"
+  created_at: 2008-09-01 21:34:42
+  id: "19"
+  location_group_id: "5"
+  long_name: Silliman College
+  max_staff: "1"
+  min_staff: "1"
+  priority: "1"
+  report_email: studtech-st-sm-kilroy@mailman.yale.edu
+  short_name: SM
+  updated_at: 2008-09-01 21:34:42
+locations_020: 
+  active: "1"
+  created_at: 2008-09-01 21:35:01
+  id: "20"
+  location_group_id: "5"
+  long_name: Trumbull College
+  max_staff: "1"
+  min_staff: "1"
+  priority: "1"
+  report_email: studtech-st-tc-kilroy@mailman.yale.edu
+  short_name: TC
+  updated_at: 2008-09-01 21:35:01
+locations_021: 
+  active: "1"
+  created_at: 2008-09-01 21:35:25
+  id: "21"
+  location_group_id: "5"
+  long_name: Timothy Dwight College
+  max_staff: "1"
+  min_staff: "1"
+  priority: "1"
+  report_email: studtech-st-td-kilroy@mailman.yale.edu
+  short_name: TD
+  updated_at: 2008-09-01 21:35:25
+locations_022: 
+  active: "1"
+  created_at: 2008-09-01 21:36:02
+  id: "22"
+  location_group_id: "5"
+  long_name: Rosenfeld Hall
+  max_staff: "1"
+  min_staff: "1"
+  priority: "1"
+  report_email: studtech-st-td-kilroy@mailman.yale.edu
+  short_name: RH
+  updated_at: 2008-09-01 21:36:02
+locations_023: 
+  active: "1"
+  created_at: 2008-09-01 21:37:29
+  id: "23"
+  location_group_id: "4"
+  long_name: Hall of Graduate Studies
+  max_staff: "1"
+  min_staff: "1"
+  priority: "1"
+  report_email: studtech-st-hgs-kilroy@mailman.yale.edu
+  short_name: HGS
+  updated_at: 2008-09-01 21:37:29
+locations_024: 
+  active: "1"
+  created_at: 2008-09-01 21:37:54
+  id: "24"
+  location_group_id: "5"
+  long_name: Swing Space
+  max_staff: "1"
+  min_staff: "1"
+  priority: "1"
+  report_email: studtech-st-sw-kilroy@mailman.yale.edu
+  short_name: SW
+  updated_at: 2008-09-01 21:37:54
+locations_025: 
+  active: "1"
+  created_at: 2008-09-01 21:38:57
+  id: "25"
+  location_group_id: "4"
+  long_name: Helen Hadley Hall
+  max_staff: "1"
+  min_staff: "1"
+  priority: "1"
+  report_email: studtech-st-hhh-kilroy@mailman.yale.edu
+  short_name: HHH
+  updated_at: 2008-09-01 21:38:57
+locations_026: 
+  active: "1"
+  created_at: 2008-09-01 21:39:33
+  id: "26"
+  location_group_id: "4"
+  long_name: 276 Prospect
+  max_staff: "1"
+  min_staff: "1"
+  priority: "1"
+  report_email: studtech-st-pr276-kilroy@mailman.yale.edu
+  short_name: PR276
+  updated_at: 2008-09-01 21:39:45

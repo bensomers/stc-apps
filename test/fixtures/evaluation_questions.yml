@@ -1,0 +1,17 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+os:
+  id: 1
+  evaluation_id: 1
+  order: 1
+  question: What is Tiger?
+  answer: Mac OS X, 10.4
+  time: 1
+  active: true
+virus:
+  id: 2
+  evaluation_id: 1
+  order: 2
+  question: How many viruses exist for the Mac OS?
+  answer: 0
+  time: 1
+  active: true

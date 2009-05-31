@@ -1,0 +1,13 @@
+<div class="table_bottom">
+  <div class="shift_links">
+    <div class="last_week">
+      <%= link_to "&lt;&lt; Last Week", :date => (@week_days.first - 7), :anchor => @week_days.first - 2  %>
+    </div>
+    <div class="next_week">
+      <%= link_to "Next Week &gt;&gt;", :date => (@week_days.last + 1), :anchor => @week_days.last + 6  %>
+    </div>
+  </div>
+  <div class="week_bottom">
+    <%= @week_days.first.to_s(:just_date_long) %> to <%= @week_days.last.to_s(:just_date_long) %>
+  </div>
+</div>

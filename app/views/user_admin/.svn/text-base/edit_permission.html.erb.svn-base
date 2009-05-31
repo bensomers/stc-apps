@@ -1,0 +1,8 @@
+<h1><%= editNewTitleHelper(@permission) %> Permission</h1>
+<% form_for :permission, :url => {:id => @permission} do |form| %>
+  <%= form.error_messages %>
+  <p><label for="permission_name">Name</label><br /><%= form.text_field :name, :size => 30, :maxlength => 30 %></p>
+  <p><label for="permission_info">Info</label><br /><%= form.text_field :info, :size => 40, :maxlength => 40 %></p>
+  <br />
+  <%= submit_tag "Update Permission" %> 
+<% end %>

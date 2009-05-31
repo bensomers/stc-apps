@@ -1,0 +1,43 @@
+<% form_for :library, @library do |f| %>
+<div class="template_form">
+  <fieldset>
+    <legend>Template</legend>
+    <%= f.error_messages %>
+      <p>
+      <label class="short_label">Name:</label><%= @library.name %>
+    </p>
+    <p>
+      <label class="short_label">Description:</label><%= @library.description %>
+    </p>
+  </fieldset>
+  <br />
+  <fieldset>
+    <legend>Add New Items</legend>
+    <% @param_field = "library" %>
+    <%= render :partial => "shift_admin/template_item_new", :object => @new_item %>
+    <%= f.submit "Update" %>
+  </fieldset>
+  <br />
+  <% for @loc_group in @location_groups %>
+    <fieldset>
+      <legend><%= @loc_group.long_name %> Items</legend>
+      <% for @location in @loc_group.locations %>
+        <% items = @template_items[@location.id].select {|x| x.user_id == @user.id} %>
+        <% items ||= [] %>
+        <h2><%= link_toggle_unless items.empty?, @location.short_name, @location.long_name %></h2>
+        <table class="template_items_table" cellpadding="3">
+          <% items.each do |item| %>
+            <%= render :partial => "shift_admin/template_item", :object => item %>
+          <% end %>
+        </table>
+        
+    
+      <%= render(:partial => 'shift_admin/template_schedule/location_items', :object => items) unless items.empty? %>
+        
+      <% end %>
+    </fieldset>
+    <br />
+  <%- end -%>
+  <br/><%= f.submit "Update" %>
+<% end %>
+</div>

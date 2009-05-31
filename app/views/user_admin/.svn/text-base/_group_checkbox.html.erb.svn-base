@@ -1,0 +1,1 @@
+<%= check_box_tag "user[group_ids][]", group_checkbox.id, @user.groups.include?(group_checkbox) %> <%= group_checkbox.name %><br />

@@ -1,0 +1,26 @@
+<p>
+  <label>Location: </label>
+  <%= form.select :location_id, @location_select %>
+</p>
+
+<p>
+  <label>Date: </label>
+  <%= @shift.shift_date %>
+</p>
+
+<p>
+  <label>Name: </label>
+  <%= text_field_with_auto_complete :shift, :user_name, { :size => 15 }, 
+       {:url => {:controller => :users, :action => :live_search, :id => @department.id},
+        :method => :get, :param_name => 'search' } %>
+</p>
+
+<p>
+  <label>Start</label>
+  <%= form.select :start, @time_choices_select %>
+</p>
+
+<p>
+  <label>End</label>
+  <%= form.select :end, @time_choices_select, {:selected => @shift.end},{}%>
+</p>  

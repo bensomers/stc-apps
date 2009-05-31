@@ -1,0 +1,412 @@
+--- 
+departments_users_001: 
+  department_id: "1"
+  user_id: "1"
+departments_users_002: 
+  department_id: "1"
+  user_id: "4"
+departments_users_003: 
+  department_id: "1"
+  user_id: "5"
+departments_users_004: 
+  department_id: "2"
+  user_id: "5"
+departments_users_005: 
+  department_id: "3"
+  user_id: "5"
+departments_users_006: 
+  department_id: "4"
+  user_id: "5"
+departments_users_007: 
+  department_id: "5"
+  user_id: "5"
+departments_users_008: 
+  department_id: "6"
+  user_id: "5"
+departments_users_009: 
+  department_id: "1"
+  user_id: "6"
+departments_users_010: 
+  department_id: "1"
+  user_id: "7"
+departments_users_011: 
+  department_id: "2"
+  user_id: "7"
+departments_users_012: 
+  department_id: "1"
+  user_id: "8"
+departments_users_013: 
+  department_id: "1"
+  user_id: "9"
+departments_users_014: 
+  department_id: "1"
+  user_id: "10"
+departments_users_015: 
+  department_id: "1"
+  user_id: "11"
+departments_users_016: 
+  department_id: "1"
+  user_id: "12"
+departments_users_017: 
+  department_id: "8"
+  user_id: "12"
+departments_users_018: 
+  department_id: "1"
+  user_id: "13"
+departments_users_019: 
+  department_id: "1"
+  user_id: "14"
+departments_users_020: 
+  department_id: "1"
+  user_id: "15"
+departments_users_021: 
+  department_id: "1"
+  user_id: "16"
+departments_users_022: 
+  department_id: "1"
+  user_id: "17"
+departments_users_023: 
+  department_id: "1"
+  user_id: "18"
+departments_users_024: 
+  department_id: "1"
+  user_id: "19"
+departments_users_025: 
+  department_id: "1"
+  user_id: "20"
+departments_users_026: 
+  department_id: "1"
+  user_id: "21"
+departments_users_027: 
+  department_id: "1"
+  user_id: "22"
+departments_users_028: 
+  department_id: "1"
+  user_id: "23"
+departments_users_029: 
+  department_id: "1"
+  user_id: "24"
+departments_users_030: 
+  department_id: "1"
+  user_id: "25"
+departments_users_031: 
+  department_id: "1"
+  user_id: "26"
+departments_users_032: 
+  department_id: "1"
+  user_id: "27"
+departments_users_033: 
+  department_id: "1"
+  user_id: "28"
+departments_users_034: 
+  department_id: "1"
+  user_id: "29"
+departments_users_035: 
+  department_id: "1"
+  user_id: "30"
+departments_users_036: 
+  department_id: "1"
+  user_id: "31"
+departments_users_037: 
+  department_id: "1"
+  user_id: "32"
+departments_users_038: 
+  department_id: "1"
+  user_id: "33"
+departments_users_039: 
+  department_id: "1"
+  user_id: "34"
+departments_users_040: 
+  department_id: "1"
+  user_id: "35"
+departments_users_041: 
+  department_id: "1"
+  user_id: "36"
+departments_users_042: 
+  department_id: "1"
+  user_id: "37"
+departments_users_043: 
+  department_id: "1"
+  user_id: "38"
+departments_users_044: 
+  department_id: "1"
+  user_id: "39"
+departments_users_045: 
+  department_id: "1"
+  user_id: "40"
+departments_users_046: 
+  department_id: "1"
+  user_id: "41"
+departments_users_047: 
+  department_id: "1"
+  user_id: "42"
+departments_users_048: 
+  department_id: "1"
+  user_id: "43"
+departments_users_049: 
+  department_id: "1"
+  user_id: "44"
+departments_users_050: 
+  department_id: "1"
+  user_id: "45"
+departments_users_051: 
+  department_id: "1"
+  user_id: "46"
+departments_users_052: 
+  department_id: "1"
+  user_id: "47"
+departments_users_053: 
+  department_id: "1"
+  user_id: "48"
+departments_users_054: 
+  department_id: "1"
+  user_id: "49"
+departments_users_055: 
+  department_id: "1"
+  user_id: "50"
+departments_users_056: 
+  department_id: "1"
+  user_id: "51"
+departments_users_057: 
+  department_id: "1"
+  user_id: "52"
+departments_users_058: 
+  department_id: "1"
+  user_id: "53"
+departments_users_059: 
+  department_id: "1"
+  user_id: "54"
+departments_users_060: 
+  department_id: "1"
+  user_id: "55"
+departments_users_061: 
+  department_id: "1"
+  user_id: "56"
+departments_users_062: 
+  department_id: "1"
+  user_id: "57"
+departments_users_063: 
+  department_id: "1"
+  user_id: "58"
+departments_users_064: 
+  department_id: "1"
+  user_id: "59"
+departments_users_065: 
+  department_id: "1"
+  user_id: "60"
+departments_users_066: 
+  department_id: "1"
+  user_id: "61"
+departments_users_067: 
+  department_id: "1"
+  user_id: "62"
+departments_users_068: 
+  department_id: "1"
+  user_id: "63"
+departments_users_069: 
+  department_id: "1"
+  user_id: "64"
+departments_users_070: 
+  department_id: "1"
+  user_id: "65"
+departments_users_071: 
+  department_id: "1"
+  user_id: "66"
+departments_users_072: 
+  department_id: "1"
+  user_id: "67"
+departments_users_073: 
+  department_id: "1"
+  user_id: "68"
+departments_users_074: 
+  department_id: "1"
+  user_id: "69"
+departments_users_075: 
+  department_id: "1"
+  user_id: "70"
+departments_users_076: 
+  department_id: "1"
+  user_id: "71"
+departments_users_077: 
+  department_id: "1"
+  user_id: "72"
+departments_users_078: 
+  department_id: "1"
+  user_id: "73"
+departments_users_079: 
+  department_id: "1"
+  user_id: "74"
+departments_users_080: 
+  department_id: "1"
+  user_id: "75"
+departments_users_081: 
+  department_id: "1"
+  user_id: "76"
+departments_users_082: 
+  department_id: "1"
+  user_id: "77"
+departments_users_083: 
+  department_id: "1"
+  user_id: "78"
+departments_users_084: 
+  department_id: "1"
+  user_id: "79"
+departments_users_085: 
+  department_id: "1"
+  user_id: "80"
+departments_users_086: 
+  department_id: "1"
+  user_id: "81"
+departments_users_087: 
+  department_id: "1"
+  user_id: "82"
+departments_users_088: 
+  department_id: "1"
+  user_id: "83"
+departments_users_089: 
+  department_id: "1"
+  user_id: "84"
+departments_users_090: 
+  department_id: "1"
+  user_id: "85"
+departments_users_091: 
+  department_id: "1"
+  user_id: "86"
+departments_users_092: 
+  department_id: "1"
+  user_id: "87"
+departments_users_093: 
+  department_id: "1"
+  user_id: "88"
+departments_users_094: 
+  department_id: "1"
+  user_id: "89"
+departments_users_095: 
+  department_id: "1"
+  user_id: "90"
+departments_users_096: 
+  department_id: "1"
+  user_id: "91"
+departments_users_097: 
+  department_id: "1"
+  user_id: "92"
+departments_users_098: 
+  department_id: "1"
+  user_id: "93"
+departments_users_099: 
+  department_id: "1"
+  user_id: "94"
+departments_users_100: 
+  department_id: "1"
+  user_id: "95"
+departments_users_101: 
+  department_id: "1"
+  user_id: "96"
+departments_users_102: 
+  department_id: "1"
+  user_id: "97"
+departments_users_103: 
+  department_id: "1"
+  user_id: "98"
+departments_users_104: 
+  department_id: "1"
+  user_id: "99"
+departments_users_105: 
+  department_id: "1"
+  user_id: "100"
+departments_users_106: 
+  department_id: "1"
+  user_id: "101"
+departments_users_107: 
+  department_id: "1"
+  user_id: "102"
+departments_users_108: 
+  department_id: "1"
+  user_id: "103"
+departments_users_109: 
+  department_id: "1"
+  user_id: "104"
+departments_users_110: 
+  department_id: "1"
+  user_id: "105"
+departments_users_111: 
+  department_id: "1"
+  user_id: "106"
+departments_users_112: 
+  department_id: "1"
+  user_id: "107"
+departments_users_113: 
+  department_id: "1"
+  user_id: "108"
+departments_users_114: 
+  department_id: "1"
+  user_id: "109"
+departments_users_115: 
+  department_id: "1"
+  user_id: "110"
+departments_users_116: 
+  department_id: "1"
+  user_id: "111"
+departments_users_117: 
+  department_id: "1"
+  user_id: "112"
+departments_users_118: 
+  department_id: "1"
+  user_id: "113"
+departments_users_119: 
+  department_id: "1"
+  user_id: "114"
+departments_users_120: 
+  department_id: "1"
+  user_id: "115"
+departments_users_121: 
+  department_id: "1"
+  user_id: "116"
+departments_users_122: 
+  department_id: "1"
+  user_id: "117"
+departments_users_123: 
+  department_id: "1"
+  user_id: "118"
+departments_users_124: 
+  department_id: "1"
+  user_id: "119"
+departments_users_125: 
+  department_id: "1"
+  user_id: "120"
+departments_users_126: 
+  department_id: "1"
+  user_id: "121"
+departments_users_127: 
+  department_id: "1"
+  user_id: "122"
+departments_users_128: 
+  department_id: "2"
+  user_id: "123"
+departments_users_129: 
+  department_id: "5"
+  user_id: "125"
+departments_users_130: 
+  department_id: "5"
+  user_id: "126"
+departments_users_131: 
+  department_id: "5"
+  user_id: "127"
+departments_users_132: 
+  department_id: "5"
+  user_id: "128"
+departments_users_133: 
+  department_id: "5"
+  user_id: "129"
+departments_users_134: 
+  department_id: "6"
+  user_id: "130"
+departments_users_135: 
+  department_id: "6"
+  user_id: "131"
+departments_users_136: 
+  department_id: "3"
+  user_id: "132"
+departments_users_137: 
+  department_id: "1"
+  user_id: "133"

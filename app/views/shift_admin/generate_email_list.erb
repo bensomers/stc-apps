@@ -1,0 +1,29 @@
+<% title "Generate Email List" %>
+<%= error_messages_for 'generate_email_list' %>
+<div class="shift_admin_form">
+  <fieldset>
+    <legend>Generate Email List</legend>
+  <% form_tag "generate_email_list" do -%> 
+    <p>
+      <label>Clusters:</label>
+        <% @locations.each do |loc| %>
+          <%= check_box_tag "locations[]", loc.id %>
+          <%= loc.short_name %>
+        <% end %>
+    </p>
+    <p>
+      <label>Shift Template</label>
+      <%= select_tag "shift_template", options_for_select(@template_select) %>
+    </p>
+    <p>
+      <label>Delimiter</label>
+      <%= select_tag "delimiter", options_for_select([["Newline", "<br/>"], ["Comma", ", "]]) %>
+    </p>   
+    <%= submit_tag "Generate" %>
+  <% end %>
+</fieldset>
+</div>
+<% if @email_list %>
+  <h2> Results </h2>
+    <%= @email_list %>
+<% end %>

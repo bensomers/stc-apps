@@ -1,0 +1,19 @@
+<table class="manage_table">
+  <thead>
+    <tr>
+      <th>Name</th><th>Description</th><th colspan="3">Actions</th>
+    </tr>
+  </thead>
+      
+  <tbody>
+    <% for template in templates_table %>
+    <tr>
+      <td><%= template.name %></td>
+      <td><%= template.description %></td>
+      <td><%= link_to "#{template.publicly_viewable ? "disable" : "enable"} public changes", {:action => "switch_publicly_modifiable", :id => template} %></td>
+      <td><%= link_to "edit", {:action => "edit_template", :id => template} %></td>
+      <td><%= link_to "delete", {:action => "delete_template", :id => template}, :confirm => "Are you sure you want to delete this template?", :method => :post %></td>
+    </tr>
+    <% end %>
+  </tbody>
+</table>

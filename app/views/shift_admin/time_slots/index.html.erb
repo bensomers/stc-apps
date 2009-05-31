@@ -1,0 +1,41 @@
+<%= render :partial => 'shift/view_pref' %>
+<%= link_to 'Back to schedule view', {:controller => '/shift_admin', :action => :index, :date => params[:date]}, :class => 'big_links' %>
+<div class="note">
+  <strong>Notes</strong>
+  <ol>
+    <li>Time slots in the past cannot be changed or deleted.</li>
+    <li>Click on any location name to toggle the schedule display for that location</li>
+  </ol>
+</div>
+<div class="time_slot_form">
+  <% form_for :new_slot do |f|%>
+  <fieldset>
+    <legend>Add new time slots to the week</legend>
+
+    <label>Start</label><%= f.select :start_in_minute, @time_choices_select %>
+    <label>End:</label><%= f.select :end_in_minute, @time_choices_select, {:selected => @time_choices_select.last[1]} %>
+  
+    <p>in Locations:
+      <% @locations.each do |loc| %>
+        <%= check_box_tag "location_ids[]", loc.id, false, {:id => "location_#{loc.id}"} %>
+        <%= "<label for='location_%s'>%s</label>" % [loc.id, loc.short_name]%>&nbsp;&nbsp;
+      <%- end -%>
+            
+    <p>for Days:
+      <% WEEK_DAYS.each_with_index do |day, i| %>
+        <%= check_box_tag "days[]", i, false, {:id => "days_#{i}", :disabled => @week_days[i] < Date.today} %>
+        <%= "<label for='days_%s'>%s</label>" % [i, day] %>
+      <% end %>
+    </p>
+      <%= hidden_field_tag :date, params[:date]%>
+      <%= submit_tag 'Add' %>
+  </fieldset>
+  <% end %>
+
+<%= render :partial => 'shift/schedule_title' %>
+  
+  <% form_tag do %>
+    <%= render :partial => 'location', :collection => @locations %>
+    <%= submit_tag 'Update' %>
+  <% end %>
+</div>

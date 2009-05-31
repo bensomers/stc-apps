@@ -1,0 +1,21 @@
+<div id="navigationShow">
+  <ul id="navigationList">
+  <li><%= link_to "User Admin", :action => "index" %></li>
+  <br>
+  <li>
+    <%= link_to "Manage Users", :action => "manage_users" %>
+    <ul>
+        <li><%= link_to "Import users", :action => "import_users" %></li>
+        <li><%= link_to "Export users", :action => "export_users" %></li>
+    </ul>
+  </li>
+  <li><%= link_to "Manage Groups", :action => "manage_groups" %></li>
+  <br>
+  <% if superuser_access? %>
+    <li><%= link_to "Manage Roles", :action => "manage_roles" %></li>
+    <li><%= link_to "Manage Permissions", :action => "manage_permissions" %></li>
+    <br>
+    <li><%= link_to "Manage Departments", :action => "manage_departments" %></li>
+  <% end %>
+  </ul>
+</div>

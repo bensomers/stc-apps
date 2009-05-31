@@ -1,0 +1,304 @@
+--- 
+data_objects_locations_001: 
+  data_object_id: "28"
+  location_id: "1"
+data_objects_locations_002: 
+  data_object_id: "29"
+  location_id: "1"
+data_objects_locations_003: 
+  data_object_id: "30"
+  location_id: "1"
+data_objects_locations_004: 
+  data_object_id: "31"
+  location_id: "1"
+data_objects_locations_005: 
+  data_object_id: "32"
+  location_id: "1"
+data_objects_locations_006: 
+  data_object_id: "60"
+  location_id: "1"
+data_objects_locations_007: 
+  data_object_id: "61"
+  location_id: "1"
+data_objects_locations_008: 
+  data_object_id: "1"
+  location_id: "2"
+data_objects_locations_009: 
+  data_object_id: "28"
+  location_id: "2"
+data_objects_locations_010: 
+  data_object_id: "29"
+  location_id: "2"
+data_objects_locations_011: 
+  data_object_id: "30"
+  location_id: "2"
+data_objects_locations_012: 
+  data_object_id: "31"
+  location_id: "2"
+data_objects_locations_013: 
+  data_object_id: "32"
+  location_id: "2"
+data_objects_locations_014: 
+  data_object_id: "56"
+  location_id: "2"
+data_objects_locations_015: 
+  data_object_id: "60"
+  location_id: "2"
+data_objects_locations_016: 
+  data_object_id: "61"
+  location_id: "2"
+data_objects_locations_017: 
+  data_object_id: "1"
+  location_id: "3"
+data_objects_locations_018: 
+  data_object_id: "19"
+  location_id: "3"
+data_objects_locations_019: 
+  data_object_id: "20"
+  location_id: "3"
+data_objects_locations_020: 
+  data_object_id: "21"
+  location_id: "3"
+data_objects_locations_021: 
+  data_object_id: "22"
+  location_id: "3"
+data_objects_locations_022: 
+  data_object_id: "52"
+  location_id: "3"
+data_objects_locations_023: 
+  data_object_id: "59"
+  location_id: "3"
+data_objects_locations_024: 
+  data_object_id: "62"
+  location_id: "3"
+data_objects_locations_025: 
+  data_object_id: "23"
+  location_id: "4"
+data_objects_locations_026: 
+  data_object_id: "24"
+  location_id: "4"
+data_objects_locations_027: 
+  data_object_id: "25"
+  location_id: "4"
+data_objects_locations_028: 
+  data_object_id: "26"
+  location_id: "4"
+data_objects_locations_029: 
+  data_object_id: "53"
+  location_id: "4"
+data_objects_locations_030: 
+  data_object_id: "58"
+  location_id: "4"
+data_objects_locations_031: 
+  data_object_id: "63"
+  location_id: "4"
+data_objects_locations_032: 
+  data_object_id: "64"
+  location_id: "4"
+data_objects_locations_033: 
+  data_object_id: "65"
+  location_id: "4"
+data_objects_locations_034: 
+  data_object_id: "66"
+  location_id: "4"
+data_objects_locations_035: 
+  data_object_id: "28"
+  location_id: "6"
+data_objects_locations_036: 
+  data_object_id: "29"
+  location_id: "6"
+data_objects_locations_037: 
+  data_object_id: "30"
+  location_id: "6"
+data_objects_locations_038: 
+  data_object_id: "31"
+  location_id: "6"
+data_objects_locations_039: 
+  data_object_id: "32"
+  location_id: "6"
+data_objects_locations_040: 
+  data_object_id: "56"
+  location_id: "6"
+data_objects_locations_041: 
+  data_object_id: "60"
+  location_id: "6"
+data_objects_locations_042: 
+  data_object_id: "61"
+  location_id: "6"
+data_objects_locations_043: 
+  data_object_id: "4"
+  location_id: "10"
+data_objects_locations_044: 
+  data_object_id: "38"
+  location_id: "10"
+data_objects_locations_045: 
+  data_object_id: "7"
+  location_id: "11"
+data_objects_locations_046: 
+  data_object_id: "8"
+  location_id: "11"
+data_objects_locations_047: 
+  data_object_id: "41"
+  location_id: "11"
+data_objects_locations_048: 
+  data_object_id: "15"
+  location_id: "12"
+data_objects_locations_049: 
+  data_object_id: "48"
+  location_id: "12"
+data_objects_locations_050: 
+  data_object_id: "67"
+  location_id: "12"
+data_objects_locations_051: 
+  data_object_id: "10"
+  location_id: "13"
+data_objects_locations_052: 
+  data_object_id: "43"
+  location_id: "13"
+data_objects_locations_053: 
+  data_object_id: "68"
+  location_id: "13"
+data_objects_locations_054: 
+  data_object_id: "12"
+  location_id: "14"
+data_objects_locations_055: 
+  data_object_id: "45"
+  location_id: "14"
+data_objects_locations_056: 
+  data_object_id: "69"
+  location_id: "14"
+data_objects_locations_057: 
+  data_object_id: "16"
+  location_id: "15"
+data_objects_locations_058: 
+  data_object_id: "50"
+  location_id: "15"
+data_objects_locations_059: 
+  data_object_id: "70"
+  location_id: "15"
+data_objects_locations_060: 
+  data_object_id: "18"
+  location_id: "16"
+data_objects_locations_061: 
+  data_object_id: "51"
+  location_id: "16"
+data_objects_locations_062: 
+  data_object_id: "71"
+  location_id: "16"
+data_objects_locations_063: 
+  data_object_id: "14"
+  location_id: "17"
+data_objects_locations_064: 
+  data_object_id: "47"
+  location_id: "17"
+data_objects_locations_065: 
+  data_object_id: "72"
+  location_id: "17"
+data_objects_locations_066: 
+  data_object_id: "11"
+  location_id: "18"
+data_objects_locations_067: 
+  data_object_id: "44"
+  location_id: "18"
+data_objects_locations_068: 
+  data_object_id: "73"
+  location_id: "18"
+data_objects_locations_069: 
+  data_object_id: "9"
+  location_id: "19"
+data_objects_locations_070: 
+  data_object_id: "42"
+  location_id: "19"
+data_objects_locations_071: 
+  data_object_id: "74"
+  location_id: "19"
+data_objects_locations_072: 
+  data_object_id: "75"
+  location_id: "20"
+data_objects_locations_073: 
+  data_object_id: "2"
+  location_id: "21"
+data_objects_locations_074: 
+  data_object_id: "36"
+  location_id: "21"
+data_objects_locations_075: 
+  data_object_id: "76"
+  location_id: "21"
+data_objects_locations_076: 
+  data_object_id: "13"
+  location_id: "22"
+data_objects_locations_077: 
+  data_object_id: "46"
+  location_id: "22"
+data_objects_locations_078: 
+  data_object_id: "77"
+  location_id: "22"
+data_objects_locations_079: 
+  data_object_id: "6"
+  location_id: "23"
+data_objects_locations_080: 
+  data_object_id: "40"
+  location_id: "23"
+data_objects_locations_081: 
+  data_object_id: "78"
+  location_id: "23"
+data_objects_locations_082: 
+  data_object_id: "5"
+  location_id: "24"
+data_objects_locations_083: 
+  data_object_id: "39"
+  location_id: "24"
+data_objects_locations_084: 
+  data_object_id: "79"
+  location_id: "24"
+data_objects_locations_085: 
+  data_object_id: "3"
+  location_id: "25"
+data_objects_locations_086: 
+  data_object_id: "37"
+  location_id: "25"
+data_objects_locations_087: 
+  data_object_id: "80"
+  location_id: "25"
+data_objects_locations_088: 
+  data_object_id: "81"
+  location_id: "25"
+data_objects_locations_089: 
+  data_object_id: "17"
+  location_id: "26"
+data_objects_locations_090: 
+  data_object_id: "49"
+  location_id: "26"
+data_objects_locations_091: 
+  data_object_id: "80"
+  location_id: "26"
+data_objects_locations_092: 
+  data_object_id: "81"
+  location_id: "26"
+data_objects_locations_093: 
+  data_object_id: "33"
+  location_id: "27"
+data_objects_locations_094: 
+  data_object_id: "54"
+  location_id: "27"
+data_objects_locations_095: 
+  data_object_id: "82"
+  location_id: "27"
+data_objects_locations_096: 
+  data_object_id: "35"
+  location_id: "28"
+data_objects_locations_097: 
+  data_object_id: "57"
+  location_id: "28"
+data_objects_locations_098: 
+  data_object_id: "83"
+  location_id: "28"
+data_objects_locations_099: 
+  data_object_id: "34"
+  location_id: "29"
+data_objects_locations_100: 
+  data_object_id: "55"
+  location_id: "29"
+data_objects_locations_101: 
+  data_object_id: "84"
+  location_id: "29"

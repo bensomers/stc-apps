@@ -1,0 +1,5 @@
+<%= indentRole(role_checkbox) %>
+<%= check_box_tag "user[role_ids][]", role_checkbox.id, (@user.roles.include?(role_checkbox) or @user.group_roles.include?(role_checkbox)),
+:disabled => @user.group_roles.include?(role_checkbox)%>
+<%= role_checkbox.display_name %>
+<br />

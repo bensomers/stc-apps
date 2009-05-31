@@ -1,0 +1,17 @@
+<% form_for(:announcement, @announcement, :url => {:controller => "/shift_admin/announcements", :action => (controller.action_name == "manage" ? "add" : "edit"), :id => @department.id}, :html => {:id => 'announcement_form', :multipart => :true}) do  |form|%> 
+    Announcement:
+    <%= form.text_field :content %>
+    <br />
+    From:<br/>
+    <%= radio_button_tag 'start_time_choice', 'date', :checked => true -%>
+      <%= datetime_select 'announcement', 'start_time' %><br />
+    <%= radio_button_tag 'start_time_choice', 'now' -%> Now<br />
+    Until:<br/>
+    <%= radio_button_tag 'end_time_choice', 'date', :checked => true -%>
+      <%= datetime_select 'announcement', 'end_time' %><br />
+    <%= radio_button_tag 'end_time_choice', 'indefinite' -%> Indefinitely<br />
+    Applies to:<br/>
+    <div id="checkboxes_div"><%= render :partial => 'checkboxes'%></div>
+    <%= submit_tag "Save" %>
+  <% end %>
+<%= observe_form 'announcement_form', :url => { :action => 'update_checkboxes', :id => @department.id }, :frequency => 0.5 %>

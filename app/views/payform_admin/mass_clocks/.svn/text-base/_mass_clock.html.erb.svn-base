@@ -1,0 +1,39 @@
+<div class="mass-clock-item">
+  <div style="float: right; text-align:right;">
+    <%= link_to "[delete]", {:controller => "/payform_admin/mass_clocks", :action => "mass_clocks_action", :id => @department.id, :delete => mass_clock.id}, 
+                 :confirm => "Are you sure?" + (mass_clock.clocks.empty? ? "" : " All corresponding user clocks will be cancelled.") + (mass_clock.payform_items.empty? ? "" : " Corresponding jobs will NOT be deleted!"), :post => true %>
+    <%= link_to_remote "[edit]", :url => {:controller => "/payform_admin/mass_clocks", :action => "edit_mass_clock", :id => mass_clock.id } %><br/>
+    
+    <%= link_to_remote "[add users]", :url => {:controller => "/payform_admin/mass_clocks", :action => "add_users_mass_clock", :id => mass_clock.id } %>
+  </div>
+  <strong>
+    <%= mass_clock.description %><br/>
+  </strong>
+  <%= mass_clock.category.name %><br/>
+  <em>
+    <%= mass_clock.created_at.strftime('%A, %B %d, %Y at %I:%M%p') %>
+  </em>
+  <br/><br/>
+  <% unless mass_clock.clocks.empty? %>
+    <div style="float:right;">
+      <%= link_to "[clock out all users]", {:controller => "/payform_admin/mass_clocks", :action => "mass_clocks_action", :id => @department.id, :clock_all_out => mass_clock.id}, :post => true %>
+    </div>
+    <%= "<strong>" + mass_clock.clocks.count.to_s + " active clock" + (mass_clock.clocks.count == 1 ? "" : "s" ) + "</strong>"  %>
+    <%= link_to "[cancel all clocks]", {:controller => "/payform_admin/mass_clocks", :action => "mass_clocks_action", :id => @department.id, :cancel_all => mass_clock.id}, :confirm => "Cancel all: Are you sure?", :post => true %>
+    <div id="mass_clock_users">
+      <%= render :partial => "/payform_admin/mass_clocks/mass_clock_user", 
+             :collection => mass_clock.clocks,
+             :locals => { :payform_items => false }%>
+    </div>
+  <br/>
+  <% end %>
+  <% unless mass_clock.payform_items.count == 0 %>
+    <%= "<strong>" + mass_clock.payform_items.count.to_s + " job" + (mass_clock.payform_items.count == 1 ? "" : "s" ) + "</strong>" %>
+    <%= link_to "[delete all jobs]", {:controller => "/payform_admin/mass_clocks", :action => "mass_clocks_action", :id => @department.id, :delete_all => mass_clock.id}, :confirm => "Delete all: Are you sure?", :post => true %>
+    <div id="mass_clock_users">
+      <%= render :partial => "/payform_admin/mass_clocks/mass_clock_user", 
+             :collection => mass_clock.payform_items,
+             :locals => { :payform_items => true }%>
+    </div>
+  <% end %>
+</div>

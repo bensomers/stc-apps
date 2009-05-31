@@ -1,0 +1,36 @@
+<p>
+  <% fields_for :data_type, data_type_form do |dt| %>
+    <%= dt.error_messages %>
+    <p>
+      Name: <%= dt.text_field :name, :size => 10 %>
+    </p>
+    <% DataType.string_fields.each do |fn| %>   
+      <p>
+        <%= fn %>
+        <%= dt.text_field fn, :size => 10 %>       
+      </p>
+      <% break if data_type_form[fn].blank? %>
+    <% end %>
+    <% DataType.integer_fields.each do |fn| %>   
+      <p>
+        <%= fn %>
+        <%= dt.text_field fn, :size => 10 %>       
+      </p>
+      <% break if data_type_form[fn].blank? %>
+    <% end %>   
+    <% DataType.boolean_fields.each do |fn| %>   
+      <p>
+        <%= fn %>
+        <%= dt.text_field fn, :size => 10 %>       
+      </p>
+      <% break if data_type_form[fn].blank? %>
+    <% end %>   
+    <% DataType.float_fields.each do |fn| %>   
+      <p>
+        <%= fn %>
+        <%= dt.text_field fn, :size => 10 %>       
+      </p>
+      <% break if data_type_form[fn].blank? %>
+    <% end %>    
+  <% end %>
+</p>

@@ -1,0 +1,1 @@
+<%= render :partial => 'location_form', :locals => {:title => "Edit this Location", :button => "Update",} %>

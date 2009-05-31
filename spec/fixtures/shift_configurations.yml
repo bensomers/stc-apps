@@ -1,0 +1,105 @@
+--- 
+shift_configurations_001: 
+  created_at: 2008-08-08 12:59:53
+  department_admin_permission_id: "57"
+  department_id: "1"
+  end: "1500"
+  grace_period: "7"
+  granularity: "15"
+  id: "1"
+  report_can_edit: "0"
+  shift_admin_permission_id: "52"
+  shift_permission_id: "30"
+  start: "480"
+  updated_at: 2008-08-08 12:59:53
+shift_configurations_002: 
+  created_at: 2008-08-10 15:59:19
+  department_admin_permission_id: "61"
+  department_id: "2"
+  end: "1020"
+  grace_period: "0"
+  granularity: "60"
+  id: "2"
+  report_can_edit: "0"
+  shift_admin_permission_id: "60"
+  shift_permission_id: "59"
+  start: "540"
+  updated_at: 2008-08-10 15:59:19
+shift_configurations_003: 
+  created_at: 2008-08-10 15:59:38
+  department_admin_permission_id: "67"
+  department_id: "3"
+  end: "1020"
+  grace_period: "0"
+  granularity: "60"
+  id: "3"
+  report_can_edit: "0"
+  shift_admin_permission_id: "66"
+  shift_permission_id: "65"
+  start: "540"
+  updated_at: 2008-08-10 15:59:38
+shift_configurations_004: 
+  created_at: 2008-08-11 11:58:48
+  department_admin_permission_id: "85"
+  department_id: "4"
+  end: "1020"
+  grace_period: "0"
+  granularity: "60"
+  id: "4"
+  report_can_edit: "0"
+  shift_admin_permission_id: "84"
+  shift_permission_id: "83"
+  start: "540"
+  updated_at: 2008-08-11 11:58:48
+shift_configurations_005: 
+  created_at: 2008-08-11 11:59:14
+  department_admin_permission_id: "91"
+  department_id: "5"
+  end: "1020"
+  grace_period: "0"
+  granularity: "60"
+  id: "5"
+  report_can_edit: "0"
+  shift_admin_permission_id: "90"
+  shift_permission_id: "89"
+  start: "540"
+  updated_at: 2008-08-11 11:59:14
+shift_configurations_006: 
+  created_at: 2008-08-11 14:08:04
+  department_admin_permission_id: "100"
+  department_id: "6"
+  end: "1320"
+  grace_period: "0"
+  granularity: "30"
+  id: "6"
+  report_can_edit: "0"
+  shift_admin_permission_id: "99"
+  shift_permission_id: "98"
+  start: "510"
+  updated_at: 2008-08-14 15:17:07
+shift_configurations_007: 
+  created_at: 2008-08-14 16:24:28
+  department_admin_permission_id: "112"
+  department_id: "7"
+  end: "1380"
+  grace_period: "0"
+  granularity: "10"
+  id: "7"
+  report_can_edit: "0"
+  shift_admin_permission_id: "111"
+  shift_permission_id: "110"
+  start: "540"
+  updated_at: 2008-08-14 16:34:51
+shift_configurations_008: 
+  created_at: 2008-08-14 16:38:55
+  department_admin_permission_id: "121"
+  department_id: "8"
+  end: "1020"
+  grace_period: "0"
+  granularity: "60"
+  id: "8"
+  report_can_edit: "0"
+  shift_admin_permission_id: "120"
+  shift_permission_id: "119"
+  start: "540"
+  updated_at: 2008-08-14 16:38:55

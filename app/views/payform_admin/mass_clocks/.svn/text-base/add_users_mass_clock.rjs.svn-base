@@ -1,0 +1,4 @@
+page.hide("add_mass_clock")
+page.replace_html("add_mass_clock", :partial => "/payform_admin/mass_clocks/add_users_mass_clock", :locals => {:no_cancel => true});
+page["add_mass_clock"].visual_effect :appear, :duration => 0.3
+page.replace_html("mass_clock_link", link_to_remote("-Add Mass Clock Users", :url => { :action => "hide_mass_clock", :id => @mass_clock.department.id}));

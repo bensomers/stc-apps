@@ -1,0 +1,18 @@
+<br/>
+<fieldset>
+  <% form_for(:payform_item, @payform_item, :url => { :controller => '/clock/add_job' }, :html => { :multipart => :true}) do  |form|%> 
+  <div id="left-col">
+    <strong>Category:</strong><br/>
+    <%= collection_select(:payform_item, :category_id, Category.active(@payform.department.id), :id, :name) %>
+  </div>
+
+  <div id="right-col">
+    <br/>
+    <%= submit_tag "Clock Out" %>
+  </div>
+    <strong>Description:</strong><br/>
+    <%= form.text_field  :description, :size => 50 %>
+  
+    <% end %>
+
+</fieldset>

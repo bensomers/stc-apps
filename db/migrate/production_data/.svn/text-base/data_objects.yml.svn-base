@@ -1,0 +1,257 @@
+--- 
+data_objects_001: 
+  created_at: 2008-09-01 21:44:47
+  data_type_id: "1"
+  description: Canon Image Runner 2200
+  editable: "0"
+  id: "1"
+  name: sm_laser1
+  updated_at: 2008-09-01 21:44:47
+data_objects_002: 
+  created_at: 2008-09-01 21:47:03
+  data_type_id: "1"
+  description: Canon Image Runner 2200
+  editable: "0"
+  id: "2"
+  name: td_laser1
+  updated_at: 2008-09-01 21:47:03
+data_objects_003: 
+  created_at: 2008-09-01 21:47:42
+  data_type_id: "1"
+  description: Canon Image Runner 2200
+  editable: "0"
+  id: "3"
+  name: bk_laser1
+  updated_at: 2008-09-01 21:47:42
+data_objects_004: 
+  created_at: 2008-09-01 22:01:02
+  data_type_id: "1"
+  description: Canon Image Runner 2200
+  editable: "0"
+  id: "4"
+  name: tc_laser1
+  updated_at: 2008-09-01 22:01:02
+data_objects_005: 
+  created_at: 2008-09-01 22:01:20
+  data_type_id: "1"
+  description: Canon Image Runner 2200
+  editable: "0"
+  id: "5"
+  name: sy_laser1
+  updated_at: 2008-09-01 22:01:20
+data_objects_006: 
+  created_at: 2008-09-01 22:01:40
+  data_type_id: "1"
+  description: Aficio 8100dn
+  editable: "0"
+  id: "6"
+  name: br_laser1
+  updated_at: 2008-09-01 22:01:40
+data_objects_007: 
+  created_at: 2008-09-01 22:02:08
+  data_type_id: "1"
+  description: Canon Image Runner 3025
+  editable: "0"
+  id: "7"
+  name: br_laser2
+  updated_at: 2008-09-01 22:02:08
+data_objects_008: 
+  created_at: 2008-09-01 22:02:25
+  data_type_id: "1"
+  description: Canon Image Runner 2200
+  editable: "0"
+  id: "8"
+  name: pc_laser1
+  updated_at: 2008-09-01 22:02:25
+data_objects_009: 
+  created_at: 2008-09-01 22:02:45
+  data_type_id: "1"
+  description: Canon Image Runner 2200
+  editable: "0"
+  id: "9"
+  name: dc_laser1
+  updated_at: 2008-09-01 22:02:45
+data_objects_010: 
+  created_at: 2008-09-01 22:03:03
+  data_type_id: "1"
+  description: Canon Image Runner 2200
+  editable: "0"
+  id: "10"
+  name: mc_laser1
+  updated_at: 2008-09-01 22:03:03
+data_objects_011: 
+  created_at: 2008-09-01 22:03:25
+  data_type_id: "1"
+  description: Canon Image Runner 2200
+  editable: "0"
+  id: "11"
+  name: es_laser1
+  updated_at: 2008-09-01 22:03:25
+data_objects_012: 
+  created_at: 2008-09-01 22:03:38
+  data_type_id: "1"
+  description: Canon Image Runner 2200
+  editable: "0"
+  id: "12"
+  name: sw_laser1
+  updated_at: 2008-09-01 22:03:38
+data_objects_013: 
+  created_at: 2008-09-01 22:03:54
+  data_type_id: "1"
+  description: Canon Image Runner 2200
+  editable: "0"
+  id: "13"
+  name: je_laser1
+  updated_at: 2008-09-01 22:03:54
+data_objects_014: 
+  created_at: 2008-09-01 22:04:05
+  data_type_id: "1"
+  description: Canon Image Runner 2200
+  editable: "0"
+  id: "14"
+  name: cc_laser1
+  updated_at: 2008-09-01 22:04:05
+data_objects_015: 
+  created_at: 2008-09-01 22:04:21
+  data_type_id: "1"
+  description: Canon Image Runner 2200
+  editable: "0"
+  id: "15"
+  name: rh_laser1
+  updated_at: 2008-09-01 22:04:21
+data_objects_016: 
+  created_at: 2008-09-01 22:04:39
+  data_type_id: "1"
+  description: Canon Image Runner 2200
+  editable: "0"
+  id: "16"
+  name: hg_laser1
+  updated_at: 2008-09-01 22:04:39
+data_objects_017: 
+  created_at: 2008-09-01 22:05:02
+  data_type_id: "1"
+  description: Canon Image Runner 2200
+  editable: "0"
+  id: "17"
+  name: hh_laser1
+  updated_at: 2008-09-01 22:05:02
+data_objects_018: 
+  created_at: 2008-09-01 22:05:20
+  data_type_id: "1"
+  description: Canon Image Runner 2200
+  editable: "0"
+  id: "18"
+  name: md_laser1
+  updated_at: 2008-09-01 22:05:20
+data_objects_019: 
+  created_at: 2008-09-01 22:05:41
+  data_type_id: "1"
+  description: Aficio AP4510
+  editable: "0"
+  id: "19"
+  name: sc_laser1
+  updated_at: 2008-09-01 22:05:41
+data_objects_020: 
+  created_at: 2008-09-01 22:05:59
+  data_type_id: "1"
+  description: Aficio AP4510
+  editable: "0"
+  id: "20"
+  name: ks_laser1
+  updated_at: 2008-09-01 22:05:59
+data_objects_021: 
+  created_at: 2008-09-01 22:06:20
+  data_type_id: "1"
+  description: ""
+  editable: "0"
+  id: "21"
+  name: ch_laser1
+  updated_at: 2008-09-01 22:06:20
+data_objects_022: 
+  created_at: 2008-09-01 22:06:31
+  data_type_id: "1"
+  description: ""
+  editable: "0"
+  id: "22"
+  name: ch_laser2
+  updated_at: 2008-09-01 22:06:31
+data_objects_023: 
+  created_at: 2008-09-01 22:06:43
+  data_type_id: "1"
+  description: ""
+  editable: "0"
+  id: "23"
+  name: ch_laser3
+  updated_at: 2008-09-01 22:06:43
+data_objects_024: 
+  created_at: 2008-09-01 22:06:58
+  data_type_id: "1"
+  description: ""
+  editable: "0"
+  id: "24"
+  name: ch_color1
+  updated_at: 2008-09-01 22:06:58
+data_objects_025: 
+  created_at: 2008-09-01 22:07:19
+  data_type_id: "1"
+  description: Aficio AP4510
+  editable: "0"
+  id: "25"
+  name: dl_laser1
+  updated_at: 2008-09-01 22:07:19
+data_objects_026: 
+  created_at: 2008-09-01 22:07:33
+  data_type_id: "1"
+  description: Canon Image Runner 2200
+  editable: "0"
+  id: "26"
+  name: dl_laser2
+  updated_at: 2008-09-01 22:07:33
+data_objects_027: 
+  created_at: 2008-09-01 22:07:56
+  data_type_id: "1"
+  description: Aficio 3800C
+  editable: "0"
+  id: "27"
+  name: dl_laser3
+  updated_at: 2008-09-01 22:07:56
+data_objects_028: 
+  created_at: 2008-09-01 22:08:10
+  data_type_id: "1"
+  description: Aficio 3800C
+  editable: "0"
+  id: "28"
+  name: dl_color1
+  updated_at: 2008-09-01 22:08:10
+data_objects_029: 
+  created_at: 2008-09-01 22:08:41
+  data_type_id: "1"
+  description: Aficio AP4510
+  editable: "0"
+  id: "29"
+  name: cl_laser1
+  updated_at: 2008-09-01 22:08:41
+data_objects_030: 
+  created_at: 2008-09-01 22:08:59
+  data_type_id: "1"
+  description: Aficio 8100dn
+  editable: "0"
+  id: "30"
+  name: cl_laser2
+  updated_at: 2008-09-01 22:08:59
+data_objects_031: 
+  created_at: 2008-09-01 22:09:12
+  data_type_id: "1"
+  description: Aficio 3800C
+  editable: "0"
+  id: "31"
+  name: cl_laser3
+  updated_at: 2008-09-01 22:09:12
+data_objects_032: 
+  created_at: 2008-09-01 22:09:33
+  data_type_id: "1"
+  description: Canon Image Runner 3025
+  editable: "0"
+  id: "32"
+  name: cl_laser4
+  updated_at: 2008-09-01 22:09:33

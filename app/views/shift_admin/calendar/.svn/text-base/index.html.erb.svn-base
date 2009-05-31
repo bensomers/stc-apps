@@ -1,0 +1,22 @@
+<% title "Export Calendars" %>
+<div class="shift_form">
+<fieldset>
+  <legend>Export Calendar</legend>
+  
+  <% form_tag(:action => :index) do %>
+
+    <p>        
+      <label>Start Date: </label>
+      <input type="text" id="start_date_select" name="start_date_select" size="9" class="date_selector"></input><br />
+      <label>  End Date: </label>
+      <input type="text" id="end_date_select" name="end_date_select" size="9" class="date_selector"></input><br />      
+    </p>
+    
+  <%= submit_tag "Export" %>
+   
+   <% end %> 
+
+</fieldset>
+
+  
+</div>

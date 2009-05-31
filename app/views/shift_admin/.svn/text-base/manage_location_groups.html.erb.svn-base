@@ -1,0 +1,25 @@
+<% title "Edit Location Groups" %>
+
+<table class = "manage_table">
+  <thead>
+  <tr><th>Long Name</th><th>Short Name</th><th>Locations</th><th>Min Shift Length</th>
+    <th>Max Shift Length</th><th>Sub request email</th>
+  </thead>
+  <tbody>
+  <% for group in @location_groups -%>
+  <tr>
+    <td><%= link_to group.long_name, {:action => "edit_location_group", :id => group} %></td>
+    <td><%= group.short_name %></td>
+    <td><%= group.locations.collect(&:short_name).join(", ") %></td>
+    <td><%= group.min_shift_length %></td>
+    <td><%= group.max_shift_length %></td>
+    <td><%= group.sub_email %></td>
+  </tr>
+  <% end -%>
+  </tbody>
+</table>
+
+<br />
+<% if @user.authorized?("shift_admin/@" + @department.name.decamelize + "/department_admin") %>
+  <%= render :partial => 'location_group', :locals => {:title => "Add a new Location Group"}%>
+<% end %>

@@ -1,0 +1,36 @@
+<h3>Category:</h3>
+<%= collection_select(:payform_item, :category_id, Category.active(department.id), :id, :name) %><br/>
+<% unless clock %>
+
+<h3>Hours:</h3>
+<ul style="list-style-type:none">
+  <li>
+    <%= radio_button_tag "calculate_hours", "user_input", true %><strong>Input hours:</strong>
+    <ul>
+      <li style="display:inline">
+        Hours: <%= select_integer(:payform_item, :hours, 0, 23, selected_hours(@payform_item) )%>
+      </li>
+      <li style="display:inline">
+        Minutes: <%= select_integer(:other, :minutes, 0, 59, selected_min(@payform_item) )%>
+      </li>
+    </ul>
+  </li>
+
+  <li>
+    <%= radio_button_tag "calculate_hours", "time_input", false %><strong>Compute Hours:</strong>
+    <table>
+      <tr>
+        <td>Start Time:</td> 
+        <td><%= time_select "time_input", "start", {:twelve_hour => true}, {:value => 1.hour.ago} %></td>
+      </tr>
+      <tr>
+        <td>End Time:</td>
+        <td><%= time_select "time_input", "end", {:twelve_hour => true} %></td>
+      </tr>
+    </table>
+  </li>
+</ul>
+
+<h3>Date:</h3><%= select_tag(:date, options_for_select(@days.map{|day| [day.strftime('%A, %B %d, %Y'), day.to_s]}, selected = select_day)) %><br/>
+<% end %>
+<h3>Description:</h3><%= form.text_area :description, :size => "50x4" %><br/>

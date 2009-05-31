@@ -1,0 +1,22 @@
+<% title "Manage Departments" %>
+<div id="user_admin">
+
+  
+  
+  <% section do %>
+    <h2>Departments</h2>
+    <ul>
+        <% for department in @departments do %>
+          <li>
+          <div class="perm"><%= department.name %> &mdash; <%= department.info %>
+            <div class="user_options"><%= link_to "[Edit]", { :action => 'edit_department', :id => department.id } %> | <%= link_to "[Delete]", { :action => 'destroy_department', :id => department.id }, :confirm => "Are you sure you wish to delete this department?" %>
+            </div>
+          </div>
+        </li>
+        <% end %>
+    </ul>
+    <%= link_to "[Add Department]", { :action => 'edit_department' } %>
+  <% end %>
+  
+  
+</div>

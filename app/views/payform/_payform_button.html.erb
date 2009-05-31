@@ -1,0 +1,6 @@
+<br/>
+<% if is_admin? %>
+  <%= button_to("Approve",  { :action => :approve, :id => @payform.id }) if !@payform.approved and @payform.submitted %>
+<% else %>
+  <%= button_to "Submit",  { :action => :submit,  :id => @payform.id } unless @payform.printed or @payform.submitted %>
+<% end %>

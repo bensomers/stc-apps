@@ -1,0 +1,14 @@
+--- 
+shift_configurations_001: 
+  created_at: 2008-09-01 18:54:16
+  department_admin_permission_id: "115"
+  department_id: "13"
+  end: "1440"
+  grace_period: "7"
+  granularity: "15"
+  id: "9"
+  report_can_edit: "0"
+  shift_admin_permission_id: "114"
+  shift_permission_id: "113"
+  start: "480"
+  updated_at: 2008-09-01 21:58:49

@@ -1,0 +1,12 @@
+<table id='import_success' class='import'>
+  <caption>Successfully updated:</caption>
+  <% @success.each do |user| %>
+    <tr>
+      <td id='name'><%= user.name %></td>
+      <td id='netid'><%= user.login %></td>
+      <td id='email'><%= user.email %></td>
+      <td id='ein'><%= user.ein unless (user.ein.zero? or user.ein.nil?) %></td>
+      <td id='groups'><%= user.groups.collect(&:name).sort.to_sentence %></td>
+    </tr>
+  <% end %>
+</table>

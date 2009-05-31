@@ -1,0 +1,16 @@
+<% title "Past Payforms" %>
+
+<% form_tag :action => :past_payforms do %>
+  <p>
+    <label>Get all of a user's payform by Name/NetID: </label>
+    <%= text_field_tag :search %>
+  </p>
+<% end %>
+<%= observe_field(:search,
+                 :frequency => 0.25,
+                 :update => "payformList",
+                 :url => { :action => "live_user_search", :partial => "all_payforms" },
+                 :with => "'search_text=' + escape(value)") %>
+                 
+<table id="payformList" width="100%">
+</table>

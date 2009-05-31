@@ -1,0 +1,71 @@
+--- 
+location_groups_001: 
+  created_at: 2008-09-01 20:07:03
+  department_id: "13"
+  description: 
+  id: "1"
+  long_name: Public Clusters
+  max_shift_length: "6"
+  min_shift_length: "0.5"
+  perm_admin_id: "126"
+  perm_signup_id: "125"
+  perm_view_id: "124"
+  short_name: Public Clusters
+  sub_email: studtech-st@mailman.yale.edu
+  updated_at: 2008-09-01 20:07:03
+location_groups_002: 
+  created_at: 2008-09-01 20:16:39
+  department_id: "13"
+  description: 
+  id: "2"
+  long_name: Bass Media
+  max_shift_length: "6"
+  min_shift_length: "0.5"
+  perm_admin_id: "129"
+  perm_signup_id: "128"
+  perm_view_id: "127"
+  short_name: Bass Media
+  sub_email: studtech-st-bl@mailman.yale.edu
+  updated_at: 2008-09-01 20:16:39
+location_groups_003: 
+  created_at: 2008-09-01 20:18:19
+  department_id: "13"
+  description: 
+  id: "3"
+  long_name: IO (493 College)
+  max_shift_length: "6"
+  min_shift_length: "1"
+  perm_admin_id: "132"
+  perm_signup_id: "131"
+  perm_view_id: "130"
+  short_name: IO
+  sub_email: studtech-st-io@mailman.yale.edu
+  updated_at: 2008-09-01 20:18:19
+location_groups_004: 
+  created_at: 2008-09-01 20:19:52
+  department_id: "13"
+  description: 
+  id: "4"
+  long_name: Unstaffed Public Clusters
+  max_shift_length: "3"
+  min_shift_length: "1"
+  perm_admin_id: "135"
+  perm_signup_id: "134"
+  perm_view_id: "133"
+  short_name: Unstaffed
+  sub_email: studtech-st-mgr@mailman.yale.edu
+  updated_at: 2008-09-01 20:24:28
+location_groups_005: 
+  created_at: 2008-09-01 20:24:15
+  department_id: "13"
+  description: 
+  id: "5"
+  long_name: College Clusters
+  max_shift_length: "3"
+  min_shift_length: "0.1"
+  perm_admin_id: "138"
+  perm_signup_id: "137"
+  perm_view_id: "136"
+  short_name: College
+  sub_email: studtech-st-mgr@mailman.yale.edu
+  updated_at: 2008-09-01 20:24:15

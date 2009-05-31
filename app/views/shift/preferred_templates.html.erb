@@ -1,0 +1,21 @@
+<% title "Edit your Preferred Shifts in the templates" %>
+
+<br/>
+<h2> Shift Templates </h2>
+<table class="manage_table">
+  <thead>
+    <tr>
+      <th>Name</th><th>Description</th><th colspan="1">Actions</th>
+    </tr>
+  </thead>
+      
+  <tbody>
+    <% for template in @shift_templates %>
+    <tr>
+      <td><%= template.name %></td>
+      <td><%= template.description %></td>
+      <td><%= link_to "edit", {:action => "preferred_shifts", :id => template} %></td>
+    </tr>
+    <% end %>
+  </tbody>
+</table>

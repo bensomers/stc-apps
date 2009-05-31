@@ -1,0 +1,4 @@
+
+#not currently used, will be in the future
+#  page.replace_html("cluster_ticket", :partial => "cluster_ticket_form", :object => @shift_report)
+#  page[:cluster_ticket].visual_effect :blind_down

@@ -1,0 +1,21 @@
+<tr <%= 'id="current_line"' if @shift_report.line_items.last == line %> class="<%= cycle('list_line_odd', 'list_line_even') %>">
+  <td class="timestamp">
+      <%= line.time.to_s(:am_pm) %>
+  </td>
+  <td class="line_content">
+      <%= line.line_content_with_formatting %>
+  </td>
+  
+  <% if show_edit %>
+    <td class="list_actions"> <%#hide this edit-delete column if it's in the view mode%>
+      <% if line.can_edit %>
+       <%= link_to 'edit', :action => 'line_edit', :id => line %>
+       <%= link_to 'delete', { :action => 'line_delete', :id => line },
+         :confirm => 'Are you sure you want to delete this item from your report?', 
+        :method => :post %>
+      <% else %>
+       ---
+      <% end %>
+    </td>
+  <% end %>
+</tr>

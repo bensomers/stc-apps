@@ -1,0 +1,9 @@
+  <%= check_box_tag "restriction[for_department_id]", @department.id, @restriction.for_department, :disabled => false %><%= @department.name %> (department-wide)<br />
+  <% for location_group in @location_groups do %>
+    &nbsp;&nbsp;&nbsp;
+    <%= check_box_tag "restriction[location_group_ids][]", location_group.id, (@restriction.location_groups.include?(location_group) or @restriction.for_department), :disabled => @restriction.for_department %><%= location_group.long_name %><br />
+    <% for location in location_group.locations do %>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <%= check_box_tag "restriction[location_ids][]", location.id, (@restriction.locations.include?(location) or (@restriction.location_groups.include?(location_group) or @restriction.for_department)), :disabled => (@restriction.location_groups.include?(location_group) or @restriction.for_department) %><%= location.long_name %><br />
+    <% end %>
+  <% end %>

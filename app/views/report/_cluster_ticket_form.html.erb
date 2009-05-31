@@ -1,0 +1,18 @@
+<%#this partial is not currently used, but will be in the future.%>
+  <% fields_for :cluster_ticket do |f|%>
+    <table>
+      <tr>
+        <td>Cluster:</td>
+        <td><%= f.select "cluster", Location.active.map{|loc| [loc.short_name, loc.id]}, :selected => cluster_ticket_form.shift.location.id %></td>
+      </tr>
+      <tr>
+        <td>Machine:</td> 
+        <td><%= f.text_field "machine", :size => 8 %></td>
+        <td>Status:<td>
+        <td><%= f.select "status", ["ok", "problem", "ooo"] %></td>
+      <tr>
+        <td>Title:</td>
+        <td><%= f.text_field "title", :size => 25 %></td>
+      </tr>
+    </table>
+  <% end %>

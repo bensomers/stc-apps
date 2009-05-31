@@ -1,0 +1,8 @@
+<% error_messages_for 'shift' %>
+<% title 'Admin Shift Schedule' %>
+<%= render :partial => 'shift/view_pref' %>
+
+<div><%= link_to "Power sign up", {:action => "power_sign_up"}, :class => "dotted_link" %> |
+<%= link_to "Edit Times", {:controller => "shift_admin/time_slots", :date => params[:date]}, :class => "dotted_link" %> |
+<%= link_to "View Work Hours", {:action => "view_work_hours", :date => params[:date]}, :class => "dotted_link" %></div>
+<%= render :partial => 'shift/schedule'%>

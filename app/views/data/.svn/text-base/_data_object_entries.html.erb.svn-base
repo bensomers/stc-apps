@@ -1,0 +1,28 @@
+    <% if brief %>
+      <tr>
+        <% data_object_entries.data_type.used_fields.each do |field| %>
+          <td>
+              <% if field[0].match(/\w[0-9]/) %>
+                <%= data_object_entries.data_entries.last[field[0].chomp("label")] %>
+              <% else %>
+                <%= data_object_entries.data_entries.last[field[0].chomp("label")].to_s.humanize %>  
+              <% end %>  
+          </td>
+        <% end %>
+      </tr>
+    <% else %>
+      <% @object_entries.each do |entry| %>
+        <tr>
+          <% data_object_entries.data_type.used_fields.each do |field| %>
+            <td>
+              <% if field[0].match(/\w[0-9]/) %>
+                <%= entry[field[0].chomp("label")] %>
+              <% else %>
+                <%= entry[field[0].chomp("label")].to_s(:short_name) %>  
+              <% end %>              
+            </td>
+          <% end %>
+        </tr>
+      <% end %>     
+    <% end %>
+  </table>

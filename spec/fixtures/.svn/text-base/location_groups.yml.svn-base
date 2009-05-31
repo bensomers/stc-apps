@@ -1,0 +1,29 @@
+--- 
+location_groups_001: 
+  created_at: 2008-08-08 12:59:52
+  department_id: "1"
+  description: 
+  id: "1"
+  long_name: Public Clusters
+  max_shift_length: "8"
+  min_shift_length: "0.5"
+  perm_admin_id: "54"
+  perm_signup_id: "33"
+  perm_view_id: "31"
+  short_name: Public Clusters
+  sub_email: adam.bray@yale.edu
+  updated_at: 2008-08-12 14:05:54
+location_groups_002: 
+  created_at: 2008-08-08 12:59:52
+  department_id: "2"
+  description: 
+  id: "2"
+  long_name: IO (493 College)
+  max_shift_length: "8"
+  min_shift_length: "1"
+  perm_admin_id: "53"
+  perm_signup_id: "34"
+  perm_view_id: "32"
+  short_name: IO Group
+  sub_email: adam.bray@yale.edu
+  updated_at: 2008-08-14 14:49:42

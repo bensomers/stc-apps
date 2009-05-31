@@ -1,0 +1,17 @@
+<div id="add_mass_clock">
+<%= error_messages_for 'mass_clock' %>
+                    
+<fieldset>
+  <legend>Edit Mass Clock</legend>
+  <% form_for(:payform_item, @mass_clock, :url => {:action => "edit_mass_clock", :id => @mass_clock}, :html => { :multipart => :true}) do  |form| %> 
+    <%= render :partial => "/payform/job_fields", :locals => {:form => form, 
+                                :department => @mass_clock.department, 
+                                :select_day => Date.today.to_s, 
+                                :clock => true}%>
+    <br />    
+  <div class="ids_for_user_chooser"></div>
+  <%= submit_tag "Save" %>
+  <% end %>
+  <%= button_to "Cancel", :action => "mass_clocks" unless no_cancel%>
+</fieldset>
+</div>

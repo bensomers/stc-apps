@@ -1,0 +1,21 @@
+<h1>Payform::Interface#add_job</h1>
+<%= error_messages_for 'payform_item' %>
+
+YOUR IP: <%= @ip %><br/><br/>
+General url:<br/>
+<%=h "http://caweb.wss.yale.edu/payform/interface/addJob?url=\<\%$rt_link\%\>&date=\<\%$date\%\>&category=\<\%$category\%\>&total=\<\%$time\%\>&\<\%$string1\%\>&comments=Ticket_\<\%$ticket_id\%\>:_\<\%$subject\%\><br/><br/>" %>
+<br/><br/>
+Try this url:<br/>
+http://localhost:3000/payform/interface/addJob?url=http://uhu.its.yale.edu/Ticket/Display.html?id=1&date=2008-1-21&category=1&total=.27&comments=Ticket_12345:_[Adam]%20repair%20work<br/><br/>
+URL: <strong><%= @url1 %></strong><br/> 
+Default: $RT::WebBaseURL/Ticket/Display.html?id=$ticket_id<br/><br/>
+DATE: <strong><%= @date1 %></strong><br/>
+Default: $Year-$Month-$Day<br/><br/>
+CATEGORY: <strong><%= @category1 %></strong><br/>
+Default: category_id (we should auto-detect the category HERE rather than in RT)<br/><br/>
+TOTAL: <strong><%= @total1 %></strong><br/>
+Default: ($mostRecentTransaction->TimeTaken)/60.0<br/><br/>
+STRING1: "creator=RT"<br/>
+(so if a creator param is specified, we can see where the thing is coming from -- not neccessary for now)<br/><br/>
+COMMENTS: <strong><%= @comments1 %></strong><br/>
+Default: <%=h "Ticket_\<\%$ticket_id\%\>:_\<\%$subject\%\>" %><br/><br/>

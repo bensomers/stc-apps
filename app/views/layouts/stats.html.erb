@@ -1,0 +1,8 @@
+<% inside_layout 'application' do %>
+  <% javascript 'jquery-1.2.6.min', 'jquery.tablesorter.min', 'date', 'jquery.datePicker.min-2.1.2' %>
+  <% javascript 'stats'  %>
+  <% stylesheet 'datePicker', 'tablesorter', 'stats' %>
+  <%# and here's the template content, of course %>
+  <%= yield :layout %>
+
+<% end %>

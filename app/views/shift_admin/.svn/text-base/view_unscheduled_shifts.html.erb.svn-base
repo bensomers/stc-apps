@@ -1,0 +1,26 @@
+<% title "Unscheduled Shift Reports" %>
+<p>
+  <% form_tag :action => "view_unscheduled_shifts" do %>
+    View from: 
+    <%= select_date @start_date, :prefix => 'start' %>
+    To:
+    <%= select_date @end_date,  :prefix => 'end' %>
+    <%= submit_tag "Select view dates" %>
+    <% end %>
+</p>
+<% for locgroup in @location_groups -%>
+<br/>
+<h1><%= locgroup.long_name %></h1>
+  <% for location in @locations.select {|l| l.location_group_id == locgroup.id} -%>
+<h3><%= location.long_name %></h3>
+<!-- <p> -->
+  <ul>
+<% for shift in @unscheduled_shifts 
+  if (shift.location == location) -%>
+    <li><%= link_to shift.short_name_unscheduled, {:controller => "report", :action => "view", :id => shift.shift_report} %></li>
+<% end
+  end-%>
+  </ul>
+<!-- </p> -->
+<%- end
+ end -%>

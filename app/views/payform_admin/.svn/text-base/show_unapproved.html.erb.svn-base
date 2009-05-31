@@ -1,0 +1,15 @@
+<% title "Unapproved Payforms" %>
+
+<% if @payforms.empty? %>
+  <p>No payforms to approve!</p>
+<% else %>
+  <% @payform_users.keys.sort.each do |user_id| %>
+    <% user = User.find(user_id) %>
+    <p><h2><%= user.name %> (<%= user.login %>)</h2></p>
+    <ul>
+      <% for payform in @payform_users[user_id] %>
+        <li><%= link_to payform.get_date, :action => :view, :id => payform.id %></li>
+      <% end %>
+    </ul>
+  <% end %>
+<% end %>

@@ -1,0 +1,16 @@
+
+  <% fields_for :data_object, @data_object do |f| %>
+      Name: 
+      <%= f.text_field :name, :size => 10 %>
+      Description:
+      <%= f.text_field :description, :size => 15 %>
+      Data Type:
+      <%= f.select :data_type_id, @department.data_types.all.map{|t| [t.name, t.id]}%>
+      Editable:
+      <%= f.check_box :editable %>
+      <p>Locations:
+      <%= select_tag "locations[]",
+                       options_for_select(@locations.map{|loc| [loc.short_name, loc.id]}),
+                     { :multiple => true } %>
+      </p>
+  <% end %>

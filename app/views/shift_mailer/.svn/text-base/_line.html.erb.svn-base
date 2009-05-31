@@ -1,0 +1,1 @@
+<%= line.time.to_s(:am_pm) %>     <%= h line.line_content %>

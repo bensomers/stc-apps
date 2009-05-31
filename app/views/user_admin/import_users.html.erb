@@ -1,0 +1,23 @@
+<div id='instructions'>
+  <h2>Instructions:</h2>
+  <ul>
+    <li><strong>import formats: name, netid, EIN, group1, group2, ...; another name,...  Separate multiple users by semicolon ;</strong></li>
+    <li>all users imported will belong to the current department displayed on the top left</li>
+    <li>if netid already exists, name will be updated, EIN will be updated, groups added to existing groups if necessary (unless wipe option checked)</li>
+    <li>use "name,netid,,group1,group2..." to leave the EIN blank
+    <li>leading and trailing spaces will be ignored, blank spaces between words will be automatically reduced to one space if necessary</li>
+  </ul>
+</div>
+<%= render(:partial => 'import_sucess') unless @success.blank?%>
+<%= render(:partial => 'import_fail') unless @failure.blank? %>
+  
+<p>
+  <% form_tag do %>
+    <%= text_area_tag 'import', nil, :size => "84x20" %>
+    <p>
+      <%= check_box_tag 'wipe'  %>
+      <label for='wipe'>Wipe out groups (before adding new ones) for users above that already exist?</label>      
+    </p>
+    <%= submit_tag 'Import' %>
+  <% end %>
+</p>

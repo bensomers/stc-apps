@@ -1,0 +1,17 @@
+<div class="payform_form">
+  <fieldset> 
+    <legend><font size=3><strong>Status:</strong> <%=h @payform.get_status_text.capitalize! %></font></legend>
+  <% time_format = '%A, %B %d, %Y at %I:%M%p' -%>
+    <strong>Created:</strong> <%=h @payform.created_at.strftime(time_format) %><br/>
+  <% if @payform.submitted -%>
+    <strong>Submitted:</strong> <%=h @payform.submitted.strftime(time_format) %><br/>
+  <% end -%>
+  <% if @payform.approved and is_admin? -%>
+    <strong>Approved:</strong> <%=h @payform.approved.strftime(time_format) %> by <%=h User.find_by_id(@payform.approved_by).name %><br/>
+  <% end -%>
+  <% if @payform.printed -%>
+    <strong>Printed:</strong> <%= @payform.printed.strftime(time_format) %><br/>
+    <em><%=h(@payform.department.payform_configuration.printed).gsub(/\n/, '<br />') %></em><br/>
+  <%end -%>
+  </fieldset>
+</div>

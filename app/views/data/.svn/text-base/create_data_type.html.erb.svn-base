@@ -1,0 +1,15 @@
+<% form_for :data_type do |dtype| %>
+
+<ol><strong>Notes:</strong> 
+  <li>Your data types are specific to your department.</li>
+  <li>The labels are the attribute names for your data objects.  "s" labels are for character strings, "i" labels are for integers, "b" labels are for true-false fields, and "f" labels are for floating-point numbers.</li>
+</ol>
+
+
+<%= render :partial => "add_data_type" %>
+<%# Once ajax is working, the second partial can be used instead of the first %>
+<%#= render :partial => "data_type_form", :object => DataType.new %>
+
+<%= submit_tag "Create data type" %>
+
+<% end %>

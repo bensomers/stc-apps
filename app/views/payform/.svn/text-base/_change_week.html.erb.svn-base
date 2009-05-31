@@ -1,0 +1,9 @@
+<strong>Last Day of Pay Week:</strong>
+<% form_tag({:action => :choose_week, :id => @department.id, :redirect => controller.action_name}, {:id => 'form_week'} ) do %>
+  <%= select :payform, :week, @dates, options = {:selected => @date}, {:onchange =>"$('form_week').submit()"} %>
+  <%= submit_tag "Change Week", :id => 'submit_week' %>
+<% end %>
+
+<script type="text/javascript" charset="utf-8">
+  document.observe('dom:loaded',function(){ $('submit_week').hide()})
+</script>

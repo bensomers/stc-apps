@@ -1,0 +1,13 @@
+<div class="shift_form">
+  <fieldset>    
+    <legend>Edit Job</legend>
+  <%= error_messages_for 'payform_item' %>
+  <% form_for(:payform_item, @edit_item, :url => { :action => 'flatten_mass_job', :id => @payform_item.id, :payform_id => @payform.id }, :html => { :multipart => :true}) do  |form|%> 
+    <%= render :partial => "/payform/job_fields", :locals => {:form => form, :department => @payform_item.department, :select_day => @payform_item.date.to_s, :clock => false}%>
+    Reason for edit:<br/><%= form.text_area  :reason, :size => "50x5" %><br/>
+    <%= submit_tag "Save" %><br/>
+  <% end %>
+    <%= button_to "Cancel", { :action => 'view', :id => @payform.id }, :method => :get %>
+    <%= button_to "Delete", { :action => 'disavow_mass_job', :id => @payform_item.id, :payform_id => @payform.id }, :method => :get %>
+  </fieldset>
+</div>

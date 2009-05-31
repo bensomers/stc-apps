@@ -1,0 +1,10 @@
+        <% if blank %>
+          <div id=<%=data_type_field%> style="display:none">
+        <% else %>
+          <div id=<%=data_type_field%>>
+        <% end %>
+        <p>
+          <%= data_type_field %>
+          <%= text_field "data_type", data_type_field, :size => 10 %>       
+        </p>
+        </div>

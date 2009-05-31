@@ -1,0 +1,121 @@
+/*Put css stuff that payform and shift share here. -H*/
+/* BLUE, BOXED-IN NOTE */
+div.note {
+  border: 1px solid #AAAAAA;
+  border-style: dashed;
+  margin: 5px;
+  padding: 2px;
+  overflow-x: auto;
+  color: #556677;
+}
+
+fieldset#warning {
+  background: #C0C0C0;
+}
+
+fieldset {
+  background: #ddf;
+}
+
+legend {
+  color: #eef;
+  background: #123456;
+  font-family: sans-serif;
+  padding: 0.2em 1em;
+}
+
+label.short_label{
+  width: 6em;
+  float: left;
+  text-align: right;
+  margin-right: 0.5em;
+  display: block;
+}
+
+span.dotted_link, a.dotted_link {
+  cursor: pointer;
+  border-bottom: 1px dotted;
+}
+
+/* The error box */
+
+.fieldWithErrors {
+  padding: 2px;
+  background-color: red;
+  display: table;
+}
+
+#errorExplanation {
+/*  width: 400px;*/
+  border: 2px solid red;
+  padding: 7px;
+  padding-bottom: 12px;
+  margin-bottom: 20px;
+  background-color: #f0f0f0;
+}
+
+#errorExplanation h2 {
+  text-align: left;
+  font-weight: bold;
+  padding: 5px 5px 5px 15px;
+  margin: -7px;
+  background-color: #c00;
+  color: #fff;
+}
+
+#errorExplanation p {
+}
+
+#errorExplanation ul li {
+  margin-left: 10px;
+}
+/* ========================================================= */
+/* = Below is the CSS for user select with auto complete -H= */
+/* ========================================================= */
+#select_container {
+  float: right;
+  width: 150px;
+/*  background: transparent none repeat scroll 0% 0%;*/
+/*  margin: 5px auto;*/
+/*  overflow: auto;*/
+  height: 20em;
+}
+
+#user_search_box {
+/*  float: left;*/
+/*  width: 55%;*/
+}
+
+#search_errors {
+  float:left;
+  color: red;
+}
+
+#select_links {
+  text-align: right;
+}
+#select_group {  
+  float: right;
+}
+div.autocomplete {
+  position:absolute;
+  width:250px;
+  background-color:white;
+  border:1px solid #888;
+  margin:0px;
+  padding:0px;
+}
+div.autocomplete ul {
+  list-style-type:none;
+  margin:0px;
+  padding:0px;
+}
+div.autocomplete ul li.selected { background-color: #ffb;}
+div.autocomplete ul li {
+  list-style-type:none;
+  display:block;
+  margin:0;
+  padding:2px;
+  height:32px;
+  cursor:pointer;
+}

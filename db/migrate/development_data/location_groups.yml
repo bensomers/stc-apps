@@ -1,0 +1,99 @@
+--- 
+location_groups_001: 
+  created_at: 2008-08-08 12:59:52
+  department_id: "1"
+  description: 
+  id: "1"
+  long_name: Public Clusters
+  max_shift_length: "8"
+  min_shift_length: "0.5"
+  perm_admin_id: "54"
+  perm_signup_id: "33"
+  perm_view_id: "31"
+  short_name: Public Clusters
+  sub_email: adam.bray@yale.edu
+  updated_at: 2008-08-12 14:05:54
+location_groups_002: 
+  created_at: 2008-08-08 12:59:52
+  department_id: "1"
+  description: 
+  id: "2"
+  long_name: IO (493 College)
+  max_shift_length: "8"
+  min_shift_length: "1"
+  perm_admin_id: "53"
+  perm_signup_id: "34"
+  perm_view_id: "32"
+  short_name: IO Group
+  sub_email: adam.bray@yale.edu
+  updated_at: 2008-08-14 14:49:42
+location_groups_003: 
+  created_at: 2008-08-10 16:12:44
+  department_id: "1"
+  description: 
+  id: "3"
+  long_name: Bass Media
+  max_shift_length: "8"
+  min_shift_length: "0"
+  perm_admin_id: "72"
+  perm_signup_id: "71"
+  perm_view_id: "70"
+  short_name: Bass Media
+  sub_email: adam.bray@yale.edu
+  updated_at: 2008-08-12 14:06:18
+location_groups_004: 
+  created_at: 2008-08-14 12:59:36
+  department_id: "6"
+  description: 
+  id: "4"
+  long_name: Main StatLab
+  max_shift_length: "14"
+  min_shift_length: "0"
+  perm_admin_id: "105"
+  perm_signup_id: "104"
+  perm_view_id: "103"
+  short_name: StatLab
+  sub_email: stathelp@yale.edu
+  updated_at: 2008-08-14 12:59:36
+location_groups_005: 
+  created_at: 2008-08-14 16:26:07
+  department_id: "7"
+  description: 
+  id: "6"
+  long_name: Test Group
+  max_shift_length: "5"
+  min_shift_length: "1"
+  perm_admin_id: "117"
+  perm_signup_id: "116"
+  perm_view_id: "115"
+  short_name: Test
+  sub_email: adam.bray@yale.edu
+  updated_at: 2008-08-14 16:26:07
+location_groups_006: 
+  created_at: 2008-08-24 15:00:11
+  department_id: "1"
+  description: 
+  id: "7"
+  long_name: College Clusters
+  max_shift_length: 
+  min_shift_length: 
+  perm_admin_id: "108"
+  perm_signup_id: "107"
+  perm_view_id: "106"
+  short_name: College Clusters
+  sub_email: ""
+  updated_at: 2008-08-24 15:00:11
+location_groups_007: 
+  created_at: 2008-08-24 16:12:05
+  department_id: "1"
+  description: 
+  id: "8"
+  long_name: Unstaffed Public Clusters
+  max_shift_length: 
+  min_shift_length: 
+  perm_admin_id: "111"
+  perm_signup_id: "110"
+  perm_view_id: "109"
+  short_name: Unstaffed Public Clusters
+  sub_email: ""
+  updated_at: 2008-08-24 16:12:05

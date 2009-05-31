@@ -1,0 +1,35 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+    <title>Activate Templates</title>
+  </head>
+  <body>
+    <h1>Activate Templates</h1>
+    <% form_tag :action => "activate_templates" do %>
+    <p>
+      Select Dates to activate from:
+      <%= select_date @start_date, :prefix => 'start' %>
+      to <%= select_date @end_date,  :prefix => 'end' %>
+    </p>
+    <p>
+      Select a valid time template: 
+      <%= collection_select :time_template, :id, @time_templates, :id, :name, options = {:prompt => "none"} %>
+      <%= check_box_tag :wipe_times, value="true" %> Wipe out existing time slots
+    </p>
+    <p>
+      Select a valid shift template: 
+      <%= collection_select :shift_template, :id, @shift_templates, :id, :name, options = {:prompt => "none"} %>
+      <%= check_box_tag :wipe_shifts, value="true" %> Wipe out existing shifts
+    </p>
+    <p>
+      Note that when templates are applied with the "wipe" option in force, all
+      time slots or shifts that occur over the specified time period in clusters
+      included within the template are destroyed.
+    </p>
+    <p>
+      <%= submit_tag "Activate" %>
+    </p>
+    <% end %>
+  </body>
+</html>

@@ -1,0 +1,13 @@
+<div id="<%= cycle "odd", "even" %>">
+  <div style="float:right;">
+    <%= link_to( "[clock out]", {:controller => "/payform_admin/mass_clocks", :action => "mass_clocks_action", :clock_out => mass_clock_user.id, :id => mass_clock_user.department.id}, :post => true) unless payform_items%>
+    
+  </div>
+  <%= link_to "[X]", {:controller => "/payform_admin/mass_clocks", :action => "mass_clocks_action", 
+              (payform_items ? :delete_item : :delete_clock) => mass_clock_user.id, 
+                :id => mass_clock_user.id}, :confirm => (payform_items ? "Delete" : "Cancel") + ": Are you sure?",
+              :post => true %>
+  <font color=RoyalBlue>
+  <%= (payform_items ? mass_clock_user.hours.to_s + " hours</font> " + mass_clock_user.payforms[0].user.name : mass_clock_user.time_string + "</font> " + mass_clock_user.user.name )%>
+  <br/>
+</div>

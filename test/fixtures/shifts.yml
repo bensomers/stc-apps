@@ -1,0 +1,12 @@
+shift_one: 
+  start: 2009-08-17 02:00:00
+  end: 2009-08-17 03:00:00
+  id: "1"
+  location_id: "1"
+  user_id: "9"
+shift_five: 
+  start: 2009-08-17 05:00:00  
+  end: 2009-08-17 06:00:00
+  id: "567"
+  location_id: "1"
+  user_id: "9"

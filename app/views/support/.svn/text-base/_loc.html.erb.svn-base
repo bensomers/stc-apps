@@ -1,0 +1,46 @@
+<%= stylesheet_link_tag "main", "shift", "shared", "support" %>
+
+<%= render :partial => 'shift/schedule_title' %>
+<div class="time_table">
+  <table class="day_view">
+    <thead>
+      <tr id="hours">
+        <th class = "location_label"></th>        
+        <% for hour in @dept_start_hour...@dept_end_hour -%>
+          <td class="hour" colspan="<%= @blocks_per_hour %>"><%= (hour-1) % 12 + 1%><%= ':00' -%></td>
+        <% end -%>
+      </tr>
+      
+      <tr id="segments">
+        <th class="location_label"></th>
+        <% @blocks_per_day.times{ -%>
+          <td class="min_segment" colspan="1">&nbsp;</td>
+        <% } -%>
+      </tr>      
+    </thead>       
+
+    <% for @curr_day in @week_days do %>
+      <%
+      @day_start = @curr_day + @start_minutes
+      @day_end = @curr_day + @end_minutes
+      
+      shifts = @location.all_shifts_on @curr_day
+      row_shifts = @location.flatten_one_row(shifts)
+      %>
+      <tbody>
+        <tr class="location_row">
+            <th class="location_label">
+              <%= @curr_day.to_s(:gg) %>
+            </th>
+
+          <% @row_time = @day_start %>
+          <%= render :partial => 'row_shift', :collection => row_shifts.sort_by(&:start) %>
+
+          <%= print_shift_block("free_time", @row_time, @day_end, nil, ' ') -%><%# print rest of free time %> 
+        </tr>
+      </tbody>
+    <% end %>
+      
+  </table>
+</div>
+<%= render :partial => 'shift/schedule_bottom' %>

@@ -1,0 +1,21 @@
+<p> 
+  <strong> Name: </strong> <%= link_to data_object_brief.name, :action => "view_data_object", :id => data_object_brief.id %>
+  <strong> Description: </strong> <%= data_object_brief.description %>
+  <% unless data_object_brief.data_entries.empty? %>
+    <table cellpadding="5" frame=box rules=all cellspacing="0" width="%100">
+    <thead>
+      <% data_object_brief.data_type.used_fields.each do |field| %>
+        <th>
+          <% if field[0].match(/\w[0-9]/) %>
+            <%= field[1].humanize %>
+          <% else %>
+            <%= field[0].humanize %>
+          <% end %>
+        </th>
+      <% end %>
+    </thead>
+      <%= render :partial => "data_object_entries", :object => data_object_brief, :locals => {:brief => true} %>
+    </table>
+  <% end %>
+</p>
+  

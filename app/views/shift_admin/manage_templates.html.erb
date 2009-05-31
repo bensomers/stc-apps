@@ -1,0 +1,25 @@
+<% title "Edit Existing Templates" %>
+
+<br/>
+<h2> Shift Templates </h2>
+  <%= render :partial => 'templates_table', :object => @shift_templates %>
+
+<br/>    
+<h2> Time Templates </h2>
+  <%= render :partial => 'templates_table', :object => @time_templates %>
+
+<br/>
+<div class="shift_form">
+  <fieldset>
+    <legend>Add a New Template</legend>
+      <% form_for :library, @library do |t|  -%>
+        <%= render :partial => 'template_form', :object => t %>
+        <p>
+          <label>Template type:</label> <%= t.select :type, [["Time","TimeTemplate"],["Shift","ShiftTemplate"]] %>
+        </p>
+      <p>
+        <%= t.submit "Create" %>
+      </p>
+      <% end %>
+  </fieldset>  
+</div>

@@ -1,0 +1,33 @@
+ 
+  <% fields_for :data_type, @data_type do |f| %>
+    <p>
+      Name: 
+      <%= f.text_field :name, :size => 10 %>
+    </p>
+    <%= f.hidden_field :department_id, {:value => @department.id}%>
+    <% DataType.string_fields.each do |fn| %>   
+      <p>
+        <%= fn %>
+        <%= f.text_field fn, :size => 10 %>       
+      </p>
+    <% end %>
+    <% DataType.integer_fields.each do |fn| %>   
+      <p>
+        <%= fn %>
+        <%= f.text_field fn, :size => 10 %>       
+      </p>
+    <% end %>   
+    <% DataType.boolean_fields.each do |fn| %>   
+      <p>
+        <%= fn %>
+        <%= f.text_field fn, :size => 10 %>       
+      </p>
+    <% end %>   
+    <% DataType.float_fields.each do |fn| %>   
+      <p>
+        <%= fn %>
+        <%= f.text_field fn, :size => 10 %>       
+      </p>
+    <% end %>    
+  
+  <% end %>

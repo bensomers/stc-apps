@@ -1,0 +1,21 @@
+<% title "Payform Administration" %>
+
+<% form_tag :action => :show_all do %>
+  <p>
+    <label>Search by User Name/NetID: </label>
+    <%= text_field_tag :search %>
+  </p>
+<% end %>
+<%= observe_field(:search,
+                 :frequency => 0.25,
+                 :update => "payformList",
+                 :url => { :action => "live_user_search", :partial => "payform_user" },
+                 :with => "'search_text=' + escape(value)") %>
+                 
+<table id="payformList">
+    <%= render :partial => "payform_user.html.erb" %>
+</table>
+<br/>
+<div align="center">
+  <%= button_to "Print All Approved Payforms", {:action => :print_all_approved, :id => @department.id} -%>
+</div>

@@ -1,0 +1,16 @@
+<%= error_messages_for 'payform_item' %>
+
+<% if @payform_item.mass %>
+<strong>Are you sure you want to delete this job from all payforms?</strong><br />
+<% else %>
+<strong>Are you sure you want to delete this job from your payform?</strong><br />
+<% end %>
+
+<%= button_to "No, let me go back!", :action => "view", :id => @payform.id %><br /><br />
+
+          
+<% form_for(:payform_item, @payform_item, :url => { :action => 'delete_job', :id => @payform_item.id, :payform_id => @payform.id}, :html => { :multipart => :true}) do  |form|%> 
+  <strong></strong>Reason for deletion:</strong><br/>
+  <%= form.text_area  :reason, :size => "50x5" %><br/>
+  <%= submit_tag "Yes, please delete this" %>
+<% end %>

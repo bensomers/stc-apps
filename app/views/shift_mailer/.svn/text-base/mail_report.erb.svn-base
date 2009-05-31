@@ -1,0 +1,4 @@
+<%= @report.long_display %>
+<%= @report.shift.user.name %> - <%= @report.shift.scheduled? ? "scheduled for #{@report.shift.start.to_s(:am_pm)} - #{@report.shift.end.to_s(:am_pm)}" : "unscheduled" %>
+
+<%= render :partial => 'line', :collection => @report.line_items  %>

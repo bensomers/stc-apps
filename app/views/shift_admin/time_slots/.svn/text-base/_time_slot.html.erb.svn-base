@@ -1,0 +1,12 @@
+<%= error_messages_for 'time_slot' %>
+<% time_options = time_select_for(time_slot.date + @dept_start_hour.hours, time_slot.date + @dept_end_hour.hours) %>
+<% html_options = {:disabled => time_slot.date < Date.today}%>
+<tr class="<%= label_slot time_slot %>">
+  <% fields_for "time_slots[#{time_slot.id}]", time_slot do |f|%>
+  <%= f.error_messages %>
+  <%= th_with_description time_slot %>  
+  <td><%= f.select :start, time_options, {}, html_options%></td>
+  <td><%= f.select :end, time_options, {}, html_options %></td>
+  <td><%= check_box_tag 'delete_ids[]', time_slot.id, false,html_options %></td>
+  <% end %>
+</tr>

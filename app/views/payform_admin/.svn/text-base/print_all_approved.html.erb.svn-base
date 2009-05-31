@@ -1,0 +1,37 @@
+<% title "Summary of Approved Payforms" %>
+
+<% if @payforms.empty? %>
+  <p>No payforms to print!</p>
+<% else %>
+  <table width="100%">
+    <tr>
+      <td align="center"><strong>Payform Date</strong></td>
+      <td align="center"><strong>User Name (netid)</strong></td>
+      <td align="center"><strong>EIN</strong></td>
+      <td align="center"><strong>Total Number of Hours</strong></td>
+    </tr>
+  <% @payforms.each do |p| %>
+    <% user = User.find_by_id(p.user_id) %>
+    <tr>
+      <td align="center"><%=h p.get_date %></td>
+      <td align="center"><%=h user.name %> (<%=h user.login %>)</td>
+      <td align="center"><%=h user.ein %></td>
+      <td align="center"><%=h p.total_hours %></td>
+    </tr>
+  <% end %>
+  
+    <tr>
+      <td align="left" colspan="3">
+        <%= button_to "Print All",  { :action => :print_all_approved, 
+                                     :id => @department.id, 
+                                     :print_payforms => true },
+                                    { :method  => :post, :confirm => "Print all payforms?" } 
+        %>
+        <%= button_to "BETA: Print all to text",{ :action => :print_all_approved,
+                                                :id => @department.id,
+                                                :print_to_text => true },
+                                                { :method => :post, :confirm => "This will give you a textfile. Payforms will not be marked printed!"} %>
+      </td>
+    </tr>
+  </table>
+<% end %>

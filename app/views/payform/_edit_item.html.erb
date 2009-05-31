@@ -1,0 +1,7 @@
+<tr class="edit-item" id ="edit-item">
+  <td><%=h edit_item.created_at.strftime("\t%Y-%m-%d") unless edit_item.created_at.to_date == payform_item.date %></td>
+  <td><%=h edit_item.description unless edit_item.description == payform_item.description %></td>
+  <td><%=h "#{edit_item.hours} hours" unless edit_item.hours == payform_item.hours %></td>
+  <td><%=h edit_item.edited_by %></td>
+  <td colspan=2><em>Reason: <%=h edit_item.reason %></td>
+</tr>

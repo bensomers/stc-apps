@@ -1,0 +1,2 @@
+module ShiftAdmin::RestrictionsHelper
+end

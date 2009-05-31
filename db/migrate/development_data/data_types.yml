@@ -1,0 +1,185 @@
+--- 
+data_types_001: 
+  b0label: needs toner replaced
+  b1label: 
+  b2label: 
+  b3label: 
+  b4label: 
+  b5label: 
+  b6label: 
+  b7label: 
+  b8label: 
+  b9label: 
+  created_at: 2008-08-08 12:59:53
+  department_id: "1"
+  f0label: reams added
+  f1label: 
+  f2label: 
+  f3label: 
+  f4label: 
+  f5label: 
+  f6label: 
+  f7label: 
+  f8label: 
+  f9label: 
+  i0label: pagecount
+  i1label: 
+  i2label: 
+  i3label: 
+  i4label: 
+  i5label: 
+  i6label: 
+  i7label: 
+  i8label: 
+  i9label: 
+  id: "1"
+  name: printers
+  s0label: comments
+  s1label: status
+  s2label: 
+  s3label: 
+  s4label: 
+  s5label: 
+  s6label: 
+  s7label: 
+  s8label: 
+  s9label: 
+  updated_at: 2008-08-08 12:59:53
+data_types_002: 
+  b0label: 
+  b1label: 
+  b2label: 
+  b3label: 
+  b4label: 
+  b5label: 
+  b6label: 
+  b7label: 
+  b8label: 
+  b9label: 
+  created_at: 2008-08-08 12:59:53
+  department_id: "1"
+  f0label: 
+  f1label: 
+  f2label: 
+  f3label: 
+  f4label: 
+  f5label: 
+  f6label: 
+  f7label: 
+  f8label: 
+  f9label: 
+  i0label: count
+  i1label: 
+  i2label: 
+  i3label: 
+  i4label: 
+  i5label: 
+  i6label: 
+  i7label: 
+  i8label: 
+  i9label: 
+  id: "2"
+  name: user_counts
+  s0label: comments
+  s1label: 
+  s2label: 
+  s3label: 
+  s4label: 
+  s5label: 
+  s6label: 
+  s7label: 
+  s8label: 
+  s9label: 
+  updated_at: 2008-08-08 12:59:53
+data_types_004:
+  b0label: resolved
+  b1label: 
+  b2label: 
+  b3label: 
+  b4label: 
+  b5label: 
+  b6label: 
+  b7label: 
+  b8label: 
+  b9label: 
+  created_at: 2008-08-08 12:59:53
+  department_id: "1"
+  f0label: 
+  f1label: 
+  f2label: 
+  f3label: 
+  f4label: 
+  f5label: 
+  f6label: 
+  f7label: 
+  f8label: 
+  f9label: 
+  i0label: 
+  i1label: 
+  i2label: 
+  i3label: 
+  i4label: 
+  i5label: 
+  i6label: 
+  i7label: 
+  i8label: 
+  i9label: 
+  id: "4"
+  name: supply requests
+  s0label: comments
+  s1label: description
+  s2label: locations
+  s3label: 
+  s4label: 
+  s5label: 
+  s6label: 
+  s7label: 
+  s8label: 
+  s9label: 
+  updated_at: 2008-08-08 12:59:53
+data_types_005: 
+  b0label: ""
+  b1label: ""
+  b2label: ""
+  b3label: ""
+  b4label: ""
+  b5label: ""
+  b6label: ""
+  b7label: ""
+  b8label: ""
+  b9label: ""
+  created_at: 2008-08-24 16:18:18
+  department_id: "1"
+  f0label: boxes
+  f1label: ""
+  f2label: ""
+  f3label: ""
+  f4label: ""
+  f5label: ""
+  f6label: ""
+  f7label: ""
+  f8label: ""
+  f9label: ""
+  i0label: ""
+  i1label: ""
+  i2label: ""
+  i3label: ""
+  i4label: ""
+  i5label: ""
+  i6label: ""
+  i7label: ""
+  i8label: ""
+  i9label: ""
+  id: "5"
+  name: cabinets
+  s0label: comments
+  s1label: ""
+  s2label: ""
+  s3label: ""
+  s4label: ""
+  s5label: ""
+  s6label: ""
+  s7label: ""
+  s8label: ""
+  s9label: ""
+  updated_at: 2008-08-24 16:18:18

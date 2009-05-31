@@ -1,0 +1,75 @@
+<% if payform_item.active %>
+  <% @tr_class= cycle "odd", "even" %>
+<% elsif is_admin? %>
+  <% @tr_class="inactive" %>
+<% else %>
+  <% @tr_class="inactiveHidden" %>
+<% end %>
+
+
+
+  <tr id="<%= payform_item.div_id %>" class="<%= @tr_class %>">
+  
+    <td><%=h payform_item.date %></td>
+    <td>
+      <% if payform_item.added_by.start_with? "shift#" %>
+        <%= link_to payform_item.description, {:controller => "report", :action => "view", :id => (payform_item.added_by.delete "shift#").to_i} %>
+      <% else %>
+        <%= h(payform_item.description) %>
+        <%# description can be up to 1000 character according to database -H %>
+        <%# commented out the bit with max description length limit - AA %>
+        <%# max_desc_len = 50 %>
+        <%#= (payform_item.description.length > max_desc_len) ? h(payform_item.description[0..(max_desc_len - 1)] + " ...") : h(payform_item.description) %>
+      <% end %>
+      
+    </td>
+    <td><%=h payform_item.hours %> hours</td>
+    <td>
+      <% if is_admin? %>
+        <% if payform_item.added_by.start_with? "shift#" %>
+          <%= link_to("Shifts", {:controller => "report", :action => "view", :id => (payform_item.added_by.delete "shift#").to_i}) %>
+        <% else %>
+          <%=h payform_item.added_by %>
+        <% end %>
+      <% end %>
+    </td>
+    <td colspan="2">
+      <% if payform_item.active %>
+        <% all_printed = true %>
+        <% payform_item.payforms.each do |payform| %>
+          <% all_printed = false unless payform.printed %>
+        <% end %>
+        <% unless all_printed %>
+          <% if @general_view %>
+            <% no_payform = true %>
+            <% @payform = payform_item.payforms[0] %>
+          <% end %>
+          <%= link_to("edit",   {:action => ( (is_admin? or !payform_item.mass) ? "edit_job" : "flatten_mass_job"),   
+                       :id => payform_item.id,
+                       :payform_id => @payform.id}, 
+                       :onclick => make_popup(:title => 'Edit Job')) %>
+          <%= link_to("delete", {:action => ( (is_admin? or !payform_item.mass) ? "delete_job" : "disavow_mass_job"), 
+                          :id => payform_item.id,
+                       :payform_id => @payform.id}, 
+                       :onclick => make_popup(:title => 'Delete Job')) %>
+          <% if is_admin? and payform_item.mass and !no_payform %>
+            <strong>|</strong>
+            <%= link_to("remove_user",   {:action => "disavow_mass_job", :id => payform_item.id, :payform_id => @payform.id}, :onclick => make_popup(:title => 'Delete Job for User')) %>
+            <%= link_to("edit_for_this_user", {:action => "flatten_mass_job", :id => payform_item.id, :payform_id => @payform.id}, :onclick => make_popup(:title => 'Edit Job for User')) %>
+          <% end %>
+        <%end %>
+      <% else %>
+        <strong>Deleted: </strong><%=h payform_item.reason %>
+      <% end %>  
+    </td>
+  </tr>
+  
+  <!-- edits -->
+<%= render :partial => 'payform/edit_item', :collection => payform_item.edit_items, :locals => {:payform_item => payform_item} if is_admin? %>
+  <!-- end edits -->
+
+<% if no_payform %>
+  <%= render :partial => 'payform/payform_item', :collection => payform_item.flattened_jobs if is_admin? unless payform_item.flattened_jobs.empty? %>
+<% end %>  
+  
+

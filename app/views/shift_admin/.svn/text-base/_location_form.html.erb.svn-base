@@ -1,0 +1,32 @@
+<div class="shift_admin_form">
+<fieldset>
+  <legend><%= title %></legend>
+    <% form_for :location do |f| -%>
+    <%= f.error_messages %>
+    <p>
+      <label>Long name:</label> <%= f.text_field :long_name %>
+    </p>
+    <p>
+      <label>Short name:</label> <%= f.text_field :short_name %>
+    </p>
+    <p>
+      <label>Location Group:</label> <%= f.select :location_group_id, @location_groups.collect {|l| [ l.short_name, l.id ]  } %>
+    <p>    
+      <label>Report emails get sent to:</label> <%= f.text_field :report_email %>
+    </p>
+    <p>
+      <label>Maximum number of people:</label> <%= f.text_field :max_staff %>
+    </p>
+      <label>Priority</label> <%= f.text_field :priority %>
+    <p>
+    </p>
+      <label>Minimum number of staff</label> <%= f.text_field :min_staff %>
+    <p>
+        <%= f.submit(@location.id.nil? ? "Create" : "Update") %>
+    </p>
+    <% end -%>
+  <%= button_to "Delete", {:action => "delete_location", :id => @location}, 
+            :confirm => "Are you sure you want to delete this location?  Any shifts belonging to it will be orphaned.", 
+      :method => :post unless title == "Create a new Location" %>
+</fieldset>
+</div>

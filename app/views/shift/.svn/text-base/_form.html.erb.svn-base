@@ -1,0 +1,27 @@
+<p>
+  <label>Location: </label><%= @shift.location.long_name %>
+</p>
+
+<p>
+  <label>Date: </label><%= @shift.shift_date %>
+</p>
+
+<p>
+  <label>Name: </label><%= @user.name %>
+
+</p>
+
+<p>
+  <label>Start</label><%= form.select :start, @time_choices_select %>
+</p>
+
+<p>
+  <label>  End</label><%= form.select :end, @time_choices_select, {:selected => @shift.end},{}%>
+</p>  
+
+<%# to remember the original time range sent to this action %>
+<%= hidden_field_tag :orig_start, params[:orig_start] || @shift.start %>
+<%= hidden_field_tag :orig_end, params[:orig_end] || @shift.end %>
+
+<%= form.hidden_field :location_id, :value => @shift.location_id %>
+<%= form.hidden_field :user_id, :value => @user.id %>  

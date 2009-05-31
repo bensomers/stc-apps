@@ -1,0 +1,24 @@
+<div id="right-col">   
+      &nbsp;
+    <% unless @payform.week != Date.tomorrow.cweek or @department.payform_configuration.clock == false %>
+        <strong>Payform Punch Clock:</strong>
+        <% if @clock.department_id != @department.id %>
+        <br/>Already clocked in somewhere else.  Please clock out there first.
+        <% else %>
+        <%= render :partial => '/clock/buttons' %>
+        <% end %>
+      <% end %>
+</div>
+<%= periodically_call_remote :url => {:controller => "/clock/time"}, :frequency => 30 if @clock.running  %>
+<div id="middle-col">
+    <% if @clock %>
+      <div id="clock-time">
+        <%= render :partial => "/clock/time" if @clock.in and @payform.week == Date.tomorrow.cweek %>
+      </div>
+      
+</div>
+
+<div id="cols-footer">
+      <%= render :partial => "/clock/add_job" if @clock.out %>
+</div>
+<% end %>

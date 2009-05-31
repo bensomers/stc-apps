@@ -1,0 +1,31 @@
+<% title "View Data" %>
+
+<% if department_admin? %>
+  <p>
+    <strong>View objects by type</strong>
+    <ul><% @department.data_types.each do |type| %>
+    <li><%= link_to type.name, :action => "view_data_type", :id => type.id %></li>
+    <% end %></ul>
+    <% if @department.data_types.empty? %>
+      <ul>No data types found within your department.</ul>
+    <% end %>
+  </p>
+<% end %>
+<p>
+  <strong>View objects by location</strong>
+  <ul><% @locations.each do |loc| %>
+  <li><%= link_to loc.short_name, :action => "view_location_data", :id => loc.id %></li>
+  <% end %></ul>
+  <% if @locations.empty? %>
+    <ul>No locations found within your department.</ul>
+  <% end %>
+</p>
+<p>
+  <strong>Create and delete data</strong>
+  <ul>
+  <% if department_admin? %>
+    <li><%= link_to "Create new data type", :action => "create_data_type" %></li>
+  <% end %>
+  <li><%= link_to "Create new data object", :action => "create_data_object" %></li>
+  <li><%= link_to "Delete data", :action => "delete_data" %></li></ul>
+

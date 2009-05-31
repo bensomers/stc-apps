@@ -1,0 +1,13 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+name:
+  id: 1
+  interview_id: 1
+  order: 1
+  question: What is your name?
+  active: true
+color:
+  id: 2
+  interview_id: 1
+  order: 2
+  question: What is your favorite color?
+  active: true

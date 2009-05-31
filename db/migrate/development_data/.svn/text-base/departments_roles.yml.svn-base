@@ -1,0 +1,271 @@
+--- 
+departments_roles_001: 
+  department_id: "1"
+  role_id: "1"
+departments_roles_002: 
+  department_id: "2"
+  role_id: "1"
+departments_roles_003: 
+  department_id: "3"
+  role_id: "1"
+departments_roles_004: 
+  department_id: "4"
+  role_id: "1"
+departments_roles_005: 
+  department_id: "5"
+  role_id: "1"
+departments_roles_006: 
+  department_id: "6"
+  role_id: "1"
+departments_roles_007: 
+  department_id: "7"
+  role_id: "1"
+departments_roles_008: 
+  department_id: "1"
+  role_id: "3"
+departments_roles_009: 
+  department_id: "1"
+  role_id: "6"
+departments_roles_010: 
+  department_id: "1"
+  role_id: "7"
+departments_roles_011: 
+  department_id: "1"
+  role_id: "8"
+departments_roles_012: 
+  department_id: "1"
+  role_id: "9"
+departments_roles_013: 
+  department_id: "1"
+  role_id: "10"
+departments_roles_014: 
+  department_id: "1"
+  role_id: "11"
+departments_roles_015: 
+  department_id: "1"
+  role_id: "12"
+departments_roles_016: 
+  department_id: "1"
+  role_id: "13"
+departments_roles_017: 
+  department_id: "1"
+  role_id: "14"
+departments_roles_018: 
+  department_id: "1"
+  role_id: "15"
+departments_roles_019: 
+  department_id: "2"
+  role_id: "15"
+departments_roles_020: 
+  department_id: "3"
+  role_id: "15"
+departments_roles_021: 
+  department_id: "4"
+  role_id: "15"
+departments_roles_022: 
+  department_id: "5"
+  role_id: "15"
+departments_roles_023: 
+  department_id: "6"
+  role_id: "15"
+departments_roles_024: 
+  department_id: "7"
+  role_id: "15"
+departments_roles_025: 
+  department_id: "1"
+  role_id: "16"
+departments_roles_026: 
+  department_id: "2"
+  role_id: "16"
+departments_roles_027: 
+  department_id: "3"
+  role_id: "16"
+departments_roles_028: 
+  department_id: "4"
+  role_id: "16"
+departments_roles_029: 
+  department_id: "5"
+  role_id: "16"
+departments_roles_030: 
+  department_id: "6"
+  role_id: "16"
+departments_roles_031: 
+  department_id: "1"
+  role_id: "20"
+departments_roles_032: 
+  department_id: "2"
+  role_id: "20"
+departments_roles_033: 
+  department_id: "3"
+  role_id: "20"
+departments_roles_034: 
+  department_id: "4"
+  role_id: "20"
+departments_roles_035: 
+  department_id: "5"
+  role_id: "20"
+departments_roles_036: 
+  department_id: "6"
+  role_id: "20"
+departments_roles_037: 
+  department_id: "1"
+  role_id: "21"
+departments_roles_038: 
+  department_id: "2"
+  role_id: "21"
+departments_roles_039: 
+  department_id: "3"
+  role_id: "21"
+departments_roles_040: 
+  department_id: "4"
+  role_id: "21"
+departments_roles_041: 
+  department_id: "5"
+  role_id: "21"
+departments_roles_042: 
+  department_id: "6"
+  role_id: "21"
+departments_roles_043: 
+  department_id: "1"
+  role_id: "22"
+departments_roles_044: 
+  department_id: "1"
+  role_id: "23"
+departments_roles_045: 
+  department_id: "1"
+  role_id: "25"
+departments_roles_046: 
+  department_id: "1"
+  role_id: "26"
+departments_roles_047: 
+  department_id: "1"
+  role_id: "27"
+departments_roles_048: 
+  department_id: "1"
+  role_id: "30"
+departments_roles_049: 
+  department_id: "2"
+  role_id: "31"
+departments_roles_050: 
+  department_id: "2"
+  role_id: "32"
+departments_roles_051: 
+  department_id: "2"
+  role_id: "33"
+departments_roles_052: 
+  department_id: "2"
+  role_id: "34"
+departments_roles_053: 
+  department_id: "2"
+  role_id: "35"
+departments_roles_054: 
+  department_id: "2"
+  role_id: "36"
+departments_roles_055: 
+  department_id: "3"
+  role_id: "37"
+departments_roles_056: 
+  department_id: "3"
+  role_id: "38"
+departments_roles_057: 
+  department_id: "3"
+  role_id: "39"
+departments_roles_058: 
+  department_id: "3"
+  role_id: "40"
+departments_roles_059: 
+  department_id: "3"
+  role_id: "41"
+departments_roles_060: 
+  department_id: "3"
+  role_id: "42"
+departments_roles_061: 
+  department_id: "1"
+  role_id: "43"
+departments_roles_062: 
+  department_id: "1"
+  role_id: "44"
+departments_roles_063: 
+  department_id: "1"
+  role_id: "45"
+departments_roles_064: 
+  department_id: "4"
+  role_id: "55"
+departments_roles_065: 
+  department_id: "4"
+  role_id: "56"
+departments_roles_066: 
+  department_id: "4"
+  role_id: "57"
+departments_roles_067: 
+  department_id: "4"
+  role_id: "58"
+departments_roles_068: 
+  department_id: "4"
+  role_id: "59"
+departments_roles_069: 
+  department_id: "4"
+  role_id: "60"
+departments_roles_070: 
+  department_id: "5"
+  role_id: "61"
+departments_roles_071: 
+  department_id: "5"
+  role_id: "62"
+departments_roles_072: 
+  department_id: "5"
+  role_id: "63"
+departments_roles_073: 
+  department_id: "5"
+  role_id: "64"
+departments_roles_074: 
+  department_id: "5"
+  role_id: "65"
+departments_roles_075: 
+  department_id: "5"
+  role_id: "66"
+departments_roles_076: 
+  department_id: "6"
+  role_id: "70"
+departments_roles_077: 
+  department_id: "6"
+  role_id: "71"
+departments_roles_078: 
+  department_id: "6"
+  role_id: "72"
+departments_roles_079: 
+  department_id: "6"
+  role_id: "73"
+departments_roles_080: 
+  department_id: "6"
+  role_id: "74"
+departments_roles_081: 
+  department_id: "6"
+  role_id: "75"
+departments_roles_082: 
+  department_id: "6"
+  role_id: "76"
+departments_roles_083: 
+  department_id: "6"
+  role_id: "77"
+departments_roles_084: 
+  department_id: "6"
+  role_id: "78"
+departments_roles_085: 
+  department_id: "1"
+  role_id: "79"
+departments_roles_086: 
+  department_id: "1"
+  role_id: "80"
+departments_roles_087: 
+  department_id: "1"
+  role_id: "81"
+departments_roles_088: 
+  department_id: "1"
+  role_id: "82"
+departments_roles_089: 
+  department_id: "1"
+  role_id: "83"
+departments_roles_090: 
+  department_id: "1"
+  role_id: "84"

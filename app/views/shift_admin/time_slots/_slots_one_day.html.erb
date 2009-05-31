@@ -1,0 +1,19 @@
+<tbody>
+  <% @location.label_row_for(slots_one_day) %>
+  <% slots_many_rows = split_to_rows(slots_one_day) %>
+  <% wday = (slots_one_day_counter-1) %>
+  <% slots_many_rows.each_with_index do |slots_one_row, i| %>
+    <% day_num = slots_one_day_counter - 1 %>
+    <% row_name = day_num < Date.today.wday ? 'passed' : 'present'%>  
+    
+    <tr class="<%= row_name %>">
+      <% if i==0 %>
+        <th class="location_label" rowspan="<%= @location.num_row %>"><%= day_num.day_of_week[0..2] %></td>
+      <% end %>
+      
+      <% @row_time = @start_minute %>
+      <%= render :partial => 'row_slot', :collection => slots_one_row %>
+      <%= light_print_cell("free_time", @row_time, @end_minute, nil, ' ') -%><%# print rest of free time for the day %>
+    </tr>
+  <% end %>  
+</tbody>

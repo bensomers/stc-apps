@@ -1,0 +1,24 @@
+<div class="payform_popup">
+  <%= error_messages_for 'payform_item' %>
+  <fieldset>
+    <% form_remote_for :payform_item, @payform_item, :url => {:action => 'add_job', :id => @payform.id} do |f| %>
+       <%= render :partial => "/payform/job_fields_horizontal", :locals => {
+         :form => f, 
+         :department => @payform.department, 
+         :select_day => Date.today.to_s,
+         :days => @payform.get_dates,
+        :clock => false
+       }%>
+      
+      <%= hidden_field_tag :quick_add_job_id, params[:quick_add_job_id] %>
+      <div align="center">    
+      <%= f.submit "Add Job", :name => "add_job_button" %>
+      <%= button_to_function 'Cancel', 
+      "Effect.SlideUp($(this).up('.payform_popup'), {duration: 0.4}); 
+      $('add_job_link_div').replace('<div id=add_job_link_div>" + link_to("Add Job", {:action => 'add_job', :id => @payform.id}, :class => "add_job_link") + "</div>'); 
+      Event.addBehavior({'.add_job_link': Remote.Link});" %>
+      </div>
+    <% end %>
+  </fieldset>
+  <br/>
+</div>

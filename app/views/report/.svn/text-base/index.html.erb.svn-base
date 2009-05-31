@@ -1,0 +1,47 @@
+<% title "Shift Report at the #{@shift_report.shift.location.long_name}" %>
+<%= error_messages_for 'shift_report' %>
+
+<h2>
+  <%= image_tag("/images/down_arrow.gif", :id => "arrow_message_center") %>
+  <%= link_to_function 'Message Center', "toggle_arrow('message_center')" %>
+</h2>
+
+<div id="message_center">
+  <%= render :partial => 'message_center' %>
+</div>
+<%= periodically_call_remote :url => {:controller => "/report", :action => "update_message_center" }, :frequency => 60*3 %>
+<div style="clear:both"></div>
+<h2>
+  <%= image_tag("/images/down_arrow.gif", :id => "arrow_useful_links") %>
+  <%= link_to_function 'Useful Information and Links', "toggle_arrow('useful_links')" %>
+</h2>
+
+<div id="useful_links">
+  <%# I created a separate partial for this so it would be easier to find when more links are added later -snl8 %>
+  <%= render :partial => 'useful_links' %>
+</div>
+
+<h2>Add a comment to your report:</h2><br />
+<% unless @shift_report.submitted? -%>
+<%# "The 'nil' arg. in text_area_tag below specifies what content the box starts with. deleting it causes size to be taken as something to display. ~Ahmet" %>
+  <% form_remote_tag :url => 'report/add_line_item',
+                     :html => { :id => 'line_form' } do -%>
+    <%= text_area_tag :line_content, nil, :size => '80x3', :wrap => 'hard' %>
+    <%= hidden_field_tag :can_edit, true %>
+    <%= hidden_field_tag :shift_report_id, @shift_report.id %>
+    <p> 
+    </p>
+    <p>
+      <%= submit_tag "Add this event" %>
+    </p>
+  <% end -%>
+<% end -%>
+
+<h2>Current Report</h2><%#render view table%>
+<%= render :partial => 'report', :object => @shift_report %>
+
+<% unless @shift_report.submitted? %>
+  <p><%= button_to "Submit this shift report", {:action => "submit", :id => @shift_report}, 
+                                          :confirm => 'Are you sure you want to submit this shift?' %>
+  </p>
+<% end %>

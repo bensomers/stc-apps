@@ -1,0 +1,15 @@
+<%= error_messages_for 'shift' %>
+<div class="shift_form">
+  <fieldset>
+    <legend>Edit shift for:</legend>
+    <% form_for :shift do |f| %>    
+      <%= render :partial => f %>
+      <%= f.submit "Update", :name => 'update_button' %>
+      <%= f.submit "Delete", :name => 'delete_button', :confirm => 'Deleting this shift is not revertable, are you sure?' %>
+    <% end %>    
+  </fieldset>
+  <h2>Other options</h2>
+  <div class="big_links"><%= make_sub_link %></div>
+  <div class="big_links">Leave a message</div>
+  <div class="big_links"><%= link_to "Back", :action => :index %></div>
+</div>

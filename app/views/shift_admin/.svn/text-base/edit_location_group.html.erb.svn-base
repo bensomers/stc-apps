@@ -1,0 +1,1 @@
+<%= render :partial => 'location_group', :object => @location_group,:locals => {:title => "Edit this Location Group", :button => "Update"}%>

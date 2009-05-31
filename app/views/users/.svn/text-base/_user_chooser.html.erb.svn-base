@@ -1,0 +1,24 @@
+  <% dept_id = session["current_chooser_choice"][controller.controller_name] %>
+  <% form_remote_tag( :html => {:id => 'user_form_ajax'},
+                      :url => {:controller => "/users", :action => "select_user", :department => dept_id}, :method => :get ) do %>
+    <div id="user_search_box">      
+      <%= text_field_with_auto_complete :selected_user, :name, { :size => 20 }, 
+            {:url => {:controller => "/users", :action => "live_search", :id => dept_id},
+            :method => :get, :param_name => 'search' } %>
+      <div>          
+        <div id="search_errors" style="display:none"></div>
+        <div id="select_links">
+          <%= link_to_remote 'all', :url => {:controller => "/users", :action => "select_user", :all_in_dept => dept_id}, 
+                                    :method => :get %>
+          | <%= link_to_remote 'none', :url => {:controller => "/users", :action => "deselect_user", :none => 1},
+                                    :method => :get %>
+        </div>
+      </div>
+    </div>
+  
+    <div id="select_container">
+      <%= render :partial => '/users/user_select'%>
+    </div>  
+  <% end %>
+
+

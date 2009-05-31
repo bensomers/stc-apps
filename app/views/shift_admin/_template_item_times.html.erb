@@ -1,0 +1,17 @@
+<%- minutes =  @minutes.map { |min| ["%02d" % min, min] } -%>
+<%- hours = HOURS.map { |hour| [hour, hour % 12]} -%>
+<%= "<td>" if @in_table -%>
+<label>Start:</label><%= template_item_times.select :start_hour, HOURS.map {|hour| [hour, hour % 12]} -%>
+<%= template_item_times.select :start_minute, minutes  -%>
+<%= template_item_times.select :start_am_pm, AM_PM  -%>
+<%- if @in_table -%>
+</td><td>
+<%- else -%>
+&nbsp &nbsp &nbsp &nbsp
+<%- end -%>
+<label>End:</label><%= template_item_times.select :end_hour, HOURS.map {|hour| [hour, hour % 12]} -%>
+<%= template_item_times.select :end_minute, minutes -%>
+<%= template_item_times.select :end_am_pm, AM_PM -%>
+<%= "</td>" if @in_table %>
+
+  

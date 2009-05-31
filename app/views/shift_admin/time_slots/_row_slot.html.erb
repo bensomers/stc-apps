@@ -1,0 +1,13 @@
+<% if row_slot.start_in_minute == @row_time -%>
+  <%= light_print_cell(label_slot(row_slot), @row_time, row_slot.end_in_minute, row_slot) -%>
+  <% @row_time = row_slot.end_in_minute %>
+
+<% elsif row_slot.start_in_minute < @row_time %>
+  <%= "ERROR from _row_slot partial" %>
+  <%= row_slot.start_in_minute %> to <%= row_slot.end_in_minute %><br />
+
+<% else #which means:  @row_time < row_slot.start_in_minute  # if shift is later -%>
+  <%= light_print_cell("free_time", @row_time, row_slot.start_in_minute, nil) -%>
+  <%= light_print_cell(label_slot(row_slot), row_slot.start_in_minute, row_slot.end_in_minute, row_slot) -%>
+  <% @row_time = row_slot.end_in_minute%>
+<% end-%>

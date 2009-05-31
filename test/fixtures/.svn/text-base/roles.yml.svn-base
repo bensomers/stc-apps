@@ -1,0 +1,17 @@
+--- 
+roles_1: 
+  name: user_admin
+  info: Admin User Permissions
+  id: "1"
+roles_2: 
+  name: everyone
+  info: Generic Application Rights
+  id: "3"
+roles_3: 
+  name: superuser
+  info: Grants Superuser Rights
+  id: "5"
+roles_4: 
+  name: interviewer
+  info: Allows User to Conduct Interviews
+  id: "6"

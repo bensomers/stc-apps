@@ -1,0 +1,13 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  belongs_to: 
+  has_many: 
+  short_name: MyString
+  long_name: MyString
+
+two:
+  belongs_to: 
+  has_many: 
+  short_name: MyString
+  long_name: MyString

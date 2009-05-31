@@ -1,0 +1,17 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+dan:
+  id: 1
+  first_name: Daniel
+  last_name: Holevoet
+  netid: dwh24
+  email: daniel.holevoet@yale.edu
+  college: Jonathan Edwards
+  year: 2007
+sarah:
+  id: 2
+  first_name: Sarah
+  last_name: Price
+  netid: smp57
+  email: sarah.price@yale.edu
+  college: Calhoun
+  year: 2007

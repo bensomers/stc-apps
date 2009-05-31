@@ -1,0 +1,7 @@
+<% inside_layout 'application' do %>
+
+  <% stylesheet 'user_admin' %>
+  <%= yield :layout %>
+
+<% end %>
+

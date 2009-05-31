@@ -1,0 +1,9 @@
+      <% while @users %>
+        <% (num_columns(default_num_columns)).times do |n| %>
+          <td align= right>
+
+            <%= render :partial => "user_check_box", 
+                   :collection => @users[n*column_length(default_num_columns.to_f)..(n+1)*column_length(default_num_columns.to_f)-1] %>
+          </td>
+        <% end %>
+      <% end %>

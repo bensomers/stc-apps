@@ -1,0 +1,52 @@
+<%# I need these two for the new shift report popup view -Harley%>
+<% stylesheet 'floatbox' %>
+<% javascript 'floatbox' %>
+
+<% title "Shifts" %>
+<%= render :partial => 'shift/view_pref' %>
+
+<div class = "shift_links">
+<%= return_to_shift_report_if_needed %><br />
+<%= link_to "Sign in to a blank report", :action => "sign_in_to_blank"%>
+
+<% unless @announcements.empty? %>
+<h2>Announcements for <%= @department.name %></h2>
+<%= render :partial => 'report/notice', :collection => @announcements %>
+<% end %>
+
+<div id="upcoming_shifts_div">
+  <%= render :partial => 'upcoming_shift_layout' %>
+</div>
+
+<% unless @subs_you_requested.empty? %>
+  <h2>Subs you requested</h2>
+  <ul>
+  <%= render :partial => 'upcoming_sub', :collection => @subs_you_requested %>
+  </ul>
+<% end %>
+
+<% unless @subs_you_can_take.empty? %>
+  <h2>Subs you can take</h2>
+  <ul>
+  <%= render :partial => 'upcoming_sub', :collection => @subs_you_can_take%>
+  </ul>
+<% end %>
+
+<%#don't move this to controller: %>
+<% @current_reports = ShiftReport.all_unsubmitted.select {|r| @loc_groups.include?(r.shift.location.location_group)}.sort_by(&:start) %>
+
+<% unless @current_reports.empty? %>
+  <h2>Currently logged in shifts (in your domain)</h2>
+  <ul>
+    <% @current_reports.each do |r| %>
+      <li><%= link_to r.shift.short_name, {:controller => "report", :action => "view_float", :id => r}, 
+                                          {:rel => "floatboxcurr", :rev => "width:500px height:500px" } -%>
+        <span class="early_late_info">&nbsp;&nbsp;<%= early_late_info(r.start) %></span>
+      </li>
+    <% end %>
+  </ul>
+<% end %>
+</div>
+<div id="schedule">
+  <%= render :partial => 'schedule'%>
+</div>

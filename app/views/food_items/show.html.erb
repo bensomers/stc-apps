@@ -1,0 +1,6 @@
+<p>Name : <%= @food_item.name %></p>
+<p>Price: <%= @food_item.price %></p>
+<p>Available? <%= @food_item.available %></p>
+
+<%= link_to 'Edit', edit_food_item_path %> |
+<%= link_to 'List', food_items_path %>

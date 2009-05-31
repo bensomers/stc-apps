@@ -1,0 +1,23 @@
+<% title "Manage Roles" %>
+
+<div id="user_admin">  
+  <% section do %>
+    <h2>Roles</h2>
+    <ul>
+        <% for role in @roles do %>
+           <li>
+          <div class="role"><%= role.name %> &mdash; <%= role.description %>
+            <div class="user_options"><%= link_to "[Edit]", { :action => 'edit_role', :id => role.id } %> | <%= link_to "[Delete]", { :action => 'destroy_role', :id => role.id }, :confirm => "Are you sure you wish to delete this role?" %>
+          </div>
+          </div>
+        </li>
+        <% end %>
+    </ul>
+    <%= link_to "[Add Role]", { :action => 'edit_role' } %>
+  <% end %>
+  
+  
+  
+  
+  
+</div>

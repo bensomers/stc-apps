@@ -1,0 +1,6 @@
+Do you mean:
+<ul>
+<% @locations.each do |loc| -%>
+  <li><%= link_to loc.name, "#{loc.name}" -%></li>
+<% end -%>
+</ul>

@@ -1,0 +1,10 @@
+<div style="clear:both">
+<%= render :partial => 'shift/schedule_title' %>
+
+<% if @loc_groups.empty? %>
+  <p>No location groups to view</p>
+<% else %>
+  <%= render :partial => 'shift/schedule/fetch_day', :collection => @week_days, :spacer_template => 'shift/schedule/spacer'%>
+<% end %>
+</div>
+<%= render :partial => 'shift/schedule_bottom' %>

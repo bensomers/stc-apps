@@ -1,0 +1,31 @@
+= Taskr4rails
+
+Taskr4rails makes it possible for the Taskr scheduler to execute arbitrary
+code on a running Rails server.
+
+Please see the Taskr4rails wiki page for more information:
+
+http://code.google.com/p/ruby-taskr/wiki/Taskr4rails
+
+For general info on the Taskr's RESTful scheduling service, please see:
+
+http://code.google.com/p/ruby-taskr/
+
+
+
+== LICENSE
+
+Taskr4rails is free software; you can redistribute it and/or modify
+it under the terms of the GNU Lesser General Public License as published 
+by the Free Software Foundation; either version 2 of the License, or
+(at your option) any later version.
+
+Taskr4rails is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU Lesser General Public License
+along with Taskr4rails; if not, write to the Free Software
+Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
+

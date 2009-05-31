@@ -1,0 +1,40 @@
+.list_line_even {
+  background:   #f5f5f5;
+}
+
+.list_line_odd {
+  background:   #e6e6fa;
+}
+
+.iotab{
+  font-size: 15px;
+  border-collapse: collapse;
+}
+
+.iotab td.update{
+  font-size: 12px;
+}
+.iotab td, .iotab th{
+  border: thin solid #B0B0B0;
+  padding: 10px;
+}
+
+.tab_change{
+  font-style: bold;
+  color: grey;
+}
+
+.tab_return{
+  color: red;
+}
+
+#left_pane{
+  float: left;
+  width: 30%;
+}
+
+#right_pane{
+  float: right;
+  margin: 0 auto 0 auto
+  width: 65%;
+}

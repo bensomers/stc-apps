@@ -1,0 +1,33 @@
+<% form_for :sub, :url => {:id => @shift}, :html => {:id => 'sub_form'} do |f| %>
+  <p>
+    <label>Location:</label><%= @shift.location.long_name %>
+  </p>
+  <p>
+    <label>Date:</label><%= @shift.shift_date.to_s(:just_date_long) %>
+  </p>
+
+  <p>
+    <label>Sub start</label><%= f.select :start, @time_choices_select %>
+  </p>
+  <p>
+    <label>Sub end</label><%= f.select :end, @time_choices_select, {:selected => @sub.end || @shift.end}%>
+  </p>
+  <span class="form_notice">Enter NetIDs or names, comma separated.  If javascript is enabled, text will autocomplete.</span>
+  <span class="form_notice">Leave blank to send to everybody.</span>
+  <p>  
+    <label>Offer to</label>
+      <%= text_field_with_auto_complete :sub, :offer_to, { :size => 52 }, 
+          {:tokens => ",", :url => {:controller => :users, :action => :live_search, :id => @shift.location.location_group.department_id},
+          :method => :get, :param_name => 'search' } %>
+  </p>
+  <p>
+    <label>Reason</label><%= f.text_area :reason, :size => "60x2"%>
+  </p>
+  
+  <div id="sub_bribe">
+    <%= f.check_box :bribe_flag  %>Enable bribe option?<br />
+    <div class="bribe_time">Start<%= f.select :bribe_start, @time_choices_select %></div>
+    <div class="bribe_time">End <%= f.select :bribe_end, @time_choices_select, {:selected => @sub.bribe_end || @shift.end} %></div>
+  </div>
+  <%= f.submit "Request Sub" %>
+<%end%>

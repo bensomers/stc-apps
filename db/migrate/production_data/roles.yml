@@ -1,0 +1,146 @@
+--- 
+roles_001: 
+  description: Super User is granted all permissions.
+  display_name: Super User
+  id: "1"
+  name: superuser
+roles_002: 
+  description: Role given to everyone for generic access
+  display_name: Everyone
+  id: "2"
+  name: everyone
+roles_003: 
+  description: Default User Admin
+  display_name: User Admin
+  id: "86"
+  name: user_admin
+roles_004: 
+  description: Shift Admin
+  display_name: Shift Admin
+  id: "87"
+  name: shift_admin
+roles_005: 
+  description: Shift
+  display_name: Shift
+  id: "88"
+  name: shift
+roles_006: 
+  description: Payform
+  display_name: Payform
+  id: "89"
+  name: payform
+roles_007: 
+  description: Payform Admin
+  display_name: Payform Admin
+  id: "90"
+  name: payform_admin
+roles_008: 
+  description: Grants user_admin access for STC.
+  display_name: STC
+  id: "91"
+  name: user_admin/@stc
+roles_009: 
+  description: Grants shift access for STC.
+  display_name: STC
+  id: "92"
+  name: shift/@stc
+roles_010: 
+  description: Grants shift_admin access for STC.
+  display_name: STC
+  id: "93"
+  name: shift_admin/@stc
+roles_011: 
+  description: Grants shift department admin access for STC.
+  display_name: Department admin
+  id: "94"
+  name: shift_admin/@stc/department_admin
+roles_012: 
+  description: Grants payform access for STC.
+  display_name: STC
+  id: "95"
+  name: payform/@stc
+roles_013: 
+  description: Grants payform_admin access for STC.
+  display_name: STC
+  id: "96"
+  name: payform_admin/@stc
+roles_014: 
+  description: User Admin for all Departments
+  display_name: All
+  id: "103"
+  name: user_admin/superuser
+roles_015: 
+  description: Grant Shift View Access for Public Clusters
+  display_name: Public Clusters
+  id: "104"
+  name: shift/@stc/public_clusters
+roles_016: 
+  description: Grant Shift Sign up Access for Public Clusters
+  display_name: Signup
+  id: "105"
+  name: shift/@stc/public_clusters/sign_up
+roles_017: 
+  description: Grant Shift Admin Access for Public Clusters
+  display_name: Public Clusters
+  id: "106"
+  name: shift_admin/@stc/public_clusters
+roles_018: 
+  description: Grant Shift View Access for Bass Media
+  display_name: Bass Media
+  id: "107"
+  name: shift/@stc/bass_media
+roles_019: 
+  description: Grant Shift Sign up Access for Bass Media
+  display_name: Signup
+  id: "108"
+  name: shift/@stc/bass_media/sign_up
+roles_020: 
+  description: Grant Shift Admin Access for Bass Media
+  display_name: Bass Media
+  id: "109"
+  name: shift_admin/@stc/bass_media
+roles_021: 
+  description: Grant Shift View Access for IO
+  display_name: IO
+  id: "110"
+  name: shift/@stc/io
+roles_022: 
+  description: Grant Shift Sign up Access for IO
+  display_name: Signup
+  id: "111"
+  name: shift/@stc/io/sign_up
+roles_023: 
+  description: Grant Shift Admin Access for IO
+  display_name: IO
+  id: "112"
+  name: shift_admin/@stc/io
+roles_024: 
+  description: Grant Shift View Access for Unstaffed
+  display_name: Unstaffed
+  id: "113"
+  name: shift/@stc/unstaffed
+roles_025: 
+  description: Grant Shift Sign up Access for Unstaffed
+  display_name: Signup
+  id: "114"
+  name: shift/@stc/unstaffed/sign_up
+roles_026: 
+  description: Grant Shift Admin Access for Unstaffed
+  display_name: Unstaffed
+  id: "115"
+  name: shift_admin/@stc/unstaffed
+roles_027: 
+  description: Grant Shift View Access for College
+  display_name: College
+  id: "116"
+  name: shift/@stc/college
+roles_028: 
+  description: Grant Shift Sign up Access for College
+  display_name: Signup
+  id: "117"
+  name: shift/@stc/college/sign_up
+roles_029: 
+  description: Grant Shift Admin Access for College
+  display_name: College
+  id: "118"
+  name: shift_admin/@stc/college

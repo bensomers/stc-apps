@@ -1,0 +1,11 @@
+<!-- Questions on sub request should be directed to me. -H -->
+<%= error_messages_for 'sub' %>
+<div class="note">
+  <%= @sub.display_restrictions %>
+</div>
+  <div class="shift_form">
+    <fieldset>
+      <legend>Request a sub for your shift </legend>
+      <%= render :partial => 'sub_form' %>  
+    </fieldset>
+  </div>

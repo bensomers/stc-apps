@@ -1,0 +1,57 @@
+--- 
+users_001: 
+  active: "1"
+  email: andrew.r.smith@yale.edu
+  first_name: Andrew
+  id: "1"
+  last_name: Smith
+  login: ars47
+  name: Andrew Smith
+users_002: 
+  active: "1"
+  email: adam.bray@yale.edu
+  first_name: Adam
+  id: "4"
+  last_name: Bray
+  login: alb64
+  name: Adam Bray
+users_003: 
+  active: "1"
+  email: loriann.higashi@yale.edu
+  first_name: Loriann
+  id: "5"
+  last_name: Higashi
+  login: lsh9
+  name: Lori Higashi
+users_004: 
+  active: "1"
+  email: ahmet.aktay@yale.edu
+  first_name: Ahmet
+  id: "6"
+  last_name: Aktay
+  login: aa536
+  name: Ahmet Aktay
+users_005: 
+  active: "1"
+  email: ben.somers@yale.edu
+  first_name: Benjamin
+  id: "7"
+  last_name: Somers
+  login: brs35
+  name: Ben Somers
+users_006: 
+  active: "1"
+  email: adrian.ryan@yale.edu
+  first_name: Adrian
+  id: "8"
+  last_name: Ryan
+  login: amr86
+  name: Adrian Ryan
+users_007: 
+  active: "1"
+  email: dung.trung@yale.edu
+  first_name: Dung
+  id: "9"
+  last_name: Trung
+  login: dtt22
+  name: Harley Trung

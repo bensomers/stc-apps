@@ -1,0 +1,1 @@
+page.replace_html("message_center", :partial => "message_center" );

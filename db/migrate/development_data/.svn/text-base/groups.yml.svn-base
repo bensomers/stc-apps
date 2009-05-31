@@ -1,0 +1,49 @@
+--- 
+groups_001: 
+  id: "1"
+  info: Access to User Admin and index
+  name: STC Admin
+groups_002: 
+  id: "2"
+  info: Access to ST Clusters
+  name: ST
+groups_003: 
+  id: "3"
+  info: Access to ST Clusters and IO
+  name: ST Coordinators
+groups_004: 
+  id: "4"
+  info: View access to ST Clusters
+  name: Bass Media Specialists
+groups_005: 
+  id: "5"
+  info: All neccessary access
+  name: Developers
+groups_006: 
+  id: "6"
+  info: All Access
+  name: Superuser
+groups_007: 
+  id: "7"
+  info: ACS Staff Members
+  name: ACS Staff
+groups_008: 
+  id: "8"
+  info: ACS non-staff
+  name: ACS Assistants
+groups_009: 
+  id: "9"
+  info: SSRS Staff
+  name: SSRS Staff
+groups_010: 
+  id: "10"
+  info: SSRS Students
+  name: SSRS Students
+groups_011: 
+  id: "11"
+  info: MS staff
+  name: Media Services Staff
+groups_012: 
+  id: "12"
+  info: MS students
+  name: Media Services Students

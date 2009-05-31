@@ -1,0 +1,2 @@
+module PayformAdmin::CategoriesHelper
+end

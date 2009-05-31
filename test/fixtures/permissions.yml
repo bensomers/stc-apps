@@ -1,0 +1,117 @@
+--- 
+permissions_24: 
+  name: apply/submit_evaluation
+  info: Submit technical test (hidden)
+  id: "86"
+permissions_13: 
+  name: index/index
+  info: View the Front Page
+  id: "20"
+permissions_8: 
+  name: user_admin/edit_role
+  info: Edit Role
+  id: "8"
+permissions_25: 
+  name: conduct_interview/index
+  info: List the Applicants to Interview
+  id: "87"
+permissions_14: 
+  name: user_admin/edit_user
+  info: Edit User
+  id: "14"
+permissions_9: 
+  name: user_admin/update_role
+  info: Update Role (hidden)
+  id: "9"
+permissions_26: 
+  name: conduct_interview/interview
+  info: Interview an Applicant
+  id: "88"
+permissions_15: 
+  name: user_admin/update_user
+  info: Update User (hidden)
+  id: "15"
+permissions_27: 
+  name: conduct_interview/submit_answers
+  info: Submit Interview (hidden)
+  id: "89"
+permissions_16: 
+  name: user_admin/new_user
+  info: Create User
+  id: "16"
+permissions_1: 
+  name: user_admin/index
+  info: List Users, Roles, Permissions
+  id: "1"
+permissions_28: 
+  name: applicants/index
+  info: List the Applicants
+  id: "90"
+permissions_17: 
+  name: user_admin/create_user
+  info: Generate User (hidden)
+  id: "17"
+permissions_2: 
+  name: user_admin/edit_permission
+  info: Edit Permission
+  id: "2"
+permissions_29: 
+  name: applicants/digest
+  info: Show the Digest View of an Applicant
+  id: "91"
+permissions_18: 
+  name: user_admin/destroy_user
+  info: Delete User
+  id: "18"
+permissions_3: 
+  name: user_admin/update_permission
+  info: Update Permission (hidden)
+  id: "3"
+permissions_20: 
+  name: apply/submit
+  info: Apply for CA Position (hidden)
+  id: "83"
+permissions_19: 
+  name: apply/questionnaire
+  info: Apply for CA Position (part 2)
+  id: "82"
+permissions_4: 
+  name: user_admin/new_permission
+  info: Create Permission
+  id: "4"
+permissions_21: 
+  name: apply/unsubmit
+  info: Delete Submitted Application
+  id: "84"
+permissions_10: 
+  name: user_admin/new_role
+  info: Create Role
+  id: "10"
+permissions_5: 
+  name: user_admin/create_permission
+  info: Generate Permission (hidden)
+  id: "5"
+permissions_22: 
+  name: account/login
+  info: Login (redirect)
+  id: "69"
+permissions_11: 
+  name: user_admin/create_role
+  info: Generate Role (hidden)
+  id: "11"
+permissions_6: 
+  name: user_admin/destroy_permission
+  info: Delete Permission
+  id: "6"
+permissions_23: 
+  name: apply/evaluation
+  info: Take technical test
+  id: "85"
+permissions_12: 
+  name: user_admin/destroy_role
+  info: Delete Role
+  id: "12"
+permissions_7: 
+  name: apply/basic
+  info: Apply for CA Position (part 1)
+  id: "81"

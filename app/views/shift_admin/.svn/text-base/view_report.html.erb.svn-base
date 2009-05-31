@@ -1,0 +1,9 @@
+<% title "Admin View Report" %>
+<%= render :partial => 'report/report', :object => @shift_report %>
+
+<% unless @shift_report.submitted? %>
+  <p>
+    <%= button_to "Submit for #{@shift_report.shift.user.name}", {:action => "admin_submit_report", :id => @shift_report}, 
+                                          :confirm => 'Are you sure you want to submit this shift?' %>
+  </p>
+<% end %>

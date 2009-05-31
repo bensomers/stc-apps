@@ -1,0 +1,42 @@
+<% title "Manage Shift Report Links" %>
+
+<% form_tag 'report_links' do %>
+<h2>Create a new link</h2>
+  <p>
+    Label: <%= text_field_tag "new_link[label]" %> URL: <%= text_field_tag "new_link[url]" %> 
+    Group: <%= select_tag "new_link[link_group]", options_for_select(@link_group_select) %>
+  </p>
+
+<h2>Edit existing links</h2>
+<% if department_admin? %>
+  <p>
+    <strong><%= @department.name %> department-wide links</strong>
+      <ul>
+      <% @department.shift_configuration.display_links.each do |link| %>
+        <li>><%= text_field_tag "links[dept][" + link[0].to_s + "]", link[1] %></li>
+      <% end %>  
+    </ul>
+<% end %>
+  <p>
+    <% @location_groups.each do |lg| %></td>
+      <strong><%= lg.short_name %> links</strong>
+      <ul>
+        <% lg.display_links.each do |link| %>
+          <li><%= text_field_tag "links[lg][" + loc.id.to_s + "][" + link[0].to_s + "]", link[1] %></li> 
+        <% end %>
+     </ul>
+    <% end %>
+  </p>
+  <p>
+    <% @locations.each do |loc| %></td>
+      <strong><%= loc.short_name %> links</strong>
+      <ul>
+        <% loc.display_links.each do |link| %>
+          <li><%= text_field_tag "links[loc][" + loc.id.to_s + "][" + link[0].to_s + "]", link[1] %></li> 
+        <% end %>
+      </ul>
+    <% end %>
+  </p>
+<%= submit_tag "Submit" %>
+<% end %>
+  

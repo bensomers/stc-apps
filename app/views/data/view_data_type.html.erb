@@ -1,0 +1,24 @@
+<% title "View " + @data_type.name.camelize %>
+
+<div id="replaceme"></div>
+
+<ol><strong>Notes:</strong> 
+  <li>If you want to create new label fields, simply type in the empty boxes.</li>
+  <li>Currently, only one label field of each type may be created at a time.  If you need to create more, create one and then press "update".  This feature will be improved in further development.</li>
+  <li>To delete a label field, just erase the text in the box and press "update".
+  <li>The labels are the attribute names for your data objects.  "s" labels are for character strings, "i" labels are for integers, "b" labels are for true-false fields, and "f" labels are for floating-point numbers.</li>
+</ol>
+
+<div id="data_form">
+<% form_for :data_type do |dtype|  %>
+  <% if department_admin? %>
+    <%= render :partial => "data_type_form", :object => @data_type %>
+    <%= submit_tag "Update" %>
+  <% end %>
+  <% @data_type.data_objects.sort_by(&:name).each do |obj| %>
+    <% if @auth_data_objects.include?(obj) %>
+      <%= render :partial => "data_object_brief", :object => obj %>
+    <% end %>
+  <% end %>
+<% end%>
+</div>

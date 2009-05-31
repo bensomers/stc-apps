@@ -1,0 +1,21 @@
+--- 
+shift_reports_001:
+  shift: late_1
+  start: 2008-12-29 12:30:00
+  end: 2008-12-29 12:45:00
+  login_ip: 130.132.182.16
+  logout_ip: 130.132.182.16
+
+shift_reports_002:
+  shift: late_2
+  start: 2008-12-29 12:15:00
+  end: 2008-12-29 14:45:00
+  login_ip: 130.132.182.16
+  logout_ip: 130.132.182.16
+
+shift_reports_003:
+  shift: ontime_1
+  start: 2008-12-30 9:05:00
+  end: 2008-12-30 11:05:00  
+  login_ip: 111.111.111.111
+  logout_ip: 222.222.222.222

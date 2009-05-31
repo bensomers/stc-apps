@@ -1,0 +1,8 @@
+<%= error_messages_for 'payform_item' %>
+<strong>Are you sure you want to delete this item from your payform?</strong><br />
+
+<%= button_to "No, let me go back!", :action => "view", :id => @payform.id %><br /><br />
+
+<% form_for(:payform_item, @payform_item, :url => { :action => 'disavow_mass_job', :id => @payform_item.id, :payform_id => @payform.id}, :html => { :multipart => :true}) do  |form|%> 
+  <%= submit_tag "Yes, please delete this" %>
+<% end %>

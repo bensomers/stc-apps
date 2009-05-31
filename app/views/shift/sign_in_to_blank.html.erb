@@ -1,0 +1,25 @@
+<%= error_messages_for 'shift' %>
+<div id="" class="shift_form">
+  <fieldset>
+    <legend><%= @user.name%>, select the cluster:</legend>
+    <p>
+      Date: <%= Time.now.to_date %>
+    </p>
+        
+    <% for loc_group in @department.location_groups %>      
+      <h2><%= loc_group.long_name %></h2>
+      <ul>
+        <% for loc in loc_group.locations %>
+          <li>
+            <p><%= link_to "#{loc.long_name}",  {:action => "sign_in_to_blank", 
+                               :user_id => @user.id, 
+                               :location_id => loc.id}, 
+                               :method => :post %>
+            </p>
+          </li>        
+        <%end%>
+      </ul>    
+    <% end %>
+  </fieldset>
+</div>
+<%= link_to "Back to the schedule", :action => "index" %>

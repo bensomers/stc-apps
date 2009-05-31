@@ -1,0 +1,51 @@
+<% if @active %>
+  <% title "Manage Active Users" %>
+<% else %>
+  <% title "Manage Inactive Users" %>
+<% end %>
+
+<div id="user_admin">
+
+  <% section do %>
+    <h2>Users</h2>
+    <% form_tag({:action => "change_active_users"}, :class => "active_form") do %>
+      <ul>
+        <% for user in @users %>
+             <li class="<%= cycle 'odd', 'even' %>">
+            <div class="user"><%= link_to user.name, :action => "edit_user", :id => user%>
+              <div class="user_options">
+                <% if @active %>
+                  <%= check_box_tag "deactivated_users[]", user.id, false, 
+                      {:id => "user_#{user.id}"} %> 
+                  <%= "<label for=\"user_#{user.id}\">Deactivate</label>"-%>
+                <% else %>
+                  <%= check_box_tag "activated_users[]", user.id, false, 
+                      {:id => "user_#{user.id}"} %> 
+                  <%= "<label for=\"user_#{user.id}\">Activate</label>"-%>
+                <% end %>
+              </div>
+            </div>
+          </li>
+        <% end %>
+      </ul> 
+      <div class="user_admin_links">
+        <%= link_to "[Add User]", { :action => 'edit_user' } %>
+        <%= link_to "[Import users]", { :action => 'import_users' } %>
+        <%= link_to "[Export users]", { :action => 'export_users' } %>
+        <% if @active %>
+          <%= link_to "[Manage Inactive Users]", { :action => "manage_users", :id => "inactive" } %>
+          <span style= "float:right">
+            <%= submit_tag "Deactivate selected users", :url => {:action => "change_active_users"}, :id => "deactivate" %>
+          </span>
+          <% else %>
+          <%= link_to "[Manage Active Users]", { :action => "manage_users", :id => "active" } %>
+          <span style= "float:right">
+            <%= submit_tag "Activate selected users", :url => {:action => "change_active_users"}, :id => "activate" %>
+          </span>
+          <% end %>
+        </span>
+      </div>
+    <% end %>
+  <% end %>
+  
+</div>

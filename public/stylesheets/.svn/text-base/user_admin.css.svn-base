@@ -1,0 +1,96 @@
+#instructions {
+  border-bottom: thin solid #408080;  
+}
+#import_success {
+  background-color: #9FE0FF;
+  border-color: #0080FF;
+}
+
+#import_fail {
+  background-color: #FF8080;
+  border-color: #800000;
+}
+
+.import caption{
+  margin-top: 1em;
+  text-align: left;
+  font-style: italic;
+}
+
+.import {
+  border-collapse: collapse;
+  width: 100%;
+  border: 1px solid;
+}
+.import td#name {
+  border: 1px solid #0080FF;
+  text-align: left;
+  width: 15%;
+}
+.import td#groups {
+  width: 63%;
+  border: 1px solid #0080FF;
+}
+
+.import td#netid {
+  width: 7%;
+  border: 1px solid #0080FF;
+}
+
+.import td#email {
+  width: 15%;
+  border: 1px solid #0080FF;
+}
+
+#export {
+  border: 1px solid #0080FF;
+  padding: 1em;
+  padding-top: 0px;
+  overflow: auto;
+  float: left;
+  width: 500px;
+  height: 310px;
+  
+}
+
+#export_user_chooser {
+  float: right;
+}
+#export_user_chooser #select_container {
+  background-color: #FFFFFF;
+  color: #415578;
+  height: 30em;
+  margin: 5px auto;
+  border: solid 1px #AAAAFF;
+  text-align: center;
+  overflow: auto;
+}
+#export_add_group {
+  float: right;
+  margin-right: 1em;
+}
+#export_form {
+  height: 5.3em;
+}
+/* User-admin specific classes */
+#user_admin div.user, #user_admin div.role, #user_admin div.perm {
+  width: 100%;
+  position: relative;
+}
+#user_admin div.user_options {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+#user_admin li {
+  padding: 0px 0px 1px;
+}
+
+#user_admin li.odd {
+  background: #f5f5f5;
+/*  border: 1px solid;*/
+}
+
+#user_admin li.even {
+  background:   #e6e6fa;
+}

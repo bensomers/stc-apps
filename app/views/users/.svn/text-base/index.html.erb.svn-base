@@ -1,0 +1,2 @@
+<%= render :partial => '/users/user_chooser' %>
+<div id="ids_for_user_chooser"></div>

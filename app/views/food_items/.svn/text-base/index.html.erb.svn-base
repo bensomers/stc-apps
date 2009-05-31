@@ -1,0 +1,35 @@
+<h1><%= link_to "Your tabs only", :controller => 'iotabs'   %>
+  | <%= link_to "All tabs", :controller => 'iotabs', :action => 'view_all' %>
+  | <u>Manage Food Items</u></h1>
+<div id='left_pane'>
+  <h1>Add new item</h1>
+
+  <div id='food_item_error'></div>
+  <% form_remote_for(@food_item) do |f| %>
+    <p><%= f.label :name %>
+       <%= f.text_field :name %>
+    </p>
+    <p>
+      <%= f.label :price %>
+      <%= f.text_field :price %>
+    </p>
+    <%= f.submit "Create" %>
+  <% end %>
+
+</div>
+
+<div id='right_pane'>
+  <h1>Listing io food items</h1>
+  <table id='food_item_table' class="tablesorter iotab">
+    <thead>
+    <tr>
+      <th>Name</th>
+      <th>Price&nbsp;&nbsp;&nbsp;&nbsp; </th>
+      <th>Avail?&nbsp;&nbsp;&nbsp;&nbsp;</th>
+    </tr>
+    </thead>
+    <tbody>
+    <%= render :partial => 'food_item', :collection => @food_items  %>
+    </tbody>
+  </table>
+</div>

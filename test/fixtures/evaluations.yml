@@ -1,0 +1,9 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+spring:
+  id: 1
+  name: Spring 2006 Hiring Exam
+  active: true
+hard:
+  id: 2
+  name: Really Hard Test
+  active: true

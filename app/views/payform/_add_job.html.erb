@@ -1,0 +1,11 @@
+<div class="payform_form">
+  <fieldset>
+    <legend>Add a Job</legend>
+    <%= error_messages_for 'payform_item' %>
+      <% form_for(:payform_item, @payform_item, :url => { :action => 'add_job', :id => @payform }, :html => { :multipart => :true}) do |form| %> 
+        <%= render :partial => "/payform/job_fields", :locals => {:form => form, :department => @payform.department, :select_day => Date.today.to_s, :clock => false} %>
+        <%= submit_tag "Save" %>
+      <% end %>
+    <%= button_to "Cancel", { :action => 'view', :id => @payform }, :method => :get %>
+  </fieldset>
+</div>

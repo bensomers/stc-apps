@@ -1,0 +1,13 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  department_id: 1
+  start: 1
+  stop: 1
+  granularity: 1
+
+two:
+  department_id: 1
+  start: 1
+  stop: 1
+  granularity: 1

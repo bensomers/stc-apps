@@ -1,0 +1,8 @@
+<font size=7 color='#c6cfdf'>
+  <div id="clock-time"><%= @clock.h %>:<%= @clock.m %>:<%= @clock.s %></div>
+</font><br/>
+<form name="time-values" id="time-values">
+<input type="hidden" name="clock-h" id="clock-h" value="<%= @clock.h %>" >
+<input type="hidden" name="clock-m" id="clock-m" value="<%= @clock.m %>" >
+<input type="hidden" name="clock-s" id="clock-s" value="<%= @clock.s %>" >
+</form>

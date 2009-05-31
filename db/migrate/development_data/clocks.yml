@@ -1,0 +1,91 @@
+--- 
+clocks_001: 
+  created_at: 2008-08-18 15:31:00
+  department_id: "5"
+  id: "1"
+  in: 
+  mass_clock_id: 
+  out: 
+  start: 
+  updated_at: 2008-08-18 15:31:00
+  user_id: "5"
+clocks_002: 
+  created_at: 2008-08-18 15:55:36
+  department_id: "1"
+  id: "2"
+  in: 
+  mass_clock_id: 
+  out: 
+  start: 
+  updated_at: 2008-08-18 15:55:36
+  user_id: "64"
+clocks_003: 
+  created_at: 2008-08-18 17:02:57
+  department_id: "1"
+  id: "3"
+  in: 
+  mass_clock_id: 
+  out: 
+  start: 
+  updated_at: 2008-08-18 17:02:57
+  user_id: "17"
+clocks_004: 
+  created_at: 2008-08-18 18:12:22
+  department_id: "1"
+  id: "4"
+  in: 
+  mass_clock_id: 
+  out: 
+  start: 
+  updated_at: 2008-08-18 18:12:22
+  user_id: "1"
+clocks_005: 
+  created_at: 2008-08-19 11:15:53
+  department_id: "1"
+  id: "5"
+  in: 
+  mass_clock_id: 
+  out: 
+  start: 
+  updated_at: 2008-08-19 11:15:53
+  user_id: "7"
+clocks_006: 
+  created_at: 2008-08-21 00:28:05
+  department_id: "1"
+  id: "6"
+  in: 
+  mass_clock_id: 
+  out: 
+  start: 
+  updated_at: 2008-08-21 00:28:05
+  user_id: "27"
+clocks_007: 
+  created_at: 2008-08-21 21:04:26
+  department_id: "1"
+  id: "7"
+  in: 
+  mass_clock_id: 
+  out: 
+  start: 
+  updated_at: 2008-08-21 21:04:26
+  user_id: "6"
+clocks_008: 
+  created_at: 2008-08-22 14:21:33
+  department_id: "1"
+  id: "8"
+  in: 
+  mass_clock_id: 
+  out: 
+  start: 
+  updated_at: 2008-08-22 14:21:33
+  user_id: "106"
+clocks_009: 
+  created_at: 2008-08-22 21:17:54
+  department_id: "2"
+  id: "9"
+  in: 
+  mass_clock_id: 
+  out: 
+  start: 
+  updated_at: 2008-08-22 21:17:54
+  user_id: "11"

@@ -1,0 +1,28 @@
+
+  <% form_for :location do |f|%>
+
+      <h2>Cluster Data</h2>
+        <% @object_groups.each do |key, group| %>
+          <p>
+            <table cellpadding="5" cellspacing="0">
+              <thead>
+                <th><%= group.first.data_type.name.humanize %></th>
+                <% group.first.data_type.used_fields.each do |field| %>
+                  <% if field[0].match(/\w[0-9]/) %>
+                    <th>
+                      <%= field[1].humanize %>
+                    </th>
+                  <% end %>
+                <% end %>
+              </thead>
+              <% group.each do |obj|%>
+                <%= render :partial => "data/add_data_entry", :object => obj %>
+              <% end %>
+            </table>
+          </p>
+        <% end %>       
+    <span style="float:left"><%= f.submit "Update statuses" %></span>
+    <span style="float:right">
+      <%= button_to "Cancel", :action => "index", :method => :get %>
+    </span>
+  <% end %>

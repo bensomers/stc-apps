@@ -1,0 +1,1046 @@
+--- 
+template_items_001: 
+  created_at: 2008-08-08 12:59:53
+  end: "1380"
+  id: "1"
+  library_id: "1"
+  location_id: "1"
+  start: "720"
+  type: TimeTemplateItem
+  updated_at: 2008-08-08 12:59:53
+  user_id: 
+  wday: "0"
+template_items_002: 
+  created_at: 2008-08-08 12:59:53
+  end: "1380"
+  id: "2"
+  library_id: "1"
+  location_id: "1"
+  start: "540"
+  type: TimeTemplateItem
+  updated_at: 2008-08-08 12:59:53
+  user_id: 
+  wday: "1"
+template_items_003: 
+  created_at: 2008-08-08 12:59:53
+  end: "1380"
+  id: "3"
+  library_id: "1"
+  location_id: "1"
+  start: "780"
+  type: TimeTemplateItem
+  updated_at: 2008-08-08 12:59:53
+  user_id: 
+  wday: "2"
+template_items_004: 
+  created_at: 2008-08-08 12:59:53
+  end: "1380"
+  id: "4"
+  library_id: "1"
+  location_id: "1"
+  start: "540"
+  type: TimeTemplateItem
+  updated_at: 2008-08-08 12:59:53
+  user_id: 
+  wday: "3"
+template_items_005: 
+  created_at: 2008-08-08 12:59:53
+  end: "1380"
+  id: "5"
+  library_id: "1"
+  location_id: "1"
+  start: "540"
+  type: TimeTemplateItem
+  updated_at: 2008-08-08 12:59:53
+  user_id: 
+  wday: "4"
+template_items_006: 
+  created_at: 2008-08-08 12:59:53
+  end: "780"
+  id: "6"
+  library_id: "1"
+  location_id: "1"
+  start: "540"
+  type: TimeTemplateItem
+  updated_at: 2008-08-08 12:59:53
+  user_id: 
+  wday: "5"
+template_items_007: 
+  created_at: 2008-08-08 12:59:53
+  end: "1320"
+  id: "7"
+  library_id: "1"
+  location_id: "1"
+  start: "1200"
+  type: TimeTemplateItem
+  updated_at: 2008-08-08 12:59:53
+  user_id: 
+  wday: "6"
+template_items_008: 
+  created_at: 2008-08-11 13:35:57
+  end: "600"
+  id: "8"
+  library_id: "3"
+  location_id: "2"
+  start: "480"
+  type: ShiftTemplateItem
+  updated_at: 2008-08-11 13:35:57
+  user_id: "7"
+  wday: "2"
+template_items_009: 
+  created_at: 2008-08-11 13:36:30
+  end: "540"
+  id: "9"
+  library_id: "3"
+  location_id: "5"
+  start: "480"
+  type: ShiftTemplateItem
+  updated_at: 2008-08-11 13:36:30
+  user_id: "12"
+  wday: "1"
+template_items_010: 
+  created_at: 2008-08-11 13:36:30
+  end: "540"
+  id: "10"
+  library_id: "3"
+  location_id: "5"
+  start: "480"
+  type: ShiftTemplateItem
+  updated_at: 2008-08-11 13:36:30
+  user_id: "12"
+  wday: "2"
+template_items_011: 
+  created_at: 2008-08-11 13:36:30
+  end: "540"
+  id: "11"
+  library_id: "3"
+  location_id: "5"
+  start: "480"
+  type: ShiftTemplateItem
+  updated_at: 2008-08-11 13:36:30
+  user_id: "12"
+  wday: "3"
+template_items_012: 
+  created_at: 2008-08-11 14:20:34
+  end: "1440"
+  id: "12"
+  library_id: "4"
+  location_id: "1"
+  start: "540"
+  type: TimeTemplateItem
+  updated_at: 2008-08-11 14:23:10
+  user_id: 
+  wday: "1"
+template_items_013: 
+  created_at: 2008-08-11 14:20:34
+  end: "1440"
+  id: "13"
+  library_id: "4"
+  location_id: "1"
+  start: "540"
+  type: TimeTemplateItem
+  updated_at: 2008-08-11 14:23:10
+  user_id: 
+  wday: "2"
+template_items_014: 
+  created_at: 2008-08-11 14:20:34
+  end: "1440"
+  id: "14"
+  library_id: "4"
+  location_id: "1"
+  start: "540"
+  type: TimeTemplateItem
+  updated_at: 2008-08-11 14:23:10
+  user_id: 
+  wday: "3"
+template_items_015: 
+  created_at: 2008-08-11 14:20:34
+  end: "1440"
+  id: "15"
+  library_id: "4"
+  location_id: "1"
+  start: "540"
+  type: TimeTemplateItem
+  updated_at: 2008-08-11 14:23:10
+  user_id: 
+  wday: "4"
+template_items_016: 
+  created_at: 2008-08-11 14:20:34
+  end: "1440"
+  id: "16"
+  library_id: "4"
+  location_id: "1"
+  start: "540"
+  type: TimeTemplateItem
+  updated_at: 2008-08-11 14:23:10
+  user_id: 
+  wday: "5"
+template_items_017: 
+  created_at: 2008-08-11 14:20:34
+  end: "1440"
+  id: "17"
+  library_id: "4"
+  location_id: "2"
+  start: "540"
+  type: TimeTemplateItem
+  updated_at: 2008-08-11 14:23:10
+  user_id: 
+  wday: "1"
+template_items_018: 
+  created_at: 2008-08-11 14:20:34
+  end: "1440"
+  id: "18"
+  library_id: "4"
+  location_id: "2"
+  start: "540"
+  type: TimeTemplateItem
+  updated_at: 2008-08-11 14:23:10
+  user_id: 
+  wday: "2"
+template_items_019: 
+  created_at: 2008-08-11 14:20:34
+  end: "1440"
+  id: "19"
+  library_id: "4"
+  location_id: "2"
+  start: "540"
+  type: TimeTemplateItem
+  updated_at: 2008-08-11 14:23:10
+  user_id: 
+  wday: "3"
+template_items_020: 
+  created_at: 2008-08-11 14:20:34
+  end: "1440"
+  id: "20"
+  library_id: "4"
+  location_id: "2"
+  start: "540"
+  type: TimeTemplateItem
+  updated_at: 2008-08-11 14:23:10
+  user_id: 
+  wday: "4"
+template_items_021: 
+  created_at: 2008-08-11 14:20:34
+  end: "1440"
+  id: "21"
+  library_id: "4"
+  location_id: "2"
+  start: "540"
+  type: TimeTemplateItem
+  updated_at: 2008-08-11 14:23:10
+  user_id: 
+  wday: "5"
+template_items_022: 
+  created_at: 2008-08-11 14:20:34
+  end: "1440"
+  id: "22"
+  library_id: "4"
+  location_id: "3"
+  start: "540"
+  type: TimeTemplateItem
+  updated_at: 2008-08-11 14:23:10
+  user_id: 
+  wday: "1"
+template_items_023: 
+  created_at: 2008-08-11 14:20:34
+  end: "1440"
+  id: "23"
+  library_id: "4"
+  location_id: "3"
+  start: "540"
+  type: TimeTemplateItem
+  updated_at: 2008-08-11 14:23:10
+  user_id: 
+  wday: "2"
+template_items_024: 
+  created_at: 2008-08-11 14:20:34
+  end: "1440"
+  id: "24"
+  library_id: "4"
+  location_id: "3"
+  start: "540"
+  type: TimeTemplateItem
+  updated_at: 2008-08-11 14:23:10
+  user_id: 
+  wday: "3"
+template_items_025: 
+  created_at: 2008-08-11 14:20:34
+  end: "1440"
+  id: "25"
+  library_id: "4"
+  location_id: "3"
+  start: "540"
+  type: TimeTemplateItem
+  updated_at: 2008-08-11 14:23:10
+  user_id: 
+  wday: "4"
+template_items_026: 
+  created_at: 2008-08-11 14:20:34
+  end: "1440"
+  id: "26"
+  library_id: "4"
+  location_id: "3"
+  start: "540"
+  type: TimeTemplateItem
+  updated_at: 2008-08-11 14:23:10
+  user_id: 
+  wday: "5"
+template_items_027: 
+  created_at: 2008-08-11 14:20:34
+  end: "1440"
+  id: "27"
+  library_id: "4"
+  location_id: "4"
+  start: "540"
+  type: TimeTemplateItem
+  updated_at: 2008-08-11 14:23:10
+  user_id: 
+  wday: "1"
+template_items_028: 
+  created_at: 2008-08-11 14:20:34
+  end: "1440"
+  id: "28"
+  library_id: "4"
+  location_id: "4"
+  start: "540"
+  type: TimeTemplateItem
+  updated_at: 2008-08-11 14:23:10
+  user_id: 
+  wday: "2"
+template_items_029: 
+  created_at: 2008-08-11 14:20:34
+  end: "1440"
+  id: "29"
+  library_id: "4"
+  location_id: "4"
+  start: "540"
+  type: TimeTemplateItem
+  updated_at: 2008-08-11 14:23:10
+  user_id: 
+  wday: "3"
+template_items_030: 
+  created_at: 2008-08-11 14:20:34
+  end: "1440"
+  id: "30"
+  library_id: "4"
+  location_id: "4"
+  start: "540"
+  type: TimeTemplateItem
+  updated_at: 2008-08-11 14:23:10
+  user_id: 
+  wday: "4"
+template_items_031: 
+  created_at: 2008-08-11 14:20:34
+  end: "1440"
+  id: "31"
+  library_id: "4"
+  location_id: "4"
+  start: "540"
+  type: TimeTemplateItem
+  updated_at: 2008-08-11 14:23:10
+  user_id: 
+  wday: "5"
+template_items_032: 
+  created_at: 2008-08-11 14:20:34
+  end: "1440"
+  id: "32"
+  library_id: "4"
+  location_id: "5"
+  start: "540"
+  type: TimeTemplateItem
+  updated_at: 2008-08-11 14:23:10
+  user_id: 
+  wday: "1"
+template_items_033: 
+  created_at: 2008-08-11 14:20:34
+  end: "1440"
+  id: "33"
+  library_id: "4"
+  location_id: "5"
+  start: "540"
+  type: TimeTemplateItem
+  updated_at: 2008-08-11 14:23:10
+  user_id: 
+  wday: "2"
+template_items_034: 
+  created_at: 2008-08-11 14:20:34
+  end: "1440"
+  id: "34"
+  library_id: "4"
+  location_id: "5"
+  start: "540"
+  type: TimeTemplateItem
+  updated_at: 2008-08-11 14:23:10
+  user_id: 
+  wday: "3"
+template_items_035: 
+  created_at: 2008-08-11 14:20:34
+  end: "1440"
+  id: "35"
+  library_id: "4"
+  location_id: "5"
+  start: "540"
+  type: TimeTemplateItem
+  updated_at: 2008-08-11 14:23:10
+  user_id: 
+  wday: "4"
+template_items_036: 
+  created_at: 2008-08-11 14:20:34
+  end: "1440"
+  id: "36"
+  library_id: "4"
+  location_id: "5"
+  start: "540"
+  type: TimeTemplateItem
+  updated_at: 2008-08-11 14:23:10
+  user_id: 
+  wday: "5"
+template_items_037: 
+  created_at: 2008-08-11 14:20:34
+  end: "1440"
+  id: "37"
+  library_id: "4"
+  location_id: "6"
+  start: "540"
+  type: TimeTemplateItem
+  updated_at: 2008-08-11 14:23:10
+  user_id: 
+  wday: "1"
+template_items_038: 
+  created_at: 2008-08-11 14:20:34
+  end: "1440"
+  id: "38"
+  library_id: "4"
+  location_id: "6"
+  start: "540"
+  type: TimeTemplateItem
+  updated_at: 2008-08-11 14:23:10
+  user_id: 
+  wday: "2"
+template_items_039: 
+  created_at: 2008-08-11 14:20:34
+  end: "1440"
+  id: "39"
+  library_id: "4"
+  location_id: "6"
+  start: "540"
+  type: TimeTemplateItem
+  updated_at: 2008-08-11 14:23:10
+  user_id: 
+  wday: "3"
+template_items_040: 
+  created_at: 2008-08-11 14:20:34
+  end: "1440"
+  id: "40"
+  library_id: "4"
+  location_id: "6"
+  start: "540"
+  type: TimeTemplateItem
+  updated_at: 2008-08-11 14:23:10
+  user_id: 
+  wday: "4"
+template_items_041: 
+  created_at: 2008-08-11 14:20:34
+  end: "1440"
+  id: "41"
+  library_id: "4"
+  location_id: "6"
+  start: "540"
+  type: TimeTemplateItem
+  updated_at: 2008-08-11 14:23:10
+  user_id: 
+  wday: "5"
+template_items_042: 
+  created_at: 2008-08-11 14:23:10
+  end: "1140"
+  id: "42"
+  library_id: "4"
+  location_id: "1"
+  start: "540"
+  type: TimeTemplateItem
+  updated_at: 2008-08-11 14:23:10
+  user_id: 
+  wday: "0"
+template_items_043: 
+  created_at: 2008-08-11 14:23:10
+  end: "1140"
+  id: "43"
+  library_id: "4"
+  location_id: "1"
+  start: "540"
+  type: TimeTemplateItem
+  updated_at: 2008-08-11 14:23:10
+  user_id: 
+  wday: "6"
+template_items_044: 
+  created_at: 2008-08-11 14:23:10
+  end: "1140"
+  id: "44"
+  library_id: "4"
+  location_id: "2"
+  start: "540"
+  type: TimeTemplateItem
+  updated_at: 2008-08-11 14:23:10
+  user_id: 
+  wday: "0"
+template_items_045: 
+  created_at: 2008-08-11 14:23:10
+  end: "1140"
+  id: "45"
+  library_id: "4"
+  location_id: "2"
+  start: "540"
+  type: TimeTemplateItem
+  updated_at: 2008-08-11 14:23:10
+  user_id: 
+  wday: "6"
+template_items_046: 
+  created_at: 2008-08-11 14:23:10
+  end: "1140"
+  id: "46"
+  library_id: "4"
+  location_id: "3"
+  start: "540"
+  type: TimeTemplateItem
+  updated_at: 2008-08-11 14:23:10
+  user_id: 
+  wday: "0"
+template_items_047: 
+  created_at: 2008-08-11 14:23:10
+  end: "1140"
+  id: "47"
+  library_id: "4"
+  location_id: "3"
+  start: "540"
+  type: TimeTemplateItem
+  updated_at: 2008-08-11 14:23:10
+  user_id: 
+  wday: "6"
+template_items_048: 
+  created_at: 2008-08-11 14:23:10
+  end: "1140"
+  id: "48"
+  library_id: "4"
+  location_id: "4"
+  start: "540"
+  type: TimeTemplateItem
+  updated_at: 2008-08-11 14:23:10
+  user_id: 
+  wday: "0"
+template_items_049: 
+  created_at: 2008-08-11 14:23:10
+  end: "1140"
+  id: "49"
+  library_id: "4"
+  location_id: "4"
+  start: "540"
+  type: TimeTemplateItem
+  updated_at: 2008-08-11 14:23:10
+  user_id: 
+  wday: "6"
+template_items_050: 
+  created_at: 2008-08-11 14:23:10
+  end: "1140"
+  id: "50"
+  library_id: "4"
+  location_id: "5"
+  start: "540"
+  type: TimeTemplateItem
+  updated_at: 2008-08-11 14:23:10
+  user_id: 
+  wday: "0"
+template_items_051: 
+  created_at: 2008-08-11 14:23:10
+  end: "1140"
+  id: "51"
+  library_id: "4"
+  location_id: "5"
+  start: "540"
+  type: TimeTemplateItem
+  updated_at: 2008-08-11 14:23:10
+  user_id: 
+  wday: "6"
+template_items_052: 
+  created_at: 2008-08-11 14:23:10
+  end: "1140"
+  id: "52"
+  library_id: "4"
+  location_id: "6"
+  start: "540"
+  type: TimeTemplateItem
+  updated_at: 2008-08-11 14:23:10
+  user_id: 
+  wday: "0"
+template_items_053: 
+  created_at: 2008-08-11 14:23:10
+  end: "1140"
+  id: "53"
+  library_id: "4"
+  location_id: "6"
+  start: "540"
+  type: TimeTemplateItem
+  updated_at: 2008-08-11 14:23:10
+  user_id: 
+  wday: "6"
+template_items_054: 
+  created_at: 2008-08-11 15:38:01
+  end: "540"
+  id: "60"
+  library_id: "6"
+  location_id: "1"
+  start: "480"
+  type: TimeTemplateItem
+  updated_at: 2008-08-11 15:38:01
+  user_id: 
+  wday: "0"
+template_items_055: 
+  created_at: 2008-08-11 15:38:01
+  end: "540"
+  id: "61"
+  library_id: "6"
+  location_id: "2"
+  start: "480"
+  type: TimeTemplateItem
+  updated_at: 2008-08-11 15:38:01
+  user_id: 
+  wday: "0"
+template_items_056: 
+  created_at: 2008-08-11 15:38:01
+  end: "540"
+  id: "62"
+  library_id: "6"
+  location_id: "3"
+  start: "480"
+  type: TimeTemplateItem
+  updated_at: 2008-08-11 15:38:01
+  user_id: 
+  wday: "0"
+template_items_057: 
+  created_at: 2008-08-11 15:38:01
+  end: "540"
+  id: "63"
+  library_id: "6"
+  location_id: "4"
+  start: "480"
+  type: TimeTemplateItem
+  updated_at: 2008-08-11 15:38:01
+  user_id: 
+  wday: "0"
+template_items_058: 
+  created_at: 2008-08-11 15:38:01
+  end: "540"
+  id: "64"
+  library_id: "6"
+  location_id: "5"
+  start: "480"
+  type: TimeTemplateItem
+  updated_at: 2008-08-11 15:38:01
+  user_id: 
+  wday: "0"
+template_items_059: 
+  created_at: 2008-08-11 15:38:01
+  end: "540"
+  id: "65"
+  library_id: "6"
+  location_id: "6"
+  start: "480"
+  type: TimeTemplateItem
+  updated_at: 2008-08-11 15:38:01
+  user_id: 
+  wday: "0"
+template_items_060: 
+  created_at: 2008-08-11 15:40:14
+  end: "660"
+  id: "66"
+  library_id: "6"
+  location_id: "1"
+  start: "480"
+  type: TimeTemplateItem
+  updated_at: 2008-08-11 15:40:14
+  user_id: 
+  wday: "0"
+template_items_061: 
+  created_at: 2008-08-11 15:40:14
+  end: "660"
+  id: "67"
+  library_id: "6"
+  location_id: "1"
+  start: "480"
+  type: TimeTemplateItem
+  updated_at: 2008-08-11 15:40:14
+  user_id: 
+  wday: "1"
+template_items_062: 
+  created_at: 2008-08-11 15:40:14
+  end: "660"
+  id: "68"
+  library_id: "6"
+  location_id: "2"
+  start: "480"
+  type: TimeTemplateItem
+  updated_at: 2008-08-11 15:40:14
+  user_id: 
+  wday: "0"
+template_items_063: 
+  created_at: 2008-08-11 15:40:14
+  end: "660"
+  id: "69"
+  library_id: "6"
+  location_id: "2"
+  start: "480"
+  type: TimeTemplateItem
+  updated_at: 2008-08-11 15:40:14
+  user_id: 
+  wday: "1"
+template_items_064: 
+  created_at: 2008-08-11 15:40:14
+  end: "660"
+  id: "70"
+  library_id: "6"
+  location_id: "3"
+  start: "480"
+  type: TimeTemplateItem
+  updated_at: 2008-08-11 15:40:14
+  user_id: 
+  wday: "0"
+template_items_065: 
+  created_at: 2008-08-11 15:40:14
+  end: "660"
+  id: "71"
+  library_id: "6"
+  location_id: "3"
+  start: "480"
+  type: TimeTemplateItem
+  updated_at: 2008-08-11 15:40:14
+  user_id: 
+  wday: "1"
+template_items_066: 
+  created_at: 2008-08-11 15:40:14
+  end: "660"
+  id: "72"
+  library_id: "6"
+  location_id: "4"
+  start: "480"
+  type: TimeTemplateItem
+  updated_at: 2008-08-11 15:40:14
+  user_id: 
+  wday: "0"
+template_items_067: 
+  created_at: 2008-08-11 15:40:14
+  end: "660"
+  id: "73"
+  library_id: "6"
+  location_id: "4"
+  start: "480"
+  type: TimeTemplateItem
+  updated_at: 2008-08-11 15:40:14
+  user_id: 
+  wday: "1"
+template_items_068: 
+  created_at: 2008-08-11 15:40:14
+  end: "660"
+  id: "74"
+  library_id: "6"
+  location_id: "5"
+  start: "480"
+  type: TimeTemplateItem
+  updated_at: 2008-08-11 15:40:14
+  user_id: 
+  wday: "0"
+template_items_069: 
+  created_at: 2008-08-11 15:40:14
+  end: "660"
+  id: "75"
+  library_id: "6"
+  location_id: "5"
+  start: "480"
+  type: TimeTemplateItem
+  updated_at: 2008-08-11 15:40:14
+  user_id: 
+  wday: "1"
+template_items_070: 
+  created_at: 2008-08-11 15:40:14
+  end: "660"
+  id: "76"
+  library_id: "6"
+  location_id: "6"
+  start: "480"
+  type: TimeTemplateItem
+  updated_at: 2008-08-11 15:40:14
+  user_id: 
+  wday: "0"
+template_items_071: 
+  created_at: 2008-08-11 15:40:14
+  end: "660"
+  id: "77"
+  library_id: "6"
+  location_id: "6"
+  start: "480"
+  type: TimeTemplateItem
+  updated_at: 2008-08-11 15:40:14
+  user_id: 
+  wday: "1"
+template_items_072: 
+  created_at: 2008-08-11 18:04:57
+  end: "1200"
+  id: "78"
+  library_id: "5"
+  location_id: "1"
+  start: "540"
+  type: ShiftTemplateItem
+  updated_at: 2008-08-11 18:08:37
+  user_id: "4"
+  wday: "0"
+template_items_073: 
+  created_at: 2008-08-11 18:08:13
+  end: "1500"
+  id: "79"
+  library_id: "5"
+  location_id: "1"
+  start: "660"
+  type: ShiftTemplateItem
+  updated_at: 2008-08-11 18:11:50
+  user_id: "8"
+  wday: "0"
+template_items_074: 
+  created_at: 2008-08-11 18:09:40
+  end: "960"
+  id: "80"
+  library_id: "5"
+  location_id: "2"
+  start: "660"
+  type: ShiftTemplateItem
+  updated_at: 2008-08-11 18:09:40
+  user_id: "10"
+  wday: "0"
+template_items_075: 
+  created_at: 2008-08-11 18:09:40
+  end: "960"
+  id: "81"
+  library_id: "5"
+  location_id: "2"
+  start: "660"
+  type: ShiftTemplateItem
+  updated_at: 2008-08-11 18:09:40
+  user_id: "10"
+  wday: "1"
+template_items_076: 
+  created_at: 2008-08-11 18:09:40
+  end: "960"
+  id: "82"
+  library_id: "5"
+  location_id: "2"
+  start: "660"
+  type: ShiftTemplateItem
+  updated_at: 2008-08-11 18:09:40
+  user_id: "10"
+  wday: "3"
+template_items_077: 
+  created_at: 2008-08-11 18:11:50
+  end: "780"
+  id: "83"
+  library_id: "5"
+  location_id: "4"
+  start: "720"
+  type: ShiftTemplateItem
+  updated_at: 2008-08-11 18:11:50
+  user_id: "7"
+  wday: "2"
+template_items_078: 
+  created_at: 2008-08-11 18:11:50
+  end: "780"
+  id: "84"
+  library_id: "5"
+  location_id: "4"
+  start: "720"
+  type: ShiftTemplateItem
+  updated_at: 2008-08-11 18:11:50
+  user_id: "7"
+  wday: "3"
+template_items_079: 
+  created_at: 2008-08-11 18:11:50
+  end: "780"
+  id: "85"
+  library_id: "5"
+  location_id: "4"
+  start: "720"
+  type: ShiftTemplateItem
+  updated_at: 2008-08-11 18:11:50
+  user_id: "7"
+  wday: "4"
+template_items_080: 
+  created_at: 2008-08-11 18:11:50
+  end: "780"
+  id: "86"
+  library_id: "5"
+  location_id: "4"
+  start: "720"
+  type: ShiftTemplateItem
+  updated_at: 2008-08-11 18:11:50
+  user_id: "7"
+  wday: "5"
+template_items_081: 
+  created_at: 2008-08-14 15:12:37
+  end: "810"
+  id: "87"
+  library_id: "8"
+  location_id: "7"
+  start: "600"
+  type: ShiftTemplateItem
+  updated_at: 2008-08-14 15:12:37
+  user_id: "130"
+  wday: "1"
+template_items_082: 
+  created_at: 2008-08-14 15:12:37
+  end: "810"
+  id: "88"
+  library_id: "8"
+  location_id: "7"
+  start: "600"
+  type: ShiftTemplateItem
+  updated_at: 2008-08-14 15:12:37
+  user_id: "130"
+  wday: "2"
+template_items_083: 
+  created_at: 2008-08-14 15:12:37
+  end: "810"
+  id: "89"
+  library_id: "8"
+  location_id: "7"
+  start: "600"
+  type: ShiftTemplateItem
+  updated_at: 2008-08-14 15:12:37
+  user_id: "130"
+  wday: "3"
+template_items_084: 
+  created_at: 2008-08-14 15:12:37
+  end: "810"
+  id: "90"
+  library_id: "8"
+  location_id: "7"
+  start: "600"
+  type: ShiftTemplateItem
+  updated_at: 2008-08-14 15:12:37
+  user_id: "130"
+  wday: "4"
+template_items_085: 
+  created_at: 2008-08-14 15:12:37
+  end: "810"
+  id: "91"
+  library_id: "8"
+  location_id: "7"
+  start: "600"
+  type: ShiftTemplateItem
+  updated_at: 2008-08-14 15:12:37
+  user_id: "130"
+  wday: "5"
+template_items_086: 
+  created_at: 2008-08-14 15:14:47
+  end: "810"
+  id: "92"
+  library_id: "10"
+  location_id: "7"
+  start: "600"
+  type: TimeTemplateItem
+  updated_at: 2008-08-14 15:14:47
+  user_id: 
+  wday: "1"
+template_items_087: 
+  created_at: 2008-08-14 15:14:47
+  end: "810"
+  id: "93"
+  library_id: "10"
+  location_id: "7"
+  start: "600"
+  type: TimeTemplateItem
+  updated_at: 2008-08-14 15:14:47
+  user_id: 
+  wday: "2"
+template_items_088: 
+  created_at: 2008-08-14 15:14:47
+  end: "810"
+  id: "94"
+  library_id: "10"
+  location_id: "7"
+  start: "600"
+  type: TimeTemplateItem
+  updated_at: 2008-08-14 15:14:47
+  user_id: 
+  wday: "3"
+template_items_089: 
+  created_at: 2008-08-14 15:14:47
+  end: "810"
+  id: "95"
+  library_id: "10"
+  location_id: "7"
+  start: "600"
+  type: TimeTemplateItem
+  updated_at: 2008-08-14 15:14:47
+  user_id: 
+  wday: "4"
+template_items_090: 
+  created_at: 2008-08-14 15:14:47
+  end: "810"
+  id: "96"
+  library_id: "10"
+  location_id: "7"
+  start: "600"
+  type: TimeTemplateItem
+  updated_at: 2008-08-14 15:14:47
+  user_id: 
+  wday: "5"
+template_items_091: 
+  created_at: 2008-08-14 15:15:51
+  end: "1020"
+  id: "97"
+  library_id: "11"
+  location_id: "7"
+  start: "810"
+  type: TimeTemplateItem
+  updated_at: 2008-08-14 15:15:51
+  user_id: 
+  wday: "1"
+template_items_092: 
+  created_at: 2008-08-14 15:15:51
+  end: "1020"
+  id: "98"
+  library_id: "11"
+  location_id: "7"
+  start: "810"
+  type: TimeTemplateItem
+  updated_at: 2008-08-14 15:15:51
+  user_id: 
+  wday: "2"
+template_items_093: 
+  created_at: 2008-08-14 15:15:51
+  end: "1020"
+  id: "99"
+  library_id: "11"
+  location_id: "7"
+  start: "810"
+  type: TimeTemplateItem
+  updated_at: 2008-08-14 15:15:51
+  user_id: 
+  wday: "3"
+template_items_094: 
+  created_at: 2008-08-14 15:15:51
+  end: "1020"
+  id: "100"
+  library_id: "11"
+  location_id: "7"
+  start: "810"
+  type: TimeTemplateItem
+  updated_at: 2008-08-14 15:15:51
+  user_id: 
+  wday: "4"
+template_items_095: 
+  created_at: 2008-08-14 15:15:51
+  end: "1020"
+  id: "101"
+  library_id: "11"
+  location_id: "7"
+  start: "810"
+  type: TimeTemplateItem
+  updated_at: 2008-08-14 15:15:51
+  user_id: 
+  wday: "5"

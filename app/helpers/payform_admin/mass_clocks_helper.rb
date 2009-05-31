@@ -1,0 +1,2 @@
+module PayformAdmin::MassClocksHelper
+end

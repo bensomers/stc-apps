@@ -1,0 +1,9 @@
+  <%= check_box_tag "announcement[for_department_id]", @department.id, @announcement.for_department, :disabled => false %><%= @department.name %> (department-wide)<br />
+  <% for location_group in @location_groups do %>
+    &nbsp;&nbsp;&nbsp;
+    <%= check_box_tag "announcement[location_group_ids][]", location_group.id, (@announcement.location_groups.include?(location_group) or @announcement.for_department), :disabled => @announcement.for_department %><%= location_group.long_name %><br />
+    <% for location in location_group.locations do %>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <%= check_box_tag "announcement[location_ids][]", location.id, (@announcement.locations.include?(location) or (@announcement.location_groups.include?(location_group) or @announcement.for_department)), :disabled => (@announcement.location_groups.include?(location_group) or @announcement.for_department) %><%= location.long_name %><br />
+    <% end %>
+  <% end %>

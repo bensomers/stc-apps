@@ -1,0 +1,2 @@
+page["add_mass_clock"].visual_effect :blind_up
+page.replace_html("mass_clock_link", link_to_remote("+Add Mass Clock", :url => {:controller => "/payform_admin/mass_clocks", :action => "add_mass_clock", :id => params[:id] }));

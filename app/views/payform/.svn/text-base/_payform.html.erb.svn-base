@@ -1,0 +1,32 @@
+  <div id="add_job_div" style="display: none"></div>
+  
+  
+  <div id="add_job_link_div">
+    <%= link_to "Add Job", {:action => 'add_job', :id => @payform.id}, :class => "add_job_link" unless @payform.printed? %>
+  </div>
+  <h1>Hours</h1>
+  <table id="payformList" width="100%">
+    <!-- categories -->
+
+  <%= render :partial => "payform/category", 
+         :collection => (@payform.department.payform_configuration.show_disabled_cats ? @payform.department.categories : Category.active(@payform.department.id)),
+         :locals => {:miscellaneous => false} %>
+
+    <!-- end categories -->
+  
+    <!-- miscellaneous categories -->
+  <%= render :partial => "payform/category",
+       :locals => {:miscellaneous => true} %>
+    <!-- end miscellaneous -->
+  </table>
+  <br/>
+  <center>
+    <div id="payform-total" align="center">
+      Total Hours: <%= @payform.total_hours %><br/>
+    </div>
+    <div style="color:SlateGrey">(Hours rounded up to nearest quarter hour increment)</div>
+  </center>
+
+  <div id="buttons">
+    <%= render :partial => "payform/payform_button" %>
+  </div>

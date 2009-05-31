@@ -1,0 +1,16 @@
+<tbody>
+  <% @location.label_row_for(items_one_day) %>
+  <% items_many_rows = split_to_rows(items_one_day) %>
+  
+  <% items_many_rows.each_with_index do |items_one_row, i| %>
+  <tr>
+    <% if i==0 %>
+      <th class="location_label" rowspan="<%= @location.num_row %>"><%= (items_one_day_counter-1).day_of_week[0..2] %></td>
+    <% end %>
+    
+    <% @row_time = @start_minute %>            
+    <%= render :partial => 'shift_admin/template_schedule/row_item', :collection => items_one_row.sort_by(&:start) %>
+    <%= light_print_cell("free_time", @row_time, @end_minute, nil, ' ') -%><%# print rest of free time for the day %>
+  </tr>
+  <% end %>  
+</tbody>

@@ -1,0 +1,9 @@
+
+<%# user gets the old content for the line item, and submits the new%>
+
+<h2>Edit the line</h2>
+<% form_tag :action => 'line_edit' do %>
+<label for="linetext">Edit line:</label>
+<p><%= text_area_tag :linetext, @oldtext, :rows => 3, :cols => 100 %></p>
+<%= submit_tag "Save" %>
+<% end %>

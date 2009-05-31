@@ -1,0 +1,113 @@
+--- 
+permissions_001: 
+  id: "17"
+  info: User Admin Superuser
+  name: user_admin/superuser
+permissions_002: 
+  id: "18"
+  info: User Admin Access
+  name: user_admin
+permissions_003: 
+  id: "19"
+  info: View the Front Page
+  name: index/index
+permissions_004: 
+  id: "20"
+  info: Shift controller access
+  name: shift
+permissions_005: 
+  id: "21"
+  info: Shift admin controller access
+  name: shift_admin
+permissions_006: 
+  id: "23"
+  info: Grants payform rights (NOT access for a department).
+  name: payform
+permissions_007: 
+  id: "24"
+  info: Grants payform admin rights (NOT access for a department).
+  name: payform_admin
+permissions_008: 
+  id: "112"
+  info: Grants user_admin access for STC.
+  name: user_admin/@stc
+permissions_009: 
+  id: "113"
+  info: Grants shift access for STC.
+  name: shift/@stc
+permissions_010: 
+  id: "114"
+  info: Grants shift_admin access for STC.
+  name: shift_admin/@stc
+permissions_011: 
+  id: "115"
+  info: Grants shift_admin department admin access for STC.
+  name: shift_admin/@stc/department_admin
+permissions_012: 
+  id: "116"
+  info: Grants payform access for STC.
+  name: payform/@stc
+permissions_013: 
+  id: "117"
+  info: Grants payform_admin access for STC.
+  name: payform_admin/@stc
+permissions_014: 
+  id: "124"
+  info: Grant Shift View Access for Public Clusters
+  name: shift/@stc/public_clusters
+permissions_015: 
+  id: "125"
+  info: Grant Shift Sign up Access for Public Clusters
+  name: shift/@stc/public_clusters/sign_up
+permissions_016: 
+  id: "126"
+  info: Grant Shift Admin Access for Public Clusters
+  name: shift_admin/@stc/public_clusters
+permissions_017: 
+  id: "127"
+  info: Grant Shift View Access for Bass Media
+  name: shift/@stc/bass_media
+permissions_018: 
+  id: "128"
+  info: Grant Shift Sign up Access for Bass Media
+  name: shift/@stc/bass_media/sign_up
+permissions_019: 
+  id: "129"
+  info: Grant Shift Admin Access for Bass Media
+  name: shift_admin/@stc/bass_media
+permissions_020: 
+  id: "130"
+  info: Grant Shift View Access for IO
+  name: shift/@stc/io
+permissions_021: 
+  id: "131"
+  info: Grant Shift Sign up Access for IO
+  name: shift/@stc/io/sign_up
+permissions_022: 
+  id: "132"
+  info: Grant Shift Admin Access for IO
+  name: shift_admin/@stc/io
+permissions_023: 
+  id: "133"
+  info: Grant Shift View Access for Unstaffed
+  name: shift/@stc/unstaffed
+permissions_024: 
+  id: "134"
+  info: Grant Shift Sign up Access for Unstaffed
+  name: shift/@stc/unstaffed/sign_up
+permissions_025: 
+  id: "135"
+  info: Grant Shift Admin Access for Unstaffed
+  name: shift_admin/@stc/unstaffed
+permissions_026: 
+  id: "136"
+  info: Grant Shift View Access for College
+  name: shift/@stc/college
+permissions_027: 
+  id: "137"
+  info: Grant Shift Sign up Access for College
+  name: shift/@stc/college/sign_up
+permissions_028: 
+  id: "138"
+  info: Grant Shift Admin Access for College
+  name: shift_admin/@stc/college

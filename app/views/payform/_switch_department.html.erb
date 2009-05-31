@@ -1,0 +1,7 @@
+<% unless @departments.length < 2 -%>
+  <strong>Department:</strong>
+  <% form_tag :redirect => controller.controller_name + "/" + controller.action_name do -%>
+    <%= select :current_chooser_choice, controller.controller_name, @chooser_list, :selected => @department.id %>
+    <%= submit_tag 'Change Department' %>
+  <% end -%>
+<% end -%>

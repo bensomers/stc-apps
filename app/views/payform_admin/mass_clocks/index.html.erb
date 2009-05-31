@@ -1,0 +1,17 @@
+<% title "Mass Punch Clocks" %>
+<div id="mass_clock_link" style="text-align:right;float:right;">
+  <%= link_to_remote "+Add Mass Clock", :url => {  :controller => "/payform_admin/mass_clocks", :action => "add_mass_clock", :id => @department.id } %>
+</div>
+<br/>
+<div id="add_mass_clock">
+</div>
+<%= render :partial => "/payform_admin/mass_clocks/mass_clock", :collection => @mass_clocks.sort_by(&:updated_at).reverse %>
+
+<div style="clear:both" class="note" >
+<ol><strong>Notes:</strong> 
+    <li>Running time is displayed in <em>hours : minutes : seconds</em>.</li>
+  <li>When "delete" is called on a Mass Clock, all of its user clocks are stopped without recording jobs, and the Mass Clock becomes no longer available, but jobs already recorded are <strong>not</strong> deleted.
+  If you would like to clear jobs already added by the Mass Clock, please use the "delete all jobs" option before deleting the Mass Clock.</li>
+  <li>A Mass Clock will not be visible if it contains no user clocks, and all jobs it contains have been printed.</li>
+</ol>
+</div>

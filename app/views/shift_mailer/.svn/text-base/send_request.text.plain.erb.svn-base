@@ -1,0 +1,20 @@
+<%- user_name = @sub.user.name #use it twice in here -%>
+<%= user_name %> is looking for a sub for the following shift:
+
+Cluster:  <%= @sub.shift.location.long_name%>
+Date:     <%= @sub.shift.date.to_s(:just_date) %>
+Time:     <%= @sub.start.to_s(:am_pm) %> - <%= @sub.end.to_s(:am_pm) %>
+  <% if @sub.bribe_on? %>
+  
+  <%= user_name %> also offered a bribe: 
+You can extend the shift to as early as <%= @sub.bribe_start.to_s(:am_pm) %> 
+or as late as <%= @sub.bribe_end.to_s(:am_pm) %>
+  <% end %>
+
+Additional comments from <%= user_name %>:
+<%= h @sub.reason %>
+
+Link to take this sub request:
+<%- sub_link = @url -%>
+<%= sub_link %>
+

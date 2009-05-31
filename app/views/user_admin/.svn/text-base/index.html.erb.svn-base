@@ -1,0 +1,3 @@
+<% title "User Administration" %>
+
+Welcome, <%= @user.name %>.<br>

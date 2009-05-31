@@ -1,0 +1,5 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+spring:
+  id: 1
+  name: Spring 2006 Hiring Questionnaire
+  active: true

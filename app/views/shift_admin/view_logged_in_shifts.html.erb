@@ -1,0 +1,10 @@
+<% title "Currently Active Shift Reports" %>
+<p>
+  <ul>
+<% for report in @current_reports -%>
+    <li><%= link_to report.shift.short_name, {:controller => "shift_admin", :action => "view_report", :id => report} -%>
+      <span class="early_late_info">&nbsp;&nbsp;<%= early_late_info(report.start) %></span>
+    </li>
+<% end -%>
+  </ul>
+</p>

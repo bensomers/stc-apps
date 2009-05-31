@@ -1,0 +1,40 @@
+<div id="export_user_chooser">
+  <label>Search user:</label>
+  <%= render :partial => 'users/user_chooser' %>
+</div>
+
+<div id="export_add_group">
+  <%= render :partial => 'users/add_by_group' %>
+</div>
+
+<div id="export_form">
+  <h2>Add users and click export</h2>
+  <% form_tag do %>
+    <div class="ids_for_user_chooser"></div>
+    <%= submit_tag 'export' %>
+  <% end %>
+  <%= link_to_function 'Select all text below', "HighlightText('export');" %>
+</div>
+
+<div id='export'>
+  <%= simple_format @result %>
+</div>
+
+<script>
+function HighlightText(divId){
+
+if (document.selection) { //script to select all in IE
+ var r1 = document.body.createTextRange();
+ r1.moveToElementText(document.getElementById(divId));
+ r1.select();
+} else { //script to select all in firefox
+ s = window.getSelection();
+ var r1 = document.createRange();
+ r1.setStartBefore(document.getElementById(divId));
+ r1.setEndAfter(document.getElementById(divId));
+ s.addRange(r1);
+}
+}
+</script>
+
+

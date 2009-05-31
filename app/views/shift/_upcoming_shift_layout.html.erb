@@ -1,0 +1,5 @@
+<h2 title="Displaying up to 4 upcoming shifts">Upcoming shifts</h2>
+<ul>
+  <%= render :partial => 'upcoming_shift', :collection => 
+      @user.shifts.ended_after(Time.now).filter_by_department(@department).sort_by(&:start)[0..3] %>
+</ul>

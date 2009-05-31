@@ -1,0 +1,14 @@
+h2{
+font-family:Georgia,"Times New Roman",Times,serif;
+font-weight:normal;
+color:#53662E;
+font-size:1.6em;
+margin:1.4em 0 0;
+}
+#loc_iframe{
+  width: 700px;
+}
+body {
+  background: white;
+
+}

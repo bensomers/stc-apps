@@ -1,0 +1,34 @@
+.calendar {
+  background: #DDD;
+  font-family: verdana, helvetica, sans-serif;
+  font-size: 80%;
+  cursor: pointer;
+  width: 200px;
+  border-collapse: collapse;
+  border: 1px solid #DDD;
+}
+.calendar th {
+  padding: 2px;
+}
+.calendar a {
+  color : #000;
+  text-decoration: none;
+}
+.calendar td {
+  padding: 2px;
+  background: #FFF;
+  border: 1px solid #DDD;
+  text-align: center;
+}
+.calendar td.selected {
+  background: #AAA;
+}
+.calendar td.selected a {
+  color: #FFF;
+}
+td.weekend {
+  background: #EEE;
+}
+td.today {
+  background: yellow;
+}

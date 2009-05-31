@@ -1,0 +1,666 @@
+--- 
+preferences_1: 
+  id: "1"
+  user_id: "1"
+  hide_location_groups: "7,8"
+  show_bars: "1"
+preferences_4: 
+  id: "4"
+  user_id: "4"
+  hide_location_groups: "7,8"
+  show_bars: "1"
+preferences_5: 
+  id: "5"
+  user_id: "5"
+  hide_location_groups: "7,8"
+  show_bars: "1"
+preferences_6: 
+  id: "6"
+  user_id: "6"
+  hide_location_groups: "7,8"
+  show_bars: "1"
+preferences_7: 
+  id: "7"
+  user_id: "7"
+  hide_location_groups: "7,8"
+  show_bars: "1"
+preferences_8: 
+  id: "8"
+  user_id: "8"
+  hide_location_groups: "7,8"
+  show_bars: "1"
+preferences_9: 
+  id: "9"
+  user_id: "9"
+  hide_location_groups: "7,8"
+  show_bars: "1"
+preferences_10: 
+  id: "10"
+  user_id: "10"
+  hide_location_groups: "7,8"
+  show_bars: "1"
+preferences_11: 
+  id: "11"
+  user_id: "11"
+  hide_location_groups: "7,8"
+  show_bars: "1"
+preferences_12: 
+  id: "12"
+  user_id: "12"
+  hide_location_groups: "7,8"
+  show_bars: "1"
+preferences_13: 
+  id: "13"
+  user_id: "13"
+  hide_location_groups: "7,8"
+  show_bars: "1"
+preferences_14: 
+  id: "14"
+  user_id: "14"
+  hide_location_groups: "7,8"
+  show_bars: "1"
+preferences_15: 
+  id: "15"
+  user_id: "15"
+  hide_location_groups: "7,8"
+  show_bars: "1"
+preferences_16: 
+  id: "16"
+  user_id: "16"
+  hide_location_groups: "7,8"
+  show_bars: "1"
+preferences_17: 
+  id: "17"
+  user_id: "17"
+  hide_location_groups: "7,8"
+  show_bars: "1"
+preferences_18: 
+  id: "18"
+  user_id: "18"
+  hide_location_groups: "7,8"
+  show_bars: "1"
+preferences_19: 
+  id: "19"
+  user_id: "19"
+  hide_location_groups: "7,8"
+  show_bars: "1"
+preferences_20: 
+  id: "20"
+  user_id: "20"
+  hide_location_groups: "7,8"
+  show_bars: "1"
+preferences_21: 
+  id: "21"
+  user_id: "21"
+  hide_location_groups: "7,8"
+  show_bars: "1"
+preferences_22: 
+  id: "22"
+  user_id: "22"
+  hide_location_groups: "7,8"
+  show_bars: "1"
+preferences_23: 
+  id: "23"
+  user_id: "23"
+  hide_location_groups: "7,8"
+  show_bars: "1"
+preferences_24: 
+  id: "24"
+  user_id: "24"
+  hide_location_groups: "7,8"
+  show_bars: "1"
+preferences_25: 
+  id: "25"
+  user_id: "25"
+  hide_location_groups: "7,8"
+  show_bars: "1"
+preferences_26: 
+  id: "26"
+  user_id: "26"
+  hide_location_groups: "7,8"
+  show_bars: "1"
+preferences_27: 
+  id: "27"
+  user_id: "27"
+  hide_location_groups: "7,8"
+  show_bars: "1"
+preferences_28: 
+  id: "28"
+  user_id: "28"
+  hide_location_groups: "7,8"
+  show_bars: "1"
+preferences_29: 
+  id: "29"
+  user_id: "29"
+  hide_location_groups: "7,8"
+  show_bars: "1"
+preferences_30: 
+  id: "30"
+  user_id: "30"
+  hide_location_groups: "7,8"
+  show_bars: "1"
+preferences_31: 
+  id: "31"
+  user_id: "31"
+  hide_location_groups: "7,8"
+  show_bars: "1"
+preferences_32: 
+  id: "32"
+  user_id: "32"
+  hide_location_groups: "7,8"
+  show_bars: "1"
+preferences_33: 
+  id: "33"
+  user_id: "33"
+  hide_location_groups: "7,8"
+  show_bars: "1"
+preferences_34: 
+  id: "34"
+  user_id: "34"
+  hide_location_groups: "7,8"
+  show_bars: "1"
+preferences_35: 
+  id: "35"
+  user_id: "35"
+  hide_location_groups: "7,8"
+  show_bars: "1"
+preferences_36: 
+  id: "36"
+  user_id: "36"
+  hide_location_groups: "7,8"
+  show_bars: "1"
+preferences_37: 
+  id: "37"
+  user_id: "37"
+  hide_location_groups: "7,8"
+  show_bars: "1"
+preferences_38: 
+  id: "38"
+  user_id: "38"
+  hide_location_groups: "7,8"
+  show_bars: "1"
+preferences_39: 
+  id: "39"
+  user_id: "39"
+  hide_location_groups: "7,8"
+  show_bars: "1"
+preferences_40: 
+  id: "40"
+  user_id: "40"
+  hide_location_groups: "7,8"
+  show_bars: "1"
+preferences_41: 
+  id: "41"
+  user_id: "41"
+  hide_location_groups: "7,8"
+  show_bars: "1"
+preferences_42: 
+  id: "42"
+  user_id: "42"
+  hide_location_groups: "7,8"
+  show_bars: "1"
+preferences_43: 
+  id: "43"
+  user_id: "43"
+  hide_location_groups: "7,8"
+  show_bars: "1"
+preferences_44: 
+  id: "44"
+  user_id: "44"
+  hide_location_groups: "7,8"
+  show_bars: "1"
+preferences_45: 
+  id: "45"
+  user_id: "45"
+  hide_location_groups: "7,8"
+  show_bars: "1"
+preferences_46: 
+  id: "46"
+  user_id: "46"
+  hide_location_groups: "7,8"
+  show_bars: "1"
+preferences_47: 
+  id: "47"
+  user_id: "47"
+  hide_location_groups: "7,8"
+  show_bars: "1"
+preferences_48: 
+  id: "48"
+  user_id: "48"
+  hide_location_groups: "7,8"
+  show_bars: "1"
+preferences_49: 
+  id: "49"
+  user_id: "49"
+  hide_location_groups: "7,8"
+  show_bars: "1"
+preferences_50: 
+  id: "50"
+  user_id: "50"
+  hide_location_groups: "7,8"
+  show_bars: "1"
+preferences_51: 
+  id: "51"
+  user_id: "51"
+  hide_location_groups: "7,8"
+  show_bars: "1"
+preferences_52: 
+  id: "52"
+  user_id: "52"
+  hide_location_groups: "7,8"
+  show_bars: "1"
+preferences_53: 
+  id: "53"
+  user_id: "53"
+  hide_location_groups: "7,8"
+  show_bars: "1"
+preferences_54: 
+  id: "54"
+  user_id: "54"
+  hide_location_groups: "7,8"
+  show_bars: "1"
+preferences_55: 
+  id: "55"
+  user_id: "55"
+  hide_location_groups: "7,8"
+  show_bars: "1"
+preferences_56: 
+  id: "56"
+  user_id: "56"
+  hide_location_groups: "7,8"
+  show_bars: "1"
+preferences_57: 
+  id: "57"
+  user_id: "57"
+  hide_location_groups: "7,8"
+  show_bars: "1"
+preferences_58: 
+  id: "58"
+  user_id: "58"
+  hide_location_groups: "7,8"
+  show_bars: "1"
+preferences_59: 
+  id: "59"
+  user_id: "59"
+  hide_location_groups: "7,8"
+  show_bars: "1"
+preferences_60: 
+  id: "60"
+  user_id: "60"
+  hide_location_groups: "7,8"
+  show_bars: "1"
+preferences_61: 
+  id: "61"
+  user_id: "61"
+  hide_location_groups: "7,8"
+  show_bars: "1"
+preferences_62: 
+  id: "62"
+  user_id: "62"
+  hide_location_groups: "7,8"
+  show_bars: "1"
+preferences_63: 
+  id: "63"
+  user_id: "63"
+  hide_location_groups: "7,8"
+  show_bars: "1"
+preferences_64: 
+  id: "64"
+  user_id: "64"
+  hide_location_groups: "7,8"
+  show_bars: "1"
+preferences_65: 
+  id: "65"
+  user_id: "65"
+  hide_location_groups: "7,8"
+  show_bars: "1"
+preferences_66: 
+  id: "66"
+  user_id: "66"
+  hide_location_groups: "7,8"
+  show_bars: "1"
+preferences_67: 
+  id: "67"
+  user_id: "67"
+  hide_location_groups: "7,8"
+  show_bars: "1"
+preferences_68: 
+  id: "68"
+  user_id: "68"
+  hide_location_groups: "7,8"
+  show_bars: "1"
+preferences_69: 
+  id: "69"
+  user_id: "69"
+  hide_location_groups: "7,8"
+  show_bars: "1"
+preferences_70: 
+  id: "70"
+  user_id: "70"
+  hide_location_groups: "7,8"
+  show_bars: "1"
+preferences_71: 
+  id: "71"
+  user_id: "71"
+  hide_location_groups: "7,8"
+  show_bars: "1"
+preferences_72: 
+  id: "72"
+  user_id: "72"
+  hide_location_groups: "7,8"
+  show_bars: "1"
+preferences_73: 
+  id: "73"
+  user_id: "73"
+  hide_location_groups: "7,8"
+  show_bars: "1"
+preferences_74: 
+  id: "74"
+  user_id: "74"
+  hide_location_groups: "7,8"
+  show_bars: "1"
+preferences_75: 
+  id: "75"
+  user_id: "75"
+  hide_location_groups: "7,8"
+  show_bars: "1"
+preferences_76: 
+  id: "76"
+  user_id: "76"
+  hide_location_groups: "7,8"
+  show_bars: "1"
+preferences_77: 
+  id: "77"
+  user_id: "77"
+  hide_location_groups: "7,8"
+  show_bars: "1"
+preferences_78: 
+  id: "78"
+  user_id: "78"
+  hide_location_groups: "7,8"
+  show_bars: "1"
+preferences_79: 
+  id: "79"
+  user_id: "79"
+  hide_location_groups: "7,8"
+  show_bars: "1"
+preferences_80: 
+  id: "80"
+  user_id: "80"
+  hide_location_groups: "7,8"
+  show_bars: "1"
+preferences_81: 
+  id: "81"
+  user_id: "81"
+  hide_location_groups: "7,8"
+  show_bars: "1"
+preferences_82: 
+  id: "82"
+  user_id: "82"
+  hide_location_groups: "7,8"
+  show_bars: "1"
+preferences_83: 
+  id: "83"
+  user_id: "83"
+  hide_location_groups: "7,8"
+  show_bars: "1"
+preferences_84: 
+  id: "84"
+  user_id: "84"
+  hide_location_groups: "7,8"
+  show_bars: "1"
+preferences_85: 
+  id: "85"
+  user_id: "85"
+  hide_location_groups: "7,8"
+  show_bars: "1"
+preferences_86: 
+  id: "86"
+  user_id: "86"
+  hide_location_groups: "7,8"
+  show_bars: "1"
+preferences_87: 
+  id: "87"
+  user_id: "87"
+  hide_location_groups: "7,8"
+  show_bars: "1"
+preferences_88: 
+  id: "88"
+  user_id: "88"
+  hide_location_groups: "7,8"
+  show_bars: "1"
+preferences_89: 
+  id: "89"
+  user_id: "89"
+  hide_location_groups: "7,8"
+  show_bars: "1"
+preferences_90: 
+  id: "90"
+  user_id: "90"
+  hide_location_groups: "7,8"
+  show_bars: "1"
+preferences_91: 
+  id: "91"
+  user_id: "91"
+  hide_location_groups: "7,8"
+  show_bars: "1"
+preferences_92: 
+  id: "92"
+  user_id: "92"
+  hide_location_groups: "7,8"
+  show_bars: "1"
+preferences_93: 
+  id: "93"
+  user_id: "93"
+  hide_location_groups: "7,8"
+  show_bars: "1"
+preferences_94: 
+  id: "94"
+  user_id: "94"
+  hide_location_groups: "7,8"
+  show_bars: "1"
+preferences_95: 
+  id: "95"
+  user_id: "95"
+  hide_location_groups: "7,8"
+  show_bars: "1"
+preferences_96: 
+  id: "96"
+  user_id: "96"
+  hide_location_groups: "7,8"
+  show_bars: "1"
+preferences_97: 
+  id: "97"
+  user_id: "97"
+  hide_location_groups: "7,8"
+  show_bars: "1"
+preferences_98: 
+  id: "98"
+  user_id: "98"
+  hide_location_groups: "7,8"
+  show_bars: "1"
+preferences_99: 
+  id: "99"
+  user_id: "99"
+  hide_location_groups: "7,8"
+  show_bars: "1"
+preferences_100: 
+  id: "100"
+  user_id: "100"
+  hide_location_groups: "7,8"
+  show_bars: "1"
+preferences_101: 
+  id: "101"
+  user_id: "101"
+  hide_location_groups: "7,8"
+  show_bars: "1"
+preferences_102: 
+  id: "102"
+  user_id: "102"
+  hide_location_groups: "7,8"
+  show_bars: "1"
+preferences_103: 
+  id: "103"
+  user_id: "103"
+  hide_location_groups: "7,8"
+  show_bars: "1"
+preferences_104: 
+  id: "104"
+  user_id: "104"
+  hide_location_groups: "7,8"
+  show_bars: "1"
+preferences_105: 
+  id: "105"
+  user_id: "105"
+  hide_location_groups: "7,8"
+  show_bars: "1"
+preferences_106: 
+  id: "106"
+  user_id: "106"
+  hide_location_groups: "7,8"
+  show_bars: "1"
+preferences_107: 
+  id: "107"
+  user_id: "107"
+  hide_location_groups: "7,8"
+  show_bars: "1"
+preferences_108: 
+  id: "108"
+  user_id: "108"
+  hide_location_groups: "7,8"
+  show_bars: "1"
+preferences_109: 
+  id: "109"
+  user_id: "109"
+  hide_location_groups: "7,8"
+  show_bars: "1"
+preferences_110: 
+  id: "110"
+  user_id: "110"
+  hide_location_groups: "7,8"
+  show_bars: "1"
+preferences_111: 
+  id: "111"
+  user_id: "111"
+  hide_location_groups: "7,8"
+  show_bars: "1"
+preferences_112: 
+  id: "112"
+  user_id: "112"
+  hide_location_groups: "7,8"
+  show_bars: "1"
+preferences_113: 
+  id: "113"
+  user_id: "113"
+  hide_location_groups: "7,8"
+  show_bars: "1"
+preferences_114: 
+  id: "114"
+  user_id: "114"
+  hide_location_groups: "7,8"
+  show_bars: "1"
+preferences_115: 
+  id: "115"
+  user_id: "115"
+  hide_location_groups: "7,8"
+  show_bars: "1"
+preferences_116: 
+  id: "116"
+  user_id: "116"
+  hide_location_groups: "7,8"
+  show_bars: "1"
+preferences_117: 
+  id: "117"
+  user_id: "117"
+  hide_location_groups: "7,8"
+  show_bars: "1"
+preferences_118: 
+  id: "118"
+  user_id: "118"
+  hide_location_groups: "7,8"
+  show_bars: "1"
+preferences_119: 
+  id: "119"
+  user_id: "119"
+  hide_location_groups: "7,8"
+  show_bars: "1"
+preferences_120: 
+  id: "120"
+  user_id: "120"
+  hide_location_groups: "7,8"
+  show_bars: "1"
+preferences_121: 
+  id: "121"
+  user_id: "121"
+  hide_location_groups: "7,8"
+  show_bars: "1"
+preferences_122: 
+  id: "122"
+  user_id: "122"
+  hide_location_groups: "7,8"
+  show_bars: "1"
+preferences_123: 
+  id: "123"
+  user_id: "123"
+  hide_location_groups: "7,8"
+  show_bars: "1"
+preferences_124: 
+  id: "124"
+  user_id: "124"
+  hide_location_groups: "7,8"
+  show_bars: "1"
+preferences_125: 
+  id: "125"
+  user_id: "125"
+  hide_location_groups: "7,8"
+  show_bars: "1"
+preferences_126: 
+  id: "126"
+  user_id: "126"
+  hide_location_groups: "7,8"
+  show_bars: "1"
+preferences_127: 
+  id: "127"
+  user_id: "127"
+  hide_location_groups: "7,8"
+  show_bars: "1"
+preferences_128: 
+  id: "128"
+  user_id: "128"
+  hide_location_groups: "7,8"
+  show_bars: "1"
+preferences_129: 
+  id: "129"
+  user_id: "129"
+  hide_location_groups: "7,8"
+  show_bars: "1"
+preferences_130: 
+  id: "130"
+  user_id: "130"
+  hide_location_groups: "7,8"
+  show_bars: "1"
+preferences_131: 
+  id: "131"
+  user_id: "131"
+  hide_location_groups: "7,8"
+  show_bars: "1"
+preferences_132: 
+  id: "132"
+  user_id: "132"
+  hide_location_groups: "7,8"
+  show_bars: "1"
+preferences_133: 
+  id: "133"
+  user_id: "133"
+  hide_location_groups: "7,8"
+  show_bars: "1"
+preferences_134: 
+  id: "134"
+  user_id: "134"
+  hide_location_groups: "7,8"
+  show_bars: "1"
+preferences_135: 
+  id: "135"
+  user_id: "135"
+  hide_location_groups: "7,8"
+  show_bars: "1"

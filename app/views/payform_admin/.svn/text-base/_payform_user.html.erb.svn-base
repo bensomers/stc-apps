@@ -1,0 +1,19 @@
+    <tr>
+      <th>User</th>
+      <th>Unsubmitted</th>
+      <th>Unapproved</th>
+      <th>Unprinted</th>
+    </tr>
+
+  <% for payform_user in @users %>
+    <tr class="<%= cycle "odd", "even" %>">
+      <td valign="top"><%=h payform_user.name %></td>
+      <% @statuses = ["unsubmitted", "submitted", "approved"] %>
+      <% for status in @statuses %>
+      <td align="center">
+        <%= render :partial => 'payform', :collection => get_payforms(payform_user.id, @department.id, status) %>
+      </td>      
+      <% end %>
+    </tr>
+  <% end %>
+

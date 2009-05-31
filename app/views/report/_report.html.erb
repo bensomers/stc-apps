@@ -1,0 +1,33 @@
+  <%#this is the partial to view the whole shift_report. -H %>
+<div id="report_view">
+  <table id="report_view_table">
+    
+    <%#hide the 3rd column consisting of edit-delete column, by naming the class to hidden%>
+    <%# NOTE: use 'and' instead of && will not work here. precedence problem %>
+    <% show_edit = belongs_to_user?(report) && !report.submitted? && @department.shift_configuration.report_can_edit? %>
+    <!-- table header -->
+    <tr>
+      <th class="list_header" colspan="<%= show_edit ? 3 : 2 %>">
+        <h3><%= report.shift.date.to_s(:just_date) %> - <%= report.shift.scheduled? ? "scheduled for #{report.shift.start.to_s(:am_pm)} - #{report.shift.end.to_s(:am_pm)}" : "unscheduled" %> <br />
+        <%= report.shift.user.name %> @ <%= report.shift.location.long_name %></h3>
+        
+        </th>
+    </tr>
+    
+    <!-- table body -->
+    <tbody>
+    <%= render :partial => "report/line", :collection => report.line_items, :locals => {:show_edit => show_edit}%>
+    </tbody>
+    
+    <%unless (report.submitted? or belongs_to_user?(report)) %>
+    <tr>
+      <td class="timestamp">
+        <%= h Time.now.to_s(:am_pm) %>
+      </td>
+      <td class="line_content">
+        This shift report has not been submitted yet
+      </td>
+    </tr>
+    <%end%>  
+  </table>
+</div>

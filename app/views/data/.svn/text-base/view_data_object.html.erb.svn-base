@@ -1,0 +1,37 @@
+<% title "View Data Object" %>
+
+    <% form_for :data_object do |obj| %>
+      <%= render :partial => "data_object_form", :object => @data_object %>
+      <% unless @data_object.data_entries.empty? %>
+      <p>
+        <%= check_box_tag :view_all %>     
+        View all data entries (defaults to the last week)
+      </p>
+        <table cellpadding="5" frame=box rules=all cellspacing="0" width="%100">
+        <thead>
+          <% @data_object.data_type.used_fields.each do |field| %>
+            <th>
+              <% if field[0].match(/\w[0-9]/) %>
+                <%= field[1].humanize %>
+              <% else %>
+                <%= field[0].humanize %>
+              <% end %>
+            </th>
+          <% end %>
+        </thead>
+          <% if @data_object.editable %>
+            <%= render :partial => "data_object_entries_editable", 
+                       :object => @data_object, :locals => {:brief => false} %>
+          <% else %>
+            <%= render :partial => "data_object_entries", 
+                       :object => @data_object, :locals => {:brief => false} %>
+          <% end %>
+        </table>
+      <% end %>
+          
+      
+      
+      <%= submit_tag "Update"%>
+    
+    
+    <% end %>

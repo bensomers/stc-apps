@@ -1,0 +1,28 @@
+<% title "Manage Permissions" %>
+
+<div id="user_admin">  
+  <% section do %>
+    <h2>Permission</h2>
+    <ul>
+        <% for permission in @permissions do %>
+          <li>
+          <div class="perm"><%= permission.name %> &mdash; <%= permission.info %>
+            <div class="user_options"><%= link_to "[Edit]", { :action => 'edit_permission', :id => permission.id } %> | <%= link_to "[Delete]", { :action => 'destroy_permission', :id => permission.id }, :confirm => "Are you sure you wish to delete this permission?" %>
+            </div>
+          </div>
+        </li>
+        <% end %>
+    </ul>
+    <%= link_to "[Add Permission]", { :action => 'edit_permission' } %>
+  <% end %>
+  
+  <% section do %>
+    <h2>Notes</h2>
+    <ol>
+      <li>For permissions, the module portion of the link is superfluous with regards to the actual permission name.  For example, the right to view admin/main/index requires the permission main/index.  In fact, giving permission admin/main/index will <em>not</em> grant the right to view the page.  Therefore, there is a potential namespace conflict between modules with identical controller names, so be warned.</li>
+    </ol>
+  <% end %> 
+  
+  
+  
+</div>

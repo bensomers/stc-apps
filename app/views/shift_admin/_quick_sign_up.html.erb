@@ -1,0 +1,25 @@
+<div class="shift_popup">
+  <%= error_messages_for 'shift' %>
+  <fieldset>
+    <legend>Sign up for shift in <%= @shift.location.short_name %> </legend>
+    <% form_remote_for :shift, @shift, :url => {:controller => 'shift_admin', :action => 'sign_up'} do |f| %>
+      <%= @shift.location.long_name %>:
+      Start <%= f.select :start, @time_choices_select %>
+      &nbsp;&nbsp;
+      End <%= f.select :end, @time_choices_select, {:selected => @shift.end},{}%>
+      &nbsp;&nbsp;
+      Name <%= text_field_with_auto_complete :shift, :user_name, { :size => 10 }, 
+       {:url => {:controller => :users, :action => :live_search, :id => @department.id},
+        :method => :get, :param_name => 'search' } %>
+
+      
+      <%= f.hidden_field :location_id, :value => @shift.location_id %>
+      
+      <%= hidden_field_tag :quick_sign_up_id, params[:quick_sign_up_id] %>      
+      <%= f.submit "Signup", :name => 'sign_up_button' %>
+      <%= button_to_function 'Cancel', "Effect.BlindUp($(this).up('.shift_popup'), {duration: 0.2})"%>
+    <% end %>
+    
+  </fieldset>
+  
+</div>

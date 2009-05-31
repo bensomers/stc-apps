@@ -1,0 +1,17 @@
+--- 
+groups_001: 
+  id: "1"
+  info: STC Administrators
+  name: STC Admin
+groups_002: 
+  id: "2"
+  info: Student Techs
+  name: ST
+groups_003: 
+  id: "3"
+  info: ST Coordinators
+  name: Coord
+groups_004: 
+  id: "4"
+  info: Bass Media Specialists
+  name: BMS

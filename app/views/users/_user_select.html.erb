@@ -1,0 +1,11 @@
+<div id="selected_users">
+  <%= hidden_field_tag 'selected_ids', get_ids(@selected_users) %>
+  <strong>Selected (<%= @selected_users ? @selected_users.size : "0" %>)</strong>
+    <% (@selected_users||[]).sort_by(&:name).each do |su| %>
+      <div class='selected_user'>
+        <%= link_to_remote '[x]', :url => {:controller => "/users", :action => 'deselect_user', :deselect_id => su.id, 
+                                  :selected_ids => get_ids(@selected_users)},:method => :get %>
+        <%= su.name %>        
+      </div>
+    <% end %>
+</div>

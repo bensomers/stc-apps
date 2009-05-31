@@ -1,0 +1,40 @@
+<%= render :file => "layouts/include/main_top.html.erb" %>
+
+  <%= @left_nav ? '<div id="contentNav">' : '<div id="contentNoNav">' %>
+    <div id="messages">
+      <% flash.each do |key, msg| -%>
+        <%= content_tag :div, msg, :id => key unless no_notice_keys.include?(key.to_s)-%>
+        <%= flash_script(key.to_s) %>
+      <% end -%>
+    </div>
+    <!-- Page Title -->
+    <% if yield(:title) %>
+      <h1 id="page_title"><%= yield(:title) %></h1>
+    <% end %>
+    <!-- Main Content -->
+    <%= yield %>
+  </div>
+  <% if @left_nav -%>
+    <div id="scanColumn">
+      <%= render :partial => @left_nav %>
+    </div>
+  <% end %>
+      <div id="pageAnchor">
+        <a href="#top_of_page">
+          <%= image_tag "jump.gif", {:hspace => "0", :height => "13", :border => "0", :width => "19", :alt => "Jump to top", :title => "Jump to top"} %>
+        </a>
+      </div>
+      <div id="footer">
+        <p class="footer">
+          URL: <%= request.env["HTTP_HOST"] %><%= request.request_uri %><br />
+          Certifying authority: Adam Bray, Asst. Manager, Student Technology<br />
+          Last modified: Wed Feb 28 00:17:00 EST 2007<br />
+          Questions?  Please email <a href="mailto:stc-hiring@yale.edu">stc-hiring@yale.edu</a><br />
+        </p>
+      </div>
+
+    </div>
+    <!-- End pagebox container -->
+    <div id="pageboxBottom"/> <!-- do not remove this -->
+  </body>
+</html>

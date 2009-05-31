@@ -1,0 +1,14 @@
+<%= error_messages_for 'shift' %>
+<div class="shift_form">
+  <fieldset>
+    <legend><%= on_time_message if @shift.scheduled? %></legend>
+    <table class="quick_sign_in"]>
+    <tr>
+      <th><%= @shift.short_display %></th>
+      <td><%= make_shift_link %></td>
+      <td><%= make_sub_link %></td>
+      <td><%= link_to_function 'Close this', "Effect.BlindUp($(this).up('.shift_form'), {duration: 0.2})"%></td>
+    </tr>
+    </table>
+  </fieldset>
+</div>

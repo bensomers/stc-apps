@@ -1,0 +1,1 @@
+<%= render :partial => "add_users_mass_clock", :locals => {:no_cancel => false } %>

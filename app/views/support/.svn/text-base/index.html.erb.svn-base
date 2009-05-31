@@ -1,0 +1,8 @@
+<% title @location.long_name %>
+<% unless @no_layout -%>
+  <h2><%= image_tag "icon_clock.gif" %>Schedule of Staffed Hours</h2>
+<% end -%>
+  
+<div id="<%= @no_layout ? 'loc_iframe' : 'loc' %>">
+  <%= render :partial => 'loc' %>
+<div>

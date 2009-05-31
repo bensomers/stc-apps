@@ -1,0 +1,25 @@
+  <% fields_for "data_entries[]", DataEntry.new do |f| %>
+    <tr>
+      <%= f.hidden_field :data_object_id, :value => add_data_entry.id %>
+      <td><%= add_data_entry.name %></td>
+      <% add_data_entry.data_type.used_fields.each do |field| %>
+        <% if field[0].match(/s[0-9]/) %>
+          <td>
+            <%= f.text_field field[0].chomp("label"), :size => 15 %>
+          </td>
+        <% elsif field[0].match(/i[0-9]/) %>
+          <td>
+            <%= f.text_field  field[0].chomp("label"), :size => 6 %>
+          </td>
+        <% elsif field[0].match(/b[0-9]/) %>
+          <td>
+            <%= check_box_tag "data_entries[][" + field[0].chomp("label") + "]" %>
+          </td>
+        <% elsif field[0].match(/f[0-9]/) %>
+          <td>
+            <%= f.text_field  field[0].chomp("label"), :size => 6 %>
+          </td>             
+        <% end %>
+      <% end %>
+    </tr>
+  <% end %>

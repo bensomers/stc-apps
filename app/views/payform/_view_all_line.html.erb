@@ -1,0 +1,5 @@
+  <tr class="<%= cycle "odd", "even" %>">
+    <td align='left'  ><%= link_to( h(view_all_line.get_date), :action => :view, :id => view_all_line.id) if !view_all_line.submitted %></td>
+    <td align='center'><%= link_to( h(view_all_line.get_date), :action => :view, :id => view_all_line.id) if view_all_line.submitted and !view_all_line.printed  %></td>
+    <td align='right' ><%= link_to( h(view_all_line.get_date), :action => :view, :id => view_all_line.id) if view_all_line.printed    %></td>
+  </tr>
