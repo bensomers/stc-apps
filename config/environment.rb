@@ -1,11 +1,11 @@
 # Be sure to restart your web server when you modify this file.
 
-# Uncomment below to force Rails into production mode when 
+# Uncomment below to force Rails into production mode when
 # you don't control web/app server and can't set it the proper way
 # ENV['RAILS_ENV'] ||= 'production'
 
 # Specifies gem version of Rails to use when vendor/rails is not present
-RAILS_GEM_VERSION = '2.1.0'
+RAILS_GEM_VERSION = '2.3.2' unless defined? RAILS_GEM_VERSION
 
 #---------------------------------------------
 # taskr and taskr4rails
@@ -28,14 +28,14 @@ require File.join(File.dirname(__FILE__), 'boot')
 
 Rails::Initializer.run do |config|
   # Settings in config/environments/* take precedence those specified here
-  
+  config.action_controller.relative_url_root = "/stc-apps"
   # Skip frameworks you're not going to use
   # config.frameworks -= [ :action_web_service, :action_mailer ]
 
   # Add additional load paths for your own custom dirs
   # config.load_paths += %W( #{RAILS_ROOT}/extras )
 
-  # Force all environments to use the same logger level 
+  # Force all environments to use the same logger level
   # (by default production uses :info, the others :debug)
   # config.log_level = :debug
 
@@ -44,7 +44,7 @@ Rails::Initializer.run do |config|
   config.action_controller.session_store = :active_record_store
 
   # Use SQL instead of Active Record's schema dumper when creating the test database.
-  # This is necessary if your schema can't be completely dumped by the schema dumper, 
+  # This is necessary if your schema can't be completely dumped by the schema dumper,
   # like if you have constraints or database-specific column types
   # config.active_record.schema_format = :sql
 
@@ -53,23 +53,23 @@ Rails::Initializer.run do |config|
 
   # Make Active Record use UTC-base instead of local time
   # config.active_record.default_timezone = :utc
-  
+
   # See Rails::Configuration for more options
-  
+
   # Configure Rails Mail options
   config.action_mailer.delivery_method = :smtp
   config.action_mailer.smtp_settings = {
     :address => "mail.yale.edu",
     :port => 587,
     :domain => "yale.edu",
-    
+
     #for some reason, :authentication => login is not working
     #thus, for now, the server will have to be connected to the yale network
     #to be able to send emails
   }
   config.action_mailer.raise_delivery_errors = true
   config.action_mailer.default_charset = "utf-8"
-  
+
   # Include all gems below:
   # Configure PDF Writer
   # I comment this line out because initializer/date_formats.rb does not load properly with it
@@ -77,14 +77,14 @@ Rails::Initializer.run do |config|
   config.gem "ruby-net-ldap", :lib => 'net/ldap'
   config.gem "fastercsv", :lib => false
   config.gem "icalendar", :lib  => false
-  
+
 
   # Testing using taskr to run background processes
   # config.gem "taskr"
   # config.gem "rubycas-client"
 end
 
-# Add new inflection rules using the following format 
+# Add new inflection rules using the following format
 # (all these examples are active by default):
 # Inflector.inflections do |inflect|
 #   inflect.plural /^(ox)$/i, '\1en'

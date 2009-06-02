@@ -12,7 +12,7 @@
       <h1 id="page_title"><%= yield(:title) %></h1>
     <% end %>
     <!-- Main Content -->
-    <%= yield %>
+    <%= yield(:content) or yield %>
   </div>
   <% if @left_nav -%>
     <div id="scanColumn">
@@ -38,3 +38,4 @@
     <div id="pageboxBottom"/> <!-- do not remove this -->
   </body>
 </html>
+

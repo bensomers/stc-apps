@@ -1,13 +1,13 @@
-<!DOCTYPE html 
+<!DOCTYPE html
      PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
      "DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en">
 <head>
   <title><%= yield(:title) || 'Student Technology Collaborative' %></title>
   <%= stylesheet_link_tag 'main', 'shared', 'popup', 'modalbox', :media => 'all' %>
-  <%= javascript_include_tag :defaults %>  
-  <%= javascript_include_tag 'popup', 'lowpro', 'modalbox' %><%# free, copyright notice at beginning of files. -Harley %>  
-  <%= yield :head %><%# to allow inserting things into <head> from app-specific views -H  %>
+  <%= javascript_include_tag :defaults %>
+  <%= javascript_include_tag 'popup', 'lowpro', 'modalbox' %>
+  <%= yield :head %>
 
 </head>
 <body>
@@ -18,7 +18,7 @@
       <h2 class="yaleHeader">
         <a title="Yale Unversity" href="http://www.yale.edu/">Yale University</a>
       </h2>
-      <%= render :partial => "layouts/include/login" if get_user %>      
+      <%= render :partial => "layouts/include/login" if get_user %>
     </div>
     <div id="identityHeader">
       <div class="logo"><%= render :file => "layouts/logo.html.erb" %></div>
@@ -27,5 +27,6 @@
       <%= render :partial => "layouts/include/chooser" unless @chooser_list.blank? %>
       <div id="miniTabsBox">
         <%= render :file => "layouts/include/nav.html.erb" %>
-      </div>         
+      </div>
     </div>
+

@@ -1,7 +1,7 @@
-<% inside_layout 'application' do %>
-
+<% content_for "head" do %>
   <% stylesheet 'user_admin' %>
-  <%= yield :layout %>
-
+<% end %><% content_for 'content' do %>
+  <%= yield %>
 <% end %>
+<%= render :file => 'layouts/application' %>
 

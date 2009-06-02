@@ -1,12 +1,8 @@
-<% inside_layout 'application' do %>
-
-  <%# the following are yieled in the HEAD of document, not here, thus there's no equal sign %>
-  <%#shift should be the last one because it might call classes belonging to the prior js files %>
+<% content_for "head" do %>
   <% javascript 'date_selector', 'shift' %>
   <% stylesheet 'shift', 'report', 'date_selector', :media => 'all' %>
-
-  <%# and here's the template content, of course %>
-  <%= yield :layout %>
-
+<% end %><% content_for 'content' do %>
+  <%= yield %>
 <% end %>
+<%= render :file => 'layouts/application' %>
 
