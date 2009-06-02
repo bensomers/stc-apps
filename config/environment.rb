@@ -28,7 +28,10 @@ require File.join(File.dirname(__FILE__), 'boot')
 
 Rails::Initializer.run do |config|
   # Settings in config/environments/* take precedence those specified here
-  config.action_controller.relative_url_root = "/stc-apps"
+
+  #THIS IS FOR NATHAN'S APACHE SETUP -- comment it out if he forgets
+  #config.action_controller.relative_url_root = "/stc-apps"
+
   # Skip frameworks you're not going to use
   # config.frameworks -= [ :action_web_service, :action_mailer ]
 
