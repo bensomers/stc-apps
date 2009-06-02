@@ -23,8 +23,8 @@ class User < ActiveRecord::Base
   # after_save :delete_permission_cache
   
   named_scope :all, :order => :name
-  named_scope :active, :conditions => { :active => true }
-  named_scope :inactive, :conditions => { :active => false }
+  named_scope :active, :conditions => { :active => 1 }
+  named_scope :inactive, :conditions => { :active => 0 }
     
   #only search active users
   def self.search(str = nil)

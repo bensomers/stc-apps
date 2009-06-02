@@ -1039,3 +1039,36 @@ users_130:
   last_name: 
   login: mnv5
   name: Minh Vuong
+users_131:
+  active: "1"
+  email: wei.yan@yale.edu
+  first_name: Wei
+  id: "134"
+  last_name: Yan
+  login: wy59
+  name: Wei Yan
+users_132:
+  active: "1"
+  email: ryan.laughlin@yale.edu
+  first_name:
+  id: "135"
+  last_name:
+  login: rjl39
+  name: Ryan Laughlin
+users_133:
+  active: "1"
+  email: cassandra.kildow@yale.edu
+  first_name:
+  id: "136"
+  last_name:
+  login: cmk49
+  name: Cassandra Kildow
+users_134:
+  active: "1"
+  email: bo.qu@yale.edu
+  first_name: Bo
+  id: "137"
+  last_name: Qu
+  login: bq9
+  name: Bob Qu
+  

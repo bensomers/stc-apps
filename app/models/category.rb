@@ -5,8 +5,8 @@ class Category < ActiveRecord::Base
   
   validates_presence_of :name, :department_id
   
-  named_scope :active,   lambda { |dept_id| { :conditions => ['department_id = ? and active = true',  dept_id]}}
-  named_scope :disabled, lambda { |dept_id| { :conditions => ['department_id = ? and active = false', dept_id]}}    
+  named_scope :active,   lambda { |dept_id| { :conditions => ['department_id = ? and active = ?',  dept_id, 1]}}
+  named_scope :disabled, lambda { |dept_id| { :conditions => ['department_id = ? and active = ?', dept_id, 0]}}    
   
   protected
   

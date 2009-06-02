@@ -1,4 +1,4 @@
-<fieldset title="testing" class="<%= notice.class.to_s.downcase%>" id="<%= "%s_%s" % [notice.class.to_s.downcase, notice.id] %>" style="width:48%">
+<fieldset class="<%= notice.class.to_s.downcase%>" id="<%= "%s_%s" % [notice.class.to_s.downcase, notice.id] %>" style="width:48%">
   <div class="right">
     <%= link_to '[x]', { :action => 'sticky_remove', :id => notice },
       :confirm => "Are you sure you want to trash this sticky? It will be removed for other users as well.", 

@@ -42,11 +42,14 @@ class PayformController < PayformApplicationController
   def submit
     payform = Payform.find_by_id params[:id]
     if payform and payform.authorized?(@user, controller_name)
-      unless payform.submitted
+      if payform.has_active_shifts?
+        flash = "Payform has active shifts.  Please submit your shift report and
+                then resubmit your payform."
+      elsif payform.submitted
+        flash = "Payform Already Submitted"                 
+      else
         payform.submitted = Time.now
         flash = payform.save ? "Payform Submitted" : "Error Submitting Payform"
-      else
-        flash = "Payform Already Submitted" 
       end
       redirect_with_flash flash, :action => :view, :id => payform.id
     else

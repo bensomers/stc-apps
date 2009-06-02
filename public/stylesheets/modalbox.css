@@ -93,3 +93,15 @@
   margin: 10px 0;
   text-align: center;
 }
+
+/* Sticky form */
+.sticky textarea {
+  width: 100%;
+  height: 4em;
+  overflow: auto;
+}
+
+.sticky #sticky_user_names {
+  width: 100%;
+}
+

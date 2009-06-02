@@ -4,7 +4,7 @@ class Payform < ActiveRecord::Base
   belongs_to :user
   
   validates_presence_of :week, :year, :department_id, :user_id
-  
+    
   named_scope :unsubmitted, lambda { |dept_id| { 
     :conditions => ["department_id = ? AND submitted IS ?", dept_id, nil]
   }}  
@@ -31,7 +31,7 @@ class Payform < ActiveRecord::Base
   def self.get_days (year, week)
     dates = []
     7.times {|n| d = get_day(year, week)+(n-6) 
-      dates << d unless d > Time.today.to_date}
+      dates << d unless d > Date.today}
     dates
   end
   
@@ -129,5 +129,19 @@ class Payform < ActiveRecord::Base
       errors.add("Payform owner is not authorized for payform department")
     end
   end
+  
+  private
+  
+  def has_active_shifts?
+    current_report = ShiftReport.find_current_report(self.user)
+    if current_report && current_report.start < (self.get_date + 1)
+      return true
+    else
+      return false
+    end
+  end
+    
+    
+  
   
 end

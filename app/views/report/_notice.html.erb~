@@ -1,0 +1,16 @@
+<fieldset class="<%= notice.class.to_s.downcase%>" id="<%= "%s_%s" % [notice.class.to_s.downcase, notice.id] %>" style="width:48%">
+  <div class="right">
+    <%= link_to '[x]', { :action => 'sticky_remove', :id => notice },
+      :confirm => "Are you sure you want to trash this sticky? It will be removed for other users as well.", 
+      :method => :post if notice.class == Sticky%>
+  </div>
+  <%= notice.content.sanitize_and_format %>
+<br />
+  
+  <div class="grayleft">
+    <%= "by #{(notice.author ? notice.author.name : " ")}" -%><%= ": <a title=\"On #{notice.start_time.to_date} at #{notice.start_time.to_s(:am_pm)}\">#{distance_of_time_in_words(notice.start_time, Time.now, true)} ago</a>"  if notice.class == Sticky %>
+  </div>
+  <div class="grayright">
+    <%= notice.auth_full_list %>
+  </div>
+</fieldset>
