@@ -1,8 +1,8 @@
-require 'cas_acl'
+
 
 class UserAdminController < ApplicationController
   helper_method :superuser_access?
-  before_filter CASACL::CASFilter
+  before_filter CASClient::Frameworks::Rails::Filter
   before_filter :chooser
   before_filter :set_navbar
   auto_complete_for :group, :name

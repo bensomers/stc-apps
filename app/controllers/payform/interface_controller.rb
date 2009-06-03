@@ -7,7 +7,7 @@
 #-------------------------------------
 
 class Payform::InterfaceController < ApplicationController
-  before_filter CASACL::CASFilter, :except => :add_job
+  before_filter CASClient::Frameworks::Rails::Filter, :except => :add_job
   def add_job
     session[:add_to_payform] = params.clone
     session[:add_to_payform][:ip] = request.remote_ip

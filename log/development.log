@@ -6009,3 +6009,91 @@ Cache hit: user_permission_strings_12 ({})
 Cache hit: user_permission_strings_12 ({})
 Cache hit: user_permission_strings_12 ({})
 Completed in 405ms (View: 44, DB: 13) | 200 OK [http://localhost/stc-apps/payform/view/53?ticket=ST-1612394-tKlDvyb60kkigjFYrYTK]
+
+
+Processing IndexController#index (for 127.0.0.1 at 2009-06-03 15:03:23) [GET]
+Cache delete: user_permission_strings_
+Guessed service url: "http://localhost:3000/"
+Generated login url: https://secure.its.yale.edu/cas/login?service=http%3A%2F%2Flocalhost%3A3000%2F
+Redirecting to "https://secure.its.yale.edu/cas/login?service=http%3A%2F%2Flocalhost%3A3000%2F"
+Redirected to https://secure.its.yale.edu/cas/login?service=http%3A%2F%2Flocalhost%3A3000%2F
+Filter chain halted as [CASClient::Frameworks::Rails::Filter] rendered_or_redirected.
+Completed in 135ms (DB: 0) | 302 Found [http://localhost/]
+
+
+Processing IndexController#index (for 127.0.0.1 at 2009-06-03 15:03:28) [GET]
+  Parameters: {"ticket"=>"ST-1716732-NNlvUaZ3yOthtMZC0ZLo"}
+Cache delete: user_permission_strings_
+Request contains ticket "ST-1716732-NNlvUaZ3yOthtMZC0ZLo".
+Guessed service url: "http://localhost:3000/"
+Requesting CAS response for URI https://secure.its.yale.edu/cas/proxyValidate?ticket=ST-1716732-NNlvUaZ3yOthtMZC0ZLo&service=http%3A%2F%2Flocalhost%3A3000%2F
+CAS server responded with #<Net::HTTPOK 200 OK readbody=true>:
+<cas:serviceResponse xmlns:cas='http://www.yale.edu/tp/cas'>
+  <cas:authenticationSuccess>
+    <cas:user>mpl36</cas:user>
+  </cas:authenticationSuccess>
+</cas:serviceResponse>
+Ticket "ST-1716732-NNlvUaZ3yOthtMZC0ZLo" for service "http://localhost:3000/" belonging to user "mpl36" is VALID.
+Extra user attributes provided along with ticket "ST-1716732-NNlvUaZ3yOthtMZC0ZLo": {}.
+DEPRECATION WARNING: ActionController::Session::AbstractStore::SessionHash#session_id has been deprecated. Please use request.session_options[:id] instead.. (called from filter at /home/iamringo/Programming/Rails/shifts/stc-apps/vendor/plugins/rubycas-client/lib/casclient/frameworks/rails/filter.rb:69)
+DEPRECATION WARNING: ActionController::Session::AbstractStore::SessionHash#session_id has been deprecated. Please use request.session_options[:id] instead.. (called from filter at /home/iamringo/Programming/Rails/shifts/stc-apps/vendor/plugins/rubycas-client/lib/casclient/frameworks/rails/filter.rb:70)
+Wrote service session lookup file to "/home/iamringo/Programming/Rails/shifts/stc-apps/tmp/sessions/cas_sess.ST-1716732-NNlvUaZ3yOthtMZC0ZLo" with session id "9f5380cda8803e84b796fe2c3450d0ad".
+Rendering template within layouts/application
+Rendering index/index
+Completed in 177ms (View: 27, DB: 7) | 200 OK [http://localhost/?ticket=ST-1716732-NNlvUaZ3yOthtMZC0ZLo]
+
+
+Processing PayformController#index (for 127.0.0.1 at 2009-06-03 15:03:42) [GET]
+Cache delete: user_permission_strings_
+Existing local CAS session detected for "mpl36". Previous ticket "ST-1716732-NNlvUaZ3yOthtMZC0ZLo" will be re-used.
+  [4;36;1mDepartment Load (0.8ms)[0m   [0;1mSELECT * FROM "departments" ORDER BY name[0m
+  [4;35;1mPayformConfiguration Load (0.6ms)[0m   [0mSELECT * FROM "payform_configurations" WHERE ("payform_configurations".department_id = 5) LIMIT 1[0m
+  [4;36;1mPermission Load (0.3ms)[0m   [0;1mSELECT * FROM "permissions" WHERE ("permissions"."id" = 92) [0m
+Cache miss: user_permission_strings_ ({})
+  [4;35;1mRole Load (0.3ms)[0m   [0mSELECT * FROM "roles" WHERE ("roles"."name" = 'everyone') LIMIT 1[0m
+  [4;36;1mPermission Load (0.4ms)[0m   [0;1mSELECT * FROM "permissions" INNER JOIN "permissions_roles" ON "permissions".id = "permissions_roles".permission_id WHERE ("permissions_roles".role_id = 3 ) [0m
+Cache write (will save 19.83ms): user_permission_strings_
+  [4;35;1mPayformConfiguration Load (0.5ms)[0m   [0mSELECT * FROM "payform_configurations" WHERE ("payform_configurations".department_id = 2) LIMIT 1[0m
+  [4;36;1mPermission Load (0.3ms)[0m   [0;1mSELECT * FROM "permissions" WHERE ("permissions"."id" = 62) [0m
+Cache hit: user_permission_strings_ ({})
+  [4;35;1mPayformConfiguration Load (0.5ms)[0m   [0mSELECT * FROM "payform_configurations" WHERE ("payform_configurations".department_id = 4) LIMIT 1[0m
+  [4;36;1mPermission Load (0.3ms)[0m   [0;1mSELECT * FROM "permissions" WHERE ("permissions"."id" = 86) [0m
+Cache hit: user_permission_strings_ ({})
+  [4;35;1mPayformConfiguration Load (0.5ms)[0m   [0mSELECT * FROM "payform_configurations" WHERE ("payform_configurations".department_id = 3) LIMIT 1[0m
+  [4;36;1mPermission Load (0.3ms)[0m   [0;1mSELECT * FROM "permissions" WHERE ("permissions"."id" = 68) [0m
+Cache hit: user_permission_strings_ ({})
+  [4;35;1mPayformConfiguration Load (0.5ms)[0m   [0mSELECT * FROM "payform_configurations" WHERE ("payform_configurations".department_id = 6) LIMIT 1[0m
+  [4;36;1mPermission Load (0.3ms)[0m   [0;1mSELECT * FROM "permissions" WHERE ("permissions"."id" = 101) [0m
+Cache hit: user_permission_strings_ ({})
+  [4;35;1mPayformConfiguration Load (0.5ms)[0m   [0mSELECT * FROM "payform_configurations" WHERE ("payform_configurations".department_id = 1) LIMIT 1[0m
+  [4;36;1mPermission Load (0.3ms)[0m   [0;1mSELECT * FROM "permissions" WHERE ("permissions"."id" = 25) [0m
+Cache hit: user_permission_strings_ ({})
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "departments" ORDER BY name[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "payform_configurations" WHERE ("payform_configurations".department_id = 5) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "permissions" WHERE ("permissions"."id" = 92) [0m
+Cache hit: user_permission_strings_ ({})
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "payform_configurations" WHERE ("payform_configurations".department_id = 2) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "permissions" WHERE ("permissions"."id" = 62) [0m
+Cache hit: user_permission_strings_ ({})
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "payform_configurations" WHERE ("payform_configurations".department_id = 4) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "permissions" WHERE ("permissions"."id" = 86) [0m
+Cache hit: user_permission_strings_ ({})
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "payform_configurations" WHERE ("payform_configurations".department_id = 3) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "permissions" WHERE ("permissions"."id" = 68) [0m
+Cache hit: user_permission_strings_ ({})
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "payform_configurations" WHERE ("payform_configurations".department_id = 6) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "permissions" WHERE ("permissions"."id" = 101) [0m
+Cache hit: user_permission_strings_ ({})
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "payform_configurations" WHERE ("payform_configurations".department_id = 1) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "permissions" WHERE ("permissions"."id" = 25) [0m
+Cache hit: user_permission_strings_ ({})
+  [4;36;1mDepartment Load (0.2ms)[0m   [0;1mSELECT * FROM "departments" WHERE ("departments"."id" IS NULL) LIMIT 1[0m
+
+ActiveRecord::RecordNotFound (Couldn't find Department without an ID):
+  app/controllers/application_controller.rb:21:in `get_department'
+  app/controllers/application_controller.rb:31:in `get_dept_from_url'
+  app/controllers/payform_controller.rb:8:in `index'
+
+Rendered rescues/_trace (104.0ms)
+Rendered rescues/_request_and_response (1.4ms)
+Rendering rescues/layout (not_found)

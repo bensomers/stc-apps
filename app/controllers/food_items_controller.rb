@@ -1,5 +1,5 @@
 class FoodItemsController < ApplicationController
-  before_filter CASACL::CASFilter
+  before_filter CASClient::Frameworks::Rails::Filter
 
   layout "iotabs"
   # GET /food_items
