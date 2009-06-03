@@ -1,7 +1,7 @@
 require 'fastercsv'
 class StatsController < ShiftAdminController
   # Check authentication with CAS login
-  before_filter CASACL::CASFilter, :only => [:index, :show, :destroy_all]
+  before_filter CASClient::Frameworks::Rails::Filter, :only => [:index, :show, :destroy_all]
   before_filter :chooser, :only => [:index, :new, :show]
 
   #FIXME: should fix this during summer. not a good idea to confuse rails by overwriting controller name

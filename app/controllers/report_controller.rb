@@ -1,4 +1,4 @@
-require 'cas_acl'
+
 
 class ReportController < ShiftController  
   # find_report_or_redirect fetches your current shift report, or redirects you to the shift index because
