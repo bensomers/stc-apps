@@ -22,8 +22,6 @@ class ApplicationController < ActionController::Base
     session[:user_exists] = true if User.find_by_login(session[:casfilteruser])
   end
 
-  def set_current_chooser_choice
-
   #get department choice off the session
   def get_department
     # y session["current_chooser_choice"]
