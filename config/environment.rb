@@ -6,12 +6,12 @@
 
 
 #Rubycas plugin stuff
-    require 'casclient'
-    require 'casclient/frameworks/rails/filter'
+require 'casclient'
+require 'casclient/frameworks/rails/filter'
 
-    CASClient::Frameworks::Rails::Filter.configure(
-      :cas_base_url => "https://secure.its.yale.edu/cas/"
-    )
+CASClient::Frameworks::Rails::Filter.configure(
+  :cas_base_url => "https://secure.its.yale.edu/cas/"
+)
 
 # Specifies gem version of Rails to use when vendor/rails is not present
 RAILS_GEM_VERSION = '2.3.2' unless defined? RAILS_GEM_VERSION
