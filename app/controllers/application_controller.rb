@@ -1,19 +1,28 @@
 # Filters added to this controller will be run for all controllers in the application.
 # Likewise, all the methods added will be available for all controllers.
 class ApplicationController < ActionController::Base
+  before_filter :set_user_exists
   before_filter :delete_user_permission_cache
+
   include HoptoadNotifier::Catcher
   helper_method :get_department
+  helper_method :get_user
 
   protected
   # Returns a valid user model based on whether the user exists in the database
   def get_user
-    session[:user_exists] ? User.find_by_login(session[:user]) : User.new(:login => session[:user])
+    session[:user_exists] ? User.find_by_login(session[:casfilteruser]) : User.new(:login => session[:casfilteruser])
   end
 
   def delete_user_permission_cache
     get_user.delete_permission_cache
   end
+
+  def set_user_exists
+    session[:user_exists] = true if User.find_by_login(session[:casfilteruser])
+  end
+
+  def set_current_chooser_choice
 
   #get department choice off the session
   def get_department

@@ -4,15 +4,7 @@
 module ApplicationHelper
   # Returns a valid user model based on whether the user exists
   # in the database
-  def get_user
-    if session[:user]
-      if session[:user_exists]
-        return User.find_by_login(session[:user])
-      else
-        return User.new(:login => session[:user])
-      end
-    end
-  end
+
 
   def notice_script(div = 'notice', notice=flash[:notice], message="Message:", timeout=0)
     #I know these are redundant, but I was having issues passing flash values:
@@ -23,9 +15,9 @@ module ApplicationHelper
     javascript_tag "$('#{div}').hide();#{notice_popup(notice, message)};" + (timeout > 0 ? "setTimeout('hide_box()', #{timeout});" : "")
   end
 
-  def has_any_admin_item?(items)
+  def has_any_admin_item?(items, user)
     for item in items
-        return true if (CASACL.auth_index?(user ||= get_user, item))
+        return true if (user.permission_strings.include?(item))
     end
     return false
   end

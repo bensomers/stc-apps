@@ -1,9 +1,0 @@
-<% title "Welcome to Student Technology Collaborative." %>
-
-<p>Please contact the Administrator for access permissions if the only link you see in the menu is Home</p>
-<%= Category.all.to_yaml %>
-<% if iphone_user_agent? %>
-  <div class="iphone_message">
-    <p> Using an iPhone? <%= link_to "Try the iPhone Optimized Version", :controller => "iphone" %> (Not working yet)</p>
-  </div>
-<% end %>
