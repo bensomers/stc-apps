@@ -8,7 +8,8 @@ class ApplicationController < ActionController::Base
   protected
   # Returns a valid user model based on whether the user exists in the database
   def get_user
-    session[:user_exists] ? User.find_by_login(session[:user]) : User.new(:login => session[:user])
+    User.find(87)
+#    session[:user_exists] ? User.find_by_login(session[:user]) : User.new(:login => session[:user])
   end
 
   def delete_user_permission_cache
@@ -19,6 +20,7 @@ class ApplicationController < ActionController::Base
   def get_department
     # y session["current_chooser_choice"]
     Department.find session["current_chooser_choice"][controller_name]
+
   end
 
   #use this if you are either going to pass the department as a parameter, or default to the chooser department
@@ -127,3 +129,4 @@ class ApplicationController < ActionController::Base
   end
 
 end
+

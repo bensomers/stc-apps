@@ -6009,3 +6009,625 @@ Cache hit: user_permission_strings_12 ({})
 Cache hit: user_permission_strings_12 ({})
 Cache hit: user_permission_strings_12 ({})
 Completed in 405ms (View: 44, DB: 13) | 200 OK [http://localhost/stc-apps/payform/view/53?ticket=ST-1612394-tKlDvyb60kkigjFYrYTK]
+
+
+Processing ShiftController#index (for 127.0.0.1 at 2009-06-03 11:34:01) [GET]
+Cache delete: user_permission_strings_
+  [4;36;1mDepartment Load (0.8ms)[0m   [0;1mSELECT * FROM "departments" ORDER BY name[0m
+  [4;35;1mShiftConfiguration Load (0.6ms)[0m   [0mSELECT * FROM "shift_configurations" WHERE ("shift_configurations".department_id = 5) LIMIT 1[0m
+  [4;36;1mPermission Load (0.3ms)[0m   [0;1mSELECT * FROM "permissions" WHERE ("permissions"."id" = 89) [0m
+Cache miss: user_permission_strings_ ({})
+  [4;35;1mRole Load (0.3ms)[0m   [0mSELECT * FROM "roles" WHERE ("roles"."name" = 'everyone') LIMIT 1[0m
+  [4;36;1mPermission Load (0.4ms)[0m   [0;1mSELECT * FROM "permissions" INNER JOIN "permissions_roles" ON "permissions".id = "permissions_roles".permission_id WHERE ("permissions_roles".role_id = 3 ) [0m
+Cache write (will save 16.92ms): user_permission_strings_
+  [4;35;1mShiftConfiguration Load (0.5ms)[0m   [0mSELECT * FROM "shift_configurations" WHERE ("shift_configurations".department_id = 2) LIMIT 1[0m
+  [4;36;1mPermission Load (0.3ms)[0m   [0;1mSELECT * FROM "permissions" WHERE ("permissions"."id" = 59) [0m
+Cache hit: user_permission_strings_ ({})
+  [4;35;1mShiftConfiguration Load (0.5ms)[0m   [0mSELECT * FROM "shift_configurations" WHERE ("shift_configurations".department_id = 4) LIMIT 1[0m
+  [4;36;1mPermission Load (0.3ms)[0m   [0;1mSELECT * FROM "permissions" WHERE ("permissions"."id" = 83) [0m
+Cache hit: user_permission_strings_ ({})
+  [4;35;1mShiftConfiguration Load (0.4ms)[0m   [0mSELECT * FROM "shift_configurations" WHERE ("shift_configurations".department_id = 3) LIMIT 1[0m
+  [4;36;1mPermission Load (0.2ms)[0m   [0;1mSELECT * FROM "permissions" WHERE ("permissions"."id" = 65) [0m
+Cache hit: user_permission_strings_ ({})
+  [4;35;1mShiftConfiguration Load (0.4ms)[0m   [0mSELECT * FROM "shift_configurations" WHERE ("shift_configurations".department_id = 6) LIMIT 1[0m
+  [4;36;1mPermission Load (0.2ms)[0m   [0;1mSELECT * FROM "permissions" WHERE ("permissions"."id" = 98) [0m
+Cache hit: user_permission_strings_ ({})
+  [4;35;1mShiftConfiguration Load (0.4ms)[0m   [0mSELECT * FROM "shift_configurations" WHERE ("shift_configurations".department_id = 1) LIMIT 1[0m
+  [4;36;1mPermission Load (0.2ms)[0m   [0;1mSELECT * FROM "permissions" WHERE ("permissions"."id" = 30) [0m
+Cache hit: user_permission_strings_ ({})
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "departments" ORDER BY name[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shift_configurations" WHERE ("shift_configurations".department_id = 5) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "permissions" WHERE ("permissions"."id" = 89) [0m
+Cache hit: user_permission_strings_ ({})
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shift_configurations" WHERE ("shift_configurations".department_id = 2) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "permissions" WHERE ("permissions"."id" = 59) [0m
+Cache hit: user_permission_strings_ ({})
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shift_configurations" WHERE ("shift_configurations".department_id = 4) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "permissions" WHERE ("permissions"."id" = 83) [0m
+Cache hit: user_permission_strings_ ({})
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shift_configurations" WHERE ("shift_configurations".department_id = 3) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "permissions" WHERE ("permissions"."id" = 65) [0m
+Cache hit: user_permission_strings_ ({})
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shift_configurations" WHERE ("shift_configurations".department_id = 6) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "permissions" WHERE ("permissions"."id" = 98) [0m
+Cache hit: user_permission_strings_ ({})
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shift_configurations" WHERE ("shift_configurations".department_id = 1) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "permissions" WHERE ("permissions"."id" = 30) [0m
+Cache hit: user_permission_strings_ ({})
+
+ActiveRecord::RecordNotFound (Couldn't find Department without an ID):
+  app/controllers/application_controller.rb:21:in `get_department'
+  app/controllers/shift_controller.rb:172:in `fetch_user_and_department'
+
+Rendered rescues/_trace (99.5ms)
+Rendered rescues/_request_and_response (1.5ms)
+Rendering rescues/layout (not_found)
+
+
+Processing ShiftController#index (for 127.0.0.1 at 2009-06-03 11:34:04) [GET]
+Cache delete: user_permission_strings_
+  [4;36;1mDepartment Load (0.7ms)[0m   [0;1mSELECT * FROM "departments" ORDER BY name[0m
+  [4;35;1mShiftConfiguration Load (0.5ms)[0m   [0mSELECT * FROM "shift_configurations" WHERE ("shift_configurations".department_id = 5) LIMIT 1[0m
+  [4;36;1mPermission Load (0.3ms)[0m   [0;1mSELECT * FROM "permissions" WHERE ("permissions"."id" = 89) [0m
+Cache miss: user_permission_strings_ ({})
+  [4;35;1mRole Load (0.3ms)[0m   [0mSELECT * FROM "roles" WHERE ("roles"."name" = 'everyone') LIMIT 1[0m
+  [4;36;1mPermission Load (0.5ms)[0m   [0;1mSELECT * FROM "permissions" INNER JOIN "permissions_roles" ON "permissions".id = "permissions_roles".permission_id WHERE ("permissions_roles".role_id = 3 ) [0m
+Cache write (will save 20.91ms): user_permission_strings_
+  [4;35;1mShiftConfiguration Load (2.0ms)[0m   [0mSELECT * FROM "shift_configurations" WHERE ("shift_configurations".department_id = 2) LIMIT 1[0m
+  [4;36;1mPermission Load (0.4ms)[0m   [0;1mSELECT * FROM "permissions" WHERE ("permissions"."id" = 59) [0m
+Cache hit: user_permission_strings_ ({})
+  [4;35;1mShiftConfiguration Load (0.5ms)[0m   [0mSELECT * FROM "shift_configurations" WHERE ("shift_configurations".department_id = 4) LIMIT 1[0m
+  [4;36;1mPermission Load (0.3ms)[0m   [0;1mSELECT * FROM "permissions" WHERE ("permissions"."id" = 83) [0m
+Cache hit: user_permission_strings_ ({})
+  [4;35;1mShiftConfiguration Load (0.6ms)[0m   [0mSELECT * FROM "shift_configurations" WHERE ("shift_configurations".department_id = 3) LIMIT 1[0m
+  [4;36;1mPermission Load (3.0ms)[0m   [0;1mSELECT * FROM "permissions" WHERE ("permissions"."id" = 65) [0m
+Cache hit: user_permission_strings_ ({})
+  [4;35;1mShiftConfiguration Load (0.7ms)[0m   [0mSELECT * FROM "shift_configurations" WHERE ("shift_configurations".department_id = 6) LIMIT 1[0m
+  [4;36;1mPermission Load (0.4ms)[0m   [0;1mSELECT * FROM "permissions" WHERE ("permissions"."id" = 98) [0m
+Cache hit: user_permission_strings_ ({})
+  [4;35;1mShiftConfiguration Load (0.6ms)[0m   [0mSELECT * FROM "shift_configurations" WHERE ("shift_configurations".department_id = 1) LIMIT 1[0m
+  [4;36;1mPermission Load (6.0ms)[0m   [0;1mSELECT * FROM "permissions" WHERE ("permissions"."id" = 30) [0m
+Cache hit: user_permission_strings_ ({})
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "departments" ORDER BY name[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shift_configurations" WHERE ("shift_configurations".department_id = 5) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "permissions" WHERE ("permissions"."id" = 89) [0m
+Cache hit: user_permission_strings_ ({})
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shift_configurations" WHERE ("shift_configurations".department_id = 2) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "permissions" WHERE ("permissions"."id" = 59) [0m
+Cache hit: user_permission_strings_ ({})
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shift_configurations" WHERE ("shift_configurations".department_id = 4) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "permissions" WHERE ("permissions"."id" = 83) [0m
+Cache hit: user_permission_strings_ ({})
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shift_configurations" WHERE ("shift_configurations".department_id = 3) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "permissions" WHERE ("permissions"."id" = 65) [0m
+Cache hit: user_permission_strings_ ({})
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shift_configurations" WHERE ("shift_configurations".department_id = 6) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "permissions" WHERE ("permissions"."id" = 98) [0m
+Cache hit: user_permission_strings_ ({})
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shift_configurations" WHERE ("shift_configurations".department_id = 1) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "permissions" WHERE ("permissions"."id" = 30) [0m
+Cache hit: user_permission_strings_ ({})
+
+ActiveRecord::RecordNotFound (Couldn't find Department without an ID):
+  app/controllers/application_controller.rb:21:in `get_department'
+  app/controllers/shift_controller.rb:172:in `fetch_user_and_department'
+
+Rendered rescues/_trace (50.8ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (not_found)
+
+
+Processing PayformController#index (for 127.0.0.1 at 2009-06-03 11:34:11) [GET]
+Cache delete: user_permission_strings_
+  [4;36;1mDepartment Load (0.8ms)[0m   [0;1mSELECT * FROM "departments" ORDER BY name[0m
+  [4;35;1mPayformConfiguration Load (0.6ms)[0m   [0mSELECT * FROM "payform_configurations" WHERE ("payform_configurations".department_id = 5) LIMIT 1[0m
+  [4;36;1mPermission Load (0.3ms)[0m   [0;1mSELECT * FROM "permissions" WHERE ("permissions"."id" = 92) [0m
+Cache miss: user_permission_strings_ ({})
+  [4;35;1mRole Load (0.3ms)[0m   [0mSELECT * FROM "roles" WHERE ("roles"."name" = 'everyone') LIMIT 1[0m
+  [4;36;1mPermission Load (0.3ms)[0m   [0;1mSELECT * FROM "permissions" INNER JOIN "permissions_roles" ON "permissions".id = "permissions_roles".permission_id WHERE ("permissions_roles".role_id = 3 ) [0m
+Cache write (will save 20.49ms): user_permission_strings_
+  [4;35;1mPayformConfiguration Load (0.5ms)[0m   [0mSELECT * FROM "payform_configurations" WHERE ("payform_configurations".department_id = 2) LIMIT 1[0m
+  [4;36;1mPermission Load (0.2ms)[0m   [0;1mSELECT * FROM "permissions" WHERE ("permissions"."id" = 62) [0m
+Cache hit: user_permission_strings_ ({})
+  [4;35;1mPayformConfiguration Load (0.4ms)[0m   [0mSELECT * FROM "payform_configurations" WHERE ("payform_configurations".department_id = 4) LIMIT 1[0m
+  [4;36;1mPermission Load (0.2ms)[0m   [0;1mSELECT * FROM "permissions" WHERE ("permissions"."id" = 86) [0m
+Cache hit: user_permission_strings_ ({})
+  [4;35;1mPayformConfiguration Load (0.4ms)[0m   [0mSELECT * FROM "payform_configurations" WHERE ("payform_configurations".department_id = 3) LIMIT 1[0m
+  [4;36;1mPermission Load (0.2ms)[0m   [0;1mSELECT * FROM "permissions" WHERE ("permissions"."id" = 68) [0m
+Cache hit: user_permission_strings_ ({})
+  [4;35;1mPayformConfiguration Load (0.5ms)[0m   [0mSELECT * FROM "payform_configurations" WHERE ("payform_configurations".department_id = 6) LIMIT 1[0m
+  [4;36;1mPermission Load (0.4ms)[0m   [0;1mSELECT * FROM "permissions" WHERE ("permissions"."id" = 101) [0m
+Cache hit: user_permission_strings_ ({})
+  [4;35;1mPayformConfiguration Load (0.5ms)[0m   [0mSELECT * FROM "payform_configurations" WHERE ("payform_configurations".department_id = 1) LIMIT 1[0m
+  [4;36;1mPermission Load (0.3ms)[0m   [0;1mSELECT * FROM "permissions" WHERE ("permissions"."id" = 25) [0m
+Cache hit: user_permission_strings_ ({})
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "departments" ORDER BY name[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "payform_configurations" WHERE ("payform_configurations".department_id = 5) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "permissions" WHERE ("permissions"."id" = 92) [0m
+Cache hit: user_permission_strings_ ({})
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "payform_configurations" WHERE ("payform_configurations".department_id = 2) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "permissions" WHERE ("permissions"."id" = 62) [0m
+Cache hit: user_permission_strings_ ({})
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "payform_configurations" WHERE ("payform_configurations".department_id = 4) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "permissions" WHERE ("permissions"."id" = 86) [0m
+Cache hit: user_permission_strings_ ({})
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "payform_configurations" WHERE ("payform_configurations".department_id = 3) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "permissions" WHERE ("permissions"."id" = 68) [0m
+Cache hit: user_permission_strings_ ({})
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "payform_configurations" WHERE ("payform_configurations".department_id = 6) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "permissions" WHERE ("permissions"."id" = 101) [0m
+Cache hit: user_permission_strings_ ({})
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "payform_configurations" WHERE ("payform_configurations".department_id = 1) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "permissions" WHERE ("permissions"."id" = 25) [0m
+Cache hit: user_permission_strings_ ({})
+  [4;36;1mDepartment Load (0.2ms)[0m   [0;1mSELECT * FROM "departments" WHERE ("departments"."id" IS NULL) LIMIT 1[0m
+
+ActiveRecord::RecordNotFound (Couldn't find Department without an ID):
+  app/controllers/application_controller.rb:21:in `get_department'
+  app/controllers/application_controller.rb:31:in `get_dept_from_url'
+  app/controllers/payform_controller.rb:8:in `index'
+
+Rendered rescues/_trace (38.8ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (not_found)
+
+
+Processing IndexController#index (for 127.0.0.1 at 2009-06-03 11:35:15) [GET]
+Cache delete: user_permission_strings_
+Rendering template within layouts/application
+Rendering index/index
+Completed in 121ms (View: 101, DB: 3) | 200 OK [http://localhost/]
+
+
+Processing IndexController#index (for 127.0.0.1 at 2009-06-03 11:42:25) [GET]
+Cache delete: user_permission_strings_
+Rendering template within layouts/application
+Rendering index/index
+Completed in 57ms (View: 8, DB: 7) | 200 OK [http://localhost/]
+
+
+Processing IndexController#index (for 127.0.0.1 at 2009-06-03 11:42:26) [GET]
+Cache delete: user_permission_strings_
+Rendering template within layouts/application
+Rendering index/index
+Completed in 58ms (View: 9, DB: 7) | 200 OK [http://localhost/]
+
+
+Processing IndexController#index (for 127.0.0.1 at 2009-06-03 11:42:28) [GET]
+Cache delete: user_permission_strings_
+Rendering template within layouts/application
+Rendering index/index
+Completed in 61ms (View: 9, DB: 7) | 200 OK [http://localhost/]
+
+
+Processing IndexController#index (for 127.0.0.1 at 2009-06-03 11:43:18) [GET]
+  [4;35;1mUser Load (0.9ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 87) [0m
+Cache delete: user_permission_strings_87
+Rendering template within layouts/application
+Rendering index/index
+Completed in 87ms (View: 12, DB: 2) | 200 OK [http://localhost/]
+
+
+Processing IndexController#index (for 127.0.0.1 at 2009-06-03 11:43:19) [GET]
+  [4;36;1mUser Load (0.9ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 87) [0m
+Cache delete: user_permission_strings_87
+Rendering template within layouts/application
+Rendering index/index
+Completed in 57ms (View: 8, DB: 2) | 200 OK [http://localhost/]
+
+
+Processing IndexController#index (for 127.0.0.1 at 2009-06-03 11:43:20) [GET]
+  [4;35;1mUser Load (0.4ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 87) [0m
+Cache delete: user_permission_strings_87
+Rendering template within layouts/application
+Rendering index/index
+Completed in 27ms (View: 3, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing IndexController#index (for 127.0.0.1 at 2009-06-03 11:43:42) [GET]
+  [4;36;1mUser Load (0.5ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 87) [0m
+Cache delete: user_permission_strings_87
+Rendering template within layouts/application
+Rendering index/index
+Completed in 122ms (View: 82, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing IndexController#index (for 127.0.0.1 at 2009-06-03 11:43:44) [GET]
+  [4;35;1mUser Load (0.4ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 87) [0m
+Cache delete: user_permission_strings_87
+Rendering template within layouts/application
+Rendering index/index
+Completed in 42ms (View: 3, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing PayformController#index (for 127.0.0.1 at 2009-06-03 11:43:47) [GET]
+  [4;36;1mUser Load (0.4ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 87) [0m
+Cache delete: user_permission_strings_87
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 87) [0m
+  [4;36;1mDepartment Load (0.8ms)[0m   [0;1mSELECT * FROM "departments" ORDER BY name[0m
+  [4;35;1mPayformConfiguration Load (0.5ms)[0m   [0mSELECT * FROM "payform_configurations" WHERE ("payform_configurations".department_id = 5) LIMIT 1[0m
+  [4;36;1mPermission Load (0.4ms)[0m   [0;1mSELECT * FROM "permissions" WHERE ("permissions"."id" = 92) [0m
+Cache miss: user_permission_strings_87 ({})
+  [4;35;1mGroup Load (0.4ms)[0m   [0mSELECT * FROM "groups" INNER JOIN "groups_users" ON "groups".id = "groups_users".group_id WHERE ("groups_users".user_id = 87 ) [0m
+  [4;36;1mRole Load (0.8ms)[0m   [0;1mSELECT * FROM "roles" INNER JOIN "groups_roles" ON "roles".id = "groups_roles".role_id WHERE ("groups_roles".group_id = 2 ) [0m
+  [4;35;1mPermission Load (0.4ms)[0m   [0mSELECT * FROM "permissions" INNER JOIN "permissions_roles" ON "permissions".id = "permissions_roles".permission_id WHERE ("permissions_roles".role_id = 8 ) [0m
+  [4;36;1mPermission Load (0.3ms)[0m   [0;1mSELECT * FROM "permissions" INNER JOIN "permissions_roles" ON "permissions".id = "permissions_roles".permission_id WHERE ("permissions_roles".role_id = 10 ) [0m
+  [4;35;1mPermission Load (0.3ms)[0m   [0mSELECT * FROM "permissions" INNER JOIN "permissions_roles" ON "permissions".id = "permissions_roles".permission_id WHERE ("permissions_roles".role_id = 11 ) [0m
+  [4;36;1mPermission Load (0.3ms)[0m   [0;1mSELECT * FROM "permissions" INNER JOIN "permissions_roles" ON "permissions".id = "permissions_roles".permission_id WHERE ("permissions_roles".role_id = 13 ) [0m
+  [4;35;1mPermission Load (0.4ms)[0m   [0mSELECT * FROM "permissions" INNER JOIN "permissions_roles" ON "permissions".id = "permissions_roles".permission_id WHERE ("permissions_roles".role_id = 15 ) [0m
+  [4;36;1mPermission Load (0.3ms)[0m   [0;1mSELECT * FROM "permissions" INNER JOIN "permissions_roles" ON "permissions".id = "permissions_roles".permission_id WHERE ("permissions_roles".role_id = 20 ) [0m
+  [4;35;1mRole Load (0.6ms)[0m   [0mSELECT * FROM "roles" INNER JOIN "roles_users" ON "roles".id = "roles_users".role_id WHERE ("roles_users".user_id = 87 ) [0m
+  [4;36;1mPermission Load (0.3ms)[0m   [0;1mSELECT * FROM "permissions" INNER JOIN "permissions_roles" ON "permissions".id = "permissions_roles".permission_id WHERE ("permissions_roles".role_id = 5 ) [0m
+  [4;35;1mPermission Load (1.7ms)[0m   [0mSELECT * FROM "permissions" INNER JOIN "permissions_roles" ON "permissions".id = "permissions_roles".permission_id WHERE ("permissions_roles".role_id = 1 ) [0m
+  [4;36;1mPermission Load (0.4ms)[0m   [0;1mSELECT * FROM "permissions" INNER JOIN "permissions_roles" ON "permissions".id = "permissions_roles".permission_id WHERE ("permissions_roles".role_id = 9 ) [0m
+  [4;35;1mRole Load (0.3ms)[0m   [0mSELECT * FROM "roles" WHERE ("roles"."name" = 'everyone') LIMIT 1[0m
+  [4;36;1mPermission Load (0.3ms)[0m   [0;1mSELECT * FROM "permissions" INNER JOIN "permissions_roles" ON "permissions".id = "permissions_roles".permission_id WHERE ("permissions_roles".role_id = 3 ) [0m
+Cache write (will save 37.35ms): user_permission_strings_87
+  [4;35;1mPayformConfiguration Load (0.4ms)[0m   [0mSELECT * FROM "payform_configurations" WHERE ("payform_configurations".department_id = 2) LIMIT 1[0m
+  [4;36;1mPermission Load (0.2ms)[0m   [0;1mSELECT * FROM "permissions" WHERE ("permissions"."id" = 62) [0m
+Cache hit: user_permission_strings_87 ({})
+  [4;35;1mPayformConfiguration Load (0.4ms)[0m   [0mSELECT * FROM "payform_configurations" WHERE ("payform_configurations".department_id = 4) LIMIT 1[0m
+  [4;36;1mPermission Load (0.2ms)[0m   [0;1mSELECT * FROM "permissions" WHERE ("permissions"."id" = 86) [0m
+Cache hit: user_permission_strings_87 ({})
+  [4;35;1mPayformConfiguration Load (0.4ms)[0m   [0mSELECT * FROM "payform_configurations" WHERE ("payform_configurations".department_id = 3) LIMIT 1[0m
+  [4;36;1mPermission Load (0.2ms)[0m   [0;1mSELECT * FROM "permissions" WHERE ("permissions"."id" = 68) [0m
+Cache hit: user_permission_strings_87 ({})
+  [4;35;1mPayformConfiguration Load (0.4ms)[0m   [0mSELECT * FROM "payform_configurations" WHERE ("payform_configurations".department_id = 6) LIMIT 1[0m
+  [4;36;1mPermission Load (0.2ms)[0m   [0;1mSELECT * FROM "permissions" WHERE ("permissions"."id" = 101) [0m
+Cache hit: user_permission_strings_87 ({})
+  [4;35;1mPayformConfiguration Load (0.4ms)[0m   [0mSELECT * FROM "payform_configurations" WHERE ("payform_configurations".department_id = 1) LIMIT 1[0m
+  [4;36;1mPermission Load (0.2ms)[0m   [0;1mSELECT * FROM "permissions" WHERE ("permissions"."id" = 25) [0m
+Cache hit: user_permission_strings_87 ({})
+  [4;35;1mDepartment Load (0.2ms)[0m   [0mSELECT * FROM "departments" WHERE ("departments"."id" IS NULL) LIMIT 1[0m
+  [4;36;1mDepartment Load (0.2ms)[0m   [0;1mSELECT * FROM "departments" WHERE ("departments"."id" = 1) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 87) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "payform_configurations" WHERE ("payform_configurations".department_id = 1) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "permissions" WHERE ("permissions"."id" = 25) [0m
+Cache hit: user_permission_strings_87 ({})
+  [4;36;1mPayform Load (0.3ms)[0m   [0;1mSELECT * FROM "payforms" WHERE (user_id = 87 and week = 23 and year = 2009 and department_id = 1) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 87) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "departments" WHERE ("departments"."id" = 1) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "payform_configurations" WHERE ("payform_configurations".department_id = 1) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "permissions" WHERE ("permissions"."id" = 25) [0m
+Cache hit: user_permission_strings_87 ({})
+  [4;35;1mPayform Create (0.4ms)[0m   [0mINSERT INTO "payforms" ("approved_by", "created_at", "week", "printed", "updated_at", "approved", "user_id", "year", "submitted", "department_id") VALUES(NULL, '2009-06-03 11:43:47', 23, NULL, '2009-06-03 11:43:47', NULL, 87, 2009, NULL, 1)[0m
+Redirected to http://localhost:3000/payform/view/54
+Completed in 405ms (DB: 14) | 302 Found [http://localhost/payform]
+
+
+Processing PayformController#view (for 127.0.0.1 at 2009-06-03 11:43:48) [GET]
+  Parameters: {"id"=>"54"}
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 87) [0m
+Cache delete: user_permission_strings_87
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 87) [0m
+  [4;36;1mDepartment Load (0.7ms)[0m   [0;1mSELECT * FROM "departments" ORDER BY name[0m
+  [4;35;1mPayformConfiguration Load (0.5ms)[0m   [0mSELECT * FROM "payform_configurations" WHERE ("payform_configurations".department_id = 5) LIMIT 1[0m
+  [4;36;1mPermission Load (0.3ms)[0m   [0;1mSELECT * FROM "permissions" WHERE ("permissions"."id" = 92) [0m
+Cache miss: user_permission_strings_87 ({})
+  [4;35;1mGroup Load (0.4ms)[0m   [0mSELECT * FROM "groups" INNER JOIN "groups_users" ON "groups".id = "groups_users".group_id WHERE ("groups_users".user_id = 87 ) [0m
+  [4;36;1mRole Load (0.8ms)[0m   [0;1mSELECT * FROM "roles" INNER JOIN "groups_roles" ON "roles".id = "groups_roles".role_id WHERE ("groups_roles".group_id = 2 ) [0m
+  [4;35;1mPermission Load (0.3ms)[0m   [0mSELECT * FROM "permissions" INNER JOIN "permissions_roles" ON "permissions".id = "permissions_roles".permission_id WHERE ("permissions_roles".role_id = 8 ) [0m
+  [4;36;1mPermission Load (0.3ms)[0m   [0;1mSELECT * FROM "permissions" INNER JOIN "permissions_roles" ON "permissions".id = "permissions_roles".permission_id WHERE ("permissions_roles".role_id = 10 ) [0m
+  [4;35;1mPermission Load (0.3ms)[0m   [0mSELECT * FROM "permissions" INNER JOIN "permissions_roles" ON "permissions".id = "permissions_roles".permission_id WHERE ("permissions_roles".role_id = 11 ) [0m
+  [4;36;1mPermission Load (0.3ms)[0m   [0;1mSELECT * FROM "permissions" INNER JOIN "permissions_roles" ON "permissions".id = "permissions_roles".permission_id WHERE ("permissions_roles".role_id = 13 ) [0m
+  [4;35;1mPermission Load (0.4ms)[0m   [0mSELECT * FROM "permissions" INNER JOIN "permissions_roles" ON "permissions".id = "permissions_roles".permission_id WHERE ("permissions_roles".role_id = 15 ) [0m
+  [4;36;1mPermission Load (0.3ms)[0m   [0;1mSELECT * FROM "permissions" INNER JOIN "permissions_roles" ON "permissions".id = "permissions_roles".permission_id WHERE ("permissions_roles".role_id = 20 ) [0m
+  [4;35;1mRole Load (0.6ms)[0m   [0mSELECT * FROM "roles" INNER JOIN "roles_users" ON "roles".id = "roles_users".role_id WHERE ("roles_users".user_id = 87 ) [0m
+  [4;36;1mPermission Load (0.3ms)[0m   [0;1mSELECT * FROM "permissions" INNER JOIN "permissions_roles" ON "permissions".id = "permissions_roles".permission_id WHERE ("permissions_roles".role_id = 5 ) [0m
+  [4;35;1mPermission Load (1.9ms)[0m   [0mSELECT * FROM "permissions" INNER JOIN "permissions_roles" ON "permissions".id = "permissions_roles".permission_id WHERE ("permissions_roles".role_id = 1 ) [0m
+  [4;36;1mPermission Load (0.3ms)[0m   [0;1mSELECT * FROM "permissions" INNER JOIN "permissions_roles" ON "permissions".id = "permissions_roles".permission_id WHERE ("permissions_roles".role_id = 9 ) [0m
+  [4;35;1mRole Load (0.3ms)[0m   [0mSELECT * FROM "roles" WHERE ("roles"."name" = 'everyone') LIMIT 1[0m
+  [4;36;1mPermission Load (0.3ms)[0m   [0;1mSELECT * FROM "permissions" INNER JOIN "permissions_roles" ON "permissions".id = "permissions_roles".permission_id WHERE ("permissions_roles".role_id = 3 ) [0m
+Cache write (will save 36.23ms): user_permission_strings_87
+  [4;35;1mPayformConfiguration Load (0.4ms)[0m   [0mSELECT * FROM "payform_configurations" WHERE ("payform_configurations".department_id = 2) LIMIT 1[0m
+  [4;36;1mPermission Load (0.2ms)[0m   [0;1mSELECT * FROM "permissions" WHERE ("permissions"."id" = 62) [0m
+Cache hit: user_permission_strings_87 ({})
+  [4;35;1mPayformConfiguration Load (0.4ms)[0m   [0mSELECT * FROM "payform_configurations" WHERE ("payform_configurations".department_id = 4) LIMIT 1[0m
+  [4;36;1mPermission Load (0.2ms)[0m   [0;1mSELECT * FROM "permissions" WHERE ("permissions"."id" = 86) [0m
+Cache hit: user_permission_strings_87 ({})
+  [4;35;1mPayformConfiguration Load (0.6ms)[0m   [0mSELECT * FROM "payform_configurations" WHERE ("payform_configurations".department_id = 3) LIMIT 1[0m
+  [4;36;1mPermission Load (0.2ms)[0m   [0;1mSELECT * FROM "permissions" WHERE ("permissions"."id" = 68) [0m
+Cache hit: user_permission_strings_87 ({})
+  [4;35;1mPayformConfiguration Load (0.5ms)[0m   [0mSELECT * FROM "payform_configurations" WHERE ("payform_configurations".department_id = 6) LIMIT 1[0m
+  [4;36;1mPermission Load (0.2ms)[0m   [0;1mSELECT * FROM "permissions" WHERE ("permissions"."id" = 101) [0m
+Cache hit: user_permission_strings_87 ({})
+  [4;35;1mPayformConfiguration Load (0.5ms)[0m   [0mSELECT * FROM "payform_configurations" WHERE ("payform_configurations".department_id = 1) LIMIT 1[0m
+  [4;36;1mPermission Load (0.3ms)[0m   [0;1mSELECT * FROM "permissions" WHERE ("permissions"."id" = 25) [0m
+Cache hit: user_permission_strings_87 ({})
+  [4;35;1mPayform Load (0.4ms)[0m   [0mSELECT * FROM "payforms" WHERE ("payforms"."id" = '54') LIMIT 1[0m
+  [4;36;1mShiftReport Load (0.3ms)[0m   [0;1mSELECT * FROM "shift_reports" WHERE ("shift_reports"."payform_auto_added" = 'f') [0m
+  [4;35;1mDepartment Load (0.3ms)[0m   [0mSELECT * FROM "departments" WHERE ("departments"."id" = 1) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "payform_configurations" WHERE ("payform_configurations".department_id = 1) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "permissions" WHERE ("permissions"."id" = 25) [0m
+Cache hit: user_permission_strings_87 ({})
+  [4;36;1mClock Load (0.2ms)[0m   [0;1mSELECT * FROM "clocks" WHERE ("clocks"."user_id" = 87) LIMIT 1[0m
+  [4;35;1mClock Create (0.4ms)[0m   [0mINSERT INTO "clocks" ("mass_clock_id", "created_at", "out", "updated_at", "in", "start", "user_id", "department_id") VALUES(NULL, '2009-06-03 11:43:48', NULL, '2009-06-03 11:43:48', NULL, NULL, 87, 1)[0m
+Rendering template within layouts/payform
+Rendering payform/view
+Rendered payform/_change_week (13.8ms)
+Rendered payform/_punch_clock (11.5ms)
+Rendered payform/_payform_status (3.4ms)
+  [4;36;1mCategory Load (3.5ms)[0m   [0;1mSELECT * FROM "categories" WHERE ("categories".department_id = 1) [0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSELECT count(*) AS count_all FROM "payform_items" INNER JOIN "payform_items_payforms" ON "payform_items".id = "payform_items_payforms".payform_item_id WHERE ((((active = 't') AND (category_id = 1)) AND ("payform_items_payforms".payform_id = 54 )) AND ("payform_items_payforms".payform_id = 54 )) [0m
+Rendered payform/_category (22.3ms)
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSELECT count(*) AS count_all FROM "payform_items" INNER JOIN "payform_items_payforms" ON "payform_items".id = "payform_items_payforms".payform_item_id WHERE ((((active = 't') AND (category_id = 2)) AND ("payform_items_payforms".payform_id = 54 )) AND ("payform_items_payforms".payform_id = 54 )) [0m
+Rendered payform/_category (62.1ms)
+  [4;35;1mSQL (0.3ms)[0m   [0mSELECT count(*) AS count_all FROM "payform_items" INNER JOIN "payform_items_payforms" ON "payform_items".id = "payform_items_payforms".payform_item_id WHERE ((((active = 't') AND (category_id = 3)) AND ("payform_items_payforms".payform_id = 54 )) AND ("payform_items_payforms".payform_id = 54 )) [0m
+Rendered payform/_category (3.2ms)
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSELECT count(*) AS count_all FROM "payform_items" INNER JOIN "payform_items_payforms" ON "payform_items".id = "payform_items_payforms".payform_item_id WHERE ((((active = 't') AND (category_id = 4)) AND ("payform_items_payforms".payform_id = 54 )) AND ("payform_items_payforms".payform_id = 54 )) [0m
+Rendered payform/_category (3.0ms)
+  [4;35;1mSQL (0.4ms)[0m   [0mSELECT count(*) AS count_all FROM "payform_items" INNER JOIN "payform_items_payforms" ON "payform_items".id = "payform_items_payforms".payform_item_id WHERE ((((active = 't') AND (category_id = 5)) AND ("payform_items_payforms".payform_id = 54 )) AND ("payform_items_payforms".payform_id = 54 )) [0m
+Rendered payform/_category (2.9ms)
+  [4;36;1mSQL (0.5ms)[0m   [0;1mSELECT count(*) AS count_all FROM "payform_items" INNER JOIN "payform_items_payforms" ON "payform_items".id = "payform_items_payforms".payform_item_id WHERE ((((active = 't') AND (category_id = 6)) AND ("payform_items_payforms".payform_id = 54 )) AND ("payform_items_payforms".payform_id = 54 )) [0m
+Rendered payform/_category (3.0ms)
+  [4;35;1mSQL (0.3ms)[0m   [0mSELECT count(*) AS count_all FROM "payform_items" INNER JOIN "payform_items_payforms" ON "payform_items".id = "payform_items_payforms".payform_item_id WHERE ((((active = 't') AND (category_id = 7)) AND ("payform_items_payforms".payform_id = 54 )) AND ("payform_items_payforms".payform_id = 54 )) [0m
+Rendered payform/_category (2.8ms)
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSELECT count(*) AS count_all FROM "payform_items" INNER JOIN "payform_items_payforms" ON "payform_items".id = "payform_items_payforms".payform_item_id WHERE ((((active = 't') AND (category_id = 8)) AND ("payform_items_payforms".payform_id = 54 )) AND ("payform_items_payforms".payform_id = 54 )) [0m
+Rendered payform/_category (2.9ms)
+  [4;35;1mSQL (0.3ms)[0m   [0mSELECT count(*) AS count_all FROM "payform_items" INNER JOIN "payform_items_payforms" ON "payform_items".id = "payform_items_payforms".payform_item_id WHERE ((((active = 't') AND (category_id = 9)) AND ("payform_items_payforms".payform_id = 54 )) AND ("payform_items_payforms".payform_id = 54 )) [0m
+Rendered payform/_category (3.0ms)
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSELECT count(*) AS count_all FROM "payform_items" INNER JOIN "payform_items_payforms" ON "payform_items".id = "payform_items_payforms".payform_item_id WHERE ((((active = 't') AND (category_id = 10)) AND ("payform_items_payforms".payform_id = 54 )) AND ("payform_items_payforms".payform_id = 54 )) [0m
+Rendered payform/_category (2.8ms)
+  [4;35;1mSQL (0.4ms)[0m   [0mSELECT count(*) AS count_all FROM "payform_items" INNER JOIN "payform_items_payforms" ON "payform_items".id = "payform_items_payforms".payform_item_id WHERE ((((active = 't') AND (category_id = 11)) AND ("payform_items_payforms".payform_id = 54 )) AND ("payform_items_payforms".payform_id = 54 )) [0m
+Rendered payform/_category (3.3ms)
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSELECT count(*) AS count_all FROM "payform_items" INNER JOIN "payform_items_payforms" ON "payform_items".id = "payform_items_payforms".payform_item_id WHERE ((((active = 't') AND (category_id = 12)) AND ("payform_items_payforms".payform_id = 54 )) AND ("payform_items_payforms".payform_id = 54 )) [0m
+Rendered payform/_category (3.3ms)
+  [4;35;1mSQL (0.3ms)[0m   [0mSELECT count(*) AS count_all FROM "payform_items" INNER JOIN "payform_items_payforms" ON "payform_items".id = "payform_items_payforms".payform_item_id WHERE ((((active = 't') AND (category_id = 13)) AND ("payform_items_payforms".payform_id = 54 )) AND ("payform_items_payforms".payform_id = 54 )) [0m
+Rendered payform/_category (2.8ms)
+  [4;36;1mPayformItem Load (0.2ms)[0m   [0;1mSELECT * FROM "payform_items" INNER JOIN "payform_items_payforms" ON "payform_items".id = "payform_items_payforms".payform_item_id WHERE ("payform_items_payforms".payform_id = 54 ) [0m
+  [4;35;1mCategory Load (1.0ms)[0m   [0mSELECT * FROM "categories" WHERE (department_id = 1 and active = 1) [0m
+Rendered payform/_category (4.5ms)
+  [4;36;1mPayformItem Load (0.3ms)[0m   [0;1mSELECT * FROM "payform_items" INNER JOIN "payform_items_payforms" ON "payform_items".id = "payform_items_payforms".payform_item_id WHERE ("payform_items_payforms".payform_id = 54 ) AND ((active = 't') AND ("payform_items_payforms".payform_id = 54 )) [0m
+Rendered payform/_payform_button (1.3ms)
+Rendered payform/_payform (167.5ms)
+Rendered layouts/include/_chooser (1.2ms)
+Completed in 658ms (View: 256, DB: 24) | 200 OK [http://localhost/payform/view/54]
+
+
+Processing PayformController#add_job (for 127.0.0.1 at 2009-06-03 11:43:52) [GET]
+  Parameters: {"id"=>"54"}
+  [4;35;1mUser Load (0.4ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 87) [0m
+Cache delete: user_permission_strings_87
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 87) [0m
+  [4;35;1mDepartment Load (0.8ms)[0m   [0mSELECT * FROM "departments" ORDER BY name[0m
+  [4;36;1mPayformConfiguration Load (0.5ms)[0m   [0;1mSELECT * FROM "payform_configurations" WHERE ("payform_configurations".department_id = 5) LIMIT 1[0m
+  [4;35;1mPermission Load (0.3ms)[0m   [0mSELECT * FROM "permissions" WHERE ("permissions"."id" = 92) [0m
+Cache miss: user_permission_strings_87 ({})
+  [4;36;1mGroup Load (0.4ms)[0m   [0;1mSELECT * FROM "groups" INNER JOIN "groups_users" ON "groups".id = "groups_users".group_id WHERE ("groups_users".user_id = 87 ) [0m
+  [4;35;1mRole Load (0.9ms)[0m   [0mSELECT * FROM "roles" INNER JOIN "groups_roles" ON "roles".id = "groups_roles".role_id WHERE ("groups_roles".group_id = 2 ) [0m
+  [4;36;1mPermission Load (0.4ms)[0m   [0;1mSELECT * FROM "permissions" INNER JOIN "permissions_roles" ON "permissions".id = "permissions_roles".permission_id WHERE ("permissions_roles".role_id = 8 ) [0m
+  [4;35;1mPermission Load (0.3ms)[0m   [0mSELECT * FROM "permissions" INNER JOIN "permissions_roles" ON "permissions".id = "permissions_roles".permission_id WHERE ("permissions_roles".role_id = 10 ) [0m
+  [4;36;1mPermission Load (0.3ms)[0m   [0;1mSELECT * FROM "permissions" INNER JOIN "permissions_roles" ON "permissions".id = "permissions_roles".permission_id WHERE ("permissions_roles".role_id = 11 ) [0m
+  [4;35;1mPermission Load (0.3ms)[0m   [0mSELECT * FROM "permissions" INNER JOIN "permissions_roles" ON "permissions".id = "permissions_roles".permission_id WHERE ("permissions_roles".role_id = 13 ) [0m
+  [4;36;1mPermission Load (0.4ms)[0m   [0;1mSELECT * FROM "permissions" INNER JOIN "permissions_roles" ON "permissions".id = "permissions_roles".permission_id WHERE ("permissions_roles".role_id = 15 ) [0m
+  [4;35;1mPermission Load (0.3ms)[0m   [0mSELECT * FROM "permissions" INNER JOIN "permissions_roles" ON "permissions".id = "permissions_roles".permission_id WHERE ("permissions_roles".role_id = 20 ) [0m
+  [4;36;1mRole Load (0.5ms)[0m   [0;1mSELECT * FROM "roles" INNER JOIN "roles_users" ON "roles".id = "roles_users".role_id WHERE ("roles_users".user_id = 87 ) [0m
+  [4;35;1mPermission Load (0.2ms)[0m   [0mSELECT * FROM "permissions" INNER JOIN "permissions_roles" ON "permissions".id = "permissions_roles".permission_id WHERE ("permissions_roles".role_id = 5 ) [0m
+  [4;36;1mPermission Load (1.6ms)[0m   [0;1mSELECT * FROM "permissions" INNER JOIN "permissions_roles" ON "permissions".id = "permissions_roles".permission_id WHERE ("permissions_roles".role_id = 1 ) [0m
+  [4;35;1mPermission Load (0.3ms)[0m   [0mSELECT * FROM "permissions" INNER JOIN "permissions_roles" ON "permissions".id = "permissions_roles".permission_id WHERE ("permissions_roles".role_id = 9 ) [0m
+  [4;36;1mRole Load (0.3ms)[0m   [0;1mSELECT * FROM "roles" WHERE ("roles"."name" = 'everyone') LIMIT 1[0m
+  [4;35;1mPermission Load (0.3ms)[0m   [0mSELECT * FROM "permissions" INNER JOIN "permissions_roles" ON "permissions".id = "permissions_roles".permission_id WHERE ("permissions_roles".role_id = 3 ) [0m
+Cache write (will save 36.69ms): user_permission_strings_87
+  [4;36;1mPayformConfiguration Load (0.5ms)[0m   [0;1mSELECT * FROM "payform_configurations" WHERE ("payform_configurations".department_id = 2) LIMIT 1[0m
+  [4;35;1mPermission Load (0.2ms)[0m   [0mSELECT * FROM "permissions" WHERE ("permissions"."id" = 62) [0m
+Cache hit: user_permission_strings_87 ({})
+  [4;36;1mPayformConfiguration Load (0.4ms)[0m   [0;1mSELECT * FROM "payform_configurations" WHERE ("payform_configurations".department_id = 4) LIMIT 1[0m
+  [4;35;1mPermission Load (0.2ms)[0m   [0mSELECT * FROM "permissions" WHERE ("permissions"."id" = 86) [0m
+Cache hit: user_permission_strings_87 ({})
+  [4;36;1mPayformConfiguration Load (0.5ms)[0m   [0;1mSELECT * FROM "payform_configurations" WHERE ("payform_configurations".department_id = 3) LIMIT 1[0m
+  [4;35;1mPermission Load (0.3ms)[0m   [0mSELECT * FROM "permissions" WHERE ("permissions"."id" = 68) [0m
+Cache hit: user_permission_strings_87 ({})
+  [4;36;1mPayformConfiguration Load (0.4ms)[0m   [0;1mSELECT * FROM "payform_configurations" WHERE ("payform_configurations".department_id = 6) LIMIT 1[0m
+  [4;35;1mPermission Load (0.2ms)[0m   [0mSELECT * FROM "permissions" WHERE ("permissions"."id" = 101) [0m
+Cache hit: user_permission_strings_87 ({})
+  [4;36;1mPayformConfiguration Load (0.4ms)[0m   [0;1mSELECT * FROM "payform_configurations" WHERE ("payform_configurations".department_id = 1) LIMIT 1[0m
+  [4;35;1mPermission Load (0.2ms)[0m   [0mSELECT * FROM "permissions" WHERE ("permissions"."id" = 25) [0m
+Cache hit: user_permission_strings_87 ({})
+  [4;36;1mPayform Load (0.5ms)[0m   [0;1mSELECT * FROM "payforms" WHERE ("payforms"."id" = '54') LIMIT 1[0m
+  [4;35;1mDepartment Load (0.3ms)[0m   [0mSELECT * FROM "departments" WHERE ("departments"."id" = 1) LIMIT 1[0m
+  [4;36;1mDepartment Load (0.3ms)[0m   [0;1mSELECT * FROM "departments" WHERE ("departments"."id" = 1) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "payform_configurations" WHERE ("payform_configurations".department_id = 1) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "permissions" WHERE ("permissions"."id" = 25) [0m
+Cache hit: user_permission_strings_87 ({})
+  [4;35;1mCategory Load (1.2ms)[0m   [0mSELECT * FROM "categories" WHERE (department_id = 1 and active = 1) [0m
+Rendered payform/_job_fields_horizontal (23.3ms)
+Rendered payform/_quick_add_job (30.5ms)
+Completed in 316ms (View: 40, DB: 15) | 200 OK [http://localhost/payform/add_job/54]
+
+
+Processing PayformController#add_job (for 127.0.0.1 at 2009-06-03 11:44:03) [POST]
+  Parameters: {"calculate_hours"=>"user_input", "time_input"=>{"end(4i)"=>"11", "end(5i)"=>"43", "end(7i)"=>"-1", "start(1i)"=>"2009", "start(2i)"=>"6", "start(3i)"=>"3", "start(4i)"=>"11", "end(1i)"=>"2009", "start(5i)"=>"43", "end(2i)"=>"6", "end(3i)"=>"3", "start(7i)"=>"-1"}, "id"=>"54", "date"=>"2009-06-03", "other"=>{"minutes"=>"0"}, "add_job_button"=>"Add Job", "payform_item"=>{"category_id"=>"4", "description"=>"LAlalal", "hours"=>"0"}, "quick_add_job_id"=>""}
+  [4;36;1mUser Load (0.8ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 87) [0m
+Cache delete: user_permission_strings_87
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 87) [0m
+  [4;36;1mDepartment Load (0.8ms)[0m   [0;1mSELECT * FROM "departments" ORDER BY name[0m
+  [4;35;1mPayformConfiguration Load (0.5ms)[0m   [0mSELECT * FROM "payform_configurations" WHERE ("payform_configurations".department_id = 5) LIMIT 1[0m
+  [4;36;1mPermission Load (0.3ms)[0m   [0;1mSELECT * FROM "permissions" WHERE ("permissions"."id" = 92) [0m
+Cache miss: user_permission_strings_87 ({})
+  [4;35;1mGroup Load (0.4ms)[0m   [0mSELECT * FROM "groups" INNER JOIN "groups_users" ON "groups".id = "groups_users".group_id WHERE ("groups_users".user_id = 87 ) [0m
+  [4;36;1mRole Load (0.8ms)[0m   [0;1mSELECT * FROM "roles" INNER JOIN "groups_roles" ON "roles".id = "groups_roles".role_id WHERE ("groups_roles".group_id = 2 ) [0m
+  [4;35;1mPermission Load (0.3ms)[0m   [0mSELECT * FROM "permissions" INNER JOIN "permissions_roles" ON "permissions".id = "permissions_roles".permission_id WHERE ("permissions_roles".role_id = 8 ) [0m
+  [4;36;1mPermission Load (0.3ms)[0m   [0;1mSELECT * FROM "permissions" INNER JOIN "permissions_roles" ON "permissions".id = "permissions_roles".permission_id WHERE ("permissions_roles".role_id = 10 ) [0m
+  [4;35;1mPermission Load (0.3ms)[0m   [0mSELECT * FROM "permissions" INNER JOIN "permissions_roles" ON "permissions".id = "permissions_roles".permission_id WHERE ("permissions_roles".role_id = 11 ) [0m
+  [4;36;1mPermission Load (0.3ms)[0m   [0;1mSELECT * FROM "permissions" INNER JOIN "permissions_roles" ON "permissions".id = "permissions_roles".permission_id WHERE ("permissions_roles".role_id = 13 ) [0m
+  [4;35;1mPermission Load (0.4ms)[0m   [0mSELECT * FROM "permissions" INNER JOIN "permissions_roles" ON "permissions".id = "permissions_roles".permission_id WHERE ("permissions_roles".role_id = 15 ) [0m
+  [4;36;1mPermission Load (0.3ms)[0m   [0;1mSELECT * FROM "permissions" INNER JOIN "permissions_roles" ON "permissions".id = "permissions_roles".permission_id WHERE ("permissions_roles".role_id = 20 ) [0m
+  [4;35;1mRole Load (0.5ms)[0m   [0mSELECT * FROM "roles" INNER JOIN "roles_users" ON "roles".id = "roles_users".role_id WHERE ("roles_users".user_id = 87 ) [0m
+  [4;36;1mPermission Load (0.2ms)[0m   [0;1mSELECT * FROM "permissions" INNER JOIN "permissions_roles" ON "permissions".id = "permissions_roles".permission_id WHERE ("permissions_roles".role_id = 5 ) [0m
+  [4;35;1mPermission Load (1.7ms)[0m   [0mSELECT * FROM "permissions" INNER JOIN "permissions_roles" ON "permissions".id = "permissions_roles".permission_id WHERE ("permissions_roles".role_id = 1 ) [0m
+  [4;36;1mPermission Load (0.3ms)[0m   [0;1mSELECT * FROM "permissions" INNER JOIN "permissions_roles" ON "permissions".id = "permissions_roles".permission_id WHERE ("permissions_roles".role_id = 9 ) [0m
+  [4;35;1mRole Load (0.3ms)[0m   [0mSELECT * FROM "roles" WHERE ("roles"."name" = 'everyone') LIMIT 1[0m
+  [4;36;1mPermission Load (0.3ms)[0m   [0;1mSELECT * FROM "permissions" INNER JOIN "permissions_roles" ON "permissions".id = "permissions_roles".permission_id WHERE ("permissions_roles".role_id = 3 ) [0m
+Cache write (will save 37.20ms): user_permission_strings_87
+  [4;35;1mPayformConfiguration Load (0.4ms)[0m   [0mSELECT * FROM "payform_configurations" WHERE ("payform_configurations".department_id = 2) LIMIT 1[0m
+  [4;36;1mPermission Load (0.2ms)[0m   [0;1mSELECT * FROM "permissions" WHERE ("permissions"."id" = 62) [0m
+Cache hit: user_permission_strings_87 ({})
+  [4;35;1mPayformConfiguration Load (0.5ms)[0m   [0mSELECT * FROM "payform_configurations" WHERE ("payform_configurations".department_id = 4) LIMIT 1[0m
+  [4;36;1mPermission Load (0.2ms)[0m   [0;1mSELECT * FROM "permissions" WHERE ("permissions"."id" = 86) [0m
+Cache hit: user_permission_strings_87 ({})
+  [4;35;1mPayformConfiguration Load (0.4ms)[0m   [0mSELECT * FROM "payform_configurations" WHERE ("payform_configurations".department_id = 3) LIMIT 1[0m
+  [4;36;1mPermission Load (0.2ms)[0m   [0;1mSELECT * FROM "permissions" WHERE ("permissions"."id" = 68) [0m
+Cache hit: user_permission_strings_87 ({})
+  [4;35;1mPayformConfiguration Load (0.4ms)[0m   [0mSELECT * FROM "payform_configurations" WHERE ("payform_configurations".department_id = 6) LIMIT 1[0m
+  [4;36;1mPermission Load (0.2ms)[0m   [0;1mSELECT * FROM "permissions" WHERE ("permissions"."id" = 101) [0m
+Cache hit: user_permission_strings_87 ({})
+  [4;35;1mPayformConfiguration Load (0.4ms)[0m   [0mSELECT * FROM "payform_configurations" WHERE ("payform_configurations".department_id = 1) LIMIT 1[0m
+  [4;36;1mPermission Load (0.2ms)[0m   [0;1mSELECT * FROM "permissions" WHERE ("permissions"."id" = 25) [0m
+Cache hit: user_permission_strings_87 ({})
+  [4;35;1mPayform Load (0.4ms)[0m   [0mSELECT * FROM "payforms" WHERE ("payforms"."id" = '54') LIMIT 1[0m
+  [4;36;1mDepartment Load (0.3ms)[0m   [0;1mSELECT * FROM "departments" WHERE ("departments"."id" = 1) LIMIT 1[0m
+  [4;35;1mDepartment Load (0.3ms)[0m   [0mSELECT * FROM "departments" WHERE ("departments"."id" = 1) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "payform_configurations" WHERE ("payform_configurations".department_id = 1) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "permissions" WHERE ("permissions"."id" = 25) [0m
+Cache hit: user_permission_strings_87 ({})
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 87) [0m
+Cache hit: user_permission_strings_87 ({})
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "payform_configurations" WHERE ("payform_configurations".department_id = 1) LIMIT 1[0m
+  [4;36;1mCategory Load (1.2ms)[0m   [0;1mSELECT * FROM "categories" WHERE (department_id = 1 and active = 1) [0m
+Rendered payform/_job_fields_horizontal (75.5ms)
+Rendered payform/_quick_add_job (81.7ms)
+Completed in 320ms (View: 90, DB: 15) | 200 OK [http://localhost/payform/add_job/54]
+
+
+Processing PayformController#add_job (for 127.0.0.1 at 2009-06-03 11:44:09) [POST]
+  Parameters: {"calculate_hours"=>"user_input", "time_input"=>{"end(4i)"=>"11", "end(5i)"=>"44", "end(7i)"=>"-1", "start(1i)"=>"2009", "start(2i)"=>"6", "start(3i)"=>"3", "start(4i)"=>"11", "end(1i)"=>"2009", "start(5i)"=>"44", "end(2i)"=>"6", "end(3i)"=>"3", "start(7i)"=>"-1"}, "id"=>"54", "date"=>"2009-06-03", "other"=>{"minutes"=>"19"}, "add_job_button"=>"Add Job", "payform_item"=>{"category_id"=>"4", "description"=>"LAlalal", "hours"=>"0"}, "quick_add_job_id"=>""}
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 87) [0m
+Cache delete: user_permission_strings_87
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 87) [0m
+  [4;35;1mDepartment Load (0.7ms)[0m   [0mSELECT * FROM "departments" ORDER BY name[0m
+  [4;36;1mPayformConfiguration Load (0.5ms)[0m   [0;1mSELECT * FROM "payform_configurations" WHERE ("payform_configurations".department_id = 5) LIMIT 1[0m
+  [4;35;1mPermission Load (0.3ms)[0m   [0mSELECT * FROM "permissions" WHERE ("permissions"."id" = 92) [0m
+Cache miss: user_permission_strings_87 ({})
+  [4;36;1mGroup Load (0.4ms)[0m   [0;1mSELECT * FROM "groups" INNER JOIN "groups_users" ON "groups".id = "groups_users".group_id WHERE ("groups_users".user_id = 87 ) [0m
+  [4;35;1mRole Load (0.9ms)[0m   [0mSELECT * FROM "roles" INNER JOIN "groups_roles" ON "roles".id = "groups_roles".role_id WHERE ("groups_roles".group_id = 2 ) [0m
+  [4;36;1mPermission Load (0.4ms)[0m   [0;1mSELECT * FROM "permissions" INNER JOIN "permissions_roles" ON "permissions".id = "permissions_roles".permission_id WHERE ("permissions_roles".role_id = 8 ) [0m
+  [4;35;1mPermission Load (0.3ms)[0m   [0mSELECT * FROM "permissions" INNER JOIN "permissions_roles" ON "permissions".id = "permissions_roles".permission_id WHERE ("permissions_roles".role_id = 10 ) [0m
+  [4;36;1mPermission Load (0.3ms)[0m   [0;1mSELECT * FROM "permissions" INNER JOIN "permissions_roles" ON "permissions".id = "permissions_roles".permission_id WHERE ("permissions_roles".role_id = 11 ) [0m
+  [4;35;1mPermission Load (0.4ms)[0m   [0mSELECT * FROM "permissions" INNER JOIN "permissions_roles" ON "permissions".id = "permissions_roles".permission_id WHERE ("permissions_roles".role_id = 13 ) [0m
+  [4;36;1mPermission Load (0.4ms)[0m   [0;1mSELECT * FROM "permissions" INNER JOIN "permissions_roles" ON "permissions".id = "permissions_roles".permission_id WHERE ("permissions_roles".role_id = 15 ) [0m
+  [4;35;1mPermission Load (0.3ms)[0m   [0mSELECT * FROM "permissions" INNER JOIN "permissions_roles" ON "permissions".id = "permissions_roles".permission_id WHERE ("permissions_roles".role_id = 20 ) [0m
+  [4;36;1mRole Load (0.5ms)[0m   [0;1mSELECT * FROM "roles" INNER JOIN "roles_users" ON "roles".id = "roles_users".role_id WHERE ("roles_users".user_id = 87 ) [0m
+  [4;35;1mPermission Load (0.2ms)[0m   [0mSELECT * FROM "permissions" INNER JOIN "permissions_roles" ON "permissions".id = "permissions_roles".permission_id WHERE ("permissions_roles".role_id = 5 ) [0m
+  [4;36;1mPermission Load (1.7ms)[0m   [0;1mSELECT * FROM "permissions" INNER JOIN "permissions_roles" ON "permissions".id = "permissions_roles".permission_id WHERE ("permissions_roles".role_id = 1 ) [0m
+  [4;35;1mPermission Load (0.3ms)[0m   [0mSELECT * FROM "permissions" INNER JOIN "permissions_roles" ON "permissions".id = "permissions_roles".permission_id WHERE ("permissions_roles".role_id = 9 ) [0m
+  [4;36;1mRole Load (0.3ms)[0m   [0;1mSELECT * FROM "roles" WHERE ("roles"."name" = 'everyone') LIMIT 1[0m
+  [4;35;1mPermission Load (0.3ms)[0m   [0mSELECT * FROM "permissions" INNER JOIN "permissions_roles" ON "permissions".id = "permissions_roles".permission_id WHERE ("permissions_roles".role_id = 3 ) [0m
+Cache write (will save 39.72ms): user_permission_strings_87
+  [4;36;1mPayformConfiguration Load (0.5ms)[0m   [0;1mSELECT * FROM "payform_configurations" WHERE ("payform_configurations".department_id = 2) LIMIT 1[0m
+  [4;35;1mPermission Load (0.2ms)[0m   [0mSELECT * FROM "permissions" WHERE ("permissions"."id" = 62) [0m
+Cache hit: user_permission_strings_87 ({})
+  [4;36;1mPayformConfiguration Load (0.4ms)[0m   [0;1mSELECT * FROM "payform_configurations" WHERE ("payform_configurations".department_id = 4) LIMIT 1[0m
+  [4;35;1mPermission Load (0.3ms)[0m   [0mSELECT * FROM "permissions" WHERE ("permissions"."id" = 86) [0m
+Cache hit: user_permission_strings_87 ({})
+  [4;36;1mPayformConfiguration Load (0.5ms)[0m   [0;1mSELECT * FROM "payform_configurations" WHERE ("payform_configurations".department_id = 3) LIMIT 1[0m
+  [4;35;1mPermission Load (0.2ms)[0m   [0mSELECT * FROM "permissions" WHERE ("permissions"."id" = 68) [0m
+Cache hit: user_permission_strings_87 ({})
+  [4;36;1mPayformConfiguration Load (0.4ms)[0m   [0;1mSELECT * FROM "payform_configurations" WHERE ("payform_configurations".department_id = 6) LIMIT 1[0m
+  [4;35;1mPermission Load (0.2ms)[0m   [0mSELECT * FROM "permissions" WHERE ("permissions"."id" = 101) [0m
+Cache hit: user_permission_strings_87 ({})
+  [4;36;1mPayformConfiguration Load (0.4ms)[0m   [0;1mSELECT * FROM "payform_configurations" WHERE ("payform_configurations".department_id = 1) LIMIT 1[0m
+  [4;35;1mPermission Load (0.2ms)[0m   [0mSELECT * FROM "permissions" WHERE ("permissions"."id" = 25) [0m
+Cache hit: user_permission_strings_87 ({})
+  [4;36;1mPayform Load (0.4ms)[0m   [0;1mSELECT * FROM "payforms" WHERE ("payforms"."id" = '54') LIMIT 1[0m
+  [4;35;1mDepartment Load (0.3ms)[0m   [0mSELECT * FROM "departments" WHERE ("departments"."id" = 1) LIMIT 1[0m
+  [4;36;1mDepartment Load (0.3ms)[0m   [0;1mSELECT * FROM "departments" WHERE ("departments"."id" = 1) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "payform_configurations" WHERE ("payform_configurations".department_id = 1) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "permissions" WHERE ("permissions"."id" = 25) [0m
+Cache hit: user_permission_strings_87 ({})
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 87) [0m
+Cache hit: user_permission_strings_87 ({})
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "payform_configurations" WHERE ("payform_configurations".department_id = 1) LIMIT 1[0m
+  [4;35;1mPayformItem Create (0.3ms)[0m   [0mINSERT INTO "payform_items" ("mass_clock_id", "created_at", "mass", "added_by", "updated_at", "date", "reason", "category_id", "hours", "description", "mass_job_id", "active", "department_id") VALUES(NULL, '2009-06-03 11:44:09', 'f', 'mpl36', '2009-06-03 11:44:09', '2009-06-03', NULL, 4, 0.316666666666667, 'LAlalal', NULL, 't', 1)[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mINSERT INTO "payform_items_payforms" ("payform_id", "payform_item_id") VALUES (54, 32)[0m
+Rendered payform/_payform_status (0.6ms)
+  [4;35;1mCategory Load (3.5ms)[0m   [0mSELECT * FROM "categories" WHERE ("categories".department_id = 1) [0m
+  [4;36;1mSQL (0.9ms)[0m   [0;1mSELECT count(*) AS count_all FROM "payform_items" INNER JOIN "payform_items_payforms" ON "payform_items".id = "payform_items_payforms".payform_item_id WHERE ((((active = 't') AND (category_id = 1)) AND ("payform_items_payforms".payform_id = 54 )) AND ("payform_items_payforms".payform_id = 54 )) [0m
+Rendered payform/_category (7.7ms)
+  [4;35;1mSQL (0.4ms)[0m   [0mSELECT count(*) AS count_all FROM "payform_items" INNER JOIN "payform_items_payforms" ON "payform_items".id = "payform_items_payforms".payform_item_id WHERE ((((active = 't') AND (category_id = 2)) AND ("payform_items_payforms".payform_id = 54 )) AND ("payform_items_payforms".payform_id = 54 )) [0m
+Rendered payform/_category (81.2ms)
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSELECT count(*) AS count_all FROM "payform_items" INNER JOIN "payform_items_payforms" ON "payform_items".id = "payform_items_payforms".payform_item_id WHERE ((((active = 't') AND (category_id = 3)) AND ("payform_items_payforms".payform_id = 54 )) AND ("payform_items_payforms".payform_id = 54 )) [0m
+Rendered payform/_category (3.5ms)
+  [4;35;1mSQL (0.3ms)[0m   [0mSELECT count(*) AS count_all FROM "payform_items" INNER JOIN "payform_items_payforms" ON "payform_items".id = "payform_items_payforms".payform_item_id WHERE ((((active = 't') AND (category_id = 4)) AND ("payform_items_payforms".payform_id = 54 )) AND ("payform_items_payforms".payform_id = 54 )) [0m
+  [4;36;1mPayformItem Load (0.6ms)[0m   [0;1mSELECT * FROM "payform_items" INNER JOIN "payform_items_payforms" ON "payform_items".id = "payform_items_payforms".payform_item_id WHERE ("payform_items_payforms".payform_id = 54 ) AND (((active = 't') AND (category_id = 4)) AND ("payform_items_payforms".payform_id = 54 )) [0m
+  [4;35;1mPayform Load (0.6ms)[0m   [0mSELECT * FROM "payforms" INNER JOIN "payform_items_payforms" ON "payforms".id = "payform_items_payforms".payform_id WHERE ("payform_items_payforms".payform_item_id = 32 ) [0m
+Rendered payform/_payform_item (6.3ms)
+Rendered payform/_category (15.9ms)
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSELECT count(*) AS count_all FROM "payform_items" INNER JOIN "payform_items_payforms" ON "payform_items".id = "payform_items_payforms".payform_item_id WHERE ((((active = 't') AND (category_id = 5)) AND ("payform_items_payforms".payform_id = 54 )) AND ("payform_items_payforms".payform_id = 54 )) [0m
+Rendered payform/_category (3.1ms)
+  [4;35;1mSQL (0.3ms)[0m   [0mSELECT count(*) AS count_all FROM "payform_items" INNER JOIN "payform_items_payforms" ON "payform_items".id = "payform_items_payforms".payform_item_id WHERE ((((active = 't') AND (category_id = 6)) AND ("payform_items_payforms".payform_id = 54 )) AND ("payform_items_payforms".payform_id = 54 )) [0m
+Rendered payform/_category (2.9ms)
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSELECT count(*) AS count_all FROM "payform_items" INNER JOIN "payform_items_payforms" ON "payform_items".id = "payform_items_payforms".payform_item_id WHERE ((((active = 't') AND (category_id = 7)) AND ("payform_items_payforms".payform_id = 54 )) AND ("payform_items_payforms".payform_id = 54 )) [0m
+Rendered payform/_category (2.9ms)
+  [4;35;1mSQL (0.3ms)[0m   [0mSELECT count(*) AS count_all FROM "payform_items" INNER JOIN "payform_items_payforms" ON "payform_items".id = "payform_items_payforms".payform_item_id WHERE ((((active = 't') AND (category_id = 8)) AND ("payform_items_payforms".payform_id = 54 )) AND ("payform_items_payforms".payform_id = 54 )) [0m
+Rendered payform/_category (2.8ms)
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSELECT count(*) AS count_all FROM "payform_items" INNER JOIN "payform_items_payforms" ON "payform_items".id = "payform_items_payforms".payform_item_id WHERE ((((active = 't') AND (category_id = 9)) AND ("payform_items_payforms".payform_id = 54 )) AND ("payform_items_payforms".payform_id = 54 )) [0m
+Rendered payform/_category (2.8ms)
+  [4;35;1mSQL (0.3ms)[0m   [0mSELECT count(*) AS count_all FROM "payform_items" INNER JOIN "payform_items_payforms" ON "payform_items".id = "payform_items_payforms".payform_item_id WHERE ((((active = 't') AND (category_id = 10)) AND ("payform_items_payforms".payform_id = 54 )) AND ("payform_items_payforms".payform_id = 54 )) [0m
+Rendered payform/_category (2.8ms)
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSELECT count(*) AS count_all FROM "payform_items" INNER JOIN "payform_items_payforms" ON "payform_items".id = "payform_items_payforms".payform_item_id WHERE ((((active = 't') AND (category_id = 11)) AND ("payform_items_payforms".payform_id = 54 )) AND ("payform_items_payforms".payform_id = 54 )) [0m
+Rendered payform/_category (2.7ms)
+  [4;35;1mSQL (0.3ms)[0m   [0mSELECT count(*) AS count_all FROM "payform_items" INNER JOIN "payform_items_payforms" ON "payform_items".id = "payform_items_payforms".payform_item_id WHERE ((((active = 't') AND (category_id = 12)) AND ("payform_items_payforms".payform_id = 54 )) AND ("payform_items_payforms".payform_id = 54 )) [0m
+Rendered payform/_category (2.7ms)
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSELECT count(*) AS count_all FROM "payform_items" INNER JOIN "payform_items_payforms" ON "payform_items".id = "payform_items_payforms".payform_item_id WHERE ((((active = 't') AND (category_id = 13)) AND ("payform_items_payforms".payform_id = 54 )) AND ("payform_items_payforms".payform_id = 54 )) [0m
+Rendered payform/_category (2.8ms)
+  [4;35;1mPayformItem Load (0.6ms)[0m   [0mSELECT * FROM "payform_items" INNER JOIN "payform_items_payforms" ON "payform_items".id = "payform_items_payforms".payform_item_id WHERE ("payform_items_payforms".payform_id = 54 ) [0m
+  [4;36;1mCategory Load (1.0ms)[0m   [0;1mSELECT * FROM "categories" WHERE (department_id = 1 and active = 1) [0m
+Rendered payform/_category (3.5ms)
+  [4;35;1mPayformItem Load (0.5ms)[0m   [0mSELECT * FROM "payform_items" INNER JOIN "payform_items_payforms" ON "payform_items".id = "payform_items_payforms".payform_item_id WHERE ("payform_items_payforms".payform_id = 54 ) AND ((active = 't') AND ("payform_items_payforms".payform_id = 54 )) [0m
+Rendered payform/_payform_button (0.5ms)
+Rendered payform/_payform (168.9ms)
+Rendered payform/_payform_button (0.3ms)
+Completed in 567ms (View: 165, DB: 26) | 200 OK [http://localhost/payform/add_job/54]
+
+
+Processing PayformController#submit (for 127.0.0.1 at 2009-06-03 11:44:18) [POST]
+  Parameters: {"id"=>"54"}
+  [4;36;1mUser Load (0.4ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 87) [0m
+Cache delete: user_permission_strings_87
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 87) [0m
+  [4;36;1mDepartment Load (0.8ms)[0m   [0;1mSELECT * FROM "departments" ORDER BY name[0m
+  [4;35;1mPayformConfiguration Load (0.6ms)[0m   [0mSELECT * FROM "payform_configurations" WHERE ("payform_configurations".department_id = 5) LIMIT 1[0m
+  [4;36;1mPermission Load (0.3ms)[0m   [0;1mSELECT * FROM "permissions" WHERE ("permissions"."id" = 92) [0m
+Cache miss: user_permission_strings_87 ({})
+  [4;35;1mGroup Load (0.4ms)[0m   [0mSELECT * FROM "groups" INNER JOIN "groups_users" ON "groups".id = "groups_users".group_id WHERE ("groups_users".user_id = 87 ) [0m
+  [4;36;1mRole Load (0.9ms)[0m   [0;1mSELECT * FROM "roles" INNER JOIN "groups_roles" ON "roles".id = "groups_roles".role_id WHERE ("groups_roles".group_id = 2 ) [0m
+  [4;35;1mPermission Load (0.4ms)[0m   [0mSELECT * FROM "permissions" INNER JOIN "permissions_roles" ON "permissions".id = "permissions_roles".permission_id WHERE ("permissions_roles".role_id = 8 ) [0m
+  [4;36;1mPermission Load (0.3ms)[0m   [0;1mSELECT * FROM "permissions" INNER JOIN "permissions_roles" ON "permissions".id = "permissions_roles".permission_id WHERE ("permissions_roles".role_id = 10 ) [0m
+  [4;35;1mPermission Load (0.3ms)[0m   [0mSELECT * FROM "permissions" INNER JOIN "permissions_roles" ON "permissions".id = "permissions_roles".permission_id WHERE ("permissions_roles".role_id = 11 ) [0m
+  [4;36;1mPermission Load (0.3ms)[0m   [0;1mSELECT * FROM "permissions" INNER JOIN "permissions_roles" ON "permissions".id = "permissions_roles".permission_id WHERE ("permissions_roles".role_id = 13 ) [0m
+  [4;35;1mPermission Load (0.5ms)[0m   [0mSELECT * FROM "permissions" INNER JOIN "permissions_roles" ON "permissions".id = "permissions_roles".permission_id WHERE ("permissions_roles".role_id = 15 ) [0m
+  [4;36;1mPermission Load (0.3ms)[0m   [0;1mSELECT * FROM "permissions" INNER JOIN "permissions_roles" ON "permissions".id = "permissions_roles".permission_id WHERE ("permissions_roles".role_id = 20 ) [0m
+  [4;35;1mRole Load (0.5ms)[0m   [0mSELECT * FROM "roles" INNER JOIN "roles_users" ON "roles".id = "roles_users".role_id WHERE ("roles_users".user_id = 87 ) [0m
+  [4;36;1mPermission Load (0.2ms)[0m   [0;1mSELECT * FROM "permissions" INNER JOIN "permissions_roles" ON "permissions".id = "permissions_roles".permission_id WHERE ("permissions_roles".role_id = 5 ) [0m
+  [4;35;1mPermission Load (1.7ms)[0m   [0mSELECT * FROM "permissions" INNER JOIN "permissions_roles" ON "permissions".id = "permissions_roles".permission_id WHERE ("permissions_roles".role_id = 1 ) [0m
+  [4;36;1mPermission Load (0.4ms)[0m   [0;1mSELECT * FROM "permissions" INNER JOIN "permissions_roles" ON "permissions".id = "permissions_roles".permission_id WHERE ("permissions_roles".role_id = 9 ) [0m
+  [4;35;1mRole Load (0.3ms)[0m   [0mSELECT * FROM "roles" WHERE ("roles"."name" = 'everyone') LIMIT 1[0m
+  [4;36;1mPermission Load (0.4ms)[0m   [0;1mSELECT * FROM "permissions" INNER JOIN "permissions_roles" ON "permissions".id = "permissions_roles".permission_id WHERE ("permissions_roles".role_id = 3 ) [0m
+Cache write (will save 38.71ms): user_permission_strings_87
+  [4;35;1mPayformConfiguration Load (0.5ms)[0m   [0mSELECT * FROM "payform_configurations" WHERE ("payform_configurations".department_id = 2) LIMIT 1[0m
+  [4;36;1mPermission Load (0.3ms)[0m   [0;1mSELECT * FROM "permissions" WHERE ("permissions"."id" = 62) [0m
+Cache hit: user_permission_strings_87 ({})
+  [4;35;1mPayformConfiguration Load (0.6ms)[0m   [0mSELECT * FROM "payform_configurations" WHERE ("payform_configurations".department_id = 4) LIMIT 1[0m
+  [4;36;1mPermission Load (0.3ms)[0m   [0;1mSELECT * FROM "permissions" WHERE ("permissions"."id" = 86) [0m
+Cache hit: user_permission_strings_87 ({})
+  [4;35;1mPayformConfiguration Load (0.5ms)[0m   [0mSELECT * FROM "payform_configurations" WHERE ("payform_configurations".department_id = 3) LIMIT 1[0m
+  [4;36;1mPermission Load (0.3ms)[0m   [0;1mSELECT * FROM "permissions" WHERE ("permissions"."id" = 68) [0m
+Cache hit: user_permission_strings_87 ({})
+  [4;35;1mPayformConfiguration Load (0.6ms)[0m   [0mSELECT * FROM "payform_configurations" WHERE ("payform_configurations".department_id = 6) LIMIT 1[0m
+  [4;36;1mPermission Load (0.5ms)[0m   [0;1mSELECT * FROM "permissions" WHERE ("permissions"."id" = 101) [0m
+Cache hit: user_permission_strings_87 ({})
+  [4;35;1mPayformConfiguration Load (0.5ms)[0m   [0mSELECT * FROM "payform_configurations" WHERE ("payform_configurations".department_id = 1) LIMIT 1[0m
+  [4;36;1mPermission Load (0.4ms)[0m   [0;1mSELECT * FROM "permissions" WHERE ("permissions"."id" = 25) [0m
+Cache hit: user_permission_strings_87 ({})
+  [4;35;1mPayform Load (0.5ms)[0m   [0mSELECT * FROM "payforms" WHERE ("payforms"."id" = '54') LIMIT 1[0m
+  [4;36;1mDepartment Load (0.3ms)[0m   [0;1mSELECT * FROM "departments" WHERE ("departments"."id" = 1) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "payform_configurations" WHERE ("payform_configurations".department_id = 1) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "permissions" WHERE ("permissions"."id" = 25) [0m
+Cache hit: user_permission_strings_87 ({})
+
+NoMethodError (Attempt to call private method):
+  app/controllers/payform_controller.rb:45:in `submit'
+
+Rendered rescues/_trace (101.6ms)
+Rendered rescues/_request_and_response (1.3ms)
+Rendering rescues/layout (internal_server_error)
