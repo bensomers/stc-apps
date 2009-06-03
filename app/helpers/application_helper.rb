@@ -4,15 +4,7 @@
 module ApplicationHelper
   # Returns a valid user model based on whether the user exists
   # in the database
-#  def get_user
-#    if session[:user]
-#      if session[:user_exists]
-#        return User.find_by_login(session[:casfilteruseruser])
-#      else
-#        return User.new(:login => session[:casfilteruseruser])
-#      end
-#    end
-#  end
+
 
   def notice_script(div = 'notice', notice=flash[:notice], message="Message:", timeout=0)
     #I know these are redundant, but I was having issues passing flash values:
