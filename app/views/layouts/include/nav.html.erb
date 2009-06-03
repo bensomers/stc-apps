@@ -1,9 +1,9 @@
 <ul id="miniTabs">
   <% if (user = get_user) %>
     <li><%= link_to "Home", { :controller => "/", :action => "index" }  %></li>
-    <% if (has_any_admin_item?(['user_admin', 'admin/main', 'applicants'])) %>
+    <% if (has_any_admin_item?(['user_admin', 'admin/main', 'applicants'], user)) %>
     <li>
-        <% if (CASACL.auth_index?(user, 'user_admin')) %>
+        <% if (user.permission_strings.include? 'user_admin') %>
           <%= link_to "User Admin", { :controller => "/user_admin", :action => "index" } %>
         <% end %>
     </li>
@@ -13,4 +13,6 @@
     <li><%= link_if_authorized 'payform' %></li>
     <li><%= link_if_authorized 'payform_admin' %></li>
   <% end %>
+<%# raise user.to_yaml %>
 </ul>
+

@@ -2,17 +2,23 @@
 # Likewise, all the methods added will be available for all controllers.
 class ApplicationController < ActionController::Base
   before_filter :delete_user_permission_cache
+  before_filter :set_user_exists
   include HoptoadNotifier::Catcher
   helper_method :get_department
+  helper_method :get_user
 
   protected
   # Returns a valid user model based on whether the user exists in the database
   def get_user
-    session[:user_exists] ? User.find_by_login(session[:user]) : User.new(:login => session[:user])
+    session[:user_exists] ? User.find_by_login(session[:casfilteruser]) : User.new(:login => session[:casfilteruser])
   end
 
   def delete_user_permission_cache
     get_user.delete_permission_cache
+  end
+
+  def set_user_exists
+    session[:user_exists] = true if User.find_by_login(session[:casfilteruser])
   end
 
   #get department choice off the session
