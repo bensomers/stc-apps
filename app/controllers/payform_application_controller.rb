@@ -1,7 +1,7 @@
 
 class PayformApplicationController < ApplicationController  
-  # Check authentication with CAS login
-  before_filter CASClient::Frameworks::Rails::Filter
+  
+  
   before_filter :fetch_user_data
   before_filter :chooser
   

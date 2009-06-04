@@ -1,5 +1,5 @@
 class IotabsController < ApplicationController
-  before_filter CASClient::Frameworks::Rails::Filter
+  
   
   # GET /iotabs
   # GET /iotabs.xml

@@ -1,6 +1,6 @@
 
 class ClockController < PayformApplicationController
-  before_filter CASClient::Frameworks::Rails::Filter
+  
   
   def index
     @clock = Clock.find_or_create(get_user, get_dept_from_url)

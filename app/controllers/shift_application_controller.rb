@@ -1,7 +1,7 @@
 
 class ShiftApplicationController < ApplicationController
-  # Check authentication with CAS login 
-  before_filter CASClient::Frameworks::Rails::Filter
+   
+  
   before_filter :chooser
   
   helper_method :render_to_string #this allow calling render_to_string from the view and helper. -H
