@@ -1,1 +1,0 @@
-#require 'Win32/Console/ANSI' #only if you run windows, also need win32console gem if so

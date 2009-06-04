@@ -354,8 +354,8 @@ ActiveRecord::Schema.define(:version => 20090121073423) do
     t.integer "payform_item_id", :limit => 10, :default => 0, :null => false
   end
 
-  add_index "payform_items_payforms", ["payform_item_id", "payform_id"], :name => "payform_items_payforms_FKIndex1", :unique => true
   add_index "payform_items_payforms", ["payform_id"], :name => "payform_items_payforms_FKIndex2"
+  add_index "payform_items_payforms", ["payform_item_id", "payform_id"], :name => "payform_items_payforms_FKIndex1", :unique => true
 
   create_table "payforms", :force => true do |t|
     t.integer  "week"
@@ -424,8 +424,8 @@ ActiveRecord::Schema.define(:version => 20090121073423) do
     t.datetime "updated_at"
   end
 
-  add_index "sessions", ["updated_at"], :name => "index_sessions_on_updated_at"
   add_index "sessions", ["session_id"], :name => "index_sessions_on_session_id"
+  add_index "sessions", ["updated_at"], :name => "index_sessions_on_updated_at"
 
   create_table "shift_configurations", :force => true do |t|
     t.integer  "department_id"
