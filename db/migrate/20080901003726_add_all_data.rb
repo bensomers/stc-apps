@@ -5,7 +5,7 @@ class AddAllData < ActiveRecord::Migration
     down
     env_dir = ENV['RAILS_ENV'] =='production' ? "production_data" : "development_data"
     directory = File.join(File.dirname(__FILE__), env_dir)
-    self.add_fixtures ["location_groups", "locations", "shifts", "time_slots", "shift_reports", "line_items", "libraries", "template_items", "shift_configurations", "data_types", "data_objects", "data_objects_locations", "preferences"], directory
+    self.add_fixtures ["location_groups", "locations", "shifts", "time_slots", "shift_reports", "line_items", "libraries", "template_items", "shift_configurations","preferences"], directory
   end
   
   def self.add_fixtures(fixtures, directory)
@@ -24,8 +24,6 @@ class AddAllData < ActiveRecord::Migration
     Library.delete_all
     TemplateItem.delete_all
     ShiftConfiguration.delete_all
-    DataType.delete_all
-    DataObject.delete_all
     Preference.delete_all
   end
 end
