@@ -1,5 +1,17 @@
 ActionController::Routing::Routes.draw do |map|
+  map.resources :data_entries
+
+  map.resources :data_fields
+
+  map.resources :data_objects
+
+  map.resources :data_types
+
   map.resources :stats, :collection => {:destroy_all => :delete}, :member => {:location_more => :get}
+  map.resources :data_fields
+  map.resources :data_types
+  map.resources :data_objects
+  map.resources :data_entries
 
   map.resources :food_items
 

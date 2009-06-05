@@ -1,0 +1,19 @@
+<% title "Data Types" %>
+
+<table>
+  <tr>
+    <th>Name</th>
+    <th>Description</th>
+  </tr>
+  <% for data_type in @data_types %>
+    <tr>
+      <td><%=h data_type.name %></td>
+      <td><%=h data_type.description %></td>
+      <td><%= link_to "Show", data_type %></td>
+      <td><%= link_to "Edit", edit_data_type_path(data_type) %></td>
+      <td><%= link_to "Destroy", data_type, :confirm => 'Are you sure?', :method => :delete %></td>
+    </tr>
+  <% end %>
+</table>
+
+<p><%= link_to "New Data Type", new_data_type_path %></p>

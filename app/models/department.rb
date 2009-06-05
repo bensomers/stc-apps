@@ -5,6 +5,8 @@ class Department < ActiveRecord::Base
   has_and_belongs_to_many :roles
   has_and_belongs_to_many :groups
   
+  has_many :data_types
+  
   validates_presence_of :name
   validates_uniqueness_of :name
   

@@ -1,0 +1,16 @@
+<% title "Data Type" %>
+
+<p>
+  <strong>Name:</strong>
+  <%=h @data_type.name %>
+</p>
+<p>
+  <strong>Description:</strong>
+  <%=h @data_type.description %>
+</p>
+
+<p>
+  <%= link_to "Edit", edit_data_type_path(@data_type) %> |
+  <%= link_to "Destroy", @data_type, :confirm => 'Are you sure?', :method => :delete %> |
+  <%= link_to "View All", data_types_path %>
+</p>

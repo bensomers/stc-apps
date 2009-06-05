@@ -1,0 +1,12 @@
+<% form_for @data_field do |f| %>
+  <%= f.error_messages %>
+  <p>
+    <%= f.label :name %><br />
+    <%= f.text_field :name %>
+  </p>
+  <p>
+    <%= f.label :display_type %><br />
+    <%= f.text_field :display_type %>
+  </p>
+  <p><%= f.submit "Submit" %></p>
+<% end %>
