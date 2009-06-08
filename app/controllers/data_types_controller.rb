@@ -1,6 +1,10 @@
 class DataTypesController < ApplicationController
+  # Hack to provide a consistent department within the data controller
+  before_filter :set_department_for_data
+
+
   def index
-    @data_types = DataType.all
+    @data_types = DataType.find_all_by_department_id(@department.id)
   end
   
   def show
@@ -13,6 +17,7 @@ class DataTypesController < ApplicationController
   
   def create
     @data_type = DataType.new(params[:data_type])
+    @data_type.department = @department
     if @data_type.save
       flash[:notice] = "Successfully created datatype."
       redirect_to @data_type
@@ -41,4 +46,11 @@ class DataTypesController < ApplicationController
     flash[:notice] = "Successfully destroyed datatype."
     redirect_to data_types_url
   end
+  
+  private
+  
+  def set_department_for_data
+    @department = Department.first
+  end
+
 end
