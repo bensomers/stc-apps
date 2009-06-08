@@ -46,6 +46,8 @@ before_filter :fetch_report_or_redirect, :except => [:create, :view, :admin_subm
   end
 
   def edit
+    fetch_stickies
+
   end
 
   def create
