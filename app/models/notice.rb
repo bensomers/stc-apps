@@ -1,20 +1,20 @@
 class Notice < ActiveRecord::Base
-  
-  
+
+
   belongs_to  :author,
               :class_name => "User",
               :foreign_key => "author_id"
 
   validate :process_user_names, :content_not_blank
-  
+
   attr_accessor :auth_text
-  
-  
+
+
   attr_writer :user_names
   def user_names
     @user_names || users(true).map(&:name).join(", ")
   end
-  
+
   def auth_full_list
     result = []
     result.push "for users #{self.user_names}" unless self.users.empty?
@@ -26,7 +26,7 @@ class Notice < ActiveRecord::Base
     end
     result.join "<br/>"
   end
-  
+
   def self.fetch_authorized_active(*object_array)
     relevant = []
     object_array.flatten!
@@ -35,7 +35,7 @@ class Notice < ActiveRecord::Base
     end
     relevant.uniq
   end
-  
+
   def self.active(object)
     actives = Sticky.find_all_active
     relevant = []
@@ -44,7 +44,7 @@ class Notice < ActiveRecord::Base
     end
     relevant
   end
-  
+
   def authorized?(object)
     return nil unless object
     result = case object
@@ -57,7 +57,7 @@ class Notice < ActiveRecord::Base
     end
     result
   end
-  
+
   # old auth code that displayed only single item
   # def authorized?(object)
   #   result = case object
@@ -70,7 +70,7 @@ class Notice < ActiveRecord::Base
   #   end
   #    self.auth_text = result
   # end
-  
+
   def process_user_names
     temp_users = []
     user_names.split(",").map(&:strip).each do |user_string|
@@ -83,7 +83,7 @@ class Notice < ActiveRecord::Base
     end
     self.users = temp_users
   end
-  
+
       def users(get_objects = false)
     array = auth_users.split.map &:to_i
     array = User.find(array) if get_objects
@@ -94,12 +94,13 @@ class Notice < ActiveRecord::Base
     array.map! &:id if array.first.class == User
     self.auth_users = array.join " "
   end
-  
+
   protected
-  
+
   def content_not_blank
     self.errors.add :content, "cannot be blank" if content.blank?
   end
 
-  
+
 end
+

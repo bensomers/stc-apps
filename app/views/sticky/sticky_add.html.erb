@@ -1,9 +1,9 @@
-<%# 
-  
+<%#
+
   This switches between sticky for current location and sticky with options, whether @options_flag is set to something.
-  
-  The "more options" button is a button because making it a link makes it require js to submit the form. form submission is necessary to preserve the content of the field through the change. the js version should obv. be a link. 
-  
+
+  The "more options" button is a button because making it a link makes it require js to submit the form. form submission is necessary to preserve the content of the field through the change. the js version should obv. be a link.
+
  -%>
 <center>
 <fieldset class='sticky' style="text-align:justify;">
@@ -12,12 +12,12 @@
     <p>
       <%= f.text_area :content %>
     </p>
-    
+
     <%- if @options_flag -%>
       <%= text_field_tag "options", "yes", :type => :hidden %>
       <p>Display in Location Groups:
         <% @location_groups.each do |group| %>
-          <%= check_box_tag "location_groups[]", group.id, false, {:id => "group_#{group.id}"} %> 
+          <%= check_box_tag "location_groups[]", group.id, false, {:id => "group_#{group.id}"} %>
           <%= "<label for=\"group_#{group.id}\">#{group.short_name}</label>" -%>&nbsp;&nbsp;
         <%- end -%>
       </p>
@@ -35,17 +35,18 @@
       </p>
               <div class="grayright">separate names with commas</div>
       <p>Display for Users:<br />
-        <%= text_field_with_auto_complete :sticky, :user_names, 
+        <%= text_field_with_auto_complete :sticky, :user_names,
                {:tokens => ",", :url => {:controller => :users, :action => :live_search, :id => @department.id},
                 :method => :get, :param_name => 'search' } %>
       </p>
       <%= f.submit "Create this sticky", :name => "create" %>
     <%- else -%>
-    
+
       <div class="right"><%= f.submit "more options", :name => "get_options",
-      :onclick => "Modalbox.show('report/sticky_add', {title: 'Post New Sticky (advanced)', method: 'post', width: 600, params:Form.serialize('sticky_form')});return false;" %></div>
+      :onclick => "Modalbox.show('sticky/sticky_add', {title: 'Post New Sticky (advanced)', method: 'post', width: 600, params:Form.serialize('sticky_form')});return false;" %></div>
       <%= f.submit "Create this sticky for #{@location.short_name}", :name => "create" %>
     <%- end -%>
   <%- end -%>
 </fieldset>
 </center>
+

@@ -109,7 +109,7 @@ module ApplicationHelper
 
   def make_popup(hash)
     hash[:width] ||= 600
-    "Modalbox.show(this.href, {title: '#{hash[:title]}', width: #{hash[:width]}}); return false;"
+    "Modalbox.show('sticky/sticky_add', {title: '#{hash[:title]}', width: #{hash[:width]}}); return false;"
   end
 
   def notice_popup(notice = flash[:notice], message = "Message:")
@@ -147,3 +147,4 @@ module ApplicationHelper
  end
 
 end
+
