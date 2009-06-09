@@ -13,6 +13,7 @@ class DataFieldsController < ApplicationController
   
   def create
     @data_field = DataField.new(params[:data_field])
+		@data_field.display_type = params[:display_type]  #why does this work?
     if @data_field.save
       flash[:notice] = "Successfully created datafield."
       redirect_to @data_field

@@ -4,9 +4,22 @@
     <%= f.label :name %><br />
     <%= f.text_field :name %>
   </p>
-  <p>
+  
+	<!-- <p>
     <%= f.label :display_type %><br />
     <%= f.text_field :display_type %>
-  </p>
+  </p> -->
+	<p>
+		<%= f.label :display_type %><br />
+		<%= select_tag :display_type, options_for_select(%w{ checkbox form text_field}) %><br />
+	</p>
+
+	<p>
+		<%= f.label :data_types %> <br />
+		<% Department.first.data_types.each do |d| %>
+			<%= check_box_tag d.name %> <%= d %> <br />
+		<% end %>
+	</p>
+
   <p><%= f.submit "Submit" %></p>
 <% end %>

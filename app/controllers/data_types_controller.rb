@@ -1,6 +1,6 @@
 class DataTypesController < ApplicationController
   # Hack to provide a consistent department within the data controller
-  before_filter :set_department_for_data
+  before_filter :set_department_for_data   #department is STC
 
 
   def index
@@ -50,7 +50,7 @@ class DataTypesController < ApplicationController
   private
   
   def set_department_for_data
-    @department = Department.first
+    @department = Department.find_by_name("STC")
   end
 
 end
