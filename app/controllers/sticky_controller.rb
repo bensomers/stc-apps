@@ -22,7 +22,7 @@ before_filter :fetch_report_or_redirect, :except => [:create, :view, :admin_subm
   def show
   end
 
-  def sticky_add
+  def add
     fetch_stickies
     @sticky = Sticky.new(params[:sticky])
     @options_flag = params[:get_options] || params[:options]
@@ -40,7 +40,7 @@ before_filter :fetch_report_or_redirect, :except => [:create, :view, :admin_subm
         else
           @sticky.locations = [@location.id]
         end
-        redirect_with_flash("Sticky created") if @sticky.save
+        redirect_with_flash("Sticky created", {:controller => 'report'}) if @sticky.save
       end
     end
   end
@@ -56,7 +56,7 @@ before_filter :fetch_report_or_redirect, :except => [:create, :view, :admin_subm
   def update
   end
 
-  def sticky_remove
+  def remove
     fetch_stickies
     sticky = Sticky.find params[:id]
     unless sticky.authorized?(@user) or sticky.authorized?(@location) or sticky.authorized?(@location_group)

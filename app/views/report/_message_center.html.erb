@@ -18,11 +18,11 @@ end
 
 <fieldset class="sticky" style="width: 48%">
   <div class="grayright">
-    <%= link_to '[advanced]', {:controller => 'sticky', :action => 'sticky_add', :options => true},
+    <%= link_to '[advanced]', {:controller => 'notice', :action => 'add', :options => true},
           {:onclick => make_popup(:title => "Post New Sticky (advanced)", :width => 600)} %>
   </div>
 
-  <%= link_to 'post a new sticky note', {:controller => 'sticky', :action => 'sticky_add'},
+  <%= link_to 'post a new sticky note', {:controller => 'notice', :action => 'add'},
           {:onclick => make_popup(:title => "Post New Sticky", :width => 600)} %>
 </fieldset>
 

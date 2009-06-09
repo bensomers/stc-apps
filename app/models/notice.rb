@@ -95,6 +95,12 @@ class Notice < ActiveRecord::Base
     self.auth_users = array.join " "
   end
 
+  def self.make(hash = {})
+    notice = new(hash)
+    notice.start_time = Time.now
+    notice
+  end
+
   protected
 
   def content_not_blank

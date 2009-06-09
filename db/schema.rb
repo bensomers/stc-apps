@@ -9,7 +9,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20090121073423) do
+ActiveRecord::Schema.define(:version => 20090608211945) do
 
   create_table "announcements_location_groups", :id => false, :force => true do |t|
     t.integer "announcement_id",   :limit => 10, :default => 0, :null => false
@@ -315,6 +315,7 @@ ActiveRecord::Schema.define(:version => 20090121073423) do
     t.integer  "for_department_id"
     t.integer  "department_id"
     t.integer  "remover_id"
+    t.boolean  "is_announce"
   end
 
   create_table "payform_configurations", :force => true do |t|
