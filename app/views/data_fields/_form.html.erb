@@ -11,7 +11,7 @@
   </p> -->
 	<p>
 		<%= f.label :display_type %><br />
-		<%= select_tag :display_type, options_for_select(%w{ check_box radio_button select text_field text_area}) %><br />
+		<%= f.select :display_type, options_for_select(DataField::OPTIONS_ARRAY) %><br />
 	</p>
 
 	<p>

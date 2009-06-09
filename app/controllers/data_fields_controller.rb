@@ -1,4 +1,6 @@
 class DataFieldsController < ApplicationController
+   # @options_array = ["check_box", "form", "select", "text_area", "text_field"]  #options for what a data_field can be
+  
   def index
     @data_fields = DataField.all
   end
