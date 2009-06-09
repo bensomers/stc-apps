@@ -1,4 +1,4 @@
-<% form_for @data_object do |f| %>
+<% form_for [@data_type, @data_object] do |f| %>
   <%= f.error_messages %>
   <p>
     <%= f.label :name %><br />

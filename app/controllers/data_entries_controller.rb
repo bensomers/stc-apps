@@ -1,6 +1,12 @@
 class DataEntriesController < ApplicationController
   def index
-    @data_entries = DataEntry.all
+    if params[:data_object_id]
+      @data_entries = DataEntry.find_all_by_data_object_id(params[:data_object_id])
+    else
+      flash[:error] = "You must specify a data object before viewing associated
+                        entries."
+      redirect_to data_objects_path
+    end
   end
   
   def show
