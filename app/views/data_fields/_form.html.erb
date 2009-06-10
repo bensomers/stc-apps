@@ -4,23 +4,20 @@
     <%= f.label :name %><br />
     <%= f.text_field :name %>
   </p>
-  
-	<!-- <p>
+  <p>
     <%= f.label :display_type %><br />
-    <%= f.text_field :display_type %>
-  </p> -->
-	<p>
-		<%= f.label :display_type %><br />
-		<%= f.select :display_type, options_for_select(DataField::OPTIONS_ARRAY) %><br />
-	</p>
-
-	<p>
-		<%= f.label :data_types %> <br />
-		<!-- for now this feature only applies to the department STC -->
-		<% Department.find_by_name("STC").data_types.each do |d| %>  
-			<%= check_box_tag d.name %> <%= d.name %> <br />
-		<% end %>
-	</p>
+    <%= f.select :display_type, options=(DataField::DISPLAY_TYPE_OPTIONS) %><br/>
+  </p>
+  <p>
+    <%= f.label :data_types %> <br />
+    <%# @department.data_types.each do |data_type| %>  
+    <%= checkboxes_for_multiple_select(:data_field, @department.data_types, :id, :name) %>   
+    
+    <%#= multiple_select @data_field, :data_types, @department.data_types %> 
+      <%#= check_box @data_field, :data_types, {}, data_type.id, 0 %> 
+      <%#= data_type.name %> <br />
+    <%# end %>
+  </p>
 
   <p><%= f.submit "Submit" %></p>
 <% end %>

@@ -1,5 +1,6 @@
 class DataFieldsController < ApplicationController
-   # @options_array = ["check_box", "form", "select", "text_area", "text_field"] #options for what a data_field can be
+  # Hack to provide a consistent department within the data controller
+  before_filter :set_department_for_data   #department is STC
   
   def index
     @data_fields = DataField.all
@@ -44,4 +45,11 @@ class DataFieldsController < ApplicationController
     flash[:notice] = "Successfully destroyed datafield."
     redirect_to data_fields_url
   end
+  
+  private
+  
+  def set_department_for_data
+    @department = Department.find_by_name("STC")
+  end
+  
 end
