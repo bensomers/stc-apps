@@ -16,9 +16,8 @@ class DataFieldsController < ApplicationController
   
   def create
     @data_field = DataField.new(params[:data_field])
-    @data_field.display_type = params[:display_type] #why does this work?
     if @data_field.save
-      flash[:notice] = "Successfully created datafield."
+      flash[:notice] = "Successfully created data field."
       redirect_to @data_field
     else
       render :action => 'new'
@@ -32,7 +31,7 @@ class DataFieldsController < ApplicationController
   def update
     @data_field = DataField.find(params[:id])
     if @data_field.update_attributes(params[:data_field])
-      flash[:notice] = "Successfully updated datafield."
+      flash[:notice] = "Successfully updated data field."
       redirect_to @data_field
     else
       render :action => 'edit'
@@ -42,7 +41,7 @@ class DataFieldsController < ApplicationController
   def destroy
     @data_field = DataField.find(params[:id])
     @data_field.destroy
-    flash[:notice] = "Successfully destroyed datafield."
+    flash[:notice] = "Successfully destroyed data field."
     redirect_to data_fields_url
   end
   

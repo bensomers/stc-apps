@@ -60,9 +60,9 @@ ActiveRecord::Schema.define(:version => 20090605195223) do
     t.datetime "updated_at"
   end
 
-  create_table "data_fields_data_types", :force => true do |t|
-    t.integer  "data_field_id"
-    t.integer  "data_type_id"
+  create_table "data_fields_data_types", :id => false, :force => true do |t|
+    t.integer  "data_field_id", :null => false
+    t.integer  "data_type_id",  :null => false
     t.datetime "created_at"
     t.datetime "updated_at"
   end
@@ -342,9 +342,6 @@ ActiveRecord::Schema.define(:version => 20090605195223) do
     t.integer "user_id", :limit => 10, :default => 0, :null => false
     t.integer "role_id", :limit => 10, :default => 0, :null => false
   end
-
-  add_index "roles_users", ["role_id", "user_id"], :name => "roles_users_FKIndex1", :unique => true
-  add_index "roles_users", ["user_id"], :name => "roles_users_FKIndex2"
 
   create_table "sessions", :force => true do |t|
     t.string   "session_id"

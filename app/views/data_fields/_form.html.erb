@@ -9,14 +9,16 @@
     <%= f.select :display_type, options=(DataField::DISPLAY_TYPE_OPTIONS) %><br/>
   </p>
   <p>
+    <%= f.label :values %><br />
+    <%= f.text_field :values %><br />
+    <em><small>For text field display types, values 
+      should be either int, float, or string</em></small>
+  </p>
+  <p>
     <%= f.label :data_types %> <br />
     <%# @department.data_types.each do |data_type| %>  
-    <%= checkboxes_for_multiple_select(:data_field, @department.data_types, :id, :name) %>   
-    
-    <%#= multiple_select @data_field, :data_types, @department.data_types %> 
-      <%#= check_box @data_field, :data_types, {}, data_type.id, 0 %> 
-      <%#= data_type.name %> <br />
-    <%# end %>
+    <%= multiple_select :data_field, :data_types, 
+        @department.data_types.map{|dt| [dt.name, dt.id]} %>
   </p>
 
   <p><%= f.submit "Submit" %></p>
