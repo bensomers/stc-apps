@@ -1,5 +1,6 @@
 class DataEntry < ActiveRecord::Base
   belongs_to :data_object
+  has_and_belongs_to_many :locations
   
   #Returns the entry's content after escaping out : and ; characters
   def self.escape_chars(content)
@@ -17,8 +18,5 @@ class DataEntry < ActiveRecord::Base
     self.content.split(';').map{|str| str.split(':')}.map do |a|
       [a.first, a.second.gsub('**semicolon**',';').gsub('**colon**',':')]
     end
-  end
-      
-  
-      
+  end      
 end
