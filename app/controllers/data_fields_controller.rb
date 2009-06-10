@@ -1,5 +1,5 @@
 class DataFieldsController < ApplicationController
-   # @options_array = ["check_box", "form", "select", "text_area", "text_field"]  #options for what a data_field can be
+   # @options_array = ["check_box", "form", "select", "text_area", "text_field"] #options for what a data_field can be
   
   def index
     @data_fields = DataField.all
@@ -15,7 +15,7 @@ class DataFieldsController < ApplicationController
   
   def create
     @data_field = DataField.new(params[:data_field])
-		@data_field.display_type = params[:display_type]  #why does this work?
+    @data_field.display_type = params[:display_type] #why does this work?
     if @data_field.save
       flash[:notice] = "Successfully created datafield."
       redirect_to @data_field

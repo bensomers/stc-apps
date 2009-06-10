@@ -3,6 +3,7 @@ class CreateDataFields < ActiveRecord::Migration
     create_table :data_fields do |t|
       t.string :name
       t.string :display_type
+      t.string :values
       t.timestamps
     end
   end

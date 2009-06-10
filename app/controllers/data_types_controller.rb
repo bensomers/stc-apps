@@ -19,7 +19,7 @@ class DataTypesController < ApplicationController
     @data_type = DataType.new(params[:data_type])
     @data_type.department = @department
     if @data_type.save
-      flash[:notice] = "Successfully created datatype."
+      flash[:notice] = "Successfully created data type."
       redirect_to @data_type
     else
       render :action => 'new'
@@ -33,7 +33,7 @@ class DataTypesController < ApplicationController
   def update
     @data_type = DataType.find(params[:id])
     if @data_type.update_attributes(params[:data_type])
-      flash[:notice] = "Successfully updated datatype."
+      flash[:notice] = "Successfully updated data type."
       redirect_to @data_type
     else
       render :action => 'edit'
@@ -43,7 +43,7 @@ class DataTypesController < ApplicationController
   def destroy
     @data_type = DataType.find(params[:id])
     @data_type.destroy
-    flash[:notice] = "Successfully destroyed datatype."
+    flash[:notice] = "Successfully destroyed data type."
     redirect_to data_types_url
   end
   

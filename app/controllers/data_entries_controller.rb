@@ -19,8 +19,9 @@ class DataEntriesController < ApplicationController
   
   def create
     @data_entry = DataEntry.new(params[:data_entry])
+    @data_entry.data_object_id = params[:data_object_id]
     if @data_entry.save
-      flash[:notice] = "Successfully created dataentry."
+      flash[:notice] = "Successfully created data entry."
       redirect_to @data_entry
     else
       render :action => 'new'

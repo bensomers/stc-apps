@@ -55,6 +55,7 @@ ActiveRecord::Schema.define(:version => 20090605195223) do
   create_table "data_fields", :force => true do |t|
     t.string   "name"
     t.string   "display_type"
+    t.string   "values"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
