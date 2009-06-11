@@ -9,7 +9,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20090605195223) do
+ActiveRecord::Schema.define(:version => 20090605194910) do
 
   create_table "announcements_location_groups", :id => false, :force => true do |t|
     t.integer "announcement_id",   :limit => 10, :default => 0, :null => false
@@ -53,6 +53,7 @@ ActiveRecord::Schema.define(:version => 20090605195223) do
   end
 
   create_table "data_fields", :force => true do |t|
+    t.integer  "data_type_id"
     t.string   "name"
     t.string   "display_type"
     t.string   "values"
@@ -60,15 +61,9 @@ ActiveRecord::Schema.define(:version => 20090605195223) do
     t.datetime "updated_at"
   end
 
-  create_table "data_fields_data_types", :id => false, :force => true do |t|
-    t.integer  "data_field_id", :null => false
-    t.integer  "data_type_id",  :null => false
-    t.datetime "created_at"
-    t.datetime "updated_at"
-  end
-
   create_table "data_objects", :force => true do |t|
     t.integer  "data_type_id"
+    t.integer  "location_id"
     t.string   "name"
     t.string   "description"
     t.datetime "created_at"
@@ -77,7 +72,7 @@ ActiveRecord::Schema.define(:version => 20090605195223) do
 
   create_table "data_types", :force => true do |t|
     t.string   "name"
-    t.string   "description"
+    t.text     "description"
     t.integer  "department_id"
     t.datetime "created_at"
     t.datetime "updated_at"
@@ -342,6 +337,9 @@ ActiveRecord::Schema.define(:version => 20090605195223) do
     t.integer "user_id", :limit => 10, :default => 0, :null => false
     t.integer "role_id", :limit => 10, :default => 0, :null => false
   end
+
+  add_index "roles_users", ["role_id", "user_id"], :name => "roles_users_FKIndex1", :unique => true
+  add_index "roles_users", ["user_id"], :name => "roles_users_FKIndex2"
 
   create_table "sessions", :force => true do |t|
     t.string   "session_id"
