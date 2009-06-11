@@ -3,7 +3,7 @@ class CreateDataTypes < ActiveRecord::Migration
     create_table :data_types do |t|
       t.string     :name
       t.text       :description
-      t.references :department
+      t.integer    :department_id  #should we use t.references?
       
       t.timestamps
     end
