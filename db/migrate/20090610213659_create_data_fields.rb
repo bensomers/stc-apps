@@ -1,10 +1,10 @@
 class CreateDataFields < ActiveRecord::Migration
   def self.up
     create_table :data_fields do |t|
-      t.string :label
-      t.string :value
-      t.string :type
-      t.integer :data_type_id
+      t.string      :label
+      t.string      :value
+      t.string      :display_type
+      t.integer     :data_type_id
       t.timestamps
     end
   end

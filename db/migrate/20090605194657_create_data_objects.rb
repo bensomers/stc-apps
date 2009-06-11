@@ -1,7 +1,7 @@
 class CreateDataObjects < ActiveRecord::Migration
   def self.up
     create_table :data_objects do |t|
-      t.integer :data_type_id
+      t.integer :data_type_id, :location_id  #probably should use t.references
       t.string  :name
       t.string  :description
       t.timestamps
