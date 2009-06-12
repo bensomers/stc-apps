@@ -8,5 +8,8 @@
     <%= f.label :description %><br />
     <%= f.text_field :description %>
   </p>
+  <p>
+    <%= f.label :data_fields %><br />
+    <%= select_tag :data_fields, options_for_select(DataField::DISPLAY_TYPE_OPTIONS) %>
   <p><%= f.submit "Submit" %></p>
 <% end %>
