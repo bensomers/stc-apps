@@ -1,10 +1,35 @@
 class DataEntry < ActiveRecord::Base
   belongs_to :data_object
-  has_and_belongs_to_many :locations
+  
+  # Write DataEntry content as a string with the following delimiters:
+  #   Double semicolon between each datafield
+  #   Double colon between the id of the datafield and the information it holds
+  #   For datafields that themselves contain hashes:
+  #     semicolons between each pair in the hash
+  #     colons between keys and their associated values
+  # ; and : in supplied content are escaped as **semicolon** and **colon**
+  def write_content(fields)
+    content = ""
+    fields.each_pair do |key, value|
+      if value.class == HashWithIndifferentAccess
+        content << key.to_s + "::"
+        value.each_pair do |k,v|
+          content << k.to_s + ":"
+          content << v.to_s.gsub(";","**semicolon**").gsub(":","**colon**") + ";"
+        end
+        content.chomp!(";")          #strip off the final semicolon
+        content << ";;"        
+      else
+        content << key.to_s + "::"
+        content << value.to_s.gsub(";","**semicolon**").gsub(":","**colon**") + ";;"
+      end
+    end
+    return content.chomp!(';;')            #strip off the final double semicolon
+  end
   
   #Returns the entry's content after escaping out : and ; characters
-  def self.escape_chars(content)
-    content.gsub(';', '**semicolon**').gsub(':', '**colon**')
+  def self.escape_chars(string)
+    string.gsub(';', '**semicolon**').gsub(':', '**colon**')
   end
   
 ### Virtual attributes ###
@@ -18,5 +43,6 @@ class DataEntry < ActiveRecord::Base
     self.content.split(';').map{|str| str.split(':')}.map do |a|
       [a.first, a.second.gsub('**semicolon**',';').gsub('**colon**',':')]
     end
-  end      
+  end
+
 end
