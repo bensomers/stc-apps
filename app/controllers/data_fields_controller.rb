@@ -3,7 +3,13 @@ class DataFieldsController < ApplicationController
   before_filter :set_department_for_data   #department is STC
   
   def index
-    @data_fields = DataField.all
+				if params[:data_type_id]
+    @data_fields = DataField.find_all_by_data_type_id(params[:data_type_id])
+    else
+      flash[:error] = "You must specify a data type before viewing associated
+                        objects."
+      redirect_to data_types_path
+    end
   end
   
   def show
@@ -16,9 +22,10 @@ class DataFieldsController < ApplicationController
   
   def create
     @data_field = DataField.new(params[:data_field])
+    @data_field.data_type_id = params[:data_type_id]
     if @data_field.save
       flash[:notice] = "Successfully created data field."
-      redirect_to @data_field
+      redirect_to data_type_data_fields_path
     else
       render :action => 'new'
     end

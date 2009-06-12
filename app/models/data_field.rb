@@ -23,7 +23,7 @@ class DataField < ActiveRecord::Base
       return options.map{|v| ["data_fields[#{id}]", v]}
     elsif display_type == "radio_button"
       options = values.split(',').each{|opt| opt.squish!}
-      return options.map{|v| ["data_fields[#{id}]", v, v]}
+      return options.map{|v| ["data_fields[#{id}]", 1, v]}
     end   
   end
 

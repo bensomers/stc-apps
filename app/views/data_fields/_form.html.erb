@@ -1,4 +1,4 @@
-<% form_for @data_field do |f| %>
+<% form_for [:data_type, @data_field] do |f| %>
   <%= f.error_messages %>
   <p>
     <%= f.label :name %><br />
@@ -12,13 +12,7 @@
     <%= f.label :values %><br />
     <%= f.text_field :values %><br />
     <em><small>For text field display types, values 
-      should be either int, float, or string</small></em>
-  </p>
-  <p>
-    <%= f.label :data_types %> <br />
-    <%# @department.data_types.each do |data_type| %>  
-    <%= multiple_select :data_field, :data_types, 
-        @department.data_types.map{|dt| [dt.name, dt.id]} %>
+      should be either "integer", "decimal", or "text"</small></em>
   </p>
 
   <p><%= f.submit "Submit" %></p>
