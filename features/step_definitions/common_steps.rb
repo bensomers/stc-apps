@@ -17,3 +17,19 @@ Given /^I am "([^\"]*)"$/ do |user_name|
 #  Department.find session["current_chooser_choice"][controller_name]
 end
 
+Then /^I should have ([0-9]+) (.+)$/ do |count, class_name|
+  class_name.classify.constantize.count.should == count.to_i
+end
+
+Given /^I have a department named "([^\"]*)"$/ do |department|
+  Department.create!(:name => department)
+end
+
+Given /^I have locations "([^\"]*)" in location group "([^\"]*)" for the department "([^\"]*)"$/ do |locations, location_group, department|
+  locations.split(", ").each do |location_name|
+  loc_group = LocationGroup.find_by_long_name(location_group)
+  Location.create!(:long_name => location_name, :location_group_id => loc_group.id,
+                   :min_staff => 1, :max_staff => 3, :short_name => location_name)
+  end
+end
+

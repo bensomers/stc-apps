@@ -18,7 +18,7 @@ module NavigationHelpers
       payform_path(Payform.find_by_date($1.to_date))
     when /the payforms page/
       payforms_path
-  when /the Data Entries homepage/
+    when /the data page/
        data_entries_path
 
 

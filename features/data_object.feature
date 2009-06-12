@@ -4,9 +4,9 @@ Feature: data object
   I want to be able to create and maintain data objects
 
   Background:
-    Given I have a department named "Pet Store"
-    And I have locations "Cats aisle, Dogs aisle, Checkout" for the department "STC"
-    And I have a data type with name "Cat", description "they're animals", for the department "STC", with the following data fields
+    Given I am "ja"
+    And I have locations "Cats aisle, Dogs aisle, Checkout" in location group "Jurassic Park" for the department "Pet Store"
+    And I have a data type with name "Cat", description "they're animals", for the department "Pet Store", with the following data fields
       | name              | display_type | values                                   |
       | Name              | text_field   | string                                   |
       | Color             | select_box   | Black, Orange, Yellow, White, Gray       |
@@ -28,7 +28,5 @@ Feature: data object
     And I should see "New cat created"
     And I should see "Name: Garfield"
     And I should see "Description: he hates Mondays"
-    And I should see "Locations: Cats asile, Checkout"
-
-  Scenario:
+    And I should see "Locations: Cats aisle, Checkout"
 

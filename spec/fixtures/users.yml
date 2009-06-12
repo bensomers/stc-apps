@@ -1,5 +1,5 @@
---- 
-users_001: 
+---
+users_001:
   active: "1"
   email: andrew.r.smith@yale.edu
   first_name: Andrew
@@ -7,7 +7,7 @@ users_001:
   last_name: Smith
   login: ars47
   name: Andrew Smith
-users_002: 
+users_002:
   active: "1"
   email: adam.bray@yale.edu
   first_name: Adam
@@ -15,7 +15,7 @@ users_002:
   last_name: Bray
   login: alb64
   name: Adam Bray
-users_003: 
+users_003:
   active: "1"
   email: loriann.higashi@yale.edu
   first_name: Loriann
@@ -23,7 +23,7 @@ users_003:
   last_name: Higashi
   login: lsh9
   name: Lori Higashi
-users_004: 
+users_004:
   active: "1"
   email: ahmet.aktay@yale.edu
   first_name: Ahmet
@@ -31,7 +31,7 @@ users_004:
   last_name: Aktay
   login: aa536
   name: Ahmet Aktay
-users_005: 
+users_005:
   active: "1"
   email: ben.somers@yale.edu
   first_name: Benjamin
@@ -39,7 +39,7 @@ users_005:
   last_name: Somers
   login: brs35
   name: Ben Somers
-users_006: 
+users_006:
   active: "1"
   email: adrian.ryan@yale.edu
   first_name: Adrian
@@ -47,7 +47,7 @@ users_006:
   last_name: Ryan
   login: amr86
   name: Adrian Ryan
-users_007: 
+users_007:
   active: "1"
   email: dung.trung@yale.edu
   first_name: Dung
@@ -55,3 +55,28 @@ users_007:
   last_name: Trung
   login: dtt22
   name: Harley Trung
+users_008:
+  active: "1"
+  email: ja@garfield.com
+  first_name: John
+  id: "10"
+  last_name: Arbuckle
+  login: ja
+  name: John Arbuckle
+users_009:
+  active: "1"
+  email: cassandra.kildow@yale.edu
+  first_name: Cassandra
+  id: "11"
+  last_name: Kildow
+  login: cmk49
+  name: Cassandra Kildow
+users_010:
+  active: "1"
+  email: hans@solo.com
+  first_name: Hans
+  id: "12"
+  last_name: Solo
+  login: hs
+  name: Hans Solo
+

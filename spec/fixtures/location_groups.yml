@@ -1,8 +1,8 @@
---- 
-location_groups_001: 
+---
+location_groups_001:
   created_at: 2008-08-08 12:59:52
   department_id: "1"
-  description: 
+  description:
   id: "1"
   long_name: Public Clusters
   max_shift_length: "8"
@@ -13,10 +13,10 @@ location_groups_001:
   short_name: Public Clusters
   sub_email: adam.bray@yale.edu
   updated_at: 2008-08-12 14:05:54
-location_groups_002: 
+location_groups_002:
   created_at: 2008-08-08 12:59:52
   department_id: "2"
-  description: 
+  description:
   id: "2"
   long_name: IO (493 College)
   max_shift_length: "8"
@@ -27,3 +27,18 @@ location_groups_002:
   short_name: IO Group
   sub_email: adam.bray@yale.edu
   updated_at: 2008-08-14 14:49:42
+location_groups_003:
+  created_at: 2009-06-12 12:59:52
+  department_id: "7"
+  description: Here there be dinosaurs.
+  id: "3"
+  long_name: Jurassic Park
+  max_shift_length: "8"
+  min_shift_length: "0.5"
+  perm_admin_id: "54"
+  perm_signup_id: "33"
+  perm_view_id: "31"
+  short_name: JP
+  sub_email: cassandra.kildow@yale.edu
+  updated_at: 2009-06-12 14:05:54
+
