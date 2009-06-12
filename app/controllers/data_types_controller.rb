@@ -18,6 +18,7 @@ class DataTypesController < ApplicationController
   def create
     @data_type = DataType.new(params[:data_type])
     @data_type.department = @department
+    @data_type.data_fields << params[:data_field].name
     if @data_type.save
       flash[:notice] = "Successfully created data type."
       redirect_to @data_type
