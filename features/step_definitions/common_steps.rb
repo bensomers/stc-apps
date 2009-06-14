@@ -8,7 +8,7 @@ Given /^I have a user named "([^\"]*)", department "([^\"]*)", login "([^\"]*)"$
 end
 
 Given /^I am "([^\"]*)"$/ do |user_name|
-  @user = User.find_by_login(user_name)
+  @user = User.find_by_name(user_name)
 #  @department = @user.departments[0]
   CASClient::Frameworks::Rails::Filter.fake(@user.login)
   #this seems like a clumsy way to set the department but I can't figure out any other way - wei

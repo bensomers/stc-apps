@@ -4,7 +4,7 @@ Feature: data object
   I want to be able to create and maintain data objects
 
   Background:
-    Given I am "ja"
+    Given I am "John Arbuckle"
     And I have locations "Cats aisle, Dogs aisle, Checkout" in location group "Jurassic Park" for the department "Pet Store"
     And I have a data type with name "Cat", description "they're animals", for the department "Pet Store", with the following data fields
       | name              | display_type | values                                   |
@@ -16,7 +16,7 @@ Feature: data object
       | Level of cuteness | text_field   | float                                    |
 
   Scenario: creating a data object
-    Given I am on the data page
+    Given I am on the data objects page
     When I follow "New data object"
     And I select "Cat" from "Data type"
     And I fill in "Name" with "Garfield"

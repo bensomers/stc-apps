@@ -18,8 +18,10 @@ module NavigationHelpers
       payform_path(Payform.find_by_date($1.to_date))
     when /the payforms page/
       payforms_path
-    when /the data page/
-       data_entries_path
+    when /the data objects page/
+       data_objects_path
+    when /the data types page/
+       data_types_path
 
 
     # Add more mappings here.
