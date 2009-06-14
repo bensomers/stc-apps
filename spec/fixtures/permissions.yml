@@ -1,0 +1,13 @@
+Permission_001:
+  id: "1"
+  name: user_admin/superuser
+  info: User Admin Superuser
+Permission_002:
+  id: "2"
+  name: user_admin/index
+  info: List Users, Roles, Permissions
+Permission_003:
+  id: "3"
+  name: user_admin/@Pet_Store
+  info: Pet Store Department Admin
+
