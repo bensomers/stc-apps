@@ -9,8 +9,6 @@ module DataTypeHelper
   end
 end
 
-
-
 describe DataType do
   include DataTypeHelper
   describe "when newly created" do
@@ -23,7 +21,7 @@ describe DataType do
       @data_type.should be_valid
     end
 
-    [:name, :description, :department_id].each do |attribute|
+    [:name, :department_id].each do |attribute|
       it "should be invalid without #{attribute}" do
         @data_type.attributes = valid_data_type_attributes.except(attribute)
         @data_type.should_not be_valid

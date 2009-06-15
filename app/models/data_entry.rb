@@ -1,6 +1,8 @@
 class DataEntry < ActiveRecord::Base
   belongs_to :data_object
-  
+
+  validates_presence_of :data_object_id
+  validates_presence_of :content
   # Write DataEntry content as a string with the following delimiters:
   #   Double semicolon between each datafield
   #   Double colon between the id of the datafield and the information it holds
@@ -18,7 +20,7 @@ class DataEntry < ActiveRecord::Base
           content << v.to_s.gsub(";","**semicolon**").gsub(":","**colon**") + ";"
         end
         content.chomp!(";")          #strip off the final semicolon
-        content << ";;"        
+        content << ";;"
       else
         content << key.to_s + "::"
         content << value.to_s.gsub(";","**semicolon**").gsub(":","**colon**") + ";;"
@@ -26,13 +28,13 @@ class DataEntry < ActiveRecord::Base
     end
     return self.content = content.chomp!(';;') #strip last final double semicolon
   end
-    
+
 ### Virtual attributes ###
   # Returns all the data fields referenced by a given data entry
   def data_fields
     self.content.split(';;').map{|str| str.split('::')}.map{|a| a.first}
   end
-  
+
   # Returns the data fields and user content in a set of [field, content] arrays
   def data_fields_with_contents
     content_arrays = self.content.split(';;').map{|str| str.split('::')}
@@ -51,11 +53,12 @@ class DataEntry < ActiveRecord::Base
     end
     return content_arrays
   end
-      
-    
-    
+
+
+
 ##      [a.first, a.second.gsub('**semicolon**',';').gsub('**colon**',':')]
 #    end
 #  end
 
 end
+
