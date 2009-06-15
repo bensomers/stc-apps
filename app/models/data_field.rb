@@ -10,7 +10,7 @@ class DataField < ActiveRecord::Base
 
   #This should probably be moved to the data_entries helper
   #Based on the display type, returns the arguments for the formhelper methods
-  def parse_display_and_values
+  def prepare_form_helpers
     if display_type == "text_field"
       return ["data_fields", id, {:id => id}]
     elsif display_type == "text_area"

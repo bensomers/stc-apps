@@ -1,11 +1,11 @@
 
---- 
-permissions: 
-  columns: 
+---
+permissions:
+  columns:
   - id
   - name
   - info
-  records: 
+  records:
   - - "1"
     - user_admin/index
     - List Users, Roles, Permissions
@@ -244,12 +244,12 @@ permissions:
     - shift_admin/@stc/unstaffed_public_clusters
     - Grant Shift Admin Access for Unstaffed Public Clusters
 
---- 
-permissions_roles: 
-  columns: 
+---
+permissions_roles:
+  columns:
   - role_id
   - permission_id
-  records: 
+  records:
   - - "1"
     - "15"
   - - "1"
@@ -415,14 +415,14 @@ permissions_roles:
   - - "84"
     - "111"
 
---- 
-roles: 
-  columns: 
+---
+roles:
+  columns:
   - id
   - name
   - display_name
   - description
-  records: 
+  records:
   - - "1"
     - user_admin
     - User Admin
@@ -672,12 +672,12 @@ roles:
     - Unstaffed Public Clusters
     - Grant Shift Admin Access for Unstaffed Public Clusters
 
---- 
-roles_users: 
-  columns: 
+---
+roles_users:
+  columns:
   - user_id
   - role_id
-  records: 
+  records:
   - - "1"
     - "1"
   - - "1"
@@ -891,14 +891,14 @@ roles_users:
   - - "137"
     - "9"
 
---- 
-sessions: 
-  columns: 
+---
+sessions:
+  columns:
   - id
   - session_id
   - data
   - updated_at
-  records: 
+  records:
   - - "1"
     - 2ec94f158b6bdcb19e8940eb223d43b8
     - |
@@ -1007,9 +1007,9 @@ sessions:
 
     - 2009-06-15 11:36:59
 
---- 
-users: 
-  columns: 
+---
+users:
+  columns:
   - id
   - login
   - name
@@ -1018,7 +1018,7 @@ users:
   - last_name
   - email
   - ein
-  records: 
+  records:
   - - "1"
     - ars47
     - Andrew Smith
@@ -1026,7 +1026,7 @@ users:
     - Andrew
     - Smith
     - andrew.r.smith@yale.edu
-    - 
+    -
   - - "4"
     - alb64
     - Adam Bray
@@ -1034,7 +1034,7 @@ users:
     - Adam
     - Bray
     - adam.bray@yale.edu
-    - 
+    -
   - - "5"
     - lsh9
     - Lori Higashi
@@ -1042,7 +1042,7 @@ users:
     - Loriann
     - Higashi
     - loriann.higashi@yale.edu
-    - 
+    -
   - - "6"
     - aa536
     - Ahmet Aktay
@@ -1050,7 +1050,7 @@ users:
     - Ahmet
     - Aktay
     - ahmet.aktay@yale.edu
-    - 
+    -
   - - "7"
     - brs35
     - Ben Somers
@@ -1058,7 +1058,7 @@ users:
     - Benjamin
     - Somers
     - ben.somers@yale.edu
-    - 
+    -
   - - "8"
     - amr86
     - Adrian Ryan
@@ -1066,7 +1066,7 @@ users:
     - Adrian
     - Ryan
     - adrian.ryan@yale.edu
-    - 
+    -
   - - "9"
     - dtt22
     - Harley Trung
@@ -1074,7 +1074,7 @@ users:
     - Dung
     - Trung
     - dung.trung@yale.edu
-    - 
+    -
   - - "10"
     - dtk23
     - David Klumpp
@@ -1082,7 +1082,7 @@ users:
     - David
     - Klumpp
     - david.klumpp@yale.edu
-    - 
+    -
   - - "11"
     - snl8
     - Steven Le
@@ -1090,7 +1090,7 @@ users:
     - Steven
     - Le
     - steven.le@yale.edu
-    - 
+    -
   - - "12"
     - njg24
     - Nathan Griffith
@@ -1098,23 +1098,23 @@ users:
     - Nathan
     - Griffith
     - nathan.griffith@yale.edu
-    - 
+    -
   - - "13"
     - catest
     - STC
     - true
-    - 
-    - 
+    -
+    -
     - adam.bray@yale.edu
-    - 
+    -
   - - "14"
     - studcomp
     - STC2
     - true
-    - 
-    - 
+    -
+    -
     - adam.bray@yale.edu
-    - 
+    -
   - - "15"
     - aje29
     - AJ Espinosa
@@ -1122,7 +1122,7 @@ users:
     - Alfonso
     - Espinosa
     - alfonso.espinosa@yale.edu
-    - 
+    -
   - - "16"
     - aj255
     - Alex Jares
@@ -1130,7 +1130,7 @@ users:
     - Alexander
     - Jares
     - alexander.jares@yale.edu
-    - 
+    -
   - - "17"
     - jaj36
     - Alex Johnson
@@ -1138,7 +1138,7 @@ users:
     - John
     - Johnson
     - john.a.johnson@yale.edu
-    - 
+    -
   - - "18"
     - alv6
     - Alex Vaynberg
@@ -1146,7 +1146,7 @@ users:
     - Alexander
     - Vaynberg
     - alexander.vaynberg@yale.edu
-    - 
+    -
   - - "19"
     - wab22
     - Allen Bristow
@@ -1154,7 +1154,7 @@ users:
     - William
     - Bristow
     - william.bristow@yale.edu
-    - 
+    -
   - - "20"
     - yg66
     - Andrew Gu
@@ -1162,7 +1162,7 @@ users:
     - Yingqi
     - Gu
     - yingqi.gu@yale.edu
-    - 
+    -
   - - "21"
     - bmb43
     - Ben Bokser
@@ -1170,7 +1170,7 @@ users:
     - Benjamin
     - Bokser
     - benjamin.bokser@yale.edu
-    - 
+    -
   - - "22"
     - rbl23
     - Bing Luo
@@ -1178,7 +1178,7 @@ users:
     - Roy
     - Luo
     - roy.luo@yale.edu
-    - 
+    -
   - - "23"
     - rfm28
     - Bobby McFadden III
@@ -1186,7 +1186,7 @@ users:
     - Robert
     - McFadden
     - robert.mcfadden@yale.edu
-    - 
+    -
   - - "24"
     - cjl48
     - Carrie Lynn
@@ -1194,7 +1194,7 @@ users:
     - Caroline
     - Lynn
     - caroline.lynn@yale.edu
-    - 
+    -
   - - "25"
     - csp28
     - Chris Pollard
@@ -1202,7 +1202,7 @@ users:
     - Christopher
     - Pollard
     - christopher.pollard@yale.edu
-    - 
+    -
   - - "26"
     - ccc56
     - Crystal Chen
@@ -1210,7 +1210,7 @@ users:
     - Chuen-Yee
     - Chen
     - crystal.chen@yale.edu
-    - 
+    -
   - - "27"
     - yw242
     - David Wang
@@ -1218,7 +1218,7 @@ users:
     - Yizi
     - Wang
     - yizi.wang@yale.edu
-    - 
+    -
   - - "28"
     - yl434
     - Eric Lu
@@ -1226,7 +1226,7 @@ users:
     - Yijia
     - Lu
     - yijia.lu@yale.edu
-    - 
+    -
   - - "29"
     - jco25
     - Jack O'Connor
@@ -1234,7 +1234,7 @@ users:
     - John
     - O'Connor
     - john.oconnor@yale.edu
-    - 
+    -
   - - "30"
     - jb755
     - Jake Berv
@@ -1242,7 +1242,7 @@ users:
     - Jacob
     - Berv
     - jacob.berv@yale.edu
-    - 
+    -
   - - "31"
     - qkv2
     - Kelvin Vu
@@ -1250,7 +1250,7 @@ users:
     - Quoc-Kha
     - Vu
     - quoc-kha.vu@yale.edu
-    - 
+    -
   - - "32"
     - ks447
     - Kersi Shroff
@@ -1258,7 +1258,7 @@ users:
     - Kersi
     - Shroff
     - kersi.shroff@yale.edu
-    - 
+    -
   - - "33"
     - kaa43
     - Kobby Antwi-Boasiako
@@ -1266,7 +1266,7 @@ users:
     - Kwabena
     - Antwi-Boasiako
     - kwabena.antwi-boasiako@yale.edu
-    - 
+    -
   - - "34"
     - mfd29
     - Matt Du Pont
@@ -1274,7 +1274,7 @@ users:
     - Matthew
     - Du Pont
     - matthew.dupont@yale.edu
-    - 
+    -
   - - "35"
     - jmc289
     - Max Cutler
@@ -1282,7 +1282,7 @@ users:
     - Joseph
     - Cutler
     - joseph.cutler@yale.edu
-    - 
+    -
   - - "36"
     - nmd37
     - Naz Al Dakkak
@@ -1290,7 +1290,7 @@ users:
     - Nafez
     - Al Dakkak
     - nafez.aldakkak@yale.edu
-    - 
+    -
   - - "37"
     - zh36
     - Nick Huang
@@ -1298,7 +1298,7 @@ users:
     - Zhipeng
     - Huang
     - zhipeng.huang@yale.edu
-    - 
+    -
   - - "38"
     - nnr4
     - Nick Rosenbaum
@@ -1306,7 +1306,7 @@ users:
     - Nicholas
     - Rosenbaum
     - nicholas.rosenbaum@yale.edu
-    - 
+    -
   - - "39"
     - ssa32
     - Salah Ahmed
@@ -1314,7 +1314,7 @@ users:
     - Syed
     - Ahmed
     - salah.ahmed@yale.edu
-    - 
+    -
   - - "40"
     - dsg42
     - Sam Gensburg
@@ -1322,7 +1322,7 @@ users:
     - David
     - Gensburg
     - david.gensburg@yale.edu
-    - 
+    -
   - - "41"
     - sfs29
     - Sam Steinbock
@@ -1330,7 +1330,7 @@ users:
     - Samuel
     - Steinbock
     - samuel.steinbock@yale.edu
-    - 
+    -
   - - "42"
     - syt3
     - Steph Tzeng
@@ -1338,7 +1338,7 @@ users:
     - Stephany
     - Tzeng
     - stephany.tzeng@yale.edu
-    - 
+    -
   - - "43"
     - tpp22
     - Ted Palenski
@@ -1346,7 +1346,7 @@ users:
     - Theodore
     - Palenski
     - theodore.palenski@yale.edu
-    - 
+    -
   - - "44"
     - tak29
     - Tim Kau
@@ -1354,7 +1354,7 @@ users:
     - Timothy
     - Kau
     - timothy.kau@yale.edu
-    - 
+    -
   - - "45"
     - yai3
     - Yamo Ilgen
@@ -1362,7 +1362,7 @@ users:
     - Yagmur
     - Ilgen
     - yagmur.ilgen@yale.edu
-    - 
+    -
   - - "46"
     - yc249
     - Yooj Cheong
@@ -1370,7 +1370,7 @@ users:
     - Yoo Jin
     - Cheong
     - yoojin.cheong@yale.edu
-    - 
+    -
   - - "47"
     - tra6
     - Todd Anderson
@@ -1378,7 +1378,7 @@ users:
     - Todd
     - Anderson
     - todd.anderson@yale.edu
-    - 
+    -
   - - "48"
     - tda6
     - Tony Au
@@ -1386,7 +1386,7 @@ users:
     - Tony
     - Au
     - tony.au@yale.edu
-    - 
+    -
   - - "49"
     - egb26
     - Ezra Baraban
@@ -1394,7 +1394,7 @@ users:
     - Ezra
     - Baraban
     - ezra.baraban@yale.edu
-    - 
+    -
   - - "50"
     - rsb38
     - Robert Baskin
@@ -1402,7 +1402,7 @@ users:
     - Robert
     - Baskin
     - robert.baskin@yale.edu
-    - 
+    -
   - - "51"
     - seb57
     - Simone Berkower
@@ -1410,7 +1410,7 @@ users:
     - Simone
     - Berkower
     - simone.berkower@yale.edu
-    - 
+    -
   - - "52"
     - agb25
     - Alyssa Bernstein
@@ -1418,7 +1418,7 @@ users:
     - Alyssa
     - Bernstein
     - alyssa.bernstein@yale.edu
-    - 
+    -
   - - "53"
     - tmb36
     - Taylor Brown
@@ -1426,7 +1426,7 @@ users:
     - Taylor
     - Brown
     - taylor.brown@yale.edu
-    - 
+    -
   - - "54"
     - jbc54
     - Jharrett Bryantt-Carrillo
@@ -1434,7 +1434,7 @@ users:
     - Jharrett
     - Carrillo
     - jharrett.bryantt@yale.edu
-    - 
+    -
   - - "55"
     - mac269
     - Michael Cappuccio
@@ -1442,7 +1442,7 @@ users:
     - Michael
     - Cappuccio
     - michael.cappuccio@yale.edu
-    - 
+    -
   - - "56"
     - kcc22
     - Kai Chao
@@ -1450,7 +1450,7 @@ users:
     - Kai
     - Chao
     - kai.chao@yale.edu
-    - 
+    -
   - - "57"
     - mc785
     - Michael Chao
@@ -1458,7 +1458,7 @@ users:
     - Michael
     - Chao
     - michael.chao@yale.edu
-    - 
+    -
   - - "58"
     - czc4
     - Cecelia Chen
@@ -1466,7 +1466,7 @@ users:
     - Cecelia
     - Chen
     - cecelia.chen@yale.edu
-    - 
+    -
   - - "59"
     - ncc22
     - Nicholas Clemm
@@ -1474,7 +1474,7 @@ users:
     - Nicholas
     - Clemm
     - nicholas.clemm@yale.edu
-    - 
+    -
   - - "60"
     - wc265
     - Wilky Coutard
@@ -1482,7 +1482,7 @@ users:
     - Wilky
     - Coutard
     - wilky.coutard@yale.edu
-    - 
+    -
   - - "61"
     - cac229
     - Christian Csar
@@ -1490,7 +1490,7 @@ users:
     - Christian
     - Csar
     - christian.csar@yale.edu
-    - 
+    -
   - - "62"
     - bsd8
     - Brian De
@@ -1498,7 +1498,7 @@ users:
     - Brian
     - De
     - brian.de@yale.edu
-    - 
+    -
   - - "63"
     - id68
     - Ifigeneia Derekli
@@ -1506,7 +1506,7 @@ users:
     - Ifigeneia
     - Derekli
     - ifigeneia.derekli@yale.edu
-    - 
+    -
   - - "64"
     - scd29
     - Stephen Dobeck
@@ -1514,7 +1514,7 @@ users:
     - Stephen
     - Dobeck
     - stephen.dobeck@yale.edu
-    - 
+    -
   - - "65"
     - jd462
     - Jesse Dong
@@ -1522,7 +1522,7 @@ users:
     - Jesse
     - Dong
     - jesse.dong@yale.edu
-    - 
+    -
   - - "66"
     - mld48
     - Matthew Doud
@@ -1530,7 +1530,7 @@ users:
     - Matthew
     - Doud
     - matthew.doud@yale.edu
-    - 
+    -
   - - "67"
     - ehf8
     - Eric Feng
@@ -1538,7 +1538,7 @@ users:
     - Eric
     - Feng
     - eric.feng@yale.edu
-    - 
+    -
   - - "68"
     - mf378
     - Marjan Firouzgar
@@ -1546,7 +1546,7 @@ users:
     - Marjan
     - Firouzgar
     - marjan.firouzgar@yale.edu
-    - 
+    -
   - - "69"
     - djf35
     - David Flinner
@@ -1554,7 +1554,7 @@ users:
     - David
     - Flinner
     - david.flinner@yale.edu
-    - 
+    -
   - - "70"
     - jef42
     - James Ford
@@ -1562,7 +1562,7 @@ users:
     - James
     - Ford
     - james.ford@yale.edu
-    - 
+    -
   - - "71"
     - drg35
     - David Golub
@@ -1570,7 +1570,7 @@ users:
     - David
     - Golub
     - david.golub@yale.edu
-    - 
+    -
   - - "72"
     - ksh37
     - Kate Hawkins
@@ -1578,7 +1578,7 @@ users:
     - Kate
     - Hawkins
     - kate.hawkins@yale.edu
-    - 
+    -
   - - "73"
     - agh29
     - Andrew Hoffman
@@ -1586,7 +1586,7 @@ users:
     - Andrew
     - Hoffman
     - andrew.hoffman@yale.edu
-    - 
+    -
   - - "74"
     - wkh2
     - Wilbur Hu
@@ -1594,7 +1594,7 @@ users:
     - Wilbur
     - Hu
     - wilbur.hu@yale.edu
-    - 
+    -
   - - "75"
     - jh583
     - Jeffrey Huang
@@ -1602,7 +1602,7 @@ users:
     - Jeffrey
     - Huang
     - jeffrey.huang@yale.edu
-    - 
+    -
   - - "76"
     - ajj28
     - Alan Jiang
@@ -1610,7 +1610,7 @@ users:
     - Alan
     - Jiang
     - alan.jiang@yale.edu
-    - 
+    -
   - - "77"
     - cjk43
     - Chris Kaimmer
@@ -1618,7 +1618,7 @@ users:
     - Christopher
     - Kaimmer
     - chris.kaimmer@yale.edu
-    - 
+    -
   - - "78"
     - kk388
     - Khadija Khan
@@ -1626,7 +1626,7 @@ users:
     - Khadija
     - Khan
     - khadija.khan@yale.edu
-    - 
+    -
   - - "79"
     - jbk33
     - James Kim
@@ -1634,7 +1634,7 @@ users:
     - James
     - Kim
     - james.kim@yale.edu
-    - 
+    -
   - - "80"
     - gk224
     - Gautam Kumar
@@ -1642,7 +1642,7 @@ users:
     - Gautam
     - Kumar
     - gautam.kumar@yale.edu
-    - 
+    -
   - - "81"
     - mcl44
     - Maria Langat
@@ -1650,15 +1650,15 @@ users:
     - Maria
     - Langat
     - maria.langat@yale.edu
-    - 
+    -
   - - "82"
     - kl289
     - Ka Mo Lau
     - true
-    - 
-    - 
-    - 
-    - 
+    -
+    -
+    -
+    -
   - - "83"
     - krl9
     - Kathleen Lawler
@@ -1666,7 +1666,7 @@ users:
     - Kathleen
     - Lawler
     - kathleen.lawler@yale.edu
-    - 
+    -
   - - "84"
     - jl849
     - Joseph Lee
@@ -1674,7 +1674,7 @@ users:
     - Joseph
     - Lee
     - joseph.lee@yale.edu
-    - 
+    -
   - - "85"
     - dl374
     - Dan Li
@@ -1682,7 +1682,7 @@ users:
     - Dan
     - Li
     - dan.li@yale.edu
-    - 
+    -
   - - "86"
     - ayl8
     - Amy Liao
@@ -1690,7 +1690,7 @@ users:
     - Amy
     - Liao
     - amy.liao@yale.edu
-    - 
+    -
   - - "87"
     - mpl36
     - Michael Libertin
@@ -1698,7 +1698,7 @@ users:
     - Michael
     - Libertin
     - michael.libertin@yale.edu
-    - 
+    -
   - - "88"
     - cal66
     - Carlos Lopez
@@ -1706,7 +1706,7 @@ users:
     - Carlos
     - Lopez
     - carlos.a.lopez@yale.edu
-    - 
+    -
   - - "89"
     - asl53
     - Amy Ly
@@ -1714,7 +1714,7 @@ users:
     - Amy
     - Ly
     - amy.ly@yale.edu
-    - 
+    -
   - - "90"
     - am846
     - Aashish Manchanda
@@ -1722,7 +1722,7 @@ users:
     - Aashish
     - Manchanda
     - aashish.manchanda@yale.edu
-    - 
+    -
   - - "91"
     - fom2
     - Frank Mokaya
@@ -1730,7 +1730,7 @@ users:
     - Frank
     - Mokaya
     - frank.mokaya@yale.edu
-    - 
+    -
   - - "92"
     - bem27
     - Ben Muller
@@ -1738,7 +1738,7 @@ users:
     - Benjamin
     - Muller
     - benjamin.muller@yale.edu
-    - 
+    -
   - - "93"
     - aoo7
     - Adeola Oni-Orisan
@@ -1746,7 +1746,7 @@ users:
     - Adeola
     - Oni-Orisan
     - adeola.oni-orisan@yale.edu
-    - 
+    -
   - - "94"
     - eao25
     - Evan Ortiz
@@ -1754,7 +1754,7 @@ users:
     - Evan
     - Ortiz
     - evan.ortiz@yale.edu
-    - 
+    -
   - - "95"
     - sp448
     - Sophia Popova
@@ -1762,7 +1762,7 @@ users:
     - Sophia
     - Popova
     - sophia.popova@yale.edu
-    - 
+    -
   - - "96"
     - kdp22
     - Kirk Portas
@@ -1770,7 +1770,7 @@ users:
     - Kirk
     - Portas
     - kirk.portas@yale.edu
-    - 
+    -
   - - "97"
     - uaq3
     - Umar Qadri
@@ -1778,7 +1778,7 @@ users:
     - Umar
     - Qadri
     - umar.qadri@yale.edu
-    - 
+    -
   - - "98"
     - uaq2
     - Usama Qadri
@@ -1786,7 +1786,7 @@ users:
     - Usama
     - Qadri
     - usama.qadri@yale.edu
-    - 
+    -
   - - "99"
     - zkq2
     - Zheela Qaiser
@@ -1794,7 +1794,7 @@ users:
     - Zheela
     - Qaiser
     - zheela.qaiser@yale.edu
-    - 
+    -
   - - "100"
     - jmq23
     - Jack Qian
@@ -1802,7 +1802,7 @@ users:
     - Jack
     - Qian
     - jack.qian@yale.edu
-    - 
+    -
   - - "101"
     - mmq4
     - Monica Qiu
@@ -1810,7 +1810,7 @@ users:
     - Monica
     - Qiu
     - monica.qiu@yale.edu
-    - 
+    -
   - - "102"
     - cmr55
     - Chris Roggenbuck
@@ -1818,7 +1818,7 @@ users:
     - Christopher
     - Roggenbuck
     - christopher.roggenbuck@yale.edu
-    - 
+    -
   - - "103"
     - ns369
     - Nozlee Samadzadeh
@@ -1826,7 +1826,7 @@ users:
     - Nozlee
     - Samadzadeh
     - nozlee.samadzadeh@yale.edu
-    - 
+    -
   - - "104"
     - mjs249
     - Marina Santiago
@@ -1834,7 +1834,7 @@ users:
     - Marina
     - Santiago
     - marina.santiago@yale.edu
-    - 
+    -
   - - "105"
     - fes28
     - Francesca Slade
@@ -1842,7 +1842,7 @@ users:
     - Francesca
     - Slade
     - francesca.slade@yale.edu
-    - 
+    -
   - - "106"
     - shs35
     - Scott Snyder
@@ -1850,7 +1850,7 @@ users:
     - Scott
     - Snyder
     - scott.snyder@yale.edu
-    - 
+    -
   - - "107"
     - ars55
     - Adam Solomon
@@ -1858,7 +1858,7 @@ users:
     - Adam
     - Solomon
     - adam.solomon@yale.edu
-    - 
+    -
   - - "108"
     - syt4
     - Simon Tao
@@ -1866,7 +1866,7 @@ users:
     - Simon
     - Tao
     - simon.tao@yale.edu
-    - 
+    -
   - - "109"
     - jet44
     - Jonathan Thirman
@@ -1874,7 +1874,7 @@ users:
     - Jonathan
     - Thirman
     - jonathan.thirman@yale.edu
-    - 
+    -
   - - "110"
     - lt275
     - Laura Tomas
@@ -1882,7 +1882,7 @@ users:
     - Laura
     - Tomas
     - laura.tomas@yale.edu
-    - 
+    -
   - - "111"
     - kmt43
     - Kathy Tran
@@ -1890,7 +1890,7 @@ users:
     - Kathy
     - Tran
     - kathy.tran@yale.edu
-    - 
+    -
   - - "112"
     - mlv23
     - Michelle Vu
@@ -1898,7 +1898,7 @@ users:
     - Michelle
     - Vu
     - michelle.vu@yale.edu
-    - 
+    -
   - - "113"
     - dw276
     - Di Wang
@@ -1906,7 +1906,7 @@ users:
     - Di
     - Wang
     - di.wang@yale.edu
-    - 
+    -
   - - "114"
     - amw68
     - Bram Wayman
@@ -1914,7 +1914,7 @@ users:
     - Abraham
     - Wayman
     - abraham.wayman@yale.edu
-    - 
+    -
   - - "115"
     - adw38
     - Alan Wesson
@@ -1922,7 +1922,7 @@ users:
     - Alan
     - Wesson
     - alan.wesson@yale.edu
-    - 
+    -
   - - "116"
     - dew47
     - Drew Westphal
@@ -1930,7 +1930,7 @@ users:
     - Drew
     - Westphal
     - drew.westphal@yale.edu
-    - 
+    -
   - - "117"
     - mdw38
     - Mark Wilson
@@ -1938,7 +1938,7 @@ users:
     - Mark
     - Wilson
     - mark.wilson@yale.edu
-    - 
+    -
   - - "118"
     - ew275
     - Efan Wu
@@ -1946,7 +1946,7 @@ users:
     - Efan
     - Wu
     - efan.wu@yale.edu
-    - 
+    -
   - - "119"
     - cwy6
     - Christian Young
@@ -1954,7 +1954,7 @@ users:
     - Christian
     - Young
     - christian.young@yale.edu
-    - 
+    -
   - - "120"
     - mpz4
     - Paul Zeng
@@ -1962,7 +1962,7 @@ users:
     - Paul
     - Zeng
     - paul.zeng@yale.edu
-    - 
+    -
   - - "121"
     - dz65
     - Derek Zhao
@@ -1970,7 +1970,7 @@ users:
     - Derek
     - Zhao
     - derek.zhao@yale.edu
-    - 
+    -
   - - "122"
     - hz83
     - Huan Zhen
@@ -1978,15 +1978,15 @@ users:
     - Huan
     - Zhen
     - huan.zhen@yale.edu
-    - 
+    -
   - - "123"
     - mkerbel
     - Michael Kerbel
     - true
-    - 
-    - 
+    -
+    -
     - michael.kerbel@yale.edu
-    - 
+    -
   - - "125"
     - jb47
     - Jim Blau
@@ -1994,7 +1994,7 @@ users:
     - Jim
     - Blau
     - jim.blau@yale.edu
-    - 
+    -
   - - "126"
     - lynna
     - Lynna Jackson
@@ -2002,7 +2002,7 @@ users:
     - Lynna
     - Jackson
     - lynna.jackson@yale.edu
-    - 
+    -
   - - "127"
     - sbo2
     - Steve Ongley
@@ -2010,7 +2010,7 @@ users:
     - Steven
     - Ongley
     - steven.ongley@yale.edu
-    - 
+    -
   - - "128"
     - yb45
     - Yahor Buben
@@ -2018,47 +2018,47 @@ users:
     - Yahor
     - Buben
     - yahor.buben@yale.edu
-    - 
+    -
   - - "129"
     - sbo6
     - Steve Ongley Jr
     - true
-    - 
-    - 
+    -
+    -
     - ""
-    - 
+    -
   - - "130"
     - tf82
     - Themba Flowers
     - true
-    - 
-    - 
+    -
+    -
     - themba.flowers@yale.edu
-    - 
+    -
   - - "131"
     - rsc38
     - Sherlock Campbell
     - true
-    - 
-    - 
+    -
+    -
     - sherlock.campbell@yale.edu
-    - 
+    -
   - - "132"
     - pmonroy
     - Pete Monroy
     - true
-    - 
-    - 
+    -
+    -
     - pedro.monroy@yale.edu
-    - 
+    -
   - - "133"
     - mnv5
     - Minh Vuong
     - true
-    - 
-    - 
+    -
+    -
     - mvuong@cmu.edu
-    - 
+    -
   - - "134"
     - wy59
     - Wei Yan
@@ -2066,23 +2066,23 @@ users:
     - Wei
     - Yan
     - wei.yan@yale.edu
-    - 
+    -
   - - "135"
     - rjl39
     - Ryan Laughlin
     - true
-    - 
-    - 
+    -
+    -
     - ryan.laughlin@yale.edu
-    - 
+    -
   - - "136"
     - cmk49
     - Cassandra Kildow
     - true
-    - 
-    - 
+    -
+    -
     - cassandra.kildow@yale.edu
-    - 
+    -
   - - "137"
     - bq9
     - Bob Qu
@@ -2090,15 +2090,15 @@ users:
     - Bo
     - Qu
     - bo.qu@yale.edu
-    - 
+    -
 
---- 
-groups: 
-  columns: 
+---
+groups:
+  columns:
   - id
   - name
   - info
-  records: 
+  records:
   - - "1"
     - STC Admin
     - Access to User Admin and index
@@ -2136,12 +2136,12 @@ groups:
     - Media Services Students
     - MS students
 
---- 
-groups_roles: 
-  columns: 
+---
+groups_roles:
+  columns:
   - group_id
   - role_id
-  records: 
+  records:
   - - "1"
     - "1"
   - - "1"
@@ -2495,12 +2495,12 @@ groups_roles:
   - - "12"
     - "41"
 
---- 
-groups_users: 
-  columns: 
+---
+groups_users:
+  columns:
   - group_id
   - user_id
-  records: 
+  records:
   - - "1"
     - "1"
   - - "1"
@@ -2784,14 +2784,14 @@ groups_users:
   - - "9"
     - "131"
 
---- 
-departments: 
-  columns: 
+---
+departments:
+  columns:
   - id
   - name
   - info
   - permission_id
-  records: 
+  records:
   - - "1"
     - STC
     - Student Technology
@@ -2817,12 +2817,12 @@ departments:
     - Statlab
     - "97"
 
---- 
-departments_users: 
-  columns: 
+---
+departments_users:
+  columns:
   - department_id
   - user_id
-  records: 
+  records:
   - - "1"
     - "1"
   - - "1"
@@ -3097,13 +3097,14 @@ departments_users:
     - "131"
   - - "8"
     - "12"
-
---- 
-departments_roles: 
-  columns: 
+  - - "136"
+    - "1"
+---
+departments_roles:
+  columns:
   - department_id
   - role_id
-  records: 
+  records:
   - - "1"
     - "1"
   - - "1"
@@ -3285,12 +3286,12 @@ departments_roles:
   - - "7"
     - "15"
 
---- 
-departments_groups: 
-  columns: 
+---
+departments_groups:
+  columns:
   - department_id
   - group_id
-  records: 
+  records:
   - - "1"
     - "1"
   - - "1"
@@ -3316,9 +3317,9 @@ departments_groups:
   - - "6"
     - "10"
 
---- 
-shifts: 
-  columns: 
+---
+shifts:
+  columns:
   - id
   - user_id
   - location_id
@@ -3326,7 +3327,7 @@ shifts:
   - end
   - created_at
   - updated_at
-  records: 
+  records:
   - - "566"
     - "7"
     - "4"
@@ -4672,9 +4673,9 @@ shifts:
     - 2009-06-12 15:54:37
     - 2009-06-12 15:54:37
 
---- 
-shift_reports: 
-  columns: 
+---
+shift_reports:
+  columns:
   - id
   - shift_id
   - start
@@ -4684,7 +4685,7 @@ shift_reports:
   - created_at
   - updated_at
   - payform_auto_added
-  records: 
+  records:
   - - "14"
     - "571"
     - 2008-08-11 18:12:49
@@ -4706,7 +4707,7 @@ shift_reports:
   - - "16"
     - "724"
     - 2008-08-11 19:14:21
-    - 
+    -
     - 128.36.160.148
     - 128.36.160.148
     - 2008-08-11 19:14:21
@@ -4841,7 +4842,7 @@ shift_reports:
   - - "31"
     - "739"
     - 2008-08-14 16:02:01
-    - 
+    -
     - 128.36.156.138
     - 128.36.156.138
     - 2008-08-14 16:02:01
@@ -4886,7 +4887,7 @@ shift_reports:
   - - "36"
     - "748"
     - 2008-08-19 15:00:16
-    - 
+    -
     - 130.132.182.90
     - 130.132.182.90
     - 2008-08-19 15:00:16
@@ -4904,7 +4905,7 @@ shift_reports:
   - - "38"
     - "751"
     - 2008-08-21 21:06:46
-    - 
+    -
     - 88.235.145.162, 130.132.143.49
     - 88.235.145.162, 130.132.143.49
     - 2008-08-21 21:06:46
@@ -4913,7 +4914,7 @@ shift_reports:
   - - "39"
     - "580"
     - 2008-08-24 14:35:33
-    - 
+    -
     - 128.36.156.42
     - 128.36.156.42
     - 2008-08-24 14:35:33
@@ -4929,9 +4930,9 @@ shift_reports:
     - 2009-06-12 15:54:38
     - true
 
---- 
-line_items: 
-  columns: 
+---
+line_items:
+  columns:
   - id
   - shift_report_id
   - can_edit
@@ -4939,7 +4940,7 @@ line_items:
   - line_content
   - created_at
   - updated_at
-  records: 
+  records:
   - - "1"
     - "1"
     - false
@@ -6233,9 +6234,9 @@ line_items:
     - 2009-06-12 15:54:38
     - 2009-06-12 15:54:38
 
---- 
-locations: 
-  columns: 
+---
+locations:
+  columns:
   - id
   - location_group_id
   - long_name
@@ -6248,13 +6249,13 @@ locations:
   - active
   - created_at
   - updated_at
-  records: 
+  records:
   - - "1"
     - "1"
     - Technology Troubleshooting Office
     - TTO
     - adam.bray@yale.edu
-    - 
+    -
     - "3"
     - "20"
     - "2"
@@ -6266,7 +6267,7 @@ locations:
     - Bass Library Cluster
     - Bass
     - adam.bray@yale.edu
-    - 
+    -
     - "1"
     - "18"
     - "1"
@@ -6278,7 +6279,7 @@ locations:
     - Dunham Cluster
     - Dunham
     - adam.bray@yale.edu
-    - 
+    -
     - "1"
     - "16"
     - "1"
@@ -6290,7 +6291,7 @@ locations:
     - Connecticut Hall Cluster
     - CTHall
     - adam.bray@yale.edu
-    - 
+    -
     - "1"
     - "14"
     - "1"
@@ -6302,7 +6303,7 @@ locations:
     - IO Cluster
     - IO
     - adam.bray@yale.edu
-    - 
+    -
     - "2"
     - "20"
     - "1"
@@ -6314,7 +6315,7 @@ locations:
     - Bass Media Desk
     - Bass Media Desk
     - adam.bray@yale.edu
-    - 
+    -
     - "1"
     - "0"
     - "1"
@@ -6326,7 +6327,7 @@ locations:
     - main StatLab
     - StatLab
     - themba.flowers@yale.edu
-    - 
+    -
     - "1"
     - "1"
     - "0"
@@ -6338,7 +6339,7 @@ locations:
     - Test Loc
     - TestLoc
     - adam.bray@yale.edu
-    - 
+    -
     - "2"
     - "12"
     - "1"
@@ -6350,9 +6351,9 @@ locations:
     - Berkeley
     - BK
     - Studtech-st-bk-kilroy@mailman.yale.edu
-    - 
+    -
     - "1"
-    - 
+    -
     - "1"
     - true
     - 2008-08-24 15:04:16
@@ -6362,9 +6363,9 @@ locations:
     - Branford
     - BR
     - Studtech-st-br-kilroy@mailman.yale.edu
-    - 
+    -
     - "1"
-    - 
+    -
     - "1"
     - true
     - 2008-08-24 15:04:55
@@ -6374,9 +6375,9 @@ locations:
     - Calhoun
     - CC
     - Studtech-st-cc-kilroy@mailman.yale.edu
-    - 
+    -
     - "1"
-    - 
+    -
     - "1"
     - true
     - 2008-08-24 15:05:26
@@ -6386,9 +6387,9 @@ locations:
     - Davenport
     - DC
     - Studtech-st-dc-kilroy@mailman.yale.edu
-    - 
+    -
     - "1"
-    - 
+    -
     - "1"
     - true
     - 2008-08-24 15:15:36
@@ -6398,9 +6399,9 @@ locations:
     - Ezra Stiles
     - ES
     - Studtech-st-es-kilroy@mailman.yale.edu
-    - 
+    -
     - "1"
-    - 
+    -
     - "1"
     - true
     - 2008-08-24 15:16:10
@@ -6410,9 +6411,9 @@ locations:
     - Hall of Graduate Studies
     - HGS
     - Studtech-st-hgs-kilroy@mailman.yale.edu
-    - 
+    -
     - "1"
-    - 
+    -
     - "1"
     - true
     - 2008-08-24 15:16:59
@@ -6422,9 +6423,9 @@ locations:
     - Helen Hadley Hall
     - HHH
     - Studtech-st-hhh-kilroy@mailman.yale.edu
-    - 
+    -
     - "1"
-    - 
+    -
     - "1"
     - true
     - 2008-08-24 15:17:28
@@ -6434,9 +6435,9 @@ locations:
     - Jonathan Edwards
     - JE
     - Studtech-st-je-kilroy@mailman.yale.edu
-    - 
+    -
     - "1"
-    - 
+    -
     - "1"
     - true
     - 2008-08-24 15:17:58
@@ -6446,9 +6447,9 @@ locations:
     - Morse
     - MC
     - Studtech-st-mc-kilroy@mailman.yale.edu
-    - 
+    -
     - "1"
-    - 
+    -
     - "1"
     - true
     - 2008-08-24 15:18:42
@@ -6458,9 +6459,9 @@ locations:
     - Pierson
     - PC
     - Studtech-st-pc-kilroy@mailman.yale.edu
-    - 
+    -
     - "1"
-    - 
+    -
     - "1"
     - true
     - 2008-08-24 15:20:03
@@ -6470,9 +6471,9 @@ locations:
     - Prospect 276
     - PR276
     - Studtech-st-pr276-kilroy@mailman.yale.edu
-    - 
+    -
     - "1"
-    - 
+    -
     - "1"
     - true
     - 2008-08-24 15:20:29
@@ -6482,9 +6483,9 @@ locations:
     - Silliman
     - SM
     - Studtech-st-sm-kilroy@mailman.yale.edu
-    - 
+    -
     - "1"
-    - 
+    -
     - "1"
     - true
     - 2008-08-24 15:20:58
@@ -6494,9 +6495,9 @@ locations:
     - Swing Space
     - SW
     - Studtech-st-sw-kilroy@mailman.yale.edu
-    - 
+    -
     - "1"
-    - 
+    -
     - "1"
     - true
     - 2008-08-24 15:21:21
@@ -6506,9 +6507,9 @@ locations:
     - Saybrook
     - SY
     - Studtech-st-sy-kilroy@mailman.yale.edu
-    - 
+    -
     - "1"
-    - 
+    -
     - "1"
     - true
     - 2008-08-24 15:21:58
@@ -6518,9 +6519,9 @@ locations:
     - Trumbull
     - TC
     - Studtech-st-tc-kilroy@mailman.yale.edu
-    - 
+    -
     - "1"
-    - 
+    -
     - "1"
     - true
     - 2008-08-24 15:22:19
@@ -6530,9 +6531,9 @@ locations:
     - Timothy Dwight
     - TD
     - Studtech-st-td-kilroy@mailman.yale.edu
-    - 
+    -
     - "1"
-    - 
+    -
     - "1"
     - true
     - 2008-08-24 15:23:15
@@ -6542,9 +6543,9 @@ locations:
     - Rosenfeld Hall
     - RH
     - Studtech-st-rh-kilroy@mailman.yale.edu
-    - 
+    -
     - "1"
-    - 
+    -
     - "1"
     - true
     - 2008-08-24 15:56:12
@@ -6554,9 +6555,9 @@ locations:
     - McDougal Center
     - MD
     - Studtech-st-md-kilroy@mailman.yale.edu
-    - 
+    -
     - "1"
-    - 
+    -
     - "1"
     - true
     - 2008-08-24 16:13:44
@@ -6566,9 +6567,9 @@ locations:
     - Kline Science Library
     - KSL
     - Studtech-st-ksl-kilroy@mailman.yale.edu
-    - 
+    -
     - "1"
-    - 
+    -
     - "1"
     - true
     - 2008-08-24 16:14:24
@@ -6578,17 +6579,17 @@ locations:
     - Sterling Chemistry Lab
     - SCL
     - Studtech-st-scl-kilroy@mailman.yale.edu
-    - 
+    -
     - "1"
-    - 
+    -
     - "1"
     - true
     - 2008-08-24 16:15:35
     - 2008-08-24 16:52:53
 
---- 
-location_groups: 
-  columns: 
+---
+location_groups:
+  columns:
   - id
   - department_id
   - long_name
@@ -6603,14 +6604,14 @@ location_groups:
   - perm_admin_id
   - created_at
   - updated_at
-  records: 
+  records:
   - - "1"
     - "1"
     - Public Clusters
     - Public Clusters
-    - 
+    -
     - adam.bray@yale.edu
-    - 
+    -
     - "8.0"
     - "0.5"
     - "31"
@@ -6622,9 +6623,9 @@ location_groups:
     - "1"
     - IO (493 College)
     - IO Group
-    - 
+    -
     - adam.bray@yale.edu
-    - 
+    -
     - "8.0"
     - "1.0"
     - "32"
@@ -6636,9 +6637,9 @@ location_groups:
     - "1"
     - Bass Media
     - Bass Media
-    - 
+    -
     - adam.bray@yale.edu
-    - 
+    -
     - "8.0"
     - "0.0"
     - "70"
@@ -6650,9 +6651,9 @@ location_groups:
     - "6"
     - Main StatLab
     - StatLab
-    - 
+    -
     - stathelp@yale.edu
-    - 
+    -
     - "14.0"
     - "0.0"
     - "103"
@@ -6664,9 +6665,9 @@ location_groups:
     - "7"
     - Test Group
     - Test
-    - 
+    -
     - adam.bray@yale.edu
-    - 
+    -
     - "5.0"
     - "1.0"
     - "115"
@@ -6678,11 +6679,11 @@ location_groups:
     - "1"
     - College Clusters
     - College Clusters
-    - 
+    -
     - ""
-    - 
-    - 
-    - 
+    -
+    -
+    -
     - "106"
     - "107"
     - "108"
@@ -6692,27 +6693,27 @@ location_groups:
     - "1"
     - Unstaffed Public Clusters
     - Unstaffed Public Clusters
-    - 
+    -
     - ""
-    - 
-    - 
-    - 
+    -
+    -
+    -
     - "109"
     - "110"
     - "111"
     - 2008-08-24 16:12:05
     - 2008-08-24 16:12:05
 
---- 
-time_slots: 
-  columns: 
+---
+time_slots:
+  columns:
   - id
   - location_id
   - start
   - end
   - created_at
   - updated_at
-  records: 
+  records:
   - - "1"
     - "1"
     - 2008-06-18 08:00:00
@@ -13920,16 +13921,16 @@ time_slots:
     - 2008-08-14 16:27:15
     - 2008-08-14 16:27:15
 
---- 
-categories: 
-  columns: 
+---
+categories:
+  columns:
   - id
   - name
   - active
   - department_id
   - created_at
   - updated_at
-  records: 
+  records:
   - - "1"
     - Public Funding
     - false
@@ -14003,9 +14004,9 @@ categories:
     - 2008-08-28 16:12:33
     - 2008-08-28 16:12:33
 
---- 
-payform_items: 
-  columns: 
+---
+payform_items:
+  columns:
   - id
   - active
   - mass
@@ -14020,19 +14021,19 @@ payform_items:
   - mass_job_id
   - created_at
   - updated_at
-  records: 
+  records:
   - - "1"
     - true
     - false
     - "6"
     - Eating Bananas
     - "2008-06-07"
-    - 
+    -
     - njg24
     - "2"
     - "1"
-    - 
-    - 
+    -
+    -
     - 2008-08-08 12:59:52
     - 2008-08-08 12:59:52
   - - "2"
@@ -14041,12 +14042,12 @@ payform_items:
     - "90"
     - Invent It
     - "2008-06-07"
-    - 
+    -
     - njg24
     - "3"
     - "1"
-    - 
-    - 
+    -
+    -
     - 2008-08-08 12:59:52
     - 2008-08-08 12:59:52
   - - "3"
@@ -14055,12 +14056,12 @@ payform_items:
     - "1"
     - Throwing Poo
     - "2008-06-07"
-    - 
+    -
     - njg24
     - "2"
     - "1"
-    - 
-    - 
+    -
+    -
     - 2008-08-08 12:59:52
     - 2008-08-08 12:59:52
   - - "4"
@@ -14069,12 +14070,12 @@ payform_items:
     - "9"
     - Be Boring
     - "2008-06-07"
-    - 
+    -
     - njg24
     - "1"
     - "1"
-    - 
-    - 
+    -
+    -
     - 2008-08-08 12:59:52
     - 2008-08-08 12:59:52
   - - "5"
@@ -14083,12 +14084,12 @@ payform_items:
     - "30"
     - Ooh ooh aah aah!
     - "2008-06-07"
-    - 
+    -
     - njg24
     - "2"
     - "1"
-    - 
-    - 
+    -
+    -
     - 2008-08-08 12:59:52
     - 2008-08-08 12:59:52
   - - "6"
@@ -14097,12 +14098,12 @@ payform_items:
     - "1"
     - (05:23PM to 06:23PM) ahhhhhhh
     - "2008-08-08"
-    - 
+    -
     - snl8
     - "4"
     - "1"
-    - 
-    - 
+    -
+    -
     - 2008-08-08 17:23:25
     - 2008-08-08 17:23:25
   - - "7"
@@ -14111,12 +14112,12 @@ payform_items:
     - "0.05"
     - TTO Shift Report (05:21PM to 05:21PM)
     - "2008-08-08"
-    - 
+    -
     - shift#13
     - "8"
     - "1"
-    - 
-    - 
+    -
+    -
     - 2008-08-08 17:24:59
     - 2008-08-08 17:24:59
   - - "8"
@@ -14125,12 +14126,12 @@ payform_items:
     - "0.02"
     - Testing software
     - "2008-08-08"
-    - 
+    -
     - studcomp
     - "10"
     - "1"
-    - 
-    - 
+    -
+    -
     - 2008-08-08 21:38:34
     - 2008-08-08 21:38:34
   - - "9"
@@ -14139,12 +14140,12 @@ payform_items:
     - "0.1"
     - TTO Shift Report (06:12PM to 06:12PM)
     - "2008-08-11"
-    - 
+    -
     - shift#14
     - "8"
     - "1"
-    - 
-    - 
+    -
+    -
     - 2008-08-11 18:19:02
     - 2008-08-11 18:19:02
   - - "10"
@@ -14153,12 +14154,12 @@ payform_items:
     - "6"
     - TEST
     - "2008-08-11"
-    - 
+    -
     - njg24
-    - 
+    -
     - "5"
-    - 
-    - 
+    -
+    -
     - 2008-08-12 21:50:21
     - 2008-08-12 21:50:21
   - - "11"
@@ -14167,12 +14168,12 @@ payform_items:
     - "3"
     - TEST
     - "2008-08-12"
-    - 
+    -
     - njg24
     - "4"
     - "1"
-    - 
-    - 
+    -
+    -
     - 2008-08-12 21:50:35
     - 2008-08-12 21:50:35
   - - "12"
@@ -14181,12 +14182,12 @@ payform_items:
     - "0.01"
     - Bass Shift Report (04:04PM to 04:04PM)
     - "2008-08-13"
-    - 
+    -
     - shift#19
     - "8"
     - "1"
-    - 
-    - 
+    -
+    -
     - 2008-08-13 16:04:33
     - 2008-08-13 16:04:33
   - - "13"
@@ -14195,12 +14196,12 @@ payform_items:
     - "0.01"
     - IO Shift Report (05:46PM to 05:46PM)
     - "2008-08-13"
-    - 
+    -
     - shift#22
     - "8"
     - "1"
-    - 
-    - 
+    -
+    -
     - 2008-08-13 17:46:41
     - 2008-08-13 17:46:41
   - - "14"
@@ -14209,12 +14210,12 @@ payform_items:
     - "0.42"
     - (07:17PM to 07:42PM) lalalala
     - "2008-08-13"
-    - 
+    -
     - mmq4
     - "4"
     - "1"
-    - 
-    - 
+    -
+    -
     - 2008-08-13 19:20:44
     - 2008-08-13 19:20:44
   - - "15"
@@ -14223,12 +14224,12 @@ payform_items:
     - "0.01"
     - TTO Shift Report (08:47AM to 08:47AM)
     - "2008-08-14"
-    - 
+    -
     - shift#25
     - "8"
     - "1"
-    - 
-    - 
+    -
+    -
     - 2008-08-14 08:47:42
     - 2008-08-14 08:47:42
   - - "16"
@@ -14237,12 +14238,12 @@ payform_items:
     - "23"
     - "(12:57AM to 11:57PM) (12:57PM to 12:57PM) "
     - "2008-08-14"
-    - 
+    -
     - tf82
-    - 
+    -
     - "6"
-    - 
-    - 
+    -
+    -
     - 2008-08-14 12:57:28
     - 2008-08-14 12:57:28
   - - "17"
@@ -14251,12 +14252,12 @@ payform_items:
     - "3"
     - Test
     - "2008-08-14"
-    - 
+    -
     - alb64
     - "4"
     - "1"
-    - 
-    - 
+    -
+    -
     - 2008-08-14 13:05:24
     - 2008-08-14 13:05:24
   - - "18"
@@ -14265,12 +14266,12 @@ payform_items:
     - "0.02"
     - IO Shift Report (01:08PM to 01:08PM)
     - "2008-08-14"
-    - 
+    -
     - shift#26
     - "8"
     - "1"
-    - 
-    - 
+    -
+    -
     - 2008-08-14 13:10:30
     - 2008-08-14 13:10:30
   - - "19"
@@ -14279,12 +14280,12 @@ payform_items:
     - "0.01"
     - Dunham Shift Report (01:23PM to 01:23PM)
     - "2008-08-14"
-    - 
+    -
     - shift#27
     - "8"
     - "1"
-    - 
-    - 
+    -
+    -
     - 2008-08-14 13:23:16
     - 2008-08-14 13:23:16
   - - "20"
@@ -14293,12 +14294,12 @@ payform_items:
     - "1.02"
     - TTO Shift Report (01:25PM to 01:25PM)
     - "2008-08-14"
-    - 
+    -
     - shift#28
     - "8"
     - "1"
-    - 
-    - 
+    -
+    -
     - 2008-08-14 14:27:28
     - 2008-08-14 14:27:28
   - - "21"
@@ -14307,12 +14308,12 @@ payform_items:
     - "0.01"
     - IO Shift Report (02:54PM to 02:54PM)
     - "2008-08-14"
-    - 
+    -
     - shift#29
     - "8"
     - "1"
-    - 
-    - 
+    -
+    -
     - 2008-08-14 14:54:57
     - 2008-08-14 14:54:57
   - - "22"
@@ -14321,12 +14322,12 @@ payform_items:
     - "0.5"
     - Emails!
     - "2008-08-14"
-    - 
+    -
     - qkv2
     - "11"
     - "1"
-    - 
-    - 
+    -
+    -
     - 2008-08-14 15:06:15
     - 2008-08-14 15:06:15
   - - "23"
@@ -14335,12 +14336,12 @@ payform_items:
     - "0.01"
     - Bass Shift Report (03:06PM to 03:06PM)
     - "2008-08-14"
-    - 
+    -
     - shift#30
     - "8"
     - "1"
-    - 
-    - 
+    -
+    -
     - 2008-08-14 15:07:36
     - 2008-08-14 15:07:36
   - - "24"
@@ -14349,12 +14350,12 @@ payform_items:
     - "0.01"
     - Bass Shift Report (04:55PM to 04:55PM)
     - "2008-08-14"
-    - 
+    -
     - shift#32
     - "8"
     - "1"
-    - 
-    - 
+    -
+    -
     - 2008-08-14 16:55:44
     - 2008-08-14 16:55:44
   - - "25"
@@ -14363,12 +14364,12 @@ payform_items:
     - "0.01"
     - TTO Shift Report (03:56PM to 03:56PM)
     - "2008-08-18"
-    - 
+    -
     - shift#33
     - "8"
     - "1"
-    - 
-    - 
+    -
+    -
     - 2008-08-18 15:56:50
     - 2008-08-18 15:56:50
   - - "26"
@@ -14377,18 +14378,18 @@ payform_items:
     - "0.01"
     - Bass Media Desk Shift Report (09:03PM to 09:03PM)
     - "2008-08-21"
-    - 
+    -
     - shift#37
     - "8"
     - "1"
-    - 
-    - 
+    -
+    -
     - 2008-08-21 21:04:20
     - 2008-08-21 21:04:20
 
---- 
-payforms: 
-  columns: 
+---
+payforms:
+  columns:
   - id
   - week
   - year
@@ -14400,14 +14401,14 @@ payforms:
   - user_id
   - created_at
   - updated_at
-  records: 
+  records:
   - - "1"
     - "24"
     - "2008"
-    - 
-    - 
-    - 
-    - 
+    -
+    -
+    -
+    -
     - "1"
     - "12"
     - 2008-06-09 00:00:00
@@ -14415,10 +14416,10 @@ payforms:
   - - "2"
     - "25"
     - "2008"
-    - 
-    - 
-    - 
-    - 
+    -
+    -
+    -
+    -
     - "1"
     - "11"
     - 2008-06-06 00:00:00
@@ -14426,10 +14427,10 @@ payforms:
   - - "3"
     - "25"
     - "2008"
-    - 
-    - 
-    - 
-    - 
+    -
+    -
+    -
+    -
     - "2"
     - "12"
     - 2008-06-07 00:00:00
@@ -14437,10 +14438,10 @@ payforms:
   - - "4"
     - "32"
     - "2008"
-    - 
-    - 
-    - 
-    - 
+    -
+    -
+    -
+    -
     - "1"
     - "11"
     - 2008-08-08 17:21:16
@@ -14449,9 +14450,9 @@ payforms:
     - "32"
     - "2008"
     - 2008-08-08 21:38:37
-    - 
-    - 
-    - 
+    -
+    -
+    -
     - "1"
     - "14"
     - 2008-08-08 20:47:56
@@ -14459,10 +14460,10 @@ payforms:
   - - "6"
     - "31"
     - "2008"
-    - 
-    - 
-    - 
-    - 
+    -
+    -
+    -
+    -
     - "1"
     - "14"
     - 2008-08-08 20:48:10
@@ -14470,10 +14471,10 @@ payforms:
   - - "7"
     - "33"
     - "2008"
-    - 
-    - 
-    - 
-    - 
+    -
+    -
+    -
+    -
     - "1"
     - "5"
     - 2008-08-10 10:25:00
@@ -14481,10 +14482,10 @@ payforms:
   - - "8"
     - "33"
     - "2008"
-    - 
-    - 
-    - 
-    - 
+    -
+    -
+    -
+    -
     - "2"
     - "6"
     - 2008-08-10 21:14:23
@@ -14492,10 +14493,10 @@ payforms:
   - - "9"
     - "33"
     - "2008"
-    - 
-    - 
-    - 
-    - 
+    -
+    -
+    -
+    -
     - "2"
     - "12"
     - 2008-08-11 12:35:35
@@ -14503,10 +14504,10 @@ payforms:
   - - "10"
     - "33"
     - "2008"
-    - 
-    - 
-    - 
-    - 
+    -
+    -
+    -
+    -
     - "1"
     - "12"
     - 2008-08-11 12:36:55
@@ -14514,10 +14515,10 @@ payforms:
   - - "11"
     - "33"
     - "2008"
-    - 
-    - 
-    - 
-    - 
+    -
+    -
+    -
+    -
     - "2"
     - "5"
     - 2008-08-11 12:46:54
@@ -14525,10 +14526,10 @@ payforms:
   - - "12"
     - "33"
     - "2008"
-    - 
-    - 
-    - 
-    - 
+    -
+    -
+    -
+    -
     - "2"
     - "4"
     - 2008-08-11 14:18:46
@@ -14536,10 +14537,10 @@ payforms:
   - - "13"
     - "33"
     - "2008"
-    - 
-    - 
-    - 
-    - 
+    -
+    -
+    -
+    -
     - "5"
     - "5"
     - 2008-08-11 14:26:07
@@ -14547,10 +14548,10 @@ payforms:
   - - "14"
     - "33"
     - "2008"
-    - 
-    - 
-    - 
-    - 
+    -
+    -
+    -
+    -
     - "1"
     - "4"
     - 2008-08-11 18:19:02
@@ -14558,10 +14559,10 @@ payforms:
   - - "15"
     - "33"
     - "2008"
-    - 
-    - 
-    - 
-    - 
+    -
+    -
+    -
+    -
     - "5"
     - "12"
     - 2008-08-11 20:25:16
@@ -14569,10 +14570,10 @@ payforms:
   - - "16"
     - "33"
     - "2008"
-    - 
-    - 
-    - 
-    - 
+    -
+    -
+    -
+    -
     - "5"
     - "8"
     - 2008-08-12 17:15:55
@@ -14580,10 +14581,10 @@ payforms:
   - - "17"
     - "31"
     - "2008"
-    - 
-    - 
-    - 
-    - 
+    -
+    -
+    -
+    -
     - "5"
     - "8"
     - 2008-08-12 17:15:58
@@ -14591,10 +14592,10 @@ payforms:
   - - "18"
     - "29"
     - "2008"
-    - 
-    - 
-    - 
-    - 
+    -
+    -
+    -
+    -
     - "5"
     - "8"
     - 2008-08-13 16:15:28
@@ -14602,10 +14603,10 @@ payforms:
   - - "19"
     - "33"
     - "2008"
-    - 
-    - 
-    - 
-    - 
+    -
+    -
+    -
+    -
     - "1"
     - "7"
     - 2008-08-13 17:46:41
@@ -14613,10 +14614,10 @@ payforms:
   - - "20"
     - "33"
     - "2008"
-    - 
-    - 
-    - 
-    - 
+    -
+    -
+    -
+    -
     - "1"
     - "101"
     - 2008-08-13 18:46:19
@@ -14625,9 +14626,9 @@ payforms:
     - "29"
     - "2008"
     - 2008-08-13 19:25:48
-    - 
-    - 
-    - 
+    -
+    -
+    -
     - "1"
     - "101"
     - 2008-08-13 19:25:39
@@ -14635,10 +14636,10 @@ payforms:
   - - "22"
     - "25"
     - "2008"
-    - 
-    - 
-    - 
-    - 
+    -
+    -
+    -
+    -
     - "1"
     - "101"
     - 2008-08-13 19:27:03
@@ -14646,10 +14647,10 @@ payforms:
   - - "23"
     - "32"
     - "2008"
-    - 
-    - 
-    - 
-    - 
+    -
+    -
+    -
+    -
     - "1"
     - "101"
     - 2008-08-13 19:28:10
@@ -14657,10 +14658,10 @@ payforms:
   - - "24"
     - "33"
     - "2008"
-    - 
-    - 
-    - 
-    - 
+    -
+    -
+    -
+    -
     - "6"
     - "130"
     - 2008-08-14 12:56:59
@@ -14668,10 +14669,10 @@ payforms:
   - - "25"
     - "33"
     - "2008"
-    - 
-    - 
-    - 
-    - 
+    -
+    -
+    -
+    -
     - "6"
     - "5"
     - 2008-08-14 13:05:20
@@ -14679,10 +14680,10 @@ payforms:
   - - "26"
     - "33"
     - "2008"
-    - 
-    - 
-    - 
-    - 
+    -
+    -
+    -
+    -
     - "1"
     - "43"
     - 2008-08-14 13:12:10
@@ -14690,10 +14691,10 @@ payforms:
   - - "27"
     - "27"
     - "2008"
-    - 
-    - 
-    - 
-    - 
+    -
+    -
+    -
+    -
     - "1"
     - "43"
     - 2008-08-14 13:12:19
@@ -14701,10 +14702,10 @@ payforms:
   - - "28"
     - "29"
     - "2008"
-    - 
-    - 
-    - 
-    - 
+    -
+    -
+    -
+    -
     - "1"
     - "43"
     - 2008-08-14 13:12:21
@@ -14712,10 +14713,10 @@ payforms:
   - - "29"
     - "17"
     - "2008"
-    - 
-    - 
-    - 
-    - 
+    -
+    -
+    -
+    -
     - "1"
     - "43"
     - 2008-08-14 13:12:22
@@ -14723,10 +14724,10 @@ payforms:
   - - "30"
     - "33"
     - "2008"
-    - 
-    - 
-    - 
-    - 
+    -
+    -
+    -
+    -
     - "1"
     - "77"
     - 2008-08-14 13:23:16
@@ -14734,10 +14735,10 @@ payforms:
   - - "31"
     - "33"
     - "2008"
-    - 
-    - 
-    - 
-    - 
+    -
+    -
+    -
+    -
     - "6"
     - "131"
     - 2008-08-14 13:41:18
@@ -14745,10 +14746,10 @@ payforms:
   - - "32"
     - "33"
     - "2008"
-    - 
-    - 
-    - 
-    - 
+    -
+    -
+    -
+    -
     - "1"
     - "104"
     - 2008-08-14 14:21:38
@@ -14756,10 +14757,10 @@ payforms:
   - - "33"
     - "33"
     - "2008"
-    - 
-    - 
-    - 
-    - 
+    -
+    -
+    -
+    -
     - "1"
     - "8"
     - 2008-08-14 14:27:28
@@ -14767,10 +14768,10 @@ payforms:
   - - "34"
     - "33"
     - "2008"
-    - 
-    - 
-    - 
-    - 
+    -
+    -
+    -
+    -
     - "1"
     - "29"
     - 2008-08-14 15:03:07
@@ -14778,10 +14779,10 @@ payforms:
   - - "35"
     - "33"
     - "2008"
-    - 
-    - 
-    - 
-    - 
+    -
+    -
+    -
+    -
     - "1"
     - "31"
     - 2008-08-14 15:05:36
@@ -14789,10 +14790,10 @@ payforms:
   - - "36"
     - "33"
     - "2008"
-    - 
-    - 
-    - 
-    - 
+    -
+    -
+    -
+    -
     - "1"
     - "40"
     - 2008-08-14 15:38:56
@@ -14800,10 +14801,10 @@ payforms:
   - - "37"
     - "30"
     - "2008"
-    - 
-    - 
-    - 
-    - 
+    -
+    -
+    -
+    -
     - "1"
     - "40"
     - 2008-08-14 15:39:01
@@ -14811,10 +14812,10 @@ payforms:
   - - "38"
     - "34"
     - "2008"
-    - 
-    - 
-    - 
-    - 
+    -
+    -
+    -
+    -
     - "5"
     - "4"
     - 2008-08-18 14:28:46
@@ -14822,10 +14823,10 @@ payforms:
   - - "39"
     - "34"
     - "2008"
-    - 
-    - 
-    - 
-    - 
+    -
+    -
+    -
+    -
     - "5"
     - "5"
     - 2008-08-18 15:31:00
@@ -14833,10 +14834,10 @@ payforms:
   - - "40"
     - "34"
     - "2008"
-    - 
-    - 
-    - 
-    - 
+    -
+    -
+    -
+    -
     - "1"
     - "64"
     - 2008-08-18 15:55:36
@@ -14844,10 +14845,10 @@ payforms:
   - - "41"
     - "34"
     - "2008"
-    - 
-    - 
-    - 
-    - 
+    -
+    -
+    -
+    -
     - "1"
     - "17"
     - 2008-08-18 16:57:47
@@ -14855,10 +14856,10 @@ payforms:
   - - "42"
     - "34"
     - "2008"
-    - 
-    - 
-    - 
-    - 
+    -
+    -
+    -
+    -
     - "1"
     - "1"
     - 2008-08-18 18:12:22
@@ -14866,10 +14867,10 @@ payforms:
   - - "43"
     - "31"
     - "2008"
-    - 
-    - 
-    - 
-    - 
+    -
+    -
+    -
+    -
     - "1"
     - "1"
     - 2008-08-18 18:12:26
@@ -14877,10 +14878,10 @@ payforms:
   - - "44"
     - "15"
     - "2008"
-    - 
-    - 
-    - 
-    - 
+    -
+    -
+    -
+    -
     - "1"
     - "1"
     - 2008-08-18 18:12:32
@@ -14888,10 +14889,10 @@ payforms:
   - - "45"
     - "34"
     - "2008"
-    - 
-    - 
-    - 
-    - 
+    -
+    -
+    -
+    -
     - "1"
     - "7"
     - 2008-08-19 11:15:52
@@ -14899,10 +14900,10 @@ payforms:
   - - "46"
     - "34"
     - "2008"
-    - 
-    - 
-    - 
-    - 
+    -
+    -
+    -
+    -
     - "1"
     - "27"
     - 2008-08-21 00:28:05
@@ -14910,10 +14911,10 @@ payforms:
   - - "47"
     - "34"
     - "2008"
-    - 
-    - 
-    - 
-    - 
+    -
+    -
+    -
+    -
     - "1"
     - "6"
     - 2008-08-21 21:04:20
@@ -14921,10 +14922,10 @@ payforms:
   - - "48"
     - "34"
     - "2008"
-    - 
-    - 
-    - 
-    - 
+    -
+    -
+    -
+    -
     - "1"
     - "106"
     - 2008-08-22 14:21:33
@@ -14932,10 +14933,10 @@ payforms:
   - - "49"
     - "34"
     - "2008"
-    - 
-    - 
-    - 
-    - 
+    -
+    -
+    -
+    -
     - "2"
     - "11"
     - 2008-08-22 21:17:54
@@ -14943,10 +14944,10 @@ payforms:
   - - "50"
     - "34"
     - "2008"
-    - 
-    - 
-    - 
-    - 
+    -
+    -
+    -
+    -
     - "1"
     - "11"
     - 2008-08-22 21:18:38
@@ -14954,21 +14955,21 @@ payforms:
   - - "51"
     - "35"
     - "2008"
-    - 
-    - 
-    - 
-    - 
+    -
+    -
+    -
+    -
     - "1"
     - "7"
     - 2008-08-24 13:00:32
     - 2008-08-24 13:00:32
 
---- 
-payform_items_payforms: 
-  columns: 
+---
+payform_items_payforms:
+  columns:
   - payform_id
   - payform_item_id
-  records: 
+  records:
   - - "1"
     - "1"
   - - "1"
@@ -15020,9 +15021,9 @@ payform_items_payforms:
   - - "47"
     - "26"
 
---- 
-payform_configurations: 
-  columns: 
+---
+payform_configurations:
+  columns:
   - id
   - department_id
   - payform_permission_id
@@ -15037,7 +15038,7 @@ payform_configurations:
   - reason_min
   - created_at
   - updated_at
-  records: 
+  records:
   - - "1711872490"
     - "1"
     - "25"
@@ -15049,7 +15050,7 @@ payform_configurations:
     - true
     - |-
       You have not submitted payforms for the weeks ending on the following dates:
-      
+
       @weeklist@
       Please go to http://mahi.its.yale.edu/shifts_payform and submit your payforms. If some of the weeks listed are weeks during which you did not work, please just submit a blank payform.
     - "4"
@@ -15069,7 +15070,7 @@ payform_configurations:
     - true
     - |-
       You have not submitted payforms for the weeks ending on the following dates:
-      
+
       @weeklist@
       Please submit your payforms. If some of the weeks listed are weeks during which you did not work, please just submit a blank payform.
     - "4"
@@ -15089,7 +15090,7 @@ payform_configurations:
     - true
     - |-
       You have not submitted payforms for the weeks ending on the following dates:
-      
+
       @weeklist@
       Please submit your payforms. If some of the weeks listed are weeks during which you did not work, please just submit a blank payform.
     - "4"
@@ -15109,7 +15110,7 @@ payform_configurations:
     - true
     - |-
       You have not submitted payforms for the weeks ending on the following dates:
-      
+
       @weeklist@
       Please submit your payforms. If some of the weeks listed are weeks during which you did not work, please just submit a blank payform.
     - "4"
@@ -15129,7 +15130,7 @@ payform_configurations:
     - true
     - |-
       You have not submitted payforms for the weeks ending on the following dates:
-      
+
       @weeklist@
       Please submit your payforms. If some of the weeks listed are weeks during which you did not work, please just submit a blank payform.
     - "4"
@@ -15149,7 +15150,7 @@ payform_configurations:
     - true
     - |-
       You have not submitted payforms for the weeks ending on the following dates:
-      
+
       @weeklist@
       Please submit your payforms. If some of the weeks listed are weeks during which you did not work, please just submit a blank payform.
     - "4"
@@ -15169,7 +15170,7 @@ payform_configurations:
     - true
     - |-
       You have not submitted payforms for the weeks ending on the following dates:
-      
+
       @weeklist@
       Please submit your payforms. If some of the weeks listed are weeks during which you did not work, please just submit a blank payform.
     - "4"
@@ -15189,7 +15190,7 @@ payform_configurations:
     - true
     - |-
       You have not submitted payforms for the weeks ending on the following dates:
-      
+
       @weeklist@
       Please submit your payforms. If some of the weeks listed are weeks during which you did not work, please just submit a blank payform.
     - "4"
@@ -15199,9 +15200,9 @@ payform_configurations:
     - 2008-08-14 16:38:55
     - 2008-08-14 16:38:55
 
---- 
-shift_configurations: 
-  columns: 
+---
+shift_configurations:
+  columns:
   - id
   - department_id
   - start
@@ -15215,7 +15216,7 @@ shift_configurations:
   - department_admin_permission_id
   - created_at
   - updated_at
-  records: 
+  records:
   - - "1"
     - "1"
     - "480"
@@ -15223,7 +15224,7 @@ shift_configurations:
     - "15"
     - "7"
     - false
-    - 
+    -
     - "30"
     - "52"
     - "57"
@@ -15236,7 +15237,7 @@ shift_configurations:
     - "60"
     - "0"
     - false
-    - 
+    -
     - "59"
     - "60"
     - "61"
@@ -15249,7 +15250,7 @@ shift_configurations:
     - "60"
     - "0"
     - false
-    - 
+    -
     - "65"
     - "66"
     - "67"
@@ -15262,7 +15263,7 @@ shift_configurations:
     - "60"
     - "0"
     - false
-    - 
+    -
     - "83"
     - "84"
     - "85"
@@ -15275,7 +15276,7 @@ shift_configurations:
     - "60"
     - "0"
     - false
-    - 
+    -
     - "89"
     - "90"
     - "91"
@@ -15288,7 +15289,7 @@ shift_configurations:
     - "30"
     - "0"
     - false
-    - 
+    -
     - "98"
     - "99"
     - "100"
@@ -15301,7 +15302,7 @@ shift_configurations:
     - "10"
     - "0"
     - false
-    - 
+    -
     - "110"
     - "111"
     - "112"
@@ -15314,16 +15315,16 @@ shift_configurations:
     - "60"
     - "0"
     - false
-    - 
+    -
     - "119"
     - "120"
     - "121"
     - 2008-08-14 16:38:55
     - 2008-08-14 16:38:55
 
---- 
-template_items: 
-  columns: 
+---
+template_items:
+  columns:
   - id
   - type
   - start
@@ -15334,7 +15335,7 @@ template_items:
   - user_id
   - created_at
   - updated_at
-  records: 
+  records:
   - - "1"
     - TimeTemplateItem
     - "720"
@@ -15342,7 +15343,7 @@ template_items:
     - "0"
     - "1"
     - "1"
-    - 
+    -
     - 2008-08-08 12:59:53
     - 2008-08-08 12:59:53
   - - "2"
@@ -15352,7 +15353,7 @@ template_items:
     - "1"
     - "1"
     - "1"
-    - 
+    -
     - 2008-08-08 12:59:53
     - 2008-08-08 12:59:53
   - - "3"
@@ -15362,7 +15363,7 @@ template_items:
     - "2"
     - "1"
     - "1"
-    - 
+    -
     - 2008-08-08 12:59:53
     - 2008-08-08 12:59:53
   - - "4"
@@ -15372,7 +15373,7 @@ template_items:
     - "3"
     - "1"
     - "1"
-    - 
+    -
     - 2008-08-08 12:59:53
     - 2008-08-08 12:59:53
   - - "5"
@@ -15382,7 +15383,7 @@ template_items:
     - "4"
     - "1"
     - "1"
-    - 
+    -
     - 2008-08-08 12:59:53
     - 2008-08-08 12:59:53
   - - "6"
@@ -15392,7 +15393,7 @@ template_items:
     - "5"
     - "1"
     - "1"
-    - 
+    -
     - 2008-08-08 12:59:53
     - 2008-08-08 12:59:53
   - - "7"
@@ -15402,7 +15403,7 @@ template_items:
     - "6"
     - "1"
     - "1"
-    - 
+    -
     - 2008-08-08 12:59:53
     - 2008-08-08 12:59:53
   - - "8"
@@ -15452,7 +15453,7 @@ template_items:
     - "1"
     - "1"
     - "4"
-    - 
+    -
     - 2008-08-11 14:20:34
     - 2008-08-11 14:23:10
   - - "13"
@@ -15462,7 +15463,7 @@ template_items:
     - "2"
     - "1"
     - "4"
-    - 
+    -
     - 2008-08-11 14:20:34
     - 2008-08-11 14:23:10
   - - "14"
@@ -15472,7 +15473,7 @@ template_items:
     - "3"
     - "1"
     - "4"
-    - 
+    -
     - 2008-08-11 14:20:34
     - 2008-08-11 14:23:10
   - - "15"
@@ -15482,7 +15483,7 @@ template_items:
     - "4"
     - "1"
     - "4"
-    - 
+    -
     - 2008-08-11 14:20:34
     - 2008-08-11 14:23:10
   - - "16"
@@ -15492,7 +15493,7 @@ template_items:
     - "5"
     - "1"
     - "4"
-    - 
+    -
     - 2008-08-11 14:20:34
     - 2008-08-11 14:23:10
   - - "17"
@@ -15502,7 +15503,7 @@ template_items:
     - "1"
     - "2"
     - "4"
-    - 
+    -
     - 2008-08-11 14:20:34
     - 2008-08-11 14:23:10
   - - "18"
@@ -15512,7 +15513,7 @@ template_items:
     - "2"
     - "2"
     - "4"
-    - 
+    -
     - 2008-08-11 14:20:34
     - 2008-08-11 14:23:10
   - - "19"
@@ -15522,7 +15523,7 @@ template_items:
     - "3"
     - "2"
     - "4"
-    - 
+    -
     - 2008-08-11 14:20:34
     - 2008-08-11 14:23:10
   - - "20"
@@ -15532,7 +15533,7 @@ template_items:
     - "4"
     - "2"
     - "4"
-    - 
+    -
     - 2008-08-11 14:20:34
     - 2008-08-11 14:23:10
   - - "21"
@@ -15542,7 +15543,7 @@ template_items:
     - "5"
     - "2"
     - "4"
-    - 
+    -
     - 2008-08-11 14:20:34
     - 2008-08-11 14:23:10
   - - "22"
@@ -15552,7 +15553,7 @@ template_items:
     - "1"
     - "3"
     - "4"
-    - 
+    -
     - 2008-08-11 14:20:34
     - 2008-08-11 14:23:10
   - - "23"
@@ -15562,7 +15563,7 @@ template_items:
     - "2"
     - "3"
     - "4"
-    - 
+    -
     - 2008-08-11 14:20:34
     - 2008-08-11 14:23:10
   - - "24"
@@ -15572,7 +15573,7 @@ template_items:
     - "3"
     - "3"
     - "4"
-    - 
+    -
     - 2008-08-11 14:20:34
     - 2008-08-11 14:23:10
   - - "25"
@@ -15582,7 +15583,7 @@ template_items:
     - "4"
     - "3"
     - "4"
-    - 
+    -
     - 2008-08-11 14:20:34
     - 2008-08-11 14:23:10
   - - "26"
@@ -15592,7 +15593,7 @@ template_items:
     - "5"
     - "3"
     - "4"
-    - 
+    -
     - 2008-08-11 14:20:34
     - 2008-08-11 14:23:10
   - - "27"
@@ -15602,7 +15603,7 @@ template_items:
     - "1"
     - "4"
     - "4"
-    - 
+    -
     - 2008-08-11 14:20:34
     - 2008-08-11 14:23:10
   - - "28"
@@ -15612,7 +15613,7 @@ template_items:
     - "2"
     - "4"
     - "4"
-    - 
+    -
     - 2008-08-11 14:20:34
     - 2008-08-11 14:23:10
   - - "29"
@@ -15622,7 +15623,7 @@ template_items:
     - "3"
     - "4"
     - "4"
-    - 
+    -
     - 2008-08-11 14:20:34
     - 2008-08-11 14:23:10
   - - "30"
@@ -15632,7 +15633,7 @@ template_items:
     - "4"
     - "4"
     - "4"
-    - 
+    -
     - 2008-08-11 14:20:34
     - 2008-08-11 14:23:10
   - - "31"
@@ -15642,7 +15643,7 @@ template_items:
     - "5"
     - "4"
     - "4"
-    - 
+    -
     - 2008-08-11 14:20:34
     - 2008-08-11 14:23:10
   - - "32"
@@ -15652,7 +15653,7 @@ template_items:
     - "1"
     - "5"
     - "4"
-    - 
+    -
     - 2008-08-11 14:20:34
     - 2008-08-11 14:23:10
   - - "33"
@@ -15662,7 +15663,7 @@ template_items:
     - "2"
     - "5"
     - "4"
-    - 
+    -
     - 2008-08-11 14:20:34
     - 2008-08-11 14:23:10
   - - "34"
@@ -15672,7 +15673,7 @@ template_items:
     - "3"
     - "5"
     - "4"
-    - 
+    -
     - 2008-08-11 14:20:34
     - 2008-08-11 14:23:10
   - - "35"
@@ -15682,7 +15683,7 @@ template_items:
     - "4"
     - "5"
     - "4"
-    - 
+    -
     - 2008-08-11 14:20:34
     - 2008-08-11 14:23:10
   - - "36"
@@ -15692,7 +15693,7 @@ template_items:
     - "5"
     - "5"
     - "4"
-    - 
+    -
     - 2008-08-11 14:20:34
     - 2008-08-11 14:23:10
   - - "37"
@@ -15702,7 +15703,7 @@ template_items:
     - "1"
     - "6"
     - "4"
-    - 
+    -
     - 2008-08-11 14:20:34
     - 2008-08-11 14:23:10
   - - "38"
@@ -15712,7 +15713,7 @@ template_items:
     - "2"
     - "6"
     - "4"
-    - 
+    -
     - 2008-08-11 14:20:34
     - 2008-08-11 14:23:10
   - - "39"
@@ -15722,7 +15723,7 @@ template_items:
     - "3"
     - "6"
     - "4"
-    - 
+    -
     - 2008-08-11 14:20:34
     - 2008-08-11 14:23:10
   - - "40"
@@ -15732,7 +15733,7 @@ template_items:
     - "4"
     - "6"
     - "4"
-    - 
+    -
     - 2008-08-11 14:20:34
     - 2008-08-11 14:23:10
   - - "41"
@@ -15742,7 +15743,7 @@ template_items:
     - "5"
     - "6"
     - "4"
-    - 
+    -
     - 2008-08-11 14:20:34
     - 2008-08-11 14:23:10
   - - "42"
@@ -15752,7 +15753,7 @@ template_items:
     - "0"
     - "1"
     - "4"
-    - 
+    -
     - 2008-08-11 14:23:10
     - 2008-08-11 14:23:10
   - - "43"
@@ -15762,7 +15763,7 @@ template_items:
     - "6"
     - "1"
     - "4"
-    - 
+    -
     - 2008-08-11 14:23:10
     - 2008-08-11 14:23:10
   - - "44"
@@ -15772,7 +15773,7 @@ template_items:
     - "0"
     - "2"
     - "4"
-    - 
+    -
     - 2008-08-11 14:23:10
     - 2008-08-11 14:23:10
   - - "45"
@@ -15782,7 +15783,7 @@ template_items:
     - "6"
     - "2"
     - "4"
-    - 
+    -
     - 2008-08-11 14:23:10
     - 2008-08-11 14:23:10
   - - "46"
@@ -15792,7 +15793,7 @@ template_items:
     - "0"
     - "3"
     - "4"
-    - 
+    -
     - 2008-08-11 14:23:10
     - 2008-08-11 14:23:10
   - - "47"
@@ -15802,7 +15803,7 @@ template_items:
     - "6"
     - "3"
     - "4"
-    - 
+    -
     - 2008-08-11 14:23:10
     - 2008-08-11 14:23:10
   - - "48"
@@ -15812,7 +15813,7 @@ template_items:
     - "0"
     - "4"
     - "4"
-    - 
+    -
     - 2008-08-11 14:23:10
     - 2008-08-11 14:23:10
   - - "49"
@@ -15822,7 +15823,7 @@ template_items:
     - "6"
     - "4"
     - "4"
-    - 
+    -
     - 2008-08-11 14:23:10
     - 2008-08-11 14:23:10
   - - "50"
@@ -15832,7 +15833,7 @@ template_items:
     - "0"
     - "5"
     - "4"
-    - 
+    -
     - 2008-08-11 14:23:10
     - 2008-08-11 14:23:10
   - - "51"
@@ -15842,7 +15843,7 @@ template_items:
     - "6"
     - "5"
     - "4"
-    - 
+    -
     - 2008-08-11 14:23:10
     - 2008-08-11 14:23:10
   - - "52"
@@ -15852,7 +15853,7 @@ template_items:
     - "0"
     - "6"
     - "4"
-    - 
+    -
     - 2008-08-11 14:23:10
     - 2008-08-11 14:23:10
   - - "53"
@@ -15862,7 +15863,7 @@ template_items:
     - "6"
     - "6"
     - "4"
-    - 
+    -
     - 2008-08-11 14:23:10
     - 2008-08-11 14:23:10
   - - "60"
@@ -15872,7 +15873,7 @@ template_items:
     - "0"
     - "1"
     - "6"
-    - 
+    -
     - 2008-08-11 15:38:01
     - 2008-08-11 15:38:01
   - - "61"
@@ -15882,7 +15883,7 @@ template_items:
     - "0"
     - "2"
     - "6"
-    - 
+    -
     - 2008-08-11 15:38:01
     - 2008-08-11 15:38:01
   - - "62"
@@ -15892,7 +15893,7 @@ template_items:
     - "0"
     - "3"
     - "6"
-    - 
+    -
     - 2008-08-11 15:38:01
     - 2008-08-11 15:38:01
   - - "63"
@@ -15902,7 +15903,7 @@ template_items:
     - "0"
     - "4"
     - "6"
-    - 
+    -
     - 2008-08-11 15:38:01
     - 2008-08-11 15:38:01
   - - "64"
@@ -15912,7 +15913,7 @@ template_items:
     - "0"
     - "5"
     - "6"
-    - 
+    -
     - 2008-08-11 15:38:01
     - 2008-08-11 15:38:01
   - - "65"
@@ -15922,7 +15923,7 @@ template_items:
     - "0"
     - "6"
     - "6"
-    - 
+    -
     - 2008-08-11 15:38:01
     - 2008-08-11 15:38:01
   - - "66"
@@ -15932,7 +15933,7 @@ template_items:
     - "0"
     - "1"
     - "6"
-    - 
+    -
     - 2008-08-11 15:40:14
     - 2008-08-11 15:40:14
   - - "67"
@@ -15942,7 +15943,7 @@ template_items:
     - "1"
     - "1"
     - "6"
-    - 
+    -
     - 2008-08-11 15:40:14
     - 2008-08-11 15:40:14
   - - "68"
@@ -15952,7 +15953,7 @@ template_items:
     - "0"
     - "2"
     - "6"
-    - 
+    -
     - 2008-08-11 15:40:14
     - 2008-08-11 15:40:14
   - - "69"
@@ -15962,7 +15963,7 @@ template_items:
     - "1"
     - "2"
     - "6"
-    - 
+    -
     - 2008-08-11 15:40:14
     - 2008-08-11 15:40:14
   - - "70"
@@ -15972,7 +15973,7 @@ template_items:
     - "0"
     - "3"
     - "6"
-    - 
+    -
     - 2008-08-11 15:40:14
     - 2008-08-11 15:40:14
   - - "71"
@@ -15982,7 +15983,7 @@ template_items:
     - "1"
     - "3"
     - "6"
-    - 
+    -
     - 2008-08-11 15:40:14
     - 2008-08-11 15:40:14
   - - "72"
@@ -15992,7 +15993,7 @@ template_items:
     - "0"
     - "4"
     - "6"
-    - 
+    -
     - 2008-08-11 15:40:14
     - 2008-08-11 15:40:14
   - - "73"
@@ -16002,7 +16003,7 @@ template_items:
     - "1"
     - "4"
     - "6"
-    - 
+    -
     - 2008-08-11 15:40:14
     - 2008-08-11 15:40:14
   - - "74"
@@ -16012,7 +16013,7 @@ template_items:
     - "0"
     - "5"
     - "6"
-    - 
+    -
     - 2008-08-11 15:40:14
     - 2008-08-11 15:40:14
   - - "75"
@@ -16022,7 +16023,7 @@ template_items:
     - "1"
     - "5"
     - "6"
-    - 
+    -
     - 2008-08-11 15:40:14
     - 2008-08-11 15:40:14
   - - "76"
@@ -16032,7 +16033,7 @@ template_items:
     - "0"
     - "6"
     - "6"
-    - 
+    -
     - 2008-08-11 15:40:14
     - 2008-08-11 15:40:14
   - - "77"
@@ -16042,7 +16043,7 @@ template_items:
     - "1"
     - "6"
     - "6"
-    - 
+    -
     - 2008-08-11 15:40:14
     - 2008-08-11 15:40:14
   - - "78"
@@ -16192,7 +16193,7 @@ template_items:
     - "1"
     - "7"
     - "10"
-    - 
+    -
     - 2008-08-14 15:14:47
     - 2008-08-14 15:14:47
   - - "93"
@@ -16202,7 +16203,7 @@ template_items:
     - "2"
     - "7"
     - "10"
-    - 
+    -
     - 2008-08-14 15:14:47
     - 2008-08-14 15:14:47
   - - "94"
@@ -16212,7 +16213,7 @@ template_items:
     - "3"
     - "7"
     - "10"
-    - 
+    -
     - 2008-08-14 15:14:47
     - 2008-08-14 15:14:47
   - - "95"
@@ -16222,7 +16223,7 @@ template_items:
     - "4"
     - "7"
     - "10"
-    - 
+    -
     - 2008-08-14 15:14:47
     - 2008-08-14 15:14:47
   - - "96"
@@ -16232,7 +16233,7 @@ template_items:
     - "5"
     - "7"
     - "10"
-    - 
+    -
     - 2008-08-14 15:14:47
     - 2008-08-14 15:14:47
   - - "97"
@@ -16242,7 +16243,7 @@ template_items:
     - "1"
     - "7"
     - "11"
-    - 
+    -
     - 2008-08-14 15:15:51
     - 2008-08-14 15:15:51
   - - "98"
@@ -16252,7 +16253,7 @@ template_items:
     - "2"
     - "7"
     - "11"
-    - 
+    -
     - 2008-08-14 15:15:51
     - 2008-08-14 15:15:51
   - - "99"
@@ -16262,7 +16263,7 @@ template_items:
     - "3"
     - "7"
     - "11"
-    - 
+    -
     - 2008-08-14 15:15:51
     - 2008-08-14 15:15:51
   - - "100"
@@ -16272,7 +16273,7 @@ template_items:
     - "4"
     - "7"
     - "11"
-    - 
+    -
     - 2008-08-14 15:15:51
     - 2008-08-14 15:15:51
   - - "101"
@@ -16282,13 +16283,13 @@ template_items:
     - "5"
     - "7"
     - "11"
-    - 
+    -
     - 2008-08-14 15:15:51
     - 2008-08-14 15:15:51
 
---- 
-libraries: 
-  columns: 
+---
+libraries:
+  columns:
   - id
   - type
   - department_id
@@ -16297,7 +16298,7 @@ libraries:
   - created_at
   - updated_at
   - publicly_viewable
-  records: 
+  records:
   - - "2"
     - TimeTemplate
     - "2"
@@ -16371,16 +16372,16 @@ libraries:
     - 2008-08-14 15:15:29
     - false
 
---- 
-preferences: 
-  columns: 
+---
+preferences:
+  columns:
   - id
   - user_id
   - show_bars
   - hide_location_groups
   - created_at
   - updated_at
-  records: 
+  records:
   - - "1"
     - "1"
     - true
@@ -17180,9 +17181,9 @@ preferences:
     - 2009-06-12 13:46:33
     - 2009-06-12 13:46:33
 
---- 
-data_types: 
-  columns: 
+---
+data_types:
+  columns:
   - id
   - name
   - description
@@ -17190,7 +17191,7 @@ data_types:
   - data_fields_types
   - created_at
   - updated_at
-  records: 
+  records:
   - - "1"
     - Printer
     - Prints papers
@@ -17297,9 +17298,9 @@ data_types:
     - 2009-06-15 11:35:57
     - 2009-06-15 11:35:57
 
---- 
-data_objects: 
-  columns: 
+---
+data_objects:
+  columns:
   - id
   - data_type_id
   - location_id
@@ -17307,7 +17308,7 @@ data_objects:
   - description
   - created_at
   - updated_at
-  records: 
+  records:
   - - "1"
     - "1"
     - 
@@ -17316,6 +17317,7 @@ data_objects:
     - 2009-06-12 14:03:12
     - 2009-06-12 14:03:12
   - - "2"
+<<<<<<< HEAD:db/data.yml
     - "1"
     - 
     - cl_laser1
@@ -17329,3 +17331,11 @@ data_objects:
     - Scanner in SM cluster
     - 2009-06-12 14:11:41
     - 2009-06-12 14:11:41
+=======
+    - "2"
+    - "Tree #2"
+    - has bananas
+    - 2009-06-10 11:02:30
+    - 2009-06-10 11:02:30
+
+>>>>>>> 65f81e78a5de6c8588c14df60bfab109ab37f338:db/data.yml

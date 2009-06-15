@@ -26,12 +26,7 @@ class DataEntry < ActiveRecord::Base
     end
     return self.content = content.chomp!(';;') #strip last final double semicolon
   end
-  
-  #Returns the entry's content after escaping out : and ; characters
-  def self.escape_chars(string)
-    string.gsub(';', '**semicolon**').gsub(':', '**colon**')
-  end
-  
+    
 ### Virtual attributes ###
   # Returns all the data fields referenced by a given data entry
   def data_fields
@@ -40,9 +35,27 @@ class DataEntry < ActiveRecord::Base
   
   # Returns the data fields and user content in a set of [field, content] arrays
   def data_fields_with_contents
-    self.content.split(';;').map{|str| str.split('::')}.map do |a|
-      [a.first, a.second.gsub('**semicolon**',';').gsub('**colon**',':')]
+    content_arrays = self.content.split(';;').map{|str| str.split('::')}
+    content_arrays.each do |a|
+      if DataField.find(a.first).display_type == "check_box"
+        checked = []
+        a.second.split(';').each do |box|
+          box = box.split(':')
+          checked << box.second if box.first == '1'
+        end
+        a[1] = checked.join(', ') unless checked.empty?
+      elsif DataField.find(a.first).display_type == "radio_button"
+        box = a.second.split(':')
+        a[1] = box.first if box.second == "1"
+      end
     end
+    return content_arrays
   end
+      
+    
+    
+##      [a.first, a.second.gsub('**semicolon**',';').gsub('**colon**',':')]
+#    end
+#  end
 
 end

@@ -1,0 +1,10 @@
+permissions_role_001:
+  role_id: "1"
+  permission_id: "1"
+permissions_role_002:
+  role_id: "1"
+  permission_id: "2"
+permissions_role_003:
+  role_id: "1"
+  permission_id: "3"
+

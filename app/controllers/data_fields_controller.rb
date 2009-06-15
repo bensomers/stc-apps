@@ -3,11 +3,11 @@ class DataFieldsController < ApplicationController
   before_filter :set_department_for_data   #department is STC
   
   def index
-		if params[:data_type_id]
+    if params[:data_type_id]
       @data_fields = DataField.find_all_by_data_type_id(params[:data_type_id])
     else
       flash[:error] = "You must specify a data type before viewing associated
-                        objects."
+                        fields."
       redirect_to data_types_path
     end
   end
@@ -49,7 +49,7 @@ class DataFieldsController < ApplicationController
     @data_field = DataField.find(params[:id])
     @data_field.destroy
     flash[:notice] = "Successfully destroyed data field."
-    redirect_to data_fields_url
+    redirect_to data_type_data_fields_path
   end
   
   private

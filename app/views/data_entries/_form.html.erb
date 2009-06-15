@@ -1,7 +1,7 @@
 <% form_for [:data_object, @data_entry] do |f| %>
   <%= f.error_messages %>
   <% @data_object.data_type.data_fields.each do |field| %>
-    <% args = field.parse_display_and_values %>
+    <% args = field.prepare_form_helpers %>
     <p>
       <%= label "data_fields[#{field.id}]", "#{field.name}" %><br/> 
       
