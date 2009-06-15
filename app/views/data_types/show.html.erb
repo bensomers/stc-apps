@@ -10,10 +10,17 @@
 </p>
 <p>
   <strong>Data fields:</strong>
-  <%=h @data_type.data_fields %>
+  <%=h @data_type.data_fields.map{|df| df.name}.join(', ') %>
 </p>
-
 <p>
+  <strong>Data Objects</strong>
+    <ul>
+      <% for obj in @data_type.data_objects %>
+        <li><%= link_to "#{obj.name}", obj %></li>
+      <% end %>
+    </ul>
+<p>
+  <%= link_to "New Data Object", new_data_type_data_object_path %>
   <%= link_to "Edit", edit_data_type_path(@data_type) %> |
   <%= link_to "Destroy", @data_type, :confirm => 'Are you sure?', :method => :delete %> |
   <%= link_to "View All", data_types_path %>
