@@ -7,15 +7,20 @@ Given /^I have a user named "([^\"]*)", department "([^\"]*)", login "([^\"]*)"$
 
 end
 
-Given /^I am "([^\"]*)"$/ do |user_name|
-#  user_login = User.find_by_name(user_name).login.to_s
-#  @department = @user.departments[0]
-  CASClient::Frameworks::Rails::Filter.fake(user_name)
+Given /^I am "([^\"]*)"$/ do |user_login|
 
-  #this seems like a clumsy way to set the department but I can't figure out any other way - wei
+#  @department = @user.departments[0]
+  CASClient::Frameworks::Rails::Filter.fake(user_login)
+#  @user = User.find_by_login(user_login)
+
+#  this seems like a clumsy way to set the department but I can't figure out any other way - wei
 #  visit departments_path
 #  click_link @department.name
 #  Department.find session["current_chooser_choice"][controller_name]
+end
+
+Given /^I have no (.+)$/ do |class_name|
+  class_name.classify.constantize.delete_all
 end
 
 Then /^I should have ([0-9]+) (.+)$/ do |count, class_name|

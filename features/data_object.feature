@@ -14,7 +14,7 @@ Feature: data object
       | Comments          | text_area    |                                          |
       | Number of lives   | text_field   | integer                                  |
       | Level of cuteness | text_field   | float                                    |
-    And I am on the data objects page
+    And I am on the data types page
     When I follow "New data object"
     And I select "Cat" from "Data type"
     And I fill in "Name" with "Garfield"
