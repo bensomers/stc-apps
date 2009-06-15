@@ -2,7 +2,7 @@
 # Likewise, all the methods added will be available for all controllers.
 class ApplicationController < ActionController::Base
   # Check authentication with CAS login
-  before_filter CASClient::Frameworks::Rails::Filter
+  #before_filter CASClient::Frameworks::Rails::Filter
   before_filter :set_user_exists
   before_filter :delete_user_permission_cache
 

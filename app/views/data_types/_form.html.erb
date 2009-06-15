@@ -9,7 +9,8 @@
     <%= f.text_field :description %>
   </p>
   <p>
-    <%= f.label :data_fields %><br />
-    <%= select_tag :data_fields, options_for_select(DataField::DISPLAY_TYPE_OPTIONS) %>
+    <% f.label :data_fields %><br />
+    <%= select_tag 'data_type[data_fields][]', options_for_select(DataField::DISPLAY_TYPE_OPTIONS), :multiple => 'true', :size => 5 %>
+  </p>
   <p><%= f.submit "Submit" %></p>
 <% end %>
