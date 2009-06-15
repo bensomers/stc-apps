@@ -4,4 +4,5 @@ class DataType < ActiveRecord::Base
   has_many :data_fields
   
   validates_uniqueness_of :name
+  validates_presence_of   :data_fields_types
 end
