@@ -16,10 +16,11 @@ class DataTypesController < ApplicationController
   end
   
   def create
+    #raise penguins
     @data_type = DataType.new(params[:data_type])
     @data_type.department = @department
-    @data_fields = Array.new
-    #@data_fields << DataField.new(params[:data_fields]) 
+    #@data_type.data_fields = [] << @data_type.data_fields
+    #@data_type.data_fields << DataField.new(params[:data_fields])
     if @data_type.save
       flash[:notice] = "Successfully created data type."
       redirect_to @data_type

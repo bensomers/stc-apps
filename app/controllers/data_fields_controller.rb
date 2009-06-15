@@ -3,8 +3,8 @@ class DataFieldsController < ApplicationController
   before_filter :set_department_for_data   #department is STC
   
   def index
-				if params[:data_type_id]
-    @data_fields = DataField.find_all_by_data_type_id(params[:data_type_id])
+		if params[:data_type_id]
+      @data_fields = DataField.find_all_by_data_type_id(params[:data_type_id])
     else
       flash[:error] = "You must specify a data type before viewing associated
                         objects."
