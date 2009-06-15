@@ -17,7 +17,10 @@ class DataTypesController < ApplicationController
   
   def create
     #raise penguins
-    @data_type = DataType.new(params[:data_type])
+    @data_type = DataType.new
+    @data_type.name = params[:data_type][:name]
+    @data_type.description = params[:data_type][:name]
+    @data_type.data_fields_types = params[:data_type][:data_fields].join(",")
     @data_type.department = @department
     #@data_type.data_fields = [] << @data_type.data_fields
     #@data_type.data_fields << DataField.new(params[:data_fields])

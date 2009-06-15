@@ -74,6 +74,7 @@ ActiveRecord::Schema.define(:version => 20090605194910) do
     t.string   "name"
     t.text     "description"
     t.integer  "department_id"
+    t.string   "data_fields_types"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
