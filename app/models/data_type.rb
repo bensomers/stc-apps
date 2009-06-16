@@ -1,7 +1,7 @@
 class DataType < ActiveRecord::Base
   belongs_to :department
   has_many :data_objects, :dependent => :destroy
-  has_many :data_fields
+  has_many :data_fields, :dependent => :destroy
   accepts_nested_attributes_for :data_fields,
     :reject_if => proc { |attrs| attrs.all? { |k, v| v.blank? } }
 
