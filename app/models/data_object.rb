@@ -5,8 +5,8 @@ class DataObject < ActiveRecord::Base
 
   validates_presence_of   :name
   validates_presence_of   :data_type_id
-  validates_presence_of   :location_id
+  #validates_presence_of   :location_id
   validates_uniqueness_of :name
-  validates_uniqueness_of :location_id
+  #validates_uniqueness_of :location_id
 end
 
