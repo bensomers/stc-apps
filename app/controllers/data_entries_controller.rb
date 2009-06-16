@@ -1,12 +1,9 @@
 class DataEntriesController < ApplicationController
+  
+  before_filter :check_for_data_object
+  
   def index
-    if params[:data_object_id]
-      @data_entries = DataEntry.find_all_by_data_object_id(params[:data_object_id])
-    else
-      flash[:error] = "You must specify a data object before viewing associated
-                        entries."
-      redirect_to data_objects_path
-    end
+    @data_entries = DataEntry.find_all_by_data_object_id(params[:data_object_id])
   end
   
   def show
@@ -37,7 +34,7 @@ class DataEntriesController < ApplicationController
   def update
     @data_entry = DataEntry.find(params[:id])
     if @data_entry.update_attributes(params[:data_entry])
-      flash[:notice] = "Successfully updated dataentry."
+      flash[:notice] = "Successfully updated data entry."
       redirect_to @data_entry
     else
       render :action => 'edit'
@@ -47,7 +44,18 @@ class DataEntriesController < ApplicationController
   def destroy
     @data_entry = DataEntry.find(params[:id])
     @data_entry.destroy
-    flash[:notice] = "Successfully destroyed dataentry."
+    flash[:notice] = "Successfully destroyed data entry."
     redirect_to data_entries_url
   end
+  
+  private
+  
+  def check_for_data_object
+    unless params[:data_object_id]
+      flash[:error] = "You must specify a data object before viewing associated
+                      data fields."
+      redirect_to data_objects_path
+    end
+  end
+  
 end

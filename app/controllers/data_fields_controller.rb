@@ -1,15 +1,10 @@
 class DataFieldsController < ApplicationController
   # Hack to provide a consistent department within the data controller
   before_filter :set_department_for_data   #department is STC
+  before_filter :check_for_data_type
   
   def index
-    if params[:data_type_id]
-      @data_fields = DataField.find_all_by_data_type_id(params[:data_type_id])
-    else
-      flash[:error] = "You must specify a data type before viewing associated
-                        fields."
-      redirect_to data_types_path
-    end
+    @data_fields = DataField.find_all_by_data_type_id(params[:data_type_id])
   end
   
   def show
@@ -56,6 +51,15 @@ class DataFieldsController < ApplicationController
   
   def set_department_for_data
     @department = Department.find_by_name("STC")
+  end
+  
+  # Intercept and redirect if no data type id provided
+  def check_for_data_type
+    unless params[:data_type_id]
+      flash[:error] = "You must specify a data type before viewing associated
+                      data fields."
+      redirect_to data_types_path
+    end
   end
   
 end
