@@ -9,6 +9,7 @@ class DataTypesController < ApplicationController
   
   def show
     @data_type = DataType.find(params[:id])
+    raise params.to_yaml
   end
   
   def new
