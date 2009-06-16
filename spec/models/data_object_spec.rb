@@ -38,6 +38,7 @@ describe DataObject do
       data_object2 = DataObject.new
       data_object2.attributes = valid_data_object_attributes
       data_object2.should_not be_valid
+      data_object2.should raise_error(NameError)
     end
 
   end

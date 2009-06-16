@@ -19,6 +19,23 @@ Given /^I am "([^\"]*)"$/ do |user_login|
 #  Department.find session["current_chooser_choice"][controller_name]
 end
 
+Given /^the user "([^\"]*)" has permissions "([^\"]*)"$/ do |user_name, permissions|
+    user = User.find_by_name(user_name)
+    permissions.split(", ").each do |permission_name|
+    user.permissions << Permission.find_by_name(permission_name)
+  end
+end
+
+
+Given /^I have ([0-9]+) (.+)$/ do |count, class_name|
+  class_name.classify.constantize.count.should == count.to_i
+end
+
+Then /^I should have no (.+)$/ do |class_name|
+  class_name.classify.constantize.count.should == 0
+end
+
+
 Given /^I have no (.+)$/ do |class_name|
   class_name.classify.constantize.delete_all
 end
