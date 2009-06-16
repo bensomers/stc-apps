@@ -29,7 +29,7 @@ class DataTypesController < ApplicationController
   
   def edit
     @data_type = DataType.find(params[:id])
-    @data_type.data_fields_attributes.build
+    @data_type.data_fields.build
   end
   
   def update
