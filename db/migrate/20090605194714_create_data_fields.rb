@@ -1,7 +1,7 @@
 class CreateDataFields < ActiveRecord::Migration
   def self.up
     create_table :data_fields do |t|
-      t.integer    :data_type_id  #should we use t.references?
+      t.references :data_type    
       t.string     :name
       t.string     :display_type
       t.string     :values

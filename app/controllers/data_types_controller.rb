@@ -9,22 +9,16 @@ class DataTypesController < ApplicationController
   
   def show
     @data_type = DataType.find(params[:id])
-    raise params.to_yaml
   end
   
   def new
     @data_type = DataType.new
+    @data_type.data_fields.build
   end
   
   def create
-    #raise penguins
-    @data_type = DataType.new
-    @data_type.name = params[:data_type][:name]
-    @data_type.description = params[:data_type][:name]
-    @data_type.data_fields_types = params[:data_type][:data_fields].join(",")
-    @data_type.department = @department
-    #@data_type.data_fields = [] << @data_type.data_fields
-    #@data_type.data_fields << DataField.new(params[:data_fields])
+    @data_type = DataType.new({:department => @department})
+    @data_type.update_attributes(params[:data_type])
     if @data_type.save
       flash[:notice] = "Successfully created data type."
       redirect_to @data_type
@@ -35,6 +29,7 @@ class DataTypesController < ApplicationController
   
   def edit
     @data_type = DataType.find(params[:id])
+    @data_type.data_fields_attributes.build
   end
   
   def update

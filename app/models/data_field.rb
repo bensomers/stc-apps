@@ -8,7 +8,7 @@ class DataField < ActiveRecord::Base
 
   belongs_to :data_type
 
-  validates_presence_of :data_type_id
+  validates_presence_of :data_type, :on => :update
   validates_presence_of :name
   validates_presence_of :display_type
   validates_uniqueness_of :name
@@ -32,5 +32,5 @@ class DataField < ActiveRecord::Base
     end
   end
 
-  end
+end
 
