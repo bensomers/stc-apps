@@ -1,12 +1,17 @@
 class DataField < ActiveRecord::Base
   # options for select; these are the allowable data field display types
-  DISPLAY_TYPE_OPTIONS = {"Text Field"   => "text_field", 
+  DISPLAY_TYPE_OPTIONS = {"Text Field"   => "text_field",
                           "Paragraph Text"    => "text_area",
-                          "Select from a List"   => "select", 
+                          "Select from a List"   => "select",
                           "Multiple Choice" => "radio_button",
-                          "Check Boxes" => "check_box"}  
-  
+                          "Check Boxes" => "check_box"}
+
   belongs_to :data_type
+
+  validates_presence_of :data_type, :on => :update
+  validates_presence_of :name
+  validates_presence_of :display_type
+  validates_uniqueness_of :name
 
   #This should probably be moved to the data_entries helper
   #Based on the display type, returns the arguments for the formhelper methods
@@ -24,7 +29,8 @@ class DataField < ActiveRecord::Base
     elsif display_type == "radio_button"
       options = values.split(',').each{|opt| opt.squish!}
       return options.map{|v| ["data_fields[#{id}]", 1, v]}
-    end   
+    end
   end
 
-  end
+end
+

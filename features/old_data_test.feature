@@ -34,7 +34,7 @@ Feature: Data
         |The One Ring    |one to rule them all   |Rings      |
         |Millenium Falcon|Hans Solo has a ship   |Space Ships|
         |BW Printer      |Printer in BK cluster  |Printers   |
-        And I am on the Data Type main page`
+        And I am on the Data Type main page
         When I select "Show"
         ???
 

@@ -1,4 +1,7 @@
 departments_users_001:
   department_id: "7"
   user_id: "10"
+department_users_002:
+  department_id: "1"
+  user_id: "10"
 

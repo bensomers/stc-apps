@@ -32,7 +32,7 @@ location_groups_003:
   department_id: "7"
   description: Here there be dinosaurs.
   id: "3"
-  long_name: Jurassic Park
+  long_name: Jurassic Park Pets
   max_shift_length: "8"
   min_shift_length: "0.5"
   perm_admin_id: "54"
