@@ -7,9 +7,9 @@
   <% for data_entry in @data_entries %>
     <tr>
       <td><%=h data_entry.content %></td>
-      <td><%= link_to "Show", data_entry %></td>
+      <td><%= link_to "Show", data_object_data_entry %></td>
       <td><%= link_to "Edit", edit_data_entry_path(data_entry) %></td>
-      <td><%= link_to "Destroy", data_entry, :confirm => 'Are you sure?', :method => :delete %></td>
+      <td><%= link_to "Destroy", data_object_data_entry, :confirm => 'Are you sure?', :method => :delete %></td>
     </tr>
   <% end %>
 </table>

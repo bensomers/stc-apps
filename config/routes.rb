@@ -1,22 +1,18 @@
 ActionController::Routing::Routes.draw do |map|
-  map.resources :data_entries
-
-  map.resources :data_fields
-
-  map.resources :data_objects
-
-  map.resources :data_types, :shallow => true do |data_type|
-    data_type.resources :data_objects, :shallow => true do |data_object|
-      data_object.resources :data_entries
-    end
-    data_type.resources :data_fields
-  end
-  
-  map.resources :data_objects, :shallow => true do |data_object|
+  map.resources :data_objects do |data_object|
     data_object.resources :data_entries
   end
 
-  map.resources :stats, :collection => {:destroy_all => :delete}, :member => {:location_more => :get}
+  map.resources :data_types do |data_type|
+    data_type.resources :data_fields
+  end
+
+  map.resources :data_types, :shallow => true do |data_type|
+    data_type.resources :data_objects
+  end
+
+  map.resources :stats, :collection => {:destroy_all => :delete}, 
+                        :member => {:location_more => :get}
 
   map.resources :food_items
 
