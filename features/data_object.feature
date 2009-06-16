@@ -3,8 +3,8 @@ Feature: data object
   As an admin
   I want to be able to create and maintain data objects
 
-  Background:
-    Given I am "John Arbuckle"
+    Scenario: data objects!
+    Given I am "ja"
     And I have locations "Cats aisle, Dogs aisle, Checkout" in location group "Jurassic Park" for the department "Pet Store"
     And I have a data type with name "Cat", description "they're animals", for the department "Pet Store", with the following data fields
       | name              | display_type | values                                   |
@@ -14,14 +14,12 @@ Feature: data object
       | Comments          | text_area    |                                          |
       | Number of lives   | text_field   | integer                                  |
       | Level of cuteness | text_field   | float                                    |
-
-  Scenario: creating a data object
-    Given I am on the data objects page
+    And I am on the data types page
     When I follow "New data object"
     And I select "Cat" from "Data type"
     And I fill in "Name" with "Garfield"
     And I fill in "Description" with "he hates Mondays"
-    And I check "Cats asile"
+    And I check "Cats aisle"
     And I check "Checkout"
     And I press "Create"
     Then I should have 1 data_object
