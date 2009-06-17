@@ -63,21 +63,18 @@ ActiveRecord::Schema.define(:version => 20090605194910) do
 
   create_table "data_objects", :force => true do |t|
     t.integer  "data_type_id"
+    t.integer  "location_id"
     t.string   "name"
     t.string   "description"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
 
-  create_table "data_objects_locations", :id => false, :force => true do |t|
-    t.integer "data_object_id"
-    t.integer "location_id"
-  end
-
   create_table "data_types", :force => true do |t|
     t.string   "name"
     t.text     "description"
     t.integer  "department_id"
+    t.string   "data_fields_types"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
