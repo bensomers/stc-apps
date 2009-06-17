@@ -5,8 +5,15 @@ class DataObject < ActiveRecord::Base
 
   validates_presence_of   :name
   validates_presence_of   :data_type_id
-  #validates_presence_of   :location_id
   validates_uniqueness_of :name
-  #validates_uniqueness_of :location_id
+  
+  def self.by_department(dept)
+    dept.location_groups.map{|lg| lg.locations}.flatten.map{|loc| loc.data_objects}.flatten.compact
+  end
+  
+  def self.by_location_group(lg)
+    lg.locations.map{|loc| loc.data_objects}.flatten.compact
+  end
+  
 end
 

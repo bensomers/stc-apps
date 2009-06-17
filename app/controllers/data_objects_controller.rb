@@ -1,11 +1,12 @@
 class DataObjectsController < ApplicationController
+  #User admin methods will need to be rewritten in move to other codebase
   def index
     if params[:data_type_id]
       @data_objects = DataObject.find_all_by_data_type_id(params[:data_type_id])
-    else
-      flash[:error] = "You must specify a data type before viewing associated
-                        objects."
-      redirect_to data_types_path
+    elsif is_admin_of?(@department)
+      @data_objects = DataObject.by_department(@department)
+    elsif location_group_admin
+      @data_objects = DataObject.by_location_group(user.location_group_admin)
     end
   end
   
@@ -48,4 +49,15 @@ class DataObjectsController < ApplicationController
     flash[:notice] = "Successfully destroyed data object."
     redirect_to data_objects_url
   end
+  
+  private
+  
+  def is_admin_of?(dept)
+    return true
+  end
+  
+  def location_group_admin
+    return LocationGroup.first
+  end
+  
 end

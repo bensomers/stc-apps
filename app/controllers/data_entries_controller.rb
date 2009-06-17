@@ -52,7 +52,7 @@ class DataEntriesController < ApplicationController
   
   def check_for_data_object
     unless params[:data_object_id]
-      flash[:error] = "You must specify a data object before viewing associated
+      flash[:error] = "You must specify a data object before viewing associated \
                       data fields."
       redirect_to data_objects_path
     end
